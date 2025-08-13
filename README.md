@@ -4,3 +4,24 @@ Check whether the method for generating Chaos Game Representation (CGR) has an i
 # Two very important articles:
 - General CGR paper: https://www.sciencedirect.com/science/article/pii/S2001037021004736?via%3Dihub#b0010
 - Grouping of nucleotides for Markov chains: https://www.sciencedirect.com/science/article/pii/S0025556406001003
+
+´´´python
+side_groups={
+    'A':[-1,1],
+    'C':[-1,-1],
+    'G':[1,-1],
+    'T':[1,1]
+}
+structure={
+    'A':[-1,1],
+    'G':[-1,-1],
+    'C':[1,-1],
+    'T':[1,1]
+}
+bonds={
+    'A':[-1,1],
+    'T':[-1,-1],
+    'G':[1,-1],
+    'C':[1,1]
+}
+´´´
