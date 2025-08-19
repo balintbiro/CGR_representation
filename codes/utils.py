@@ -62,3 +62,26 @@ def FrequencyCGR(coordinates, resolution):
         fcgr_matrix[i, j] += 1
 
     return fcgr_matrix.flatten()
+
+def tester(mtx:pd.DataFrame,dataset_name:str,skf:StratifiedKFold)->pd.DataFrame:
+    """
+    Performs Stratified K fold Cross Validation on a FCGR matrix.
+
+    Parameters:
+    - mtx: matrix of bonds, sigro or struc
+    - dataset_name: bond, sigro or struc
+    - skf: instantiated StratifiedKFold
+
+    Returns:
+    - dataframe of the specfied matric and dataset name
+    """
+    X,y=mtx.drop(columns=["label"]).values,mtx["label"].values
+    results=[]
+    for i, (train_index,test_index) in enumerate(skf.split(X,y)):
+        clf=XGBClassifier(random_state=0)
+        clf.fit(X[train_index],y[train_index])
+        y_pred=clf.predict(X[test_index])
+        results.append(accuracy_score(y_true=y[test_index],y_pred=y_pred))
+    return pd.DataFrame(
+        data=[results,len(results)*[dataset_name]],
+    ).T
