@@ -25,3 +25,4 @@ bonds={
     'C':[1,1]
 }
 ```
+Relationship between resolution and k-mers in FCGR. FCGR is produced by separate CGR by a grid. Let say the grid is 8*8 in this case 2^^k*2^^k. 
