@@ -2,21 +2,21 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import normalize
-from sklearn.model_selection import train_test_split,cross_val_predict,LeaveOneOut
+from sklearn.model_selection import train_test_split,cross_val_score,StratifiedKFold
 from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score,roc_auc_score
 
 from utils import side_groups,bonds,structure,CGRepresentation,FrequencyCGR,tester
 
-sequences=pd.read_csv("data/dros_enhancer.csv")
+sequences=pd.read_csv("data/ocr.csv")
 
 sigro_coords=sequences["sequence"].apply(CGRepresentation,args=(side_groups,))
 struc_coords=sequences["sequence"].apply(CGRepresentation,args=(structure,))
 bond_coords=sequences["sequence"].apply(CGRepresentation,args=(bonds,))
 
-pd.DataFrame(columns=["prob0","prob1","resolution","dataset","y_true"]).to_csv("data/res_iter.csv",index=False)
+pd.DataFrame(columns=["accuracy","dataset","resolution"]).to_csv("data/res_iter.csv",index=False)
 
-resolutions=[2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+resolutions=[16]
 for res in resolutions:
     sigro_mtxs=pd.DataFrame(normalize(sigro_coords.apply(FrequencyCGR,args=(res,)).tolist()))
     struc_mtxs=pd.DataFrame(normalize(struc_coords.apply(FrequencyCGR,args=(res,)).tolist()))
@@ -26,36 +26,21 @@ for res in resolutions:
     struc_mtxs["label"]=sequences["label"].values
     sigro_mtxs["label"]=sequences["label"].values
 
-    clf=XGBClassifier(random_state=0)
-    loocv=LeaveOneOut()
+    skf=StratifiedKFold(n_splits=100,random_state=0,shuffle=True)
 
-    # SIde Groups
-    sigro_probs=pd.DataFrame(
-        data=cross_val_predict(estimator=clf,X=sigro_mtxs.drop(columns=["label"]),y=sigro_mtxs["label"],cv=loocv,method="predict_proba"),
-        columns=["prob0","prob1"]
-    )
-    sigro_probs["Resolution"]=res
-    sigro_probs["Dataset"]="side_group"
-    sigro_probs["y_true"]=sequences["label"]
-    sigro_probs.to_csv("data/res_iter.csv",mode='a',index=False,header=False)
+    bond_results=tester(mtx=bond_mtxs,dataset_name="bond_ocr",skf=skf)
+    bond_results.columns=["accuracy","dataset"]
+    bond_results["resolution"]=res
+    bond_results.to_csv("data/res_iter.csv",mode='a',index=False,header=False)
 
-    # H-bond strengths
-    bond_probs=pd.DataFrame(
-        data=cross_val_predict(estimator=clf,X=bond_mtxs.drop(columns=["label"]),y=bond_mtxs["label"],cv=loocv,method="predict_proba"),
-        columns=["prob0","prob1"]
-    )
-    bond_probs["Resolution"]=res
-    bond_probs["Dataset"]="bond"
-    bond_probs["y_true"]=sequences["label"]
-    bond_probs.to_csv("data/res_iter.csv",mode='a',index=False,header=False)
+    struc_results=tester(mtx=struc_mtxs,dataset_name="struc_ocr",skf=skf)
+    struc_results.columns=["accuracy","dataset"]
+    struc_results["resolution"]=res
+    struc_results.to_csv("data/res_iter.csv",mode='a',index=False,header=False)
 
-    # Structure
-    struc_probs=pd.DataFrame(
-        data=cross_val_predict(estimator=clf,X=struc_mtxs.drop(columns=["label"]),y=struc_mtxs["label"],cv=loocv,method="predict_proba"),
-        columns=["prob0","prob1"]
-    )
-    struc_probs["Resolution"]=res
-    struc_probs["Dataset"]="structure"
-    struc_probs["y_true"]=sequences["label"]
-    struc_probs.to_csv("data/res_iter.csv",mode='a',index=False,header=False)
+    sigro_results=tester(mtx=sigro_mtxs,dataset_name="sigro_ocr",skf=skf)
+    sigro_results.columns=["accuracy","dataset"]
+    sigro_results["resolution"]=res
+    sigro_results.to_csv("data/res_iter.csv",mode='a',index=False,header=False)
+
     print(f"{res} resolution is done!")
