@@ -25,4 +25,8 @@ bonds={
     'C':[1,1]
 }
 ```
-Relationship between resolution and k-mers in FCGR. FCGR is produced by separate CGR by a grid. Let say the grid is 8*8 in this case 2^^k*2^^k. 
+Relationship between resolution and k-mers in FCGR. FCGR is produced by separate CGR by a grid. Let say the grid is 8*8 in this case 2^^k*2^^k.
+
+# Benchmark datasets:
+- Deeploc1.0 https://academic.oup.com/bioinformatics/article/33/21/3387/3931857
+- GenomicBenchmarks OpenChromationRegion https://bmcgenomdata.biomedcentral.com/articles/10.1186/s12863-023-01123-8
