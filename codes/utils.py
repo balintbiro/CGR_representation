@@ -253,15 +253,14 @@ def FrequencyCGR(
     """
     bins=np.linspace(start=-1.01,stop=1.01,num=resolution+1)
     labels=np.linspace(start=0,stop=resolution-1,num=resolution,dtype=int)
-    
+
     categories=pd.DataFrame(columns=[list("xy")])
     categories['x']=pd.cut(x=coordinates.x,bins=bins,labels=labels)
     categories['y']=pd.cut(x=coordinates.y,bins=bins,labels=labels)
 
     fcgr_matrix = np.zeros((resolution, resolution), dtype=int)
 
-    for index,row in categories.iterrows():
-        fcgr_matrix[row.x,row.y] += 1
+    np.add.at(fcgr_matrix,(categories.x,categories.y),1)
     fcgr_matrix=np.rot90(m=fcgr_matrix,axes=(-2,-1))
     if flatten:
         return fcgr_matrix.flatten()
