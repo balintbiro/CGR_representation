@@ -37,7 +37,7 @@ parser=SeqIO.parse(
 sequences=[]
 for record in parser:
     label=record.description.split('-')[-1]
-    if label in ['S','M']:
+    if label in ['S','M'] and 'X' not in str(record.seq):
         sequences.append([str(record.seq),label])
 
 # create dataframe from sequences and labels
