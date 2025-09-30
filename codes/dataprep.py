@@ -1,6 +1,7 @@
 # importing required libraries
 import numpy as np
 import pandas as pd
+from Bio import SeqIO
 import matplotlib.pyplot as plt
 from genomic_benchmarks.data_check import info, list_datasets
 from genomic_benchmarks.dataset_getters.pytorch_datasets import HumanNontataPromoters, HumanOcrEnsembl, HumanEnhancersCohn, DrosophilaEnhancersStark
@@ -26,3 +27,33 @@ for i in test:
     pd.DataFrame(data=dataset,columns=["sequence","label"])
     .to_csv("../data/dros_enhancer.csv",index=False)
 )
+
+# parse the fasta file for deeploc
+parser=SeqIO.parse(
+    handle="../../Downloads/deeploc_1_membrane_vs_soluble.fasta",
+    format="fasta"
+)
+
+sequences=[]
+for record in parser:
+    label=record.description.split('-')[-1]
+    if label in ['S','M']:
+        sequences.append([str(record.seq),label])
+
+# create dataframe from sequences and labels
+sequences=pd.DataFrame(data=sequences,columns=["sequence","label"])
+
+# balancing the dataset
+balanced=pd.concat(
+    [
+        sequences[sequences["label"]=='M'],
+        sequences[sequences["label"]=="S"].sample(
+            n=sequences["label"].value_counts()['M'],
+            random_state=0
+        )
+    ]
+)
+balanced["label"]=balanced["label"].replace(['M','S'],[0,1])
+
+# export the datafrae to csv file
+balanced.to_csv("data/deeploc.csv",index=False)
