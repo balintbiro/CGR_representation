@@ -1,3 +1,27 @@
+def CGRepresentation(seq:str,encodings:dict)->list:
+    """
+    Generating Chaos Game Representations (point coordinates) for DNA sequences.
+
+    Parameters:
+    - seq: DNA sequence with datatype of str
+    - encodings: dictionary type variable that contains values for all of the nucleotides
+
+    Returns:
+    - list of coordinates
+    """
+    seq=seq.replace("\n",'').replace('N','')
+    coordinates=[[0,0]]
+    firm,dash=[],[]
+    for nuc in seq:
+        corner=encodings[nuc]
+        current=coordinates[-1]
+        x=(corner[0]+current[0])/2
+        y=(corner[1]+current[1])/2
+        coordinates.append([x,y])
+        firm.append([[current[0],x],[current[1],y]])
+        dash.append([[x,corner[0]],[y,corner[1]]])
+    return coordinates,firm,dash
+
 fig,axs=plt.subplots(1,2)
 G = nx.Graph()
 G.add_edge("A", "C")
