@@ -21,7 +21,7 @@ def aa_grouping(
 
     x0,y0=0,0
     r=1
-    angles=np.linspace(start=0,stop=2*np.pi,num=len(aas))
+    angles=np.linspace(start=0,stop=2*np.pi,num=len(aas),endpoint=False)
     x=x0+r*np.sin(angles)
     y=y0+r*np.cos(angles)
     
