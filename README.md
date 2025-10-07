@@ -4,7 +4,9 @@ Check whether the method for generating Chaos Game Representation (CGR) has an i
 # Important articles:
 - General CGR paper: https://www.sciencedirect.com/science/article/pii/S2001037021004736?via%3Dihub#b0010
 - Grouping of nucleotides for Markov chains: https://www.sciencedirect.com/science/article/pii/S0025556406001003
+- Grouping of amino acids: https://www.nature.com/articles/s41598-020-72174-5
 - CGR for proteins: https://link.springer.com/article/10.1007/s00894-023-05777-0#article-info
+- CGR and FCGR formulas: https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac119/6963321
 
 ```python
 side_groups={
