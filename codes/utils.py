@@ -203,71 +203,90 @@ monomer_groupings={
          }
     }
 }
-
+####################################################################################
 def CGRepresentation(
-    sequence:str,
-    encodings:dict,
-    scaling_factor:float
-)->pd.DataFrame:
+        sequence:str,
+        encodings:dict,
+        scaling_factor:float
+    )->pd.DataFrame:
     """
-    Generating Chaos Game Representations (point coordinates) for DNA sequences.
+    Generating Chaos Game Representations (point coordinates) for sequences.
 
     Parameters:
-    - sequence: DNA sequence with datatype of str
-    - encodings: dictionary type variable that contains values for all of the nucleotides
-    - scaling_factor: float for scaling the steps between nucleotides
+    - sequence: biological sequence with datatype of str
+    - encodings: dictionary type variable that contains values for all of the monomers
+    - scaling_factor: float for scaling the steps between nucleotides.
+                      Sometimes referred to as dividing ratio. Usually 0.5 is applied for DNA
 
     Returns:
-    - dataframe of coordinates
+    - dataframe of xy coordinates
     """
     sequence=sequence.replace("\n",'').replace('N','')
+    # starting point, origo
     coordinates=[[0,0]]
 
-    for nucleotide in sequence:
-        corner=encodings[nucleotide]
+    # iterating through the sequence and calculating the coordinates
+    for monomer in sequence:
+        corner=encodings[monomer]
         current=coordinates[-1]
         x=scaling_factor*(corner[0]+current[0])
         y=scaling_factor*(corner[1]+current[1])
         coordinates.append([x,y])
         
+    # turn the xy coordinates
     return pd.DataFrame(
         data=coordinates[1:],
         columns=list("xy")
     )
 
+####################################################################################
 def FrequencyCGR(
         coordinates:pd.DataFrame,
         resolution:float,
         flatten=True
-)->np.array:
+    )->np.array:
     """
-    Generate a Frequency Chaos Game Representation (FCGR) matrix.
+    Generates a Frequency Chaos Game Representation (FCGR) matrix.
 
     Parameters:
-    - coordinates: dataframe of x,y coordinates representing points in the unit square [-1, 1] x [-1, 1]
+    - coordinates: dataframe of x,y coordinates representing points in a square
+                   this is the output of CGRepresentation function. If the CGRepresentation was run
+                   with scaling_factor<=0.5, then FCGR is in unit square
     - resolution: int, the number of bins along each axis (e.g., 8 for a 8x8 matrix)
-    - flatten: bool, for visualization purposes, flatten=False should be used
+    - flatten: bool, flatten=False should be used for visualization purposes
 
     Returns:
     - fcgr_matrix: 1D (2D if flatten=False is applied) numpy array of shape (resolution, resolution)
     """
-    bins=np.linspace(start=-1.01,stop=1.01,num=resolution+1)
+    # getting categories
+    all_coordinates=[coordinates.x,coordinates.y]
+    start,stop=np.min(a=all_coordinates)-0.1,np.max(a=all_coordinates)+0.1
+    bins=np.linspace(start=start,stop=stop,num=resolution+1)
     labels=np.linspace(start=0,stop=resolution-1,num=resolution,dtype=int)
 
+    # mapping coordinates to categories
     categories=pd.DataFrame(columns=[list("xy")])
     categories['x']=pd.cut(x=coordinates.x,bins=bins,labels=labels)
     categories['y']=pd.cut(x=coordinates.y,bins=bins,labels=labels)
 
+    # empty matrix in a resolution x resolution dimension
     fcgr_matrix = np.zeros((resolution, resolution), dtype=int)
 
+    # adding values to the position at category, category
     np.add.at(fcgr_matrix,(categories.x,categories.y),1)
     fcgr_matrix=np.rot90(m=fcgr_matrix,axes=(-2,-1))
+    
     if flatten:
         return fcgr_matrix.flatten()
     else:
         return fcgr_matrix
-
-def tester(mtx:pd.DataFrame,dataset_name:str,skf:StratifiedKFold)->pd.DataFrame:
+    
+####################################################################################
+def tester(
+        mtx:pd.DataFrame,
+        dataset_name:str,
+        skf:StratifiedKFold
+    )->pd.DataFrame:
     """
     Performs Stratified K fold Cross Validation on a FCGR matrix.
 
@@ -289,3 +308,57 @@ def tester(mtx:pd.DataFrame,dataset_name:str,skf:StratifiedKFold)->pd.DataFrame:
     return pd.DataFrame(
         data=[results,len(results)*[dataset_name]],
     ).T
+
+####################################################################################
+def aa_grouping(
+        all_groupings:dict,
+        grouping_name:str,
+        first_group:list
+    )->None:
+    """
+    Function to create the different aa groupings.
+
+    Parameters:
+    - all groupings: dictionary that contains all the groupings
+    - grouping_name: the name of method for aa grouping (polarity, hidrophobicity etc.)
+    - first_group: the list of aas that should be grouped together (for example polars)
+
+    Returns:
+    - None
+    """
+    aas=list("ARNDCQEGHILKMFPSTWYV")
+    reordered=first_group+list(set(aas)-set(first_group))
+
+    x0,y0=0,0
+    r=1
+    angles=np.linspace(start=0,stop=2*np.pi,num=len(aas))
+    x=x0+r*np.sin(angles)
+    y=y0+r*np.cos(angles)
+    
+    encoded_aas={}
+    for index,aa in enumerate(reordered):
+        encoded_aas[aa]=[x[index],y[index]]
+    all_groupings[grouping_name]=encoded_aas
+
+####################################################################################
+def random_grouping()->tuple:
+    """
+    Generating random permutations of amino acids.
+
+    Parameters:
+    - None
+
+    Returns:
+    - tuple
+        - tuple[0]: new order of amino acids
+        - tuple[1]: random encoding
+    """
+    groupings=pd.DataFrame(monomer_groupings["protein"]["polar"])
+    new_order=np.random.choice(
+        a=groupings.columns,
+        size=len(groupings.columns),
+        replace=False
+    )
+    groupings.columns=new_order
+    random_grouping=groupings.to_dict(orient="list")
+    return new_order,random_grouping
