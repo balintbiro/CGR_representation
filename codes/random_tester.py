@@ -32,7 +32,7 @@ def random_grouping()->tuple:
 
 for i in range(2):
     aa_list,current_grouping=random_grouping()
-    cgr=sample["sequence"].apply(CGRepresentation,args=(current_grouping,0.5,))
+    cgr=sample["sequence"].apply(CGRepresentation,args=(current_grouping,0.865,))
     fcgr=pd.DataFrame(normalize(cgr.apply(FrequencyCGR,args=(40,)).tolist()))
     
     X_train, X_test, y_train, y_test=(
