@@ -1,24 +1,25 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+from xgboost import XGBClassifier
 from sklearn.preprocessing import normalize
-from sklearn.model_selection import train_test_split,cross_val_score,StratifiedKFold
-from sklearn.metrics import accuracy_score,roc_auc_score
+from sklearn.model_selection import StratifiedKFold,cross_validate
 
-from utils import side_groups,bonds,structure,CGRepresentation,FrequencyCGR,tester
+from utils import monomer_groupings,CGRepresentation,FrequencyCGR,tester
 
-sequences=pd.read_csv("data/ocr.csv").sample(200)
+sequences=pd.read_csv("data/dros_enhancer.csv")
 
-pd.DataFrame(columns=["accuracy","dataset","resolution","scaling_factor"]).to_csv("data/res_iter.csv",index=False)
+pd.DataFrame(columns=["test_accuracy","test_roc_auc","dataset","resolution","scaling_factor"]).to_csv("data/res_iter_dna.csv",index=False)
 
-resolutions=[8,10,16,32]
-scaling_factors=np.linspace(start=0.1,stop=0.5,num=5)
+resolutions=np.geomspace(start=2,stop=50,num=10,dtype=int)[::-1]
+scaling_factors=np.linspace(start=0.1,stop=0.7,num=10)[::-1]
+
+encode=monomer_groupings["dna"]
 
 for res in resolutions:
     for sf in scaling_factors:
-        sigro_coords=sequences["sequence"].apply(CGRepresentation,args=(side_groups,sf,))
-        struc_coords=sequences["sequence"].apply(CGRepresentation,args=(structure,sf,))
-        bond_coords=sequences["sequence"].apply(CGRepresentation,args=(bonds,sf,))
+        sigro_coords=sequences["sequence"].apply(CGRepresentation,args=(encode["side_groups"],sf,))
+        struc_coords=sequences["sequence"].apply(CGRepresentation,args=(encode["structure"],sf,))
+        bond_coords=sequences["sequence"].apply(CGRepresentation,args=(encode["bonds"],sf,))
 
         sigro_mtxs=pd.DataFrame(normalize(sigro_coords.apply(FrequencyCGR,args=(res,)).tolist()))
         struc_mtxs=pd.DataFrame(normalize(struc_coords.apply(FrequencyCGR,args=(res,)).tolist()))
@@ -28,24 +29,14 @@ for res in resolutions:
         struc_mtxs["label"]=sequences["label"].values
         sigro_mtxs["label"]=sequences["label"].values
 
-        skf=StratifiedKFold(n_splits=3,random_state=0,shuffle=True)
+        skf=StratifiedKFold(n_splits=20,random_state=0,shuffle=True)
 
-        bond_results=tester(mtx=bond_mtxs,dataset_name="bond_ocr",skf=skf)
-        bond_results.columns=["accuracy","dataset"]
-        bond_results["resolution"]=res
-        bond_results["scaling_factor"]=sf
-        bond_results.to_csv("data/res_iter.csv",mode='a',index=False,header=False)
+        bond_results=tester(mtx=bond_mtxs,dataset_name="bond",skf=skf,resolution=res,scaling_factor=sf)
+        bond_results.to_csv("data/res_iter_dna.csv",mode='a',index=False,header=False)
 
-        struc_results=tester(mtx=struc_mtxs,dataset_name="struc_ocr",skf=skf)
-        struc_results.columns=["accuracy","dataset"]
-        struc_results["resolution"]=res
-        struc_results["scaling_factor"]=sf
-        struc_results.to_csv("data/res_iter.csv",mode='a',index=False,header=False)
+        struc_results=tester(mtx=struc_mtxs,dataset_name="struc",skf=skf,resolution=res,scaling_factor=sf)
+        struc_results.to_csv("data/res_iter_dna.csv",mode='a',index=False,header=False)
 
-        sigro_results=tester(mtx=sigro_mtxs,dataset_name="sigro_ocr",skf=skf)
-        sigro_results.columns=["accuracy","dataset"]
-        sigro_results["resolution"]=res
-        sigro_results["scaling_factor"]=sf
-        sigro_results.to_csv("data/res_iter.csv",mode='a',index=False,header=False)
-
+        sigro_results=tester(mtx=sigro_mtxs,dataset_name="sigro",skf=skf,resolution=res,scaling_factor=sf)
+        sigro_results.to_csv("data/res_iter_dna.csv",mode='a',index=False,header=False)
         print(f"{res} resolution is done!")
