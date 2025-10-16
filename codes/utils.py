@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import StratifiedKFold
+from xgboost import XGBClassifier
+from sklearn.model_selection import StratifiedKFold,cross_validate
 
 # aas classification https://www.nature.com/articles/s41598-020-72174-5
 monomer_groupings={
@@ -184,7 +185,7 @@ monomer_groupings={
   'K': [np.float64(-0.8090169943749476), np.float64(0.5877852522924729)],
   'G': [np.float64(-0.5877852522924734), np.float64(0.8090169943749473)],
   'T': [np.float64(-0.3090169943749477), np.float64(0.9510565162951535)]}
-}
+}}
 ####################################################################################
 def CGRepresentation(
         sequence:str,
@@ -214,7 +215,7 @@ def CGRepresentation(
         x=scaling_factor*(corner[0]+current[0])
         y=scaling_factor*(corner[1]+current[1])
         coordinates.append([x,y])
-        
+
     # turn the xy coordinates
     return pd.DataFrame(
         data=coordinates[1:],
@@ -257,17 +258,19 @@ def FrequencyCGR(
     # adding values to the position at category, category
     np.add.at(fcgr_matrix,(categories.x,categories.y),1)
     fcgr_matrix=np.rot90(m=fcgr_matrix,axes=(-2,-1))
-    
+
     if flatten:
         return fcgr_matrix.flatten()
     else:
         return fcgr_matrix
-    
+
 ####################################################################################
 def tester(
         mtx:pd.DataFrame,
         dataset_name:str,
-        skf:StratifiedKFold
+        skf:StratifiedKFold,
+        resolution:int,
+        scaling_factor:float
     )->pd.DataFrame:
     """
     Performs Stratified K fold Cross Validation on a FCGR matrix.
@@ -276,20 +279,21 @@ def tester(
     - mtx: matrix of bonds, sigro or struc
     - dataset_name: bond, sigro or struc
     - skf: instantiated StratifiedKFold
+    - resolution: int, the number of bins along each axis (e.g., 8 for a 8x8 matrix)
+    - scaling_factor: float for scaling the steps between nucleotides.
+                      Sometimes referred to as dividing ratio. Usually 0.5 is applied for DNA
 
     Returns:
-    - dataframe of the specfied matric and dataset name
+    - dataframe of the specfied matrix, dataset name, resolution and scaling factor
     """
+    clf=XGBClassifier(random_state=0)
     X,y=mtx.drop(columns=["label"]).values,mtx["label"].values
-    results=[]
-    for i, (train_index,test_index) in enumerate(skf.split(X,y)):
-        clf=XGBClassifier(random_state=0)
-        clf.fit(X[train_index],y[train_index])
-        y_pred=clf.predict(X[test_index])
-        results.append(accuracy_score(y_true=y[test_index],y_pred=y_pred))
-    return pd.DataFrame(
-        data=[results,len(results)*[dataset_name]],
-    ).T
+    cv_results=cross_validate(estimator=clf,X=X,y=y,cv=skf,scoring=["accuracy","roc_auc"],n_jobs=-1)
+    cv_results=pd.DataFrame(cv_results)[["test_accuracy","test_roc_auc"]]
+    cv_results["dataset"]=dataset_name
+    cv_results["resolution"]=resolution
+    cv_results["scaling_factor"]=scaling_factor
+    return cv_results
 
 ####################################################################################
 def aa_grouping(
@@ -313,10 +317,10 @@ def aa_grouping(
 
     x0,y0=0,0
     r=1
-    angles=np.linspace(start=0,stop=2*np.pi,num=len(aas))
+    angles=np.linspace(start=0,stop=2*np.pi,num=len(aas),endpoint=False)
     x=x0+r*np.sin(angles)
     y=y0+r*np.cos(angles)
-    
+
     encoded_aas={}
     for index,aa in enumerate(reordered):
         encoded_aas[aa]=[x[index],y[index]]
