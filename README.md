@@ -8,6 +8,8 @@ Check whether the method for generating Chaos Game Representation (CGR) has an i
 - CGR for proteins: https://link.springer.com/article/10.1007/s00894-023-05777-0#article-info
 - CGR and FCGR formulas: https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac119/6963321
 - Right choice for random protein CGR resolution: "However, it can also lead to a compression if the length of the string is larger than the selected resolution" https://academic.oup.com/bioinformatics/article/36/1/272/5521624
+- 0.865 as the optimal scaling factor for protein sequences: https://www.sciencedirect.com/science/article/abs/pii/0263785594801096?via%3Dihub (A. Fiser, G.E. Tusnady and I. Simon, Chaos game represenation of protein structures. J. Mol. Graphics, 12)
+302-304, 1994
 
 ```python
 side_groups={
