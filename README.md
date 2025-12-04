@@ -1,5 +1,5 @@
 # CGR_representation
-Check whether the method for generating Chaos Game Representation (CGR) has an impact on nucleic acid classification perofrmance.
+Check whether the method for placing vertices during Chaos Game Representation (CGR) has an impact on biological sequence classification perofrmance.
 
 # Important articles:
 - General CGR paper: https://www.sciencedirect.com/science/article/pii/S2001037021004736?via%3Dihub#b0010
