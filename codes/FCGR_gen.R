@@ -23,10 +23,10 @@ option_list=list(
       metavar="integer"
   ),
   make_option(
-    c("-o","--output_dir"),
+    c("-o","--output_file"),
     type="character",
     default=NULL,
-    help="Output directory of the FCGR matrix",
+    help="Output file of the FCGR matrix",
     metavar="character"
   ),
   make_option(
@@ -40,15 +40,12 @@ option_list=list(
 opt_parser=OptionParser(option_list=option_list);
 opt=parse_args(opt_parser);
 
-if (dir.exists(opt$output_dir)){
-
-} else {
-  dir.create(opt$output_dir)
-}
-
 sequences<-read.csv(
   file=opt$input_filename
 )
+# for testing
+# sequences<-sequences[sample(nrow(sequences), 10), ]
+
 sequences$index<-seq.int(0,dim(sequences)[1]-1)
 ################################################
 distr.pts = function(n,
@@ -71,7 +68,6 @@ distr.pts = function(n,
 }
 ################################################
 cgr = function(data,
-               output_dir,
                encoding,
                index,
                label,
@@ -171,29 +167,30 @@ cgr = function(data,
     y.matrix = ceiling((y[i]+r ) * res/(2*r))
     A[x.matrix, y.matrix] = A[x.matrix, y.matrix] + 1
   }
-  A_norm<-A/sum(A)
-
-  #return matrix, coordinates, scaling factor, resolution
-  write.table(
-    A_norm,
-    sprintf("%s/%s_%s.txt",output_dir,index,label),
-    row.names=FALSE,
-    col.names=FALSE
-  )
+  return(as.vector(t(A)))
 }
 
-apply(
-  sequences,
-  1,
-  function(row)
-    cgr(
-      data = row["sequence"],
-      output_dir = opt$output_dir,
-      encoding = opt$encoding,
-      index = row["index"],
-      label = row["label"],
-      seq.base = "AMINO",
-      sf = opt$scaling_factor,
-      res = opt$resolution
-    )
+fcgr_list <- lapply(1:nrow(sequences), function(i) {
+  cgr(
+    data = sequences$sequence[i],
+    encoding = opt$encoding,
+    index = sequences$index[i],
+    label = sequences$label[i],
+    seq.base = "AMINO",
+    sf = opt$scaling_factor,
+    res = opt$resolution
+  )
+})
+
+fcgr_matrix <- as.data.frame(do.call(rbind, fcgr_list))
+fcgr_matrix$label <- sequences$label
+
+output_file <- file.path(opt$output_file)
+
+write.table(
+  fcgr_matrix,
+  file = output_file,
+  row.names = FALSE,
+  col.names = TRUE,
+  sep = ","
 )
