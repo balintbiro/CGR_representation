@@ -48,6 +48,12 @@ logger=logging.getLogger(__name__)
     required=True,
     type=int
 )
+@click.option(
+    "--n",
+    help="Number of iterations for the random search",
+    required=True,
+    type=int
+)
 
 def main(
         logfile,
@@ -55,7 +61,8 @@ def main(
         fcgrfile,
         outfile,
         sf,
-        res
+        res,
+        n
     ):
     if os.path.exists(outfile):
         pass
@@ -66,13 +73,13 @@ def main(
     script_name=os.path.basename(__file__)
     logger.info(f"Filename: {script_name} started.")
     proteogenic_aas="ACDEFGHIKLMNPQRSTVWY"
-    for i in range(10_000):
+    for i in range(n):
         encoding=''.join(np.random.choice(a=list(proteogenic_aas),size=len(proteogenic_aas),replace=False))
         logger.info(f"FCGR generation is running\n\t-encoding: {encoding}")
         subprocess.run(f"""Rscript --vanilla FCGR_gen.R --encoding {encoding} --output_file {fcgrfile} --input_filename {seqfile} --scaling_factor {sf} --resolution {res}""",shell=True)
         df=pd.read_csv(fcgrfile)
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
-        X,y=df.drop(columns=["label"]).values.astype("float32"),df["label"].values.astype("float32")
+        X,y=df.drop(columns=["label"]).div(df.drop(columns=["label"]).max(axis=1),axis=0).values.astype("float32"),df["label"].values.astype("float32")
         XCnn = X.reshape(-1, 1, res,res)
         XCnn_train, XCnn_test, y_train, y_test = train_test_split(XCnn, y, test_size=0.25, random_state=42)
         torch.manual_seed(0)
