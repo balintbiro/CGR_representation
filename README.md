@@ -10,6 +10,8 @@ Check whether the method for placing vertices during Chaos Game Representation (
 - Right choice for random protein CGR resolution: "However, it can also lead to a compression if the length of the string is larger than the selected resolution" https://academic.oup.com/bioinformatics/article/36/1/272/5521624
 - 0.865 as the optimal scaling factor for protein sequences: https://www.sciencedirect.com/science/article/abs/pii/0263785594801096?via%3Dihub (A. Fiser, G.E. Tusnady and I. Simon, Chaos game represenation of protein structures. J. Mol. Graphics, 12)
 302-304, 1994
+- Distance metrics for sequential data: https://pyts.readthedocs.io/en/latest/modules/metrics.html
+  
 _Why does it make sense to use different vertex assignments:_
     - Different vertex distribution should give the same result: "However, for long sequences, the CGR representation exhibits the property of self-similarity, i.e., a given pattern is repeated at different scales, for all three types of configurations" https://www.mdpi.com/1422-0067/23/3/1847
     - Data augmentation: Chaos Game Representations & Deep Learning for Proteome-Wide Protein Prediction (Downloaded to uni OneDrive)
