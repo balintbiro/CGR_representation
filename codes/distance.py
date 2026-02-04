@@ -1,3 +1,4 @@
+import os
 import click
 import logging
 import datetime
@@ -66,14 +67,14 @@ def main(
     loggerConfig(logfile=logfile)
     script_name=os.path.basename(__file__)
     logger.info(f"Filename: {script_name} started.")
-    cgr_df=pd.read_csv(cgr_matrix)
-    fcgr_matrix=pd.concat(
+    fcgr_df=pd.read_csv(fcgr_matrix)
+    fcgr_df=pd.concat(
         [
-            fcgr_matrix[fcgr_matrix["label"]==0].sample(n=n,random_state=0),
-            fcgr_matrix[fcgr_matrix["label"]==1].sample(n=n,random_state=0)
+            fcgr_df[fcgr_df["label"]==0].sample(n=n,random_state=0),
+            fcgr_df[fcgr_df["label"]==1].sample(n=n,random_state=0)
         ]
     )
-    imgs=fcgr_matrix.drop(columns=["label"]).values.reshape((res,res))
+    imgs=fcgr_df.drop(columns=["label"]).apply(lambda row: row.values.reshape((res,res)),axis=1).tolist()
     distance_matrix=get_distance(imgs=imgs)
     distance_df=pd.DataFrame(data=distance_matrix)
     distance_df.to_csv(outfile,index=False)
