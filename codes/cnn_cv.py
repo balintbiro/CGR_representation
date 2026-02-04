@@ -37,6 +37,8 @@ def cross_validate(X:pd.DataFrame|np.ndarray,y:pd.Series|np.ndarray,n_split=3)->
         y_pred=cnn.predict(X_test)
         acc_score=accuracy_score(y_true=y_test,y_pred=y_pred)
         acc_scores.append(acc_score)
+        if (i>0) and (i%5==0):
+            logger.info("Completed %d/%d folds",i,n_split)
     return acc_scores
 
 @click.command()
