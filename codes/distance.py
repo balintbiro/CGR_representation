@@ -9,6 +9,24 @@ from utils import loggerConfig,Cnn
 
 logger=logging.getLogger(__name__)
 
+def get_distance(imgs:list)->np.ndarray:
+    """
+    Calculate the pairwise structural similarity index (SSIM) between images.
+
+    Parameters:
+    - imgs: List of 2D numpy arrays representing images.
+
+    Returns:
+    - A 2D numpy array containing the pairwise SSIM distances.
+    """
+    num_imgs=len(imgs)
+    distance_matrix=np.zeros((num_imgs,num_imgs))
+
+    for index1,img1 in enumerate(imgs):
+        for index2,img2 in enumerate(imgs):
+            distance_matrix[index1,index2]=ssim(img1,img2,data_range=1)
+    return distance_matrix
+
 @click.command()
 @click.option(
     "--logfile",
@@ -38,24 +56,6 @@ logger=logging.getLogger(__name__)
     type=int
 )
 
-def get_distance(imgs:list)->np.ndarray:
-    """
-    Calculate the pairwise structural similarity index (SSIM) between images.
-
-    Parameters:
-    - imgs: List of 2D numpy arrays representing images.
-
-    Returns:
-    - A 2D numpy array containing the pairwise SSIM distances.
-    """
-    num_imgs=len(imgs)
-    distance_matrix=np.zeros((num_imgs,num_imgs))
-
-    for index1,img1 in enumerate(imgs):
-        for index2,img2 in enumerate(imgs):
-            distance_matrix[index1,index2]=ssim(img1,img2,data_range=1)
-    return distance_matrix
-
 def main(
         logfile,
         fcgr_matrix,
@@ -78,6 +78,6 @@ def main(
     distance_df=pd.DataFrame(data=distance_matrix)
     distance_df.to_csv(outfile,index=False)
     logger.info(f"Filename: {script_name} finished.")
-    
+
 if __name__=="__main__":
     main()
