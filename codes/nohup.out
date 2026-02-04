@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/home/user/CGR_representation/codes/distance.py", line 83, in <module>
-    main()
-TypeError: main() missing 5 required positional arguments: 'logfile', 'fcgr_matrix', 'outfile', 'res', and 'n'
