@@ -11,22 +11,16 @@ from utils import loggerConfig,Cnn
 logger=logging.getLogger(__name__)
 
 def get_distance(imgs:list)->np.ndarray:
-    """
-    Calculate the pairwise structural similarity index (SSIM) between images.
+    n = len(imgs)
+    D = np.eye(n)
 
-    Parameters:
-    - imgs: List of 2D numpy arrays representing images.
+    for i in range(n):
+        for j in range(i + 1, n):
+            v = ssim(imgs[i], imgs[j], data_range=1)
+            D[i, j] = v
+            D[j, i] = v
 
-    Returns:
-    - A 2D numpy array containing the pairwise SSIM distances.
-    """
-    num_imgs=len(imgs)
-    distance_matrix=np.zeros((num_imgs,num_imgs))
-
-    for index1,img1 in enumerate(imgs):
-        for index2,img2 in enumerate(imgs):
-            distance_matrix[index1,index2]=ssim(img1,img2,data_range=1)
-    return distance_matrix
+    return D
 
 @click.command()
 @click.option(
