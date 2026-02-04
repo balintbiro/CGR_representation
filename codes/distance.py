@@ -10,9 +10,20 @@ from utils import loggerConfig,Cnn
 
 logger=logging.getLogger(__name__)
 
-def get_distance(imgs:list)->np.ndarray:
-    n = len(imgs)
-    D = np.eye(n)
+def get_distance(
+        imgs:list
+    )->np.ndarray:
+    """"
+    Calculate the pairwise structural similarity index (SSIM) distance matrix for a list of FCGRs.
+
+    Parameters:
+    - imgs (list): A list of 2D numpy arrays representing FCGR images.
+
+    Returns:
+    - np.ndarray: A 2D numpy array representing the SSIM distance matrix.
+    """
+    n=len(imgs)
+    D=np.eye(n)
 
     for i in range(n):
         for j in range(i + 1, n):
