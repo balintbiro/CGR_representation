@@ -1,0 +1,5 @@
+2026-02-04 09:42:24 - __main__ - INFO - Loading FCGR matrix from ../data/cnn_max.csv
+2026-02-04 09:42:24 - __main__ - INFO - Starting cross validation with 2 splits
+2026-02-04 09:42:57 - __main__ - INFO - Loading FCGR matrix from ../data/cnn_max.csv
+2026-02-04 09:42:57 - __main__ - INFO - Starting cross validation with 2 splits
+2026-02-04 09:43:03 - __main__ - INFO - Accuracies saved to ../results/cnn_cv_max.csv
