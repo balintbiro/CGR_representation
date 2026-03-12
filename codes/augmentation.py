@@ -108,7 +108,7 @@ def main(
         dataset["dataset"]=name
         training_datasets.append(dataset.iloc[train.index])
         if name=="min":
-            test_dataset=dataset
+            test_dataset=dataset.iloc[test.index]
     training_datasets=pd.concat(training_datasets,axis=0)
     to_add=training_datasets[training_datasets["dataset"]!="min"]
     if mix:
