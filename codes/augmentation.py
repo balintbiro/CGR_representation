@@ -41,23 +41,32 @@ def cross_validate(
     ):
     skf=StratifiedKFold(n_splits=n_split,random_state=0,shuffle=True)
     acc_scores=[]
+    class0_accs=[]
+    class1_accs=[]
     for i,(train_index,test_index) in enumerate(skf.split(X,y)):
         X_train,X_test,y_train,y_test=X[train_index],X[test_index],y[train_index],y[test_index]
         torch.manual_seed(0)
         cnn=NeuralNetBinaryClassifier(
             Cnn,
-            max_epochs=10,
+            max_epochs=20,
             optimizer=torch.optim.Adam,
             device=device
         )
         cnn.fit(X_train,y_train)
         Cnntest=test.drop(columns=["label","dataset"]).div(test.drop(columns=["label","dataset"]).max(axis=1),axis=0).values.astype("float32")
-        y_pred=cnn.predict(Cnntest.reshape(-1,1,35,35))
-        y_test=test["label"].values.astype("float32")
+        y_pred=pd.Series(cnn.predict(Cnntest.reshape(-1,1,35,35)))
+        y_test=test["label"].reset_index(drop=True)
+        class0_fil=y_test==0
         acc_score=accuracy_score(y_true=y_test,y_pred=y_pred)
         acc_scores.append(acc_score)
+        class0_acc=accuracy_score(y_true=y_test[class0_fil],y_pred=y_pred[class0_fil])
+        class0_accs.append(class0_acc)
+        class1_acc=accuracy_score(y_true=y_test[~class0_fil],y_pred=y_pred[~class0_fil])
+        class1_accs.append(class1_acc)
     results=pd.DataFrame()
     results["Accuracy"]=acc_scores
+    results["Class0_Accuracy"]=class0_accs
+    results["Class1_Accuracy"]=class1_accs
     results["Dataset"]=dataset.capitalize()
     results["Ratio"]=original_ratio
     return results
@@ -95,7 +104,7 @@ def main(
     if os.path.exists(outfile):
         pass
     else:
-        out_df=pd.DataFrame(columns=["Accuracy","Dataset","Ratio"])
+        out_df=pd.DataFrame(columns=["Accuracy","Class0_Accuracy","Class1_Accuracy","Dataset","Ratio"])
         out_df.to_csv(outfile,index=False)
     loggerConfig(logfile=logfile)
     logger.info(f"Starting augmentation process with mix={mix}")
