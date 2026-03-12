@@ -56,3 +56,33 @@
 2026-02-04 13:46:25 - __main__ - INFO - Completed 90/100 folds
 2026-02-04 13:46:48 - __main__ - INFO - Completed 95/100 folds
 2026-02-04 13:47:08 - __main__ - INFO - Accuracies saved to ../results/cnn_cv_min.csv
+2026-03-05 10:35:44 - __main__ - INFO - Loading FCGR matrix from ../data/cnn_max.csv
+2026-03-05 10:35:45 - __main__ - INFO - Starting cross validation with 20 splits
+2026-03-05 10:36:12 - __main__ - INFO - Completed 5/20 folds
+2026-03-05 10:36:34 - __main__ - INFO - Completed 10/20 folds
+2026-03-05 10:36:56 - __main__ - INFO - Completed 15/20 folds
+2026-03-05 10:37:13 - __main__ - INFO - Accuracies saved to ../results/cnn_cv_max.csv
+2026-03-05 10:37:39 - __main__ - INFO - Loading FCGR matrix from ../data/cnn_min.csv
+2026-03-05 10:37:39 - __main__ - INFO - Starting cross validation with 20 splits
+2026-03-05 10:38:07 - __main__ - INFO - Completed 5/20 folds
+2026-03-05 10:38:29 - __main__ - INFO - Completed 10/20 folds
+2026-03-05 10:38:51 - __main__ - INFO - Completed 15/20 folds
+2026-03-05 10:39:09 - __main__ - INFO - Accuracies saved to ../results/cnn_cv_min.csv
+2026-03-05 10:40:20 - __main__ - INFO - Loading FCGR matrix from ../data/2500.csv
+2026-03-05 10:40:20 - __main__ - INFO - Starting cross validation with 20 splits
+2026-03-05 10:40:46 - __main__ - INFO - Completed 5/20 folds
+2026-03-05 10:41:08 - __main__ - INFO - Completed 10/20 folds
+2026-03-05 10:41:30 - __main__ - INFO - Completed 15/20 folds
+2026-03-05 10:41:47 - __main__ - INFO - Accuracies saved to ../results/cnn_cv_2500.csv
+2026-03-05 10:42:36 - __main__ - INFO - Loading FCGR matrix from ../data/5000.csv
+2026-03-05 10:42:36 - __main__ - INFO - Starting cross validation with 20 splits
+2026-03-05 10:43:04 - __main__ - INFO - Completed 5/20 folds
+2026-03-05 10:43:26 - __main__ - INFO - Completed 10/20 folds
+2026-03-05 10:43:48 - __main__ - INFO - Completed 15/20 folds
+2026-03-05 10:44:06 - __main__ - INFO - Accuracies saved to ../results/cnn_cv_5000.csv
+2026-03-05 10:44:26 - __main__ - INFO - Loading FCGR matrix from ../data/7500.csv
+2026-03-05 10:44:26 - __main__ - INFO - Starting cross validation with 20 splits
+2026-03-05 10:44:53 - __main__ - INFO - Completed 5/20 folds
+2026-03-05 10:45:14 - __main__ - INFO - Completed 10/20 folds
+2026-03-05 10:45:36 - __main__ - INFO - Completed 15/20 folds
+2026-03-05 10:45:53 - __main__ - INFO - Accuracies saved to ../results/cnn_cv_7500.csv
