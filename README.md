@@ -22,6 +22,12 @@ Rscript --vanilla FCGR_gen.R --encoding PSDNREQLCYFAIKVMGHWT --output_file data/
 
 # running random search of different CGR encodings. This script calls FCGR_gen.R from inside
 python ./cnn_random_encoding_search.py --logfile cnn.log --seqfile data/deeploc_clean.csv --fcgrfile data/random_encoding_0865_35.csv --outfile data/cnn_res_iter.csv --sf 0.865 --res 35 --n 10_000
+
+# running cross validation
+python cnn_cv.py --logfile ../results/cv.log --fcgr_matrix ../data/q1.csv --outfile ../results/cnn_cv_q1.csv --res 35 --n 10
+
+# running augmentation with cross validation
+python augmentation.py --logfile augmentation.log --datasets_dir ../data/spec_datasets/ --outfile ../results/augmentation_results.csv --mix True
 ```
 
 # Relationship between resolution and k-mers in FCGR. FCGR is produced by separate CGR by a grid. Let say the grid is 8*8 in this case 2^^k*2^^k.
