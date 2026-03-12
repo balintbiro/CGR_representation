@@ -3,3 +3,56 @@
 2026-02-04 09:42:57 - __main__ - INFO - Loading FCGR matrix from ../data/cnn_max.csv
 2026-02-04 09:42:57 - __main__ - INFO - Starting cross validation with 2 splits
 2026-02-04 09:43:03 - __main__ - INFO - Accuracies saved to ../results/cnn_cv_max.csv
+2026-02-04 11:04:43 - __main__ - INFO - Loading FCGR matrix from ../data/cnn_max.csv
+2026-02-04 11:04:44 - __main__ - INFO - Starting cross validation with 2 splits
+2026-02-04 11:04:49 - __main__ - INFO - Accuracies saved to ../results/cnn_cv_max.csv
+2026-02-04 11:05:04 - __main__ - INFO - Loading FCGR matrix from ../data/cnn_max.csv
+2026-02-04 11:05:04 - __main__ - INFO - Starting cross validation with 2 splits
+2026-02-04 11:05:10 - __main__ - INFO - Accuracies saved to ../results/cnn_cv_max.csv
+2026-02-04 11:05:54 - __main__ - INFO - Loading FCGR matrix from ../data/cnn_max.csv
+2026-02-04 11:05:54 - __main__ - INFO - Starting cross validation with 100 splits
+2026-02-04 11:11:16 - __main__ - INFO - Accuracies saved to ../results/cnn_cv_max.csv
+2026-02-04 13:26:34 - __main__ - INFO - Loading FCGR matrix from ../data/cnn_max.csv
+2026-02-04 13:26:34 - __main__ - INFO - Starting cross validation with 100 splits
+2026-02-04 13:27:03 - __main__ - INFO - Completed 5/100 folds
+2026-02-04 13:27:27 - __main__ - INFO - Completed 10/100 folds
+2026-02-04 13:27:50 - __main__ - INFO - Completed 15/100 folds
+2026-02-04 13:28:14 - __main__ - INFO - Completed 20/100 folds
+2026-02-04 13:28:37 - __main__ - INFO - Completed 25/100 folds
+2026-02-04 13:29:00 - __main__ - INFO - Completed 30/100 folds
+2026-02-04 13:29:24 - __main__ - INFO - Completed 35/100 folds
+2026-02-04 13:29:47 - __main__ - INFO - Completed 40/100 folds
+2026-02-04 13:30:11 - __main__ - INFO - Completed 45/100 folds
+2026-02-04 13:30:34 - __main__ - INFO - Completed 50/100 folds
+2026-02-04 13:30:58 - __main__ - INFO - Completed 55/100 folds
+2026-02-04 13:31:21 - __main__ - INFO - Completed 60/100 folds
+2026-02-04 13:31:45 - __main__ - INFO - Completed 65/100 folds
+2026-02-04 13:32:08 - __main__ - INFO - Completed 70/100 folds
+2026-02-04 13:32:32 - __main__ - INFO - Completed 75/100 folds
+2026-02-04 13:32:55 - __main__ - INFO - Completed 80/100 folds
+2026-02-04 13:33:19 - __main__ - INFO - Completed 85/100 folds
+2026-02-04 13:33:43 - __main__ - INFO - Completed 90/100 folds
+2026-02-04 13:34:06 - __main__ - INFO - Completed 95/100 folds
+2026-02-04 13:34:25 - __main__ - INFO - Accuracies saved to ../results/cnn_cv_max.csv
+2026-02-04 13:39:18 - __main__ - INFO - Loading FCGR matrix from ../data/cnn_min.csv
+2026-02-04 13:39:18 - __main__ - INFO - Starting cross validation with 100 splits
+2026-02-04 13:39:48 - __main__ - INFO - Completed 5/100 folds
+2026-02-04 13:40:11 - __main__ - INFO - Completed 10/100 folds
+2026-02-04 13:40:34 - __main__ - INFO - Completed 15/100 folds
+2026-02-04 13:40:57 - __main__ - INFO - Completed 20/100 folds
+2026-02-04 13:41:21 - __main__ - INFO - Completed 25/100 folds
+2026-02-04 13:41:44 - __main__ - INFO - Completed 30/100 folds
+2026-02-04 13:42:07 - __main__ - INFO - Completed 35/100 folds
+2026-02-04 13:42:31 - __main__ - INFO - Completed 40/100 folds
+2026-02-04 13:42:54 - __main__ - INFO - Completed 45/100 folds
+2026-02-04 13:43:18 - __main__ - INFO - Completed 50/100 folds
+2026-02-04 13:43:41 - __main__ - INFO - Completed 55/100 folds
+2026-02-04 13:44:04 - __main__ - INFO - Completed 60/100 folds
+2026-02-04 13:44:27 - __main__ - INFO - Completed 65/100 folds
+2026-02-04 13:44:51 - __main__ - INFO - Completed 70/100 folds
+2026-02-04 13:45:14 - __main__ - INFO - Completed 75/100 folds
+2026-02-04 13:45:37 - __main__ - INFO - Completed 80/100 folds
+2026-02-04 13:46:01 - __main__ - INFO - Completed 85/100 folds
+2026-02-04 13:46:25 - __main__ - INFO - Completed 90/100 folds
+2026-02-04 13:46:48 - __main__ - INFO - Completed 95/100 folds
+2026-02-04 13:47:08 - __main__ - INFO - Accuracies saved to ../results/cnn_cv_min.csv

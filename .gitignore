@@ -2,3 +2,8 @@
 *.out
 *.log
 *.png
+codes/nohup.out
+codes/nohup.out
+results/cnn_cv_max.csv
+results/cv.log
+results/distance.log
