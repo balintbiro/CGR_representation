@@ -94,12 +94,19 @@ def cross_validate(
     type=bool,
     default=False
 )
+@click.option(
+    "--n",
+    help="Number of cross validation splits",
+    required=True,
+    type=int
+)
 
 def main(
         logfile:str,
         datasets_dir:str,
         outfile:str,
-        mix:bool
+        mix:bool,
+        n:int
     )->None:
     if os.path.exists(outfile):
         pass
@@ -136,7 +143,7 @@ def main(
                 test=test_dataset,
                 dataset="mix",
                 original_ratio=ratio,
-                n_split=10
+                n_split=n
             )
             accuracy_scores.to_csv(outfile,mode='a',index=False,header=False)
             logger.info(f"Augmentation CV with:\n\t-mix={mix}\n\t-original dataset ratio={ratio}")
@@ -158,7 +165,7 @@ def main(
                     test=test_dataset,
                     dataset=dataset,
                     original_ratio=ratio,
-                    n_split=10
+                    n_split=n
                 )
                 accuracy_scores.to_csv(outfile,mode='a',index=False,header=False)
                 logger.info(f"Augmentation CV with:\n\t-mix={mix}\n\t-dataset={dataset}\n\t-original dataset ratio={ratio}")
