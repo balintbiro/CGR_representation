@@ -58,6 +58,11 @@ def cross_validate(X:pd.DataFrame|np.ndarray,y:pd.Series|np.ndarray,n_split=3)->
     required=True
 )
 @click.option(
+    "--name",
+    help="Name of the dataset that is used for CV, like Min, Q1 etc.",
+    required=True
+)
+@click.option(
     "--res",
     help="Resolution (int) of the FCGR",
     required=True,
@@ -74,6 +79,7 @@ def main(
         logfile,
         fcgr_matrix,
         outfile,
+        name,
         res,
         n
     )->None:
@@ -90,6 +96,11 @@ def main(
     Returns:
     - None
     """
+    if os.path.exists(outfile):
+        pass
+    else:
+        out_df=pd.DataFrame(columns=["Accuracy","Name"])
+        out_df.to_csv(outfile,index=False)
     loggerConfig(logfile=logfile)
     logger.info("Loading FCGR matrix from %s",fcgr_matrix)
     fcgr_df=pd.read_csv(fcgr_matrix)
@@ -98,8 +109,9 @@ def main(
     logger.info("Starting cross validation with %d splits",n)
     acc_scores=cross_validate(X=XCnn,y=y,n_split=n)
     acc_df=pd.DataFrame()
-    acc_df["accuracy"]=acc_scores
-    acc_df.to_csv(outfile,index=False)
+    acc_df["Accuracy"]=acc_scores
+    acc_df["Name"]=name
+    acc_df.to_csv(outfile,index=False,header=False,mode="a")
     logger.info("Accuracies saved to %s",outfile)
 
 if __name__ == "__main__":
