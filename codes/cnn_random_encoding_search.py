@@ -17,11 +17,6 @@ from utils import loggerConfig,Cnn
 
 logger=logging.getLogger(__name__)
 
-seed=0
-torch.manual_seed(seed)
-np.random.seed(seed)
-random.seed(seed)
-
 @click.command()
 @click.option(
     "--logfile",
@@ -81,6 +76,10 @@ def main(
     proteogenic_aas="ACDEFGHIKLMNPQRSTVWY"
     for i in range(n):
         encoding=''.join(np.random.choice(a=list(proteogenic_aas),size=len(proteogenic_aas),replace=False))
+        seed=0
+        torch.manual_seed(seed)
+        np.random.seed(seed)
+        random.seed(seed)
         logger.info(f"FCGR generation is running\n\t-encoding: {encoding}")
         subprocess.run(f"""Rscript --vanilla FCGR_gen.R --encoding {encoding} --output_file {fcgrfile} --input_filename {seqfile} --scaling_factor {sf} --resolution {res}""",shell=True)
         df=pd.read_csv(fcgrfile)
