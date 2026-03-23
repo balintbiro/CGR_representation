@@ -1,5 +1,7 @@
+# import the necessary library
 library(optparse)
 
+# make container for CLI arguments
 option_list=list(
   make_option(
     c("-e","--encoding"),
@@ -43,16 +45,15 @@ opt=parse_args(opt_parser);
 sequences<-read.csv(
   file=opt$input_filename
 )
-# for testing
-# sequences<-sequences[sample(nrow(sequences), 10), ]
 
+# add indices to the sequences data frame
 sequences$index<-seq.int(0,dim(sequences)[1]-1)
 ################################################
 distr.pts = function(n,
-                     r,
-                     plot = F){
+                     r){
 
   #get coordinates for a regular polygon
+  # this function is encoding specific as it is used to calculate the coordinates for the bases in an order determined by the encoding
   x = vector("double", n)
   y = vector("double", n)
   for (i in 1:n){
@@ -67,23 +68,15 @@ cgr = function(data,
                encoding,
                index,
                label,
-               seq.base = row.names(table(data)),
                sf,
-               res) {
+               res,
+               seq.base,
+               base.num,
+               base.coord,
+               base){
 
   r = 1
   data=strsplit(data,"")[[1]]
-
-  seq.base=strsplit(encoding,"")[[1]]
-  #get the number of bases
-  base.num = length(seq.base)
-  #calculate coordinates for the base
-  base.coord = distr.pts(base.num, r)
-
-  #data frame for easy access
-  base = data.frame(x = base.coord$x,
-                    y = base.coord$y,
-                    row.names = seq.base)
 
   #get the length of data
   data.length = length(data)
@@ -110,15 +103,29 @@ cgr = function(data,
   return(as.vector(t(A)))
 }
 
+seq.base=strsplit(opt$encoding,"")[[1]]
+#get the number of bases
+base.num = length(seq.base)
+#calculate coordinates for the base
+base.coord = distr.pts(base.num, 1)
+
+#data frame for easy access
+base = data.frame(x = base.coord$x,
+                  y = base.coord$y,
+                  row.names = seq.base)
+
 fcgr_list <- lapply(1:nrow(sequences), function(i) {
   cgr(
     data = sequences$sequence[i],
     encoding = opt$encoding,
     index = sequences$index[i],
     label = sequences$label[i],
-    seq.base = "AMINO",
     sf = opt$scaling_factor,
-    res = opt$resolution
+    res = opt$resolution,
+    seq.base = seq.base,
+    base.num = base.num,
+    base.coord = base.coord,
+    base = base
   )
 })
 
