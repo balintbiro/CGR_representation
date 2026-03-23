@@ -39,21 +39,28 @@ option_list=list(
     metavar="character"
   )
 );
+
+#parse CLI arguments
 opt_parser=OptionParser(option_list=option_list);
 opt=parse_args(opt_parser);
 
+#read in the sequences from the input file
 sequences<-read.csv(
   file=opt$input_filename
 )
+#for testing purposes
+#sequences<-sequences[sample(nrow(sequences),10),]
 
 # add indices to the sequences data frame
 sequences$index<-seq.int(0,dim(sequences)[1]-1)
 ################################################
-distr.pts = function(n,
-                     r){
+distr.pts = function(
+  n,
+  r
+){
 
   #get coordinates for a regular polygon
-  # this function is encoding specific as it is used to calculate the coordinates for the bases in an order determined by the encoding
+  # this function is encoding-specific as it is used to calculate the coordinates for the bases in an order determined by the encoding
   x = vector("double", n)
   y = vector("double", n)
   for (i in 1:n){
@@ -64,22 +71,18 @@ distr.pts = function(n,
   return(xy.coords(x, y))
 }
 ################################################
-cgr = function(data,
-               encoding,
-               index,
-               label,
-               scaling_factor,
-               resolution,
-               seq.base,
-               base.num,
-               base.coord,
-               base){
+cgr = function(
+  sequence,
+  scaling_factor,
+  resolution,
+  base#coordinates for the monomers around a circle according to the encoding
+){
 
   r = 1
-  data=strsplit(data,"")[[1]]
+  sequence=strsplit(sequence,"")[[1]]
 
-  #get the length of data
-  data.length = length(data)
+  #get the length of sequence
+  sequence.length = length(sequence)
 
   #cgr algorithm:
   #start at point (0,0)
@@ -88,12 +91,12 @@ cgr = function(data,
   #scaling factor
   #3. save coordinates of the point
   #repeat
-  x = vector("double", data.length)
-  y = vector("double", data.length)
+  x = vector("double", sequence.length)
+  y = vector("double", sequence.length)
   A = matrix(data = 0, ncol = resolution, nrow = resolution)
   pt = vector("double", 2)
-  for (i in 1:data.length) {
-    pt = pt + (unlist(base[data[i],]) - pt) * scaling_factor
+  for (i in 1:sequence.length) {
+    pt = pt + (unlist(base[sequence[i],]) - pt) * scaling_factor
     x[i] = pt[1]
     y[i] = pt[2]
     x.matrix = ceiling((x[i]+r ) * resolution/(2*r))
@@ -104,27 +107,23 @@ cgr = function(data,
 }
 
 seq.base=strsplit(opt$encoding,"")[[1]]
-#get the number of bases
+#get the number of monomers (amino acids or nucleotides)
 base.num = length(seq.base)
-#calculate coordinates for the base
+#calculate coordinates for the monomers (amino acids or nucleotides) according to the encoding
 base.coord = distr.pts(base.num, 1)
 
 #data frame for easy access
+#this contains the coordinates for the monomers
+#so 20 coordinates around a circle
 base = data.frame(x = base.coord$x,
                   y = base.coord$y,
                   row.names = seq.base)
 
 fcgr_list <- lapply(1:nrow(sequences), function(i) {
   cgr(
-    data = sequences$sequence[i],
-    encoding = opt$encoding,
-    index = sequences$index[i],
-    label = sequences$label[i],
-    sf = opt$scaling_factor,
-    res = opt$resolution,
-    seq.base = seq.base,
-    base.num = base.num,
-    base.coord = base.coord,
+    sequence = sequences$sequence[i],
+    scaling_factor = opt$scaling_factor,
+    resolution = opt$resolution,
     base = base
   )
 })
