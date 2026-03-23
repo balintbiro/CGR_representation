@@ -95,8 +95,11 @@ cgr = function(
   y = vector("double", sequence.length)
   A = matrix(data = 0, ncol = resolution, nrow = resolution)
   pt = vector("double", 2)
+  seq_idx <- match(sequence, rownames(base))
+  base_coords <- as.matrix(base[seq_idx, ])
+
   for (i in 1:sequence.length) {
-    pt = pt + (unlist(base[sequence[i],]) - pt) * scaling_factor
+    pt = pt + (base_coords[i, ] - pt) * scaling_factor
     x[i] = pt[1]
     y[i] = pt[2]
     x.matrix = ceiling((x[i]+r ) * resolution/(2*r))
