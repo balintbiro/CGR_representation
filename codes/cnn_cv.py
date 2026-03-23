@@ -1,3 +1,4 @@
+# import the necessary libraries
 import os
 import click
 import torch
@@ -19,11 +20,26 @@ device="cuda" if torch.cuda.is_available() else "cpu"
 logger=logging.getLogger(__name__)
 
 def cross_validate(X:pd.DataFrame|np.ndarray,y:pd.Series|np.ndarray,n_split=3)->list:
-    skf=StratifiedKFold(n_splits=n_split,random_state=0,shuffle=True)
+    """
+    Perform cross validation on the given data.
+
+    Parameters:
+    - X: DataFrame or numpy array containing the features.
+    - y: Series or numpy array containing the labels.
+    - n_split: Number of splits for cross validation. 10 was used for the publication.
+
+    Returns:
+    - List of accuracy scores for each fold.
+    """
+    # seeding for reproducibility in the cross validation splits and the training and testing of the CNN
+    seed=0
+    torch.manual_seed(seed)
+    np.random.seed(seed)
+    random.seed(seed)
+    skf=StratifiedKFold(n_splits=n_split,random_state=seed,shuffle=True)
     acc_scores=[]
     for i, (train_index, test_index) in enumerate(skf.split(X, y)):
         X_train, X_test, y_train, y_test=X[train_index],X[test_index],y[train_index],y[test_index]
-        torch.manual_seed(0)
 
         cnn = NeuralNetBinaryClassifier(
             Cnn,
@@ -41,6 +57,7 @@ def cross_validate(X:pd.DataFrame|np.ndarray,y:pd.Series|np.ndarray,n_split=3)->
             logger.info("Completed %d/%d folds",i,n_split)
     return acc_scores
 
+# define the command line interface using click
 @click.command()
 @click.option(
     "--logfile",
@@ -108,6 +125,7 @@ def main(
     XCnn=X.reshape(-1,1,res,res)
     logger.info("Starting cross validation with %d splits",n)
     acc_scores=cross_validate(X=XCnn,y=y,n_split=n)
+    # save the accuracies in the output file
     acc_df=pd.DataFrame()
     acc_df["Accuracy"]=acc_scores
     acc_df["Name"]=name
