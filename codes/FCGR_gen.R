@@ -68,8 +68,8 @@ cgr = function(data,
                encoding,
                index,
                label,
-               sf,
-               res,
+               scaling_factor,
+               resolution,
                seq.base,
                base.num,
                base.coord,
@@ -90,14 +90,14 @@ cgr = function(data,
   #repeat
   x = vector("double", data.length)
   y = vector("double", data.length)
-  A = matrix(data = 0, ncol = res, nrow = res)
+  A = matrix(data = 0, ncol = resolution, nrow = resolution)
   pt = vector("double", 2)
   for (i in 1:data.length) {
-    pt = pt + (unlist(base[data[i],]) - pt) * sf
+    pt = pt + (unlist(base[data[i],]) - pt) * scaling_factor
     x[i] = pt[1]
     y[i] = pt[2]
-    x.matrix = ceiling((x[i]+r ) * res/(2*r))
-    y.matrix = ceiling((y[i]+r ) * res/(2*r))
+    x.matrix = ceiling((x[i]+r ) * resolution/(2*r))
+    y.matrix = ceiling((y[i]+r ) * resolution/(2*r))
     A[x.matrix, y.matrix] = A[x.matrix, y.matrix] + 1
   }
   return(as.vector(t(A)))
