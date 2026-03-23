@@ -77,7 +77,7 @@ def main(
     logger.info(f"Filename: {script_name} started.")
     proteogenic_aas="ACDEFGHIKLMNPQRSTVWY"
     for i in range(n):
-        # set random seed for encoding generation
+        # set "random" (changing in every iterations) seed for encoding generation
         torch.manual_seed(i)
         np.random.seed(i)
         random.seed(i)
@@ -88,7 +88,9 @@ def main(
         torch.manual_seed(seed)
         np.random.seed(seed)
         random.seed(seed)
+        # creating the random encodings and the corresponding FCGRs
         subprocess.run(f"""Rscript --vanilla FCGR_gen.R --encoding {encoding} --output_file {fcgrfile} --input_filename {seqfile} --scaling_factor {sf} --resolution {res}""",shell=True)
+        # getting the FCGRs and training the CNN on them
         df=pd.read_csv(fcgrfile)
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
         X,y=df.drop(columns=["label"]).div(df.drop(columns=["label"]).max(axis=1),axis=0).values.astype("float32"),df["label"].values.astype("float32")
@@ -105,6 +107,7 @@ def main(
         )
         cnn.fit(XCnn_train, y_train)
         y_pred=cnn.predict(XCnn_test)
+        # get the accuracy scores on the testing data and save them in the output file
         acc=accuracy_score(y_true=y_test,y_pred=y_pred)
         pd.DataFrame([[encoding,acc]]).to_csv(outfile,mode='a',index=False,header=False)
         logger.info(f"Accuracy is {acc} with {encoding} encoding.")
