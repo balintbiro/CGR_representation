@@ -1,3 +1,4 @@
+# import the necessary libraries
 import os
 import click
 import random
@@ -17,6 +18,7 @@ from utils import loggerConfig,Cnn
 
 logger=logging.getLogger(__name__)
 
+# add CLI arguments
 @click.command()
 @click.option(
     "--logfile",
@@ -75,12 +77,15 @@ def main(
     logger.info(f"Filename: {script_name} started.")
     proteogenic_aas="ACDEFGHIKLMNPQRSTVWY"
     for i in range(n):
+        # set random seed for encoding generation
+        np.random.seed(np.random.randint(0,n))
         encoding=''.join(np.random.choice(a=list(proteogenic_aas),size=len(proteogenic_aas),replace=False))
+
+        # set seed for reproducible results in training and testing
         seed=0
         torch.manual_seed(seed)
         np.random.seed(seed)
         random.seed(seed)
-        logger.info(f"FCGR generation is running\n\t-encoding: {encoding}")
         subprocess.run(f"""Rscript --vanilla FCGR_gen.R --encoding {encoding} --output_file {fcgrfile} --input_filename {seqfile} --scaling_factor {sf} --resolution {res}""",shell=True)
         df=pd.read_csv(fcgrfile)
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -100,7 +105,7 @@ def main(
         y_pred=cnn.predict(XCnn_test)
         acc=accuracy_score(y_true=y_test,y_pred=y_pred)
         pd.DataFrame([[encoding,acc]]).to_csv(outfile,mode='a',index=False,header=False)
-        logger.info(f"Last accuracy: {acc}")
+        logger.info(f"Accuracy is {acc} with {encoding} encoding.")
         os.remove(fcgrfile)
 
 if __name__=="__main__":
