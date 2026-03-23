@@ -1,5 +1,6 @@
 import os
 import click
+import random
 import logging
 import datetime
 import numpy as np
@@ -15,6 +16,11 @@ from sklearn.metrics import accuracy_score
 from utils import loggerConfig,Cnn
 
 logger=logging.getLogger(__name__)
+
+seed=0
+torch.manual_seed(seed)
+np.random.seed(seed)
+random.seed(seed)
 
 @click.command()
 @click.option(
@@ -82,13 +88,13 @@ def main(
         X,y=df.drop(columns=["label"]).div(df.drop(columns=["label"]).max(axis=1),axis=0).values.astype("float32"),df["label"].values.astype("float32")
         XCnn = X.reshape(-1, 1, res,res)
         XCnn_train, XCnn_test, y_train, y_test = train_test_split(XCnn, y, test_size=0.25, random_state=42)
-        torch.manual_seed(0)
         cnn = NeuralNetBinaryClassifier(
             Cnn,
             max_epochs=10,
             lr=0.001,
             optimizer=torch.optim.Adam,
             device=device,
+            train_split=None
         )
         cnn.fit(XCnn_train, y_train)
         y_pred=cnn.predict(XCnn_test)
