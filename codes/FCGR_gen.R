@@ -72,13 +72,9 @@ cgr = function(data,
                res) {
 
   r = 1
-  if(is.character(seq.base)&&length(seq.base)==1){
-    if(seq.base == "AMINO"){
-       seq.base=strsplit(encoding,"")[[1]]
-    }
-  }
   data=strsplit(data,"")[[1]]
 
+  seq.base=strsplit(encoding,"")[[1]]
   #get the number of bases
   base.num = length(seq.base)
   #calculate coordinates for the base
