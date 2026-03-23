@@ -78,7 +78,9 @@ def main(
     proteogenic_aas="ACDEFGHIKLMNPQRSTVWY"
     for i in range(n):
         # set random seed for encoding generation
-        np.random.seed(n)
+        torch.manual_seed(i)
+        np.random.seed(i)
+        random.seed(i)
         encoding=''.join(np.random.choice(a=list(proteogenic_aas),size=len(proteogenic_aas),replace=False))
 
         # set seed for reproducible results in training and testing
