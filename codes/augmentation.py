@@ -1,6 +1,8 @@
+# import necessary libraries
 import os
 import click
 import torch
+import random
 import logging
 import datetime
 import numpy as np
@@ -19,12 +21,24 @@ device="cuda" if torch.cuda.is_available() else "cpu"
 logger=logging.getLogger(__name__)
 
 def augment(
-    original_data:pd.DataFrame,
-    to_add:pd.DataFrame,
-    original_ratio:float,
+        original_data:pd.DataFrame,
+        to_add:pd.DataFrame,
+        original_ratio:float
     )->pd.DataFrame:
+    """
+    Augment the original data with additional samples based on the specified ratio.
+    Parameters:
+    - original_data: DataFrame containing the original dataset.
+    - to_add: DataFrame containing the additional samples to be added for augmentation.
+    - original_ratio: The desired ratio of the original dataset in the augmented dataset.
+        For example, if original_ratio is 0.7, the augmented dataset will contain 70% of samples from the original dataset and 30% from the additional samples.
+
+    Returns:
+    - Augmented DataFrame containing the combined samples from the original dataset and the additional samples based on the specified ratio.
+    """
     no_rows=int((1/(original_ratio/(1-original_ratio)))*original_data.shape[0])
-    sample=to_add.sample(n=no_rows,random_state=0)
+    size=int(no_rows/2)
+    sample=to_add.groupby(by="label").apply(lambda subdf: subdf.sample(n=size,random_state=0)).reset_index(drop=True)
     augmented=pd.concat([
         original_data,
         sample
@@ -38,17 +52,37 @@ def cross_validate(
         dataset:str,
         original_ratio:float,
         n_split=3
-    ):
+    )->pd.DataFrame:
+    """
+    Perform cross-validation on the given dataset with the specified augmentation ratio.
+    Parameters:
+    - X: Feature matrix.
+    - y: Label vector.
+    - test: Test dataset.
+    - dataset: Name of the dataset.
+    - original_ratio: The desired ratio of the original dataset in the augmented dataset.
+    - n_split: Number of splits for cross-validation.
+
+    Returns:
+    - DataFrame containing the cross-validation results.
+    """
+    # skf object
     skf=StratifiedKFold(n_splits=n_split,random_state=0,shuffle=True)
+    # container variables for overall and class-wise accuracies
     acc_scores=[]
     class0_accs=[]
     class1_accs=[]
+    train_class0_count=[]
+    train_class1_count=[]
     for i,(train_index,test_index) in enumerate(skf.split(X,y)):
         X_train,X_test,y_train,y_test=X[train_index],X[test_index],y[train_index],y[test_index]
-        torch.manual_seed(0)
+        seed=0
+        torch.manual_seed(seed)
+        np.random.seed(seed)
+        random.seed(seed)
         cnn=NeuralNetBinaryClassifier(
             Cnn,
-            max_epochs=20,
+            max_epochs=10,
             optimizer=torch.optim.Adam,
             device=device
         )
@@ -63,10 +97,14 @@ def cross_validate(
         class0_accs.append(class0_acc)
         class1_acc=accuracy_score(y_true=y_test[~class0_fil],y_pred=y_pred[~class0_fil])
         class1_accs.append(class1_acc)
+        train_class0_count.append((y_train==0).sum())
+        train_class1_count.append((y_train==1).sum())
     results=pd.DataFrame()
     results["Accuracy"]=acc_scores
     results["Class0_Accuracy"]=class0_accs
     results["Class1_Accuracy"]=class1_accs
+    results["Train_Class0_Count"]=train_class0_count
+    results["Train_Class1_Count"]=train_class1_count
     results["Dataset"]=dataset.capitalize()
     results["Ratio"]=original_ratio
     return results
@@ -111,13 +149,13 @@ def main(
     if os.path.exists(outfile):
         pass
     else:
-        out_df=pd.DataFrame(columns=["Accuracy","Class0_Accuracy","Class1_Accuracy","Dataset","Ratio"])
+        out_df=pd.DataFrame(columns=["Accuracy","Class0_Accuracy","Class1_Accuracy","Train_Class0_Count","Train_Class1_Count","Dataset","Ratio"])
         out_df.to_csv(outfile,index=False)
     loggerConfig(logfile=logfile)
     logger.info(f"Starting augmentation process with mix={mix}")
     datasets=[pd.read_csv(os.path.join(datasets_dir, file)) for file in os.listdir(datasets_dir)]
     dataset_names=[file.split(".csv")[0] for file in os.listdir(datasets_dir)]
-    train,test=train_test_split(datasets[0],test_size=0.25,random_state=0)
+    train,test=train_test_split(datasets[0],test_size=0.25,random_state=0,stratify=datasets[0]["label"])
     training_datasets=[]
     test_dataset=""
     for dataset, name in zip(datasets, dataset_names):
@@ -128,7 +166,7 @@ def main(
     training_datasets=pd.concat(training_datasets,axis=0)
     to_add=training_datasets[training_datasets["dataset"]!="min"]
     if mix:
-        ratios=[.2,.3,.4,.5,.6,.7,.8,.9]
+        ratios=[.3,.4,.5,.6,.7,.8,.9]
         for ratio in ratios:
             data=augment(
                 original_data=training_datasets[training_datasets["dataset"]=="min"],
