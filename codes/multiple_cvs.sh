@@ -27,5 +27,5 @@ do
     --outfile "../results/multiple_cv_results.csv" \
     --name "${names[$i]}" \
     --res 35 \
-    --n 20
+    --n 10
 done
