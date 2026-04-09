@@ -11,10 +11,9 @@ Check whether the method for placing vertices during Chaos Game Representation (
 - 0.865 as the optimal scaling factor for protein sequences: https://www.sciencedirect.com/science/article/abs/pii/0263785594801096?via%3Dihub (A. Fiser, G.E. Tusnady and I. Simon, Chaos game represenation of protein structures. J. Mol. Graphics, 12)
 302-304, 1994
 - Distance metrics for sequential data: https://pyts.readthedocs.io/en/latest/modules/metrics.html
-  
-_Why does it make sense to use different vertex assignments:_
-    - Different vertex distribution should give the same result: "However, for long sequences, the CGR representation exhibits the property of self-similarity, i.e., a given pattern is repeated at different scales, for all three types of configurations" https://www.mdpi.com/1422-0067/23/3/1847
-    - Data augmentation: Chaos Game Representations & Deep Learning for Proteome-Wide Protein Prediction (Downloaded to uni OneDrive)
+- Different vertex distribution should give the same result: "However, for long sequences, the CGR representation exhibits the property of self-similarity, i.e., a given pattern is repeated at different scales, for all three types of configurations" https://www.mdpi.com/1422-0067/23/3/1847
+- Data augmentation: Chaos Game Representations & Deep Learning for Proteome-Wide Protein Prediction (Downloaded to uni OneDrive)
+- "However, any ordering of the amino acids on the vertices would result in unique protein sequence representations, and therefore, similar performances of the CNN models described in the following are expected." https://link.springer.com/article/10.1007/s00894-023-05777-0
 
 ```shell
 
