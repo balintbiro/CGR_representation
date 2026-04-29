@@ -86,3 +86,9 @@
 2026-03-05 10:45:14 - __main__ - INFO - Completed 10/20 folds
 2026-03-05 10:45:36 - __main__ - INFO - Completed 15/20 folds
 2026-03-05 10:45:53 - __main__ - INFO - Accuracies saved to ../results/cnn_cv_7500.csv
+2026-03-16 09:21:41 - __main__ - INFO - Loading FCGR matrix from ../data/5000.csv
+2026-03-16 09:21:41 - __main__ - INFO - Starting cross validation with 2 splits
+2026-03-16 09:21:47 - __main__ - INFO - Accuracies saved to ../results/cv_results.csv
+2026-03-16 09:23:40 - __main__ - INFO - Loading FCGR matrix from ../data/spec_datasets/min.csv
+2026-03-16 09:23:40 - __main__ - INFO - Starting cross validation with 2 splits
+2026-03-16 09:23:46 - __main__ - INFO - Accuracies saved to ../results/cv_results.csv
