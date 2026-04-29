@@ -7,3 +7,7 @@ codes/nohup.out
 results/cnn_cv_max.csv
 results/cv.log
 results/distance.log
+!data/cnn_res_iter.csv
+!data/deeploc_clean.csv
+!results/multiple_augs_results.csv
+!results/multiple_cv_results.csv
