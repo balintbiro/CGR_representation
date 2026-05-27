@@ -1,21 +1,5 @@
-side_groups={
-    'A':[-1,1],
-    'C':[-1,-1],
-    'G':[1,-1],
-    'T':[1,1]
-}
-structure={
-    'A':[-1,1],
-    'C':[1,-1],
-    'G':[-1,-1],
-    'T':[1,1]
-}
-bonds={
-    'A':[-1,1],
-    'C':[1,1],
-    'G':[1,-1],
-    'T':[-1,-1]
-}
+
+import requests
 import torch
 import logging
 import numpy as np
@@ -97,3 +81,10 @@ class Cnn(nn.Module):
         x = x.view(x.size(0), -1)
         x = self.fc(x)
         return x
+    
+class DeepLoc:
+    def __init__(self):
+        self.url="https://services.healthtech.dtu.dk/services/DeepLoc-1.0/deeploc_data.fasta"
+
+    def get(self,outfile:str)->None:
+        response=requests.
