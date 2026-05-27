@@ -14,3 +14,4 @@ results/distance.log
 !results/multiple_augs_results.csv
 !results/multiple_cv_results.csv
 trial.py
+trial.sh
