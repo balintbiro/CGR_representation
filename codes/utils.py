@@ -9,6 +9,7 @@ from sklearn.model_selection import StratifiedKFold
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from Bio import SeqIO
+from datasets import load_dataset
 
 def tester(mtx:pd.DataFrame,dataset_name:str,skf:StratifiedKFold)->pd.DataFrame:
     """
@@ -79,15 +80,11 @@ class DeepLoc:
             handle=tempfile,
             format="fasta"
         )
+        proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
         sequences=[]
         for record in parser:
             label=record.description.split('-')[-1]
-            if (
-                (label in ['S','M']) and
-                ('X' not in str(record.seq)) and
-                ('U' not in str(record.seq)) and
-                ('B' not in str(record.seq))
-            ):
+            if len(set(str(record.seq))-set(proteinogenic_aas))==0:
                 sequences.append([str(record.seq),label])
         # create dataframe from sequences and labels
         sequences=pd.DataFrame(data=sequences,columns=["sequence","label"])
@@ -105,3 +102,9 @@ class DeepLoc:
         balanced["label"]=balanced["label"].replace(['M','S'],[0,1])
         return balanced
 
+class EC:
+    def init(self):
+        pass
+
+    def get(self)->tuple:
+        pass
