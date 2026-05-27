@@ -9,7 +9,7 @@ from sklearn.model_selection import StratifiedKFold
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from Bio import SeqIO
-from datasets import load_dataset
+from sklearn.preprocessing import LabelEncoder
 
 def tester(mtx:pd.DataFrame,dataset_name:str,skf:StratifiedKFold)->pd.DataFrame:
     """
@@ -75,7 +75,7 @@ class DeepLoc:
             f.write(response.content)
         return response.status_code
     
-    def clean(self,tempfile:str)->pd.DataFrame:
+    def clean(self,tempfile:str)->tuple:
         parser=SeqIO.parse(
             handle=tempfile,
             format="fasta"
@@ -84,27 +84,64 @@ class DeepLoc:
         sequences=[]
         for record in parser:
             label=record.description.split('-')[-1]
-            if len(set(str(record.seq))-set(proteinogenic_aas))==0:
-                sequences.append([str(record.seq),label])
+            sequences.append([str(record.seq),label])
         # create dataframe from sequences and labels
         sequences=pd.DataFrame(data=sequences,columns=["sequence","label"])
-
-        # balancing the dataset
-        balanced=pd.concat(
-            [
-                sequences[sequences["label"]=='M'],
-                sequences[sequences["label"]=="S"].sample(
-                    n=sequences["label"].value_counts()['M'],
-                    random_state=0
-                )
-            ]
-        )
-        balanced["label"]=balanced["label"].replace(['M','S'],[0,1])
-        return balanced
+        fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
+        sequences["label"]=sequences["label"].replace(['M','S'],[0,1])
+        return (sequences[fil],sequences.shape)
 
 class EC:
     def init(self):
         pass
 
-    def get(self)->tuple:
-        pass
+    def get(self,outfile:str)->tuple:
+        splits = {'train': 'train.csv', 'validation': 'valid.csv', 'test': 'test.csv'}
+        train=pd.read_csv("hf://datasets/AI4Protein/EC/" + splits["train"])
+        test=pd.read_csv("hf://datasets/AI4Protein/EC/" + splits["test"])
+        valid=pd.read_csv("hf://datasets/AI4Protein/EC/" + splits["validation"])
+
+        df=(
+            pd.concat(
+                [
+                    train[["aa_seq","label"]],
+                    test[["aa_seq","label"]],
+                    valid[["aa_seq","label"]]
+                ]
+            )
+            .reset_index(drop=True)
+            .rename(columns={"aa_seq":"sequence"})
+        )
+        if df.shape[0]>0:
+            status="success"
+            df.to_csv(outfile,index=False)
+        else:
+            status="error"
+        return status
+    
+    def clean(self,tempfile:str)->tuple:
+        proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
+        sequences=pd.read_csv(tempfile)
+        fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
+        return (sequences[fil],sequences.shape)
+    
+class PFAM:
+    def __init__(self):
+        self.url="https://zenodo.org/records/8167436/files/pfam_46872x62.csv?download=1"
+
+    def get(self,outfile:str)->int:
+        response=requests.get(url=self.url)
+        with open(outfile,"wb") as f:
+            f.write(response.content)
+        return response.status_code
+    
+    def clean(self,tempfile:str)->tuple:
+        proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
+        sequences=(
+            pd.read_csv(tempfile)
+            .rename(columns={"family":"label"})[["sequence","label"]]
+        )
+        encoder=LabelEncoder()
+        sequences["label"]=encoder.fit_transform(sequences["label"])
+        fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
+        return (sequences[fil],sequences.shape)
