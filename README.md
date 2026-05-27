@@ -1,6 +1,8 @@
 # CGR_representation
 Check whether the method for placing vertices during Chaos Game Representation (CGR) has an impact on biological sequence classification perofrmance.
 
+### Datapreparation
+
 ```shell
 # running datapreparation (get and cleaning) for DeepLoc, EC and PFAM.
 bash dataprep.sh
