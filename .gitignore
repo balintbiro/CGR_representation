@@ -2,6 +2,8 @@
 *.out
 *.log
 *.png
+*.pyc
+*.fasta
 codes/nohup.out
 codes/nohup.out
 results/cnn_cv_max.csv
