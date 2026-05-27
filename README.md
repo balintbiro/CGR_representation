@@ -42,3 +42,13 @@ The resulting file is `results/multiple_aug_results.csv`.
 - Deeploc1.0
     - reference https://academic.oup.com/bioinformatics/article/33/21/3387/3931857
     - dataset https://services.healthtech.dtu.dk/services/DeepLoc-1.0/
+- EC
+    - references:
+        - https://pubs.acs.org/doi/full/10.1021/acs.jcim.4c00689
+        - https://arxiv.org/abs/2503.15438
+    - dataset https://huggingface.co/datasets/AI4Protein/EC_ESMFold
+- PFAM
+    - references:
+        - https://zenodo.org/records/8167436
+        - https://academic.oup.com/nar/article/49/D1/D412/5943818
+    - dataset https://zenodo.org/records/8167436/files/pfam_46872x62.csv?download=1
