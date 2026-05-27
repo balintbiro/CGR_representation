@@ -2,6 +2,14 @@
 Check whether the method for placing vertices during Chaos Game Representation (CGR) has an impact on biological sequence classification perofrmance.
 
 ```shell
+# running datapreparation (get and cleaning) for DeepLoc, EC and PFAM.
+bash dataprep.sh
+```
+It produces:
+- `../results/logs/dataprep.log`
+- `{dataset_name}_clean.csv` with `sequence` and `label` columns
+
+```shell
 
 # running random search of different CGR encodings. This script calls FCGR_gen.R from inside
 python ./cnn_random_encoding_search.py \
