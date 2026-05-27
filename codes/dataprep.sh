@@ -16,7 +16,7 @@ temp_files=(
 #running dataprep for all the three datasets
 for i in "${!names[@]}"
 do
-    python trial.py \
+    python dataprep.py \
     --logfile "../results/logs/dataprep.log" \
     --dataset_name "${names[$i]}" \
     --tempfile "../data/${temp_files[$i]}" \
