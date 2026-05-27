@@ -8,25 +8,7 @@ from torch import nn
 from sklearn.model_selection import StratifiedKFold
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
-
-side_groups={
-    'A':[-1,1],
-    'C':[-1,-1],
-    'G':[1,-1],
-    'T':[1,1]
-}
-structure={
-    'A':[-1,1],
-    'C':[1,-1],
-    'G':[-1,-1],
-    'T':[1,1]
-}
-bonds={
-    'A':[-1,1],
-    'C':[1,1],
-    'G':[1,-1],
-    'T':[-1,-1]
-}
+from Bio import SeqIO
 
 def tester(mtx:pd.DataFrame,dataset_name:str,skf:StratifiedKFold)->pd.DataFrame:
     """
@@ -86,5 +68,40 @@ class DeepLoc:
     def __init__(self):
         self.url="https://services.healthtech.dtu.dk/services/DeepLoc-1.0/deeploc_data.fasta"
 
-    def get(self,outfile:str)->None:
-        response=requests.
+    def get(self,outfile:str)->int:
+        response=requests.get(url=self.url)
+        with open(outfile,"wb") as f:
+            f.write(response.content)
+        return response.status_code
+    
+    def clean(self,tempfile:str)->pd.DataFrame:
+        parser=SeqIO.parse(
+            handle=tempfile,
+            format="fasta"
+        )
+        sequences=[]
+        for record in parser:
+            label=record.description.split('-')[-1]
+            if (
+                (label in ['S','M']) and
+                ('X' not in str(record.seq)) and
+                ('U' not in str(record.seq)) and
+                ('B' not in str(record.seq))
+            ):
+                sequences.append([str(record.seq),label])
+        # create dataframe from sequences and labels
+        sequences=pd.DataFrame(data=sequences,columns=["sequence","label"])
+
+        # balancing the dataset
+        balanced=pd.concat(
+            [
+                sequences[sequences["label"]=='M'],
+                sequences[sequences["label"]=="S"].sample(
+                    n=sequences["label"].value_counts()['M'],
+                    random_state=0
+                )
+            ]
+        )
+        balanced["label"]=balanced["label"].replace(['M','S'],[0,1])
+        return balanced
+
