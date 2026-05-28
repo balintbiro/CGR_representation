@@ -11,5 +11,8 @@ results/distance.log
 !data/deeploc_clean.csv
 !results/multiple_augs_results.csv
 !results/multiple_cv_results.csv
+
 trial.py
 trial.sh
+trial.csv
+trial.log
