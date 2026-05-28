@@ -13,7 +13,7 @@ from torch import nn
 import torch.nn.functional as F
 from skorch import NeuralNetBinaryClassifier,NeuralNetClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import roc_auc_score,accuracy_score
 
 from utils import loggerConfig,CnnBinary,RNBinary,CnnMulti,RNMulti
 
@@ -74,7 +74,7 @@ def main(
     if os.path.exists(outfile):
         pass
     else:
-        out_df=pd.DataFrame(columns=["encoding","accuracy","model","task"])
+        out_df=pd.DataFrame(columns=["encoding","auroc","accuracy","model","task"])
         out_df.to_csv(outfile,index=False)
     loggerConfig(logfile=logfile)
     script_name=os.path.basename(__file__)
@@ -128,11 +128,14 @@ def main(
         XCnn = X.reshape(-1, 1, res,res)
         XCnn_train, XCnn_test, y_train, y_test = train_test_split(XCnn, y, test_size=0.25, random_state=seed, stratify=y)
         cnn.fit(XCnn_train, y_train)
-        y_pred=cnn.predict(XCnn_test)
         # get the accuracy scores on the testing data and save them in the output file
-        acc=accuracy_score(y_true=y_test,y_pred=y_pred)
-        pd.DataFrame([[encoding,acc,model,task]]).to_csv(outfile,mode='a',index=False,header=False)
-        logger.info(f"Accuracy is {acc} with {encoding} encoding, {model_type} model and {task} task.")
+        acc=accuracy_score(y_true=y_test,y_pred=cnn.predict(XCnn_test))
+        if task=="multiclass":
+            auroc=roc_auc_score(y_true=y_test,y_score=cnn.predict_proba(XCnn_test),multi_class="ovo",average="macro")
+        else:
+            auroc=roc_auc_score(y_true=y_test,y_score=cnn.predict_proba(XCnn_test))
+        pd.DataFrame([[encoding,auroc,acc,model_type,task]]).to_csv(outfile,mode='a',index=False,header=False)
+        logger.info(f"Accuracy is {acc} and auroc is {auroc} with {encoding} encoding, {model_type} model and {task} task.")
         os.remove(fcgrfile)
 
 if __name__=="__main__":
