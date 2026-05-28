@@ -15,7 +15,7 @@ from skorch import NeuralNetBinaryClassifier,NeuralNetClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-from utils import loggerConfig,CnnBinary,RNBinary,CnnMulti
+from utils import loggerConfig,CnnBinary,RNBinary,CnnMulti,RNMulti
 
 logger=logging.getLogger(__name__)
 logger.addHandler(logging.StreamHandler(sys.stdout))
@@ -47,7 +47,7 @@ logger.addHandler(logging.StreamHandler(sys.stdout))
     )
 )
 @click.option(
-    "--model",
+    "--model_type",
     help="Name of the model to fit",
     required=True,
     type=click.Choice(
@@ -67,14 +67,14 @@ def main(
         seqfile,
         outfile,
         task,
-        model,
+        model_type,
         n
     ):
     fcgrfile,sf,res="../data/random_encoding_0865_35.csv",0.865,35
     if os.path.exists(outfile):
         pass
     else:
-        out_df=pd.DataFrame(columns=["encoding","accuracy"])
+        out_df=pd.DataFrame(columns=["encoding","accuracy","model","task"])
         out_df.to_csv(outfile,index=False)
     loggerConfig(logfile=logfile)
     script_name=os.path.basename(__file__)
@@ -97,39 +97,42 @@ def main(
         # getting the FCGRs and training the CNN on them
         df=pd.read_csv(fcgrfile)
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
-        X,y=df.drop(columns=["label"]).div(df.drop(columns=["label"]).max(axis=1),axis=0).values.astype("float32"),df["label"].values.astype("float32")
-        XCnn = X.reshape(-1, 1, res,res)
-        XCnn_train, XCnn_test, y_train, y_test = train_test_split(XCnn, y, test_size=0.25, random_state=seed, stratify=y)
         if task=="binary":
-            if model=="custom":
+            if model_type=="custom":
                 model=CnnBinary
             else:
                 model=RNBinary
             cnn=NeuralNetBinaryClassifier(
-                model,
-                max_epochs=10,
-                lr=0.001,
-                optimizer=torch.optim.Adam,
-                device=device,
-                train_split=None,
-                iterator_train__shuffle=False
+                model
             )
+            y=df["label"].values.astype("float32")
         else:
+            if model_type=="custom":
+                model=CnnMulti
+            else:
+                model=RNMulti
             cnn=NeuralNetClassifier(
-                CnnMulti,
-                max_epochs=10,
-                lr=0.001,
-                optimizer=torch.optim.Adam,
-                device=device,
-                train_split=None,
-                iterator_train__shuffle=False
+                model,
+                criterion=torch.nn.CrossEntropyLoss
             )
+            y=df["label"].values.astype(np.int64)
+        cnn.set_params(
+            max_epochs=10,
+            lr=0.001,
+            optimizer=torch.optim.Adam,
+            device=device,
+            train_split=None,
+            iterator_train__shuffle=None
+        )
+        X=df.drop(columns=["label"]).div(df.drop(columns=["label"]).max(axis=1),axis=0).values.astype("float32")
+        XCnn = X.reshape(-1, 1, res,res)
+        XCnn_train, XCnn_test, y_train, y_test = train_test_split(XCnn, y, test_size=0.25, random_state=seed, stratify=y)
         cnn.fit(XCnn_train, y_train)
         y_pred=cnn.predict(XCnn_test)
         # get the accuracy scores on the testing data and save them in the output file
         acc=accuracy_score(y_true=y_test,y_pred=y_pred)
-        pd.DataFrame([[encoding,acc]]).to_csv(outfile,mode='a',index=False,header=False)
-        logger.info(f"Accuracy is {acc} with {encoding} encoding.")
+        pd.DataFrame([[encoding,acc,model,task]]).to_csv(outfile,mode='a',index=False,header=False)
+        logger.info(f"Accuracy is {acc} with {encoding} encoding, {model_type} model and {task} task.")
         os.remove(fcgrfile)
 
 if __name__=="__main__":
