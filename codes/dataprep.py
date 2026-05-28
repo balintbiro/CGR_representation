@@ -55,9 +55,11 @@ def main(
     logger.info(f"Dataprep is running for {dataset_name}")
     status=dataset_class.get(outfile=tempfile)
     logger.info(f"Dataset was gathered with status code: {status}")
-    cleaned,original_size=dataset_class.clean(tempfile=tempfile)
+    cleaned,original_size,additional_info=dataset_class.clean(tempfile=tempfile)
     logger.info(f"The original dataset has shape: {original_size}")
     logger.info(f"The cleaned dataset has shape: {cleaned.shape}")
+    if len(additional_info)>0:
+        logger.info(f"Encoded labels are the followings: {additional_info}")
     os.remove(path=tempfile)
     logger.info(f"{tempfile} temporary file was removed.")
     cleaned.to_csv(outfile,index=False)
