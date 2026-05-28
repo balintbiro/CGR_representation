@@ -10,6 +10,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from Bio import SeqIO
 from sklearn.preprocessing import LabelEncoder
+from torchvision import models
 
 def tester(mtx:pd.DataFrame,dataset_name:str,skf:StratifiedKFold)->pd.DataFrame:
     """
@@ -65,6 +66,30 @@ class CnnBinary(nn.Module):
         x = self.fc(x)
         return x
     
+class CnnMulticlass(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.conv = nn.Conv2d(1, 10, kernel_size=3)
+        self.pool = nn.MaxPool2d(2)
+        self.fc = nn.Linear(10 * 16 * 16, 62)
+
+    def forward(self, x):
+        x = torch.relu(self.pool(self.conv(x)))
+        x = x.view(x.size(0), -1)
+        x = self.fc(x)
+        return x
+
+class RN18Binary(nn.Module):
+    def __init__(self,output_features):
+        super().__init__()
+        model=models.resnet18(pretrained=True)
+        num_ftrs=model.fc.in_features
+        model.fc=nn.Linear(num_ftrs,output_features)
+        self.model=model
+
+    def forward(self,x):
+        return self.model(x)
+
 class DeepLoc:
     def __init__(self):
         self.url="https://services.healthtech.dtu.dk/services/DeepLoc-1.0/deeploc_data.fasta"
