@@ -52,7 +52,7 @@ def loggerConfig(logfile:str)->None:
         datefmt="%Y-%m-%d %H:%M:%S"
     )
 
-class Cnn(nn.Module):
+class CnnBinary(nn.Module):
     def __init__(self):
         super().__init__()
         self.conv = nn.Conv2d(1, 10, kernel_size=3)
