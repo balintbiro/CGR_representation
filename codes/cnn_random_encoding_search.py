@@ -14,7 +14,7 @@ from skorch import NeuralNetBinaryClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-from utils import loggerConfig,Cnn
+from utils import loggerConfig,CnnBinary
 
 logger=logging.getLogger(__name__)
 
@@ -97,7 +97,7 @@ def main(
         XCnn = X.reshape(-1, 1, res,res)
         XCnn_train, XCnn_test, y_train, y_test = train_test_split(XCnn, y, test_size=0.25, random_state=seed, stratify=y)
         cnn = NeuralNetBinaryClassifier(
-            Cnn,
+            CnnBinary,
             max_epochs=10,
             lr=0.001,
             optimizer=torch.optim.Adam,
