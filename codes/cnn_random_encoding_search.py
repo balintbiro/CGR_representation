@@ -109,15 +109,16 @@ def main(
         XCnn = X.reshape(-1, 1, res,res)
         XCnn_train, XCnn_test, y_train, y_test = train_test_split(XCnn, y, test_size=0.25, random_state=seed, stratify=y)
         if task=="binary":
-            cnn=NeuralNetBinaryClassifier(
-                CnnBinary,
-                max_epochs=10,
-                lr=0.001,
-                optimizer=torch.optim.Adam,
-                device=device,
-                train_split=None,
-                iterator_train__shuffle=False
-            )
+            model=CnnBinary
+        cnn=NeuralNetBinaryClassifier(
+            model,
+            max_epochs=10,
+            lr=0.001,
+            optimizer=torch.optim.Adam,
+            device=device,
+            train_split=None,
+            iterator_train__shuffle=False
+        )
         cnn.fit(XCnn_train, y_train)
         y_pred=cnn.predict(XCnn_test)
         # get the accuracy scores on the testing data and save them in the output file
