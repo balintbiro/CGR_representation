@@ -53,6 +53,20 @@ def loggerConfig(logfile:str)->None:
         datefmt="%Y-%m-%d %H:%M:%S"
     )
 
+class Cnn(nn.Module):
+    def __init__(self,output_dim:int):
+        self.output_dim=output_dim
+        super().__init__()
+        self.conv = nn.Conv2d(1, 10, kernel_size=3)
+        self.pool = nn.MaxPool2d(2)
+        self.fc = nn.Linear(10 * 16 * 16, self.output_dim)
+
+    def forward(self, x):
+        x = torch.relu(self.pool(self.conv(x)))
+        x = x.view(x.size(0), -1)
+        x = self.fc(x)
+        return x
+
 class CnnBinary(nn.Module):
     def __init__(self):
         super().__init__()
@@ -95,6 +109,23 @@ class RNBinary(nn.Module):
 
     def forward(self, x):
         return self.model(x)
+    
+class RNMulti(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.model=resnet18(weights=None)
+        self.model.conv1 = nn.Conv2d(
+            in_channels=1,
+            out_channels=64,
+            kernel_size=3,
+            stride=2,
+            padding=3,
+            bias=False
+        )
+        self.model.fc = nn.Linear(self.model.fc.in_features, 64)
+
+    def forward(self, x):
+        return self.model(x)
 
 class DeepLoc:
     def __init__(self):
@@ -120,7 +151,7 @@ class DeepLoc:
         sequences=pd.DataFrame(data=sequences,columns=["sequence","label"])
         fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
         sequences["label"]=sequences["label"].replace(['M','S'],[0,1])
-        return (sequences[sequences["label"].isin([0,1])][fil],sequences.shape)
+        return (sequences[sequences["label"].isin([0,1])][fil],sequences.shape,{})
 
 class EC:
     def init(self):
@@ -154,7 +185,7 @@ class EC:
         proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
         sequences=pd.read_csv(tempfile)
         fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
-        return (sequences[fil],sequences.shape)
+        return (sequences[fil],sequences.shape,{})
     
 class PFAM:
     def __init__(self):
@@ -172,7 +203,11 @@ class PFAM:
             pd.read_csv(tempfile)
             .rename(columns={"family":"label"})[["sequence","label"]]
         )
+        # 5 of the most prominent and 5 of the less prominent categories
+        poi=["HYDROLASE","IMMUNE SYSTEM","ISOMERASE","LYASE","OXIDOREDUCTASE","RECEPTOR","LIPID TRANSPORT","HYDROLASE ANTIBIOTIC","ALLERGEN","TRANSFERASE INHIBITOR"]
+        sequences=sequences[sequences["label"].isin(poi)]
         encoder=LabelEncoder()
         sequences["label"]=encoder.fit_transform(sequences["label"])
         fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
-        return (sequences[fil],sequences.shape)
+        label_dict=dict(zip(encoder.inverse_transform(sequences["label"].unique()),sequences["label"].unique()))
+        return (sequences[fil],sequences.shape,label_dict)
