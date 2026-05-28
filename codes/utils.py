@@ -66,6 +66,19 @@ class CnnBinary(nn.Module):
         x = self.fc(x)
         return x
     
+class CnnMulti(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.conv = nn.Conv2d(1, 10, kernel_size=3)
+        self.pool = nn.MaxPool2d(2)
+        self.fc = nn.Linear(10 * 16 * 16, 62)
+
+    def forward(self, x):
+        x = torch.relu(self.pool(self.conv(x)))
+        x = x.view(x.size(0), -1)
+        x = self.fc(x)
+        return x
+    
 class RNBinary(nn.Module):
     def __init__(self):
         super().__init__()

@@ -15,7 +15,7 @@ from skorch import NeuralNetBinaryClassifier,NeuralNetClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-from utils import loggerConfig,CnnBinary,CnnMulticlass,RN18Binary
+from utils import loggerConfig,CnnBinary,RNBinary,CnnMulti
 
 logger=logging.getLogger(__name__)
 logger.addHandler(logging.StreamHandler(sys.stdout))
@@ -33,10 +33,6 @@ logger.addHandler(logging.StreamHandler(sys.stdout))
     required=True
 )
 @click.option(
-    "--fcgrfile",
-    help="Path to file[.csv] that will contain the FCGRs"
-)
-@click.option(
     "--outfile",
     help="Path to outfile[.csv] that will contain the accuracies accross encodings",
     required=True
@@ -51,16 +47,13 @@ logger.addHandler(logging.StreamHandler(sys.stdout))
     )
 )
 @click.option(
-    "--sf",
-    help="Scaling factor for CGR",
+    "--model",
+    help="Name of the model to fit",
     required=True,
-    type=float
-)
-@click.option(
-    "--res",
-    help="Resolution (int) of the FCGR",
-    required=True,
-    type=int
+    type=click.Choice(
+        ["custom","resnet"],
+        case_sensitive=False
+    )
 )
 @click.option(
     "--n",
@@ -72,13 +65,12 @@ logger.addHandler(logging.StreamHandler(sys.stdout))
 def main(
         logfile,
         seqfile,
-        fcgrfile,
         outfile,
         task,
-        sf,
-        res,
+        model,
         n
     ):
+    fcgrfile,sf,res="../data/random_encoding_0865_35.csv",0.865,35
     if os.path.exists(outfile):
         pass
     else:
@@ -109,16 +101,29 @@ def main(
         XCnn = X.reshape(-1, 1, res,res)
         XCnn_train, XCnn_test, y_train, y_test = train_test_split(XCnn, y, test_size=0.25, random_state=seed, stratify=y)
         if task=="binary":
-            model=CnnBinary
-        cnn=NeuralNetBinaryClassifier(
-            model,
-            max_epochs=10,
-            lr=0.001,
-            optimizer=torch.optim.Adam,
-            device=device,
-            train_split=None,
-            iterator_train__shuffle=False
-        )
+            if model=="custom":
+                model=CnnBinary
+            else:
+                model=RNBinary
+            cnn=NeuralNetBinaryClassifier(
+                model,
+                max_epochs=10,
+                lr=0.001,
+                optimizer=torch.optim.Adam,
+                device=device,
+                train_split=None,
+                iterator_train__shuffle=False
+            )
+        else:
+            cnn=NeuralNetClassifier(
+                CnnMulti,
+                max_epochs=10,
+                lr=0.001,
+                optimizer=torch.optim.Adam,
+                device=device,
+                train_split=None,
+                iterator_train__shuffle=False
+            )
         cnn.fit(XCnn_train, y_train)
         y_pred=cnn.predict(XCnn_test)
         # get the accuracy scores on the testing data and save them in the output file
