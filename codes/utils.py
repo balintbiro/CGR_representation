@@ -89,7 +89,7 @@ class DeepLoc:
         sequences=pd.DataFrame(data=sequences,columns=["sequence","label"])
         fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
         sequences["label"]=sequences["label"].replace(['M','S'],[0,1])
-        return (sequences[fil],sequences.shape)
+        return (sequences[sequences["label"].isin([0,1])][fil],sequences.shape)
 
 class EC:
     def init(self):
