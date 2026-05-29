@@ -1,8 +1,9 @@
 name: chaos_rep
 channels:
   - defaults
+  - conda-forge
 dependencies:
-  - python=3.10
+  - python
   - scikit-learn
   - pytorch
   - click
@@ -11,6 +12,8 @@ dependencies:
   - biopython
   - torchvision
   - huggingface_hub
+  - r-base
+  - r-optparse
   - pip
 
   - pip:
