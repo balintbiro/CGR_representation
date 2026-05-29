@@ -85,7 +85,7 @@ class CnnMulti(nn.Module):
         super().__init__()
         self.conv = nn.Conv2d(1, 10, kernel_size=3)
         self.pool = nn.MaxPool2d(2)
-        self.fc = nn.Linear(10 * 16 * 16, 62)
+        self.fc = nn.Linear(10 * 16 * 16, 10)
 
     def forward(self, x):
         x = torch.relu(self.pool(self.conv(x)))
@@ -122,7 +122,7 @@ class RNMulti(nn.Module):
             padding=3,
             bias=False
         )
-        self.model.fc = nn.Linear(self.model.fc.in_features, 64)
+        self.model.fc = nn.Linear(self.model.fc.in_features, 10)
 
     def forward(self, x):
         return self.model(x)
