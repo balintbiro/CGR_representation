@@ -55,17 +55,33 @@ def loggerConfig(logfile:str)->None:
 
 class Cnn(nn.Module):
     def __init__(self,output_dim:int):
-        self.output_dim=output_dim
         super().__init__()
         self.conv = nn.Conv2d(1, 10, kernel_size=3)
         self.pool = nn.MaxPool2d(2)
-        self.fc = nn.Linear(10 * 16 * 16, self.output_dim)
+        self.fc = nn.Linear(10 * 16 * 16, output_dim)
 
     def forward(self, x):
         x = torch.relu(self.pool(self.conv(x)))
         x = x.view(x.size(0), -1)
         x = self.fc(x)
         return x
+    
+class ResNet(nn.Module):
+    def __init__(self,output_dim:int):
+        super().__init__()
+        self.model=resnet18(weights=None)
+        self.model.conv1 = nn.Conv2d(
+            in_channels=1,
+            out_channels=64,
+            kernel_size=3,
+            stride=2,
+            padding=3,
+            bias=False
+        )
+        self.model.fc = nn.Linear(self.model.fc.in_features, output_dim)
+
+    def forward(self, x):
+        return self.model(x)
 
 class CnnBinary(nn.Module):
     def __init__(self):

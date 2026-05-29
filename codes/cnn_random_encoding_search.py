@@ -15,7 +15,7 @@ from skorch import NeuralNetBinaryClassifier,NeuralNetClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_auc_score,accuracy_score
 
-from utils import loggerConfig,CnnBinary,RNBinary,CnnMulti,RNMulti
+from utils import loggerConfig,ResNet,Cnn
 
 logger=logging.getLogger(__name__)
 logger.addHandler(logging.StreamHandler(sys.stdout))
@@ -99,18 +99,18 @@ def main(
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
         if task=="binary":
             if model_type=="custom":
-                model=CnnBinary
+                model=Cnn(output_dim=1)
             elif model_type=="resnet":
-                model=RNBinary
+                model=ResNet(output_dim=1)
             cnn=NeuralNetBinaryClassifier(
                 model
             )
             y=df["label"].values.astype("float32")
         elif task=="multiclass":
             if model_type=="custom":
-                model=CnnMulti
+                model=Cnn(output_dim=10)
             elif model_type=="resnet":
-                model=RNMulti
+                model=ResNet(output_dim=10)
             cnn=NeuralNetClassifier(
                 model,
                 criterion=torch.nn.CrossEntropyLoss
