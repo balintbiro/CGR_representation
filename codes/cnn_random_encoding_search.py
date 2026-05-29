@@ -100,16 +100,16 @@ def main(
         if task=="binary":
             if model_type=="custom":
                 model=CnnBinary
-            else:
+            elif model_type=="resnet":
                 model=RNBinary
             cnn=NeuralNetBinaryClassifier(
                 model
             )
             y=df["label"].values.astype("float32")
-        else:
+        elif task=="multiclass":
             if model_type=="custom":
                 model=CnnMulti
-            else:
+            elif model_type=="resnet":
                 model=RNMulti
             cnn=NeuralNetClassifier(
                 model,
@@ -131,9 +131,9 @@ def main(
         # get the accuracy scores on the testing data and save them in the output file
         acc=accuracy_score(y_true=y_test,y_pred=cnn.predict(XCnn_test))
         if task=="multiclass":
-            auroc=roc_auc_score(y_true=y_test,y_score=cnn.predict_proba(XCnn_test),multi_class="ovo",average="macro")
-        else:
-            auroc=roc_auc_score(y_true=y_test,y_score=cnn.predict_proba(XCnn_test))
+            auroc=roc_auc_score(y_true=y_test,y_score=cnn.predict_proba(XCnn_test),multi_class="ovr",average="micro")
+        elif task=="binary":
+            auroc=roc_auc_score(y_true=y_test,y_score=cnn.predict(XCnn_test))
         pd.DataFrame([[encoding,auroc,acc,model_type,task]]).to_csv(outfile,mode='a',index=False,header=False)
         logger.info(f"Accuracy is {acc} and auroc is {auroc} with {encoding} encoding, {model_type} model and {task} task.")
         os.remove(fcgrfile)
