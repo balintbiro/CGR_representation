@@ -83,66 +83,6 @@ class ResNet(nn.Module):
     def forward(self, x):
         return self.model(x)
 
-class CnnBinary(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.conv = nn.Conv2d(1, 10, kernel_size=3)
-        self.pool = nn.MaxPool2d(2)
-        self.fc = nn.Linear(10 * 16 * 16, 1)
-
-    def forward(self, x):
-        x = torch.relu(self.pool(self.conv(x)))
-        x = x.view(x.size(0), -1)
-        x = self.fc(x)
-        return x
-    
-class CnnMulti(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.conv = nn.Conv2d(1, 10, kernel_size=3)
-        self.pool = nn.MaxPool2d(2)
-        self.fc = nn.Linear(10 * 16 * 16, 10)
-
-    def forward(self, x):
-        x = torch.relu(self.pool(self.conv(x)))
-        x = x.view(x.size(0), -1)
-        x = self.fc(x)
-        return x
-    
-class RNBinary(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.model=resnet18(weights=None)
-        self.model.conv1 = nn.Conv2d(
-            in_channels=1,
-            out_channels=64,
-            kernel_size=3,
-            stride=2,
-            padding=3,
-            bias=False
-        )
-        self.model.fc = nn.Linear(self.model.fc.in_features, 1)
-
-    def forward(self, x):
-        return self.model(x)
-    
-class RNMulti(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.model=resnet18(weights=None)
-        self.model.conv1 = nn.Conv2d(
-            in_channels=1,
-            out_channels=64,
-            kernel_size=3,
-            stride=2,
-            padding=3,
-            bias=False
-        )
-        self.model.fc = nn.Linear(self.model.fc.in_features, 10)
-
-    def forward(self, x):
-        return self.model(x)
-
 class DeepLoc:
     def __init__(self):
         self.url="https://services.healthtech.dtu.dk/services/DeepLoc-1.0/deeploc_data.fasta"
