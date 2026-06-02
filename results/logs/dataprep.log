@@ -1,30 +1,73 @@
-2026-05-28 22:16:22 - __main__ - INFO - Dataprep is running for deeploc
-2026-05-28 22:16:23 - __main__ - INFO - Dataset was gathered with status code: 200
-2026-05-28 22:16:23 - __main__ - INFO - The original dataset has shape: (14004, 2)
-2026-05-28 22:16:23 - __main__ - INFO - The cleaned dataset has shape: (6892, 2)
-2026-05-28 22:16:23 - __main__ - INFO - ../data/deeploc.fasta temporary file was removed.
-2026-05-28 22:16:23 - __main__ - INFO - Cleaned deeploc is exported to ../data/deeploc_clean.csv
+2026-06-02 17:26:42 - __main__ - INFO - Dataprep is running for deeploc
+2026-06-02 17:26:43 - __main__ - INFO - Dataset was gathered with status code: 200
+2026-06-02 17:26:43 - __main__ - INFO - The original dataset has shape: (14004, 2)
+2026-06-02 17:26:43 - __main__ - INFO - The cleaned dataset has shape: (6892, 2)
+2026-06-02 17:26:43 - __main__ - INFO - ../data/deeploc.fasta temporary file was removed.
+2026-06-02 17:26:43 - __main__ - INFO - Cleaned deeploc is exported to ../data/deeploc_clean.csv
 
-2026-05-28 22:16:26 - __main__ - INFO - Dataprep is running for ec
-2026-05-28 22:16:26 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/AI4Protein/EC "HTTP/1.1 200 OK"
-2026-05-28 22:16:26 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/AI4Protein/EC/tree/main?recursive=false&expand=false "HTTP/1.1 200 OK"
-2026-05-28 22:16:27 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/EC/resolve/main/train.csv "HTTP/1.1 302 Found"
-2026-05-28 22:16:27 - httpx - INFO - HTTP Request: GET https://cas-bridge.xethub.hf.co/xet-bridge-us/679b5a2519e7c98ff30941b5/a60cf83a657b27f9baf855ddfd9d530c5931a085038addb2d2dec0638568a6bd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20260528%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260528T201627Z&X-Amz-Expires=3600&X-Amz-Signature=ede07771a6ac96c94ca13e88f0441f7ab766f7fdd474e28689cf938c351937bc&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27train.csv%3B+filename%3D%22train.csv%22%3B&response-content-type=text%2Fcsv&x-amz-checksum-mode=ENABLED&x-id=GetObject&Expires=1780002987&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4MDAwMjk4N319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82NzliNWEyNTE5ZTdjOThmZjMwOTQxYjUvYTYwY2Y4M2E2NTdiMjdmOWJhZjg1NWRkZmQ5ZDUzMGM1OTMxYTA4NTAzOGFkZGIyZDJkZWMwNjM4NTY4YTZiZCoifV19&Signature=qWOT8CofSbztLo%7E5pUluqTx5yFnEuF9F6mA66L72qg0drq1PvVmruU1LjldYHMbfOjlyUN-qwn7r0DT8ty6qLJYjwsbwwkfsx3moYtaACkVh9ostBGRvQ7I3JB88V-MLIEiJEx8AiavJnafFkl7wqRHNXlSYYWUb1Cq21evg8ZufcEU9gk4mLMP8ItDgFSHdU43-2ep5Cmu98lO7qbu9pp89hKOTxlFhWAHA3x7ojaU%7Edc4UJoD%7E89hGoxE54OGYlokAJooDsD1nDp2wFvhWRT7kiLAoIxfh49fRNFeL9cTquAaKnL0Qn8iY58NmAfVypAiItfvObjWPVVDlGCcUfA__&Key-Pair-Id=K2L8F4GPSG1IFC "HTTP/1.1 206 Partial Content"
-2026-05-28 22:16:27 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/EC/resolve/main/test.csv "HTTP/1.1 302 Found"
-2026-05-28 22:16:27 - httpx - INFO - HTTP Request: GET https://cas-bridge.xethub.hf.co/xet-bridge-us/679b5a2519e7c98ff30941b5/cd6b0dabe3bddc2cb5663bdf3738b68778eb8f2322e28da44abf26aa83513d4f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20260528%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260528T201627Z&X-Amz-Expires=3600&X-Amz-Signature=1b4bbf82bbf8528cc8cbadb17ba29eec13000232eedc528018d05aba79f95cdb&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27test.csv%3B+filename%3D%22test.csv%22%3B&response-content-type=text%2Fcsv&x-amz-checksum-mode=ENABLED&x-id=GetObject&Expires=1780002987&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4MDAwMjk4N319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82NzliNWEyNTE5ZTdjOThmZjMwOTQxYjUvY2Q2YjBkYWJlM2JkZGMyY2I1NjYzYmRmMzczOGI2ODc3OGViOGYyMzIyZTI4ZGE0NGFiZjI2YWE4MzUxM2Q0ZioifV19&Signature=BcuFDvjsxxpjp0l8TmnaiAmxQLzX9GpDEeb--yI%7EXf72ae8a9uedp-%7EG%7EvOHbe1yqpVFg646ekVvSBmB-UWJl7-Z0qw8SvH79tanmsvtCV8Jf7EJlE4oQk5PhUTvg-M-ykq8hB6yQhawmx4cIbltGxLKfcW8LD8W9jlzPJci2pSEDzCwY54xtKO5cDoQy1ANbZQGZVlYNLUZlDnWY832h-2t6uRNrdocualilv8UrBUtbCtq8JYo9wliftQ9noZRGuqlzxUC3%7EweCxDnzWSAuBuJyOURGn2YCY%7E1oycZCyYqWuyBYRhx%7E2Fl-L8rCzn7dYHXCTLp38MLaNA7AV3cYQ__&Key-Pair-Id=K2L8F4GPSG1IFC "HTTP/1.1 206 Partial Content"
-2026-05-28 22:16:27 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/EC/resolve/main/valid.csv "HTTP/1.1 302 Found"
-2026-05-28 22:16:27 - httpx - INFO - HTTP Request: GET https://cas-bridge.xethub.hf.co/xet-bridge-us/679b5a2519e7c98ff30941b5/aaaf085c5d350ea28e263d1762016e370d180692fc036bac36f049fa5850eb02?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20260528%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260528T201627Z&X-Amz-Expires=3600&X-Amz-Signature=75c54d72274afb650daeb3a92ac54df797f3cc7d36ca9be7e71818e34619d9ab&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27valid.csv%3B+filename%3D%22valid.csv%22%3B&response-content-type=text%2Fcsv&x-amz-checksum-mode=ENABLED&x-id=GetObject&Expires=1780002987&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4MDAwMjk4N319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82NzliNWEyNTE5ZTdjOThmZjMwOTQxYjUvYWFhZjA4NWM1ZDM1MGVhMjhlMjYzZDE3NjIwMTZlMzcwZDE4MDY5MmZjMDM2YmFjMzZmMDQ5ZmE1ODUwZWIwMioifV19&Signature=WbcUQ%7EX6mlxP%7EvsS35LdecUrpCF7Xupc5h9Fi9txumwW08tI22ZFKaZm90fWZP2PqqatVo2QdtSHHKuvcKeUjVQkA9v9zKkmhHgF7OLzTQRSymcfOC2xwEy64nUkF6Yy7hws5HrFL6rFsXWPMSuKbFS1n1DCt8CxvWqM3T3ADll5EBLjyDF-6y5mUx-TI1zxjUQuQCiEWjz27zO4TpeXGFz5tVTLwLTjsCFg-J5HJtqHIN-OLfE%7EXFN0EXxhmR9R%7EGsmkoRtNqmgDFugmyhakj%7ELo3GCRtKF4vyPOKSl0mkDvMLSpH45RihW-SS0BVMUSeDFn6s3ZCn9Y4Ak%7ExHYUw__&Key-Pair-Id=K2L8F4GPSG1IFC "HTTP/1.1 206 Partial Content"
-2026-05-28 22:16:27 - __main__ - INFO - Dataset was gathered with status code: success
-2026-05-28 22:16:27 - __main__ - INFO - The original dataset has shape: (16159, 2)
-2026-05-28 22:16:27 - __main__ - INFO - The cleaned dataset has shape: (16159, 2)
-2026-05-28 22:16:27 - __main__ - INFO - ../data/ec.csv temporary file was removed.
-2026-05-28 22:16:27 - __main__ - INFO - Cleaned ec is exported to ../data/ec_clean.csv
+2026-06-02 17:26:46 - __main__ - INFO - Dataprep is running for tox
+2026-06-02 17:26:46 - __main__ - INFO - Dataset was gathered with status code: 200
+2026-06-02 17:26:48 - __main__ - INFO - Dataprep is running for pfam
+2026-06-02 17:26:50 - __main__ - INFO - Dataset was gathered with status code: 200
+2026-06-02 17:26:50 - __main__ - INFO - The original dataset has shape: (6000, 2)
+2026-06-02 17:26:50 - __main__ - INFO - The cleaned dataset has shape: (5904, 2)
+2026-06-02 17:26:50 - __main__ - INFO - Encoded labels are the followings: {'HYDROLASE': np.int64(0), 'IMMUNE SYSTEM': np.int64(1), 'ISOMERASE': np.int64(2)}
+2026-06-02 17:26:50 - __main__ - INFO - ../data/pfam.csv temporary file was removed.
+2026-06-02 17:26:50 - __main__ - INFO - Cleaned pfam is exported to ../data/pfam_clean.csv
 
-2026-05-28 22:16:30 - __main__ - INFO - Dataprep is running for pfam
-2026-05-28 22:16:31 - __main__ - INFO - Dataset was gathered with status code: 200
-2026-05-28 22:16:31 - __main__ - INFO - The original dataset has shape: (10591, 2)
-2026-05-28 22:16:31 - __main__ - INFO - The cleaned dataset has shape: (10424, 2)
-2026-05-28 22:16:31 - __main__ - INFO - Encoded labels are the followings: {'ALLERGEN': np.int64(0), 'HYDROLASE': np.int64(1), 'HYDROLASE ANTIBIOTIC': np.int64(2), 'IMMUNE SYSTEM': np.int64(3), 'ISOMERASE': np.int64(4), 'LIPID TRANSPORT': np.int64(5), 'LYASE': np.int64(6), 'OXIDOREDUCTASE': np.int64(7), 'RECEPTOR': np.int64(8), 'TRANSFERASE INHIBITOR': np.int64(9)}
-2026-05-28 22:16:31 - __main__ - INFO - ../data/pfam.csv temporary file was removed.
-2026-05-28 22:16:31 - __main__ - INFO - Cleaned pfam is exported to ../data/pfam_clean.csv
+2026-06-02 17:26:53 - __main__ - INFO - Dataprep is running for immune
+2026-06-02 17:26:53 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold "HTTP/1.1 200 OK"
+2026-06-02 17:26:53 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/tree/main?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/train.csv "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/train.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftrain.csv=&etag=%223f6983bc40cfd38d9744e9da046c1c106c44cfbc%22 "HTTP/1.1 206 Partial Content"
+2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/train.csv "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/train.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftrain.csv=&etag=%223f6983bc40cfd38d9744e9da046c1c106c44cfbc%22 "HTTP/1.1 206 Partial Content"
+2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/test.csv "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/test.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftest.csv=&etag=%22bf1c7467d71fec6a460900280ea997aeaf8e642e%22 "HTTP/1.1 206 Partial Content"
+2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/valid.csv "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/valid.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Fvalid.csv=&etag=%22e76ddca76a595f69c5c9048beb67c0b14294ea3b%22 "HTTP/1.1 206 Partial Content"
+2026-06-02 17:26:54 - __main__ - INFO - Dataset was gathered with status code: success
+2026-06-02 17:26:54 - __main__ - INFO - The original dataset has shape: (3964, 2)
+2026-06-02 17:26:54 - __main__ - INFO - The cleaned dataset has shape: (3964, 2)
+2026-06-02 17:26:54 - __main__ - INFO - ../data/immune.csv temporary file was removed.
+2026-06-02 17:26:54 - __main__ - INFO - Cleaned immune is exported to ../data/immune_clean.csv
+
+2026-06-02 17:27:27 - __main__ - INFO - Dataprep is running for deeploc
+2026-06-02 17:27:27 - __main__ - INFO - Dataset was gathered with status code: 200
+2026-06-02 17:27:27 - __main__ - INFO - The original dataset has shape: (14004, 2)
+2026-06-02 17:27:27 - __main__ - INFO - The cleaned dataset has shape: (6892, 2)
+2026-06-02 17:27:27 - __main__ - INFO - ../data/deeploc.fasta temporary file was removed.
+2026-06-02 17:27:27 - __main__ - INFO - Cleaned deeploc is exported to ../data/deeploc_clean.csv
+
+2026-06-02 17:27:31 - __main__ - INFO - Dataprep is running for tox
+2026-06-02 17:27:31 - __main__ - INFO - Dataset was gathered with status code: 200
+2026-06-02 17:27:31 - __main__ - INFO - The original dataset has shape: (3052, 2)
+2026-06-02 17:27:31 - __main__ - INFO - The cleaned dataset has shape: (1649, 2)
+2026-06-02 17:27:31 - __main__ - INFO - ../data/tox.csv temporary file was removed.
+2026-06-02 17:27:31 - __main__ - INFO - Cleaned tox is exported to ../data/tox_clean.csv
+
+2026-06-02 17:27:33 - __main__ - INFO - Dataprep is running for pfam
+2026-06-02 17:27:35 - __main__ - INFO - Dataset was gathered with status code: 200
+2026-06-02 17:27:35 - __main__ - INFO - The original dataset has shape: (6000, 2)
+2026-06-02 17:27:35 - __main__ - INFO - The cleaned dataset has shape: (5904, 2)
+2026-06-02 17:27:35 - __main__ - INFO - Encoded labels are the followings: {'HYDROLASE': np.int64(0), 'IMMUNE SYSTEM': np.int64(1), 'ISOMERASE': np.int64(2)}
+2026-06-02 17:27:35 - __main__ - INFO - ../data/pfam.csv temporary file was removed.
+2026-06-02 17:27:35 - __main__ - INFO - Cleaned pfam is exported to ../data/pfam_clean.csv
+
+2026-06-02 17:27:38 - __main__ - INFO - Dataprep is running for immune
+2026-06-02 17:27:38 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold "HTTP/1.1 200 OK"
+2026-06-02 17:27:38 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/tree/main?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-06-02 17:27:38 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/train.csv "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 17:27:38 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/train.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftrain.csv=&etag=%223f6983bc40cfd38d9744e9da046c1c106c44cfbc%22 "HTTP/1.1 206 Partial Content"
+2026-06-02 17:27:39 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/train.csv "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 17:27:39 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/train.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftrain.csv=&etag=%223f6983bc40cfd38d9744e9da046c1c106c44cfbc%22 "HTTP/1.1 206 Partial Content"
+2026-06-02 17:27:39 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/test.csv "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 17:27:39 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/test.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftest.csv=&etag=%22bf1c7467d71fec6a460900280ea997aeaf8e642e%22 "HTTP/1.1 206 Partial Content"
+2026-06-02 17:27:39 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/valid.csv "HTTP/1.1 307 Temporary Redirect"
+2026-06-02 17:27:39 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/valid.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Fvalid.csv=&etag=%22e76ddca76a595f69c5c9048beb67c0b14294ea3b%22 "HTTP/1.1 206 Partial Content"
+2026-06-02 17:27:39 - __main__ - INFO - Dataset was gathered with status code: success
+2026-06-02 17:27:39 - __main__ - INFO - The original dataset has shape: (3964, 2)
+2026-06-02 17:27:39 - __main__ - INFO - The cleaned dataset has shape: (3964, 2)
+2026-06-02 17:27:39 - __main__ - INFO - ../data/immune.csv temporary file was removed.
+2026-06-02 17:27:39 - __main__ - INFO - Cleaned immune is exported to ../data/immune_clean.csv
 
