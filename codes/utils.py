@@ -108,16 +108,16 @@ class DeepLoc:
         fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
         sequences["label"]=sequences["label"].replace(['M','S'],[0,1])
         return (sequences[sequences["label"].isin([0,1])][fil],sequences.shape,{})
-
-class EC:
+    
+class Immune:
     def init(self):
         pass
 
     def get(self,outfile:str)->tuple:
         splits = {'train': 'train.csv', 'validation': 'valid.csv', 'test': 'test.csv'}
-        train=pd.read_csv("hf://datasets/AI4Protein/EC/" + splits["train"])
-        test=pd.read_csv("hf://datasets/AI4Protein/EC/" + splits["test"])
-        valid=pd.read_csv("hf://datasets/AI4Protein/EC/" + splits["validation"])
+        train=pd.read_csv("hf://datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/" + splits["train"])
+        test=pd.read_csv("hf://datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/" + splits["test"])
+        valid=pd.read_csv("hf://datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/" + splits["validation"])
 
         df=(
             pd.concat(
@@ -160,10 +160,27 @@ class PFAM:
             .rename(columns={"family":"label"})[["sequence","label"]]
         )
         # 5 of the most prominent and 5 of the less prominent categories
-        poi=["HYDROLASE","IMMUNE SYSTEM","ISOMERASE","LYASE","OXIDOREDUCTASE","RECEPTOR","LIPID TRANSPORT","HYDROLASE ANTIBIOTIC","ALLERGEN","TRANSFERASE INHIBITOR"]
+        poi=["HYDROLASE","IMMUNE SYSTEM","ISOMERASE"]
         sequences=sequences[sequences["label"].isin(poi)]
         encoder=LabelEncoder()
         sequences["label"]=encoder.fit_transform(sequences["label"])
         fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
         label_dict=dict(zip(encoder.inverse_transform(sequences["label"].unique()),sequences["label"].unique()))
         return (sequences[fil],sequences.shape,label_dict)
+
+class MultiTox:
+    def __init__(self):
+        self.url="https://raw.githubusercontent.com/cosylabiiit/MultiTox/refs/heads/main/Data/toxin3052.csv"
+
+    def get(self,outfile:str)->int:
+        response=requests.get(url=self.url)
+        with open(outfile,"wb") as f:
+            f.write(response.content)
+        return response.status_code
+    
+    def clean(self,tempfile:str)->tuple:
+        sequences=pd.read_csv(tempfile)
+        sequences.rename(columns={"Sequence":"sequence","Label":"label"},inplace=True)
+        proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
+        fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
+        return (sequences[sequences["label"].isin([0,1])][fil],sequences.shape,{})
