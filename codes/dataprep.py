@@ -7,7 +7,7 @@ import logging
 import datetime
 import requests
 
-from utils import loggerConfig,DeepLoc,EC,PFAM
+from utils import loggerConfig,DeepLoc,MultiTox,PFAM,Immune
 
 logger=logging.getLogger(__name__)
 logger.addHandler(logging.StreamHandler(sys.stdout))
@@ -24,7 +24,7 @@ logger.addHandler(logging.StreamHandler(sys.stdout))
     help="Name of the dataset",
     required=True,
     type=click.Choice(
-        ["deeploc","ec","pfam"],
+        ["deeploc","tox","pfam","immune"],
         case_sensitive=False
     )
 )
@@ -48,10 +48,12 @@ def main(
     loggerConfig(logfile=logfile)
     if dataset_name=="deeploc":
         dataset_class=DeepLoc()
-    elif dataset_name=="ec":
-        dataset_class=EC()
-    else:
+    elif dataset_name=="tox":
+        dataset_class=MultiTox()
+    elif dataset_name=="pfam":
         dataset_class=PFAM()
+    elif dataset_name=="immune":
+        dataset_class=Immune()
     logger.info(f"Dataprep is running for {dataset_name}")
     status=dataset_class.get(outfile=tempfile)
     logger.info(f"Dataset was gathered with status code: {status}")
