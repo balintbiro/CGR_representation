@@ -3,14 +3,16 @@
 #dataprep
 names=(
     deeploc
-    ec
+    tox
     pfam
+    immune
 )
 
 temp_files=(
     deeploc.fasta
-    ec.csv
+    tox.csv
     pfam.csv
+    immune.csv
 )
 
 #running dataprep for all the three datasets
