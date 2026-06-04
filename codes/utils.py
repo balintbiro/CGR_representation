@@ -159,9 +159,9 @@ class PFAM:
             pd.read_csv(tempfile)
             .rename(columns={"family":"label"})[["sequence","label"]]
         )
-        # 5 of the most prominent and 5 of the less prominent categories
-        poi=["HYDROLASE","IMMUNE SYSTEM","ISOMERASE"]
-        sequences=sequences[sequences["label"].isin(poi)]
+        # 5 of the most prominent categories
+        top5=sequences["label"].value_counts().index[:5]
+        sequences=sequences[sequences["label"].isin(top5)]
         encoder=LabelEncoder()
         sequences["label"]=encoder.fit_transform(sequences["label"])
         fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
@@ -183,4 +183,4 @@ class MultiTox:
         sequences.rename(columns={"Sequence":"sequence","Label":"label"},inplace=True)
         proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
         fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
-        return (sequences[sequences["label"].isin([0,1])][fil],sequences.shape,{})
+        return (sequences[fil],sequences.shape,{})
