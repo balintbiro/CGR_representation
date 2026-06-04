@@ -57,7 +57,7 @@ def main(
         n_encoding,
         n_seed
     ):
-    fcgrfile,sf,res="../data/random_encoding_0865_35.csv",0.865,35
+    fcgrfile,sf,res="../data/temp_encoding.csv",0.865,35
     if os.path.exists(outfile):
         pass
     else:
