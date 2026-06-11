@@ -50,7 +50,7 @@ The resulting file is `results/multiple_aug_results.csv`.
 
 ### Benchmark datasets:
 - Deeploc1.0
-    - reference https://academic.oup.com/bioinformatics/article/33/21/3387/3931857
+    - reference: https://academic.oup.com/bioinformatics/article/33/21/3387/3931857
     - dataset https://services.healthtech.dtu.dk/services/DeepLoc-1.0/
 - EC
     - references:
