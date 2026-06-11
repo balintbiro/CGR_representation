@@ -145,13 +145,21 @@ def main(
         XCnn_train, XCnn_test, y_train, y_test = train_test_split(XCnn, y, test_size=0.25, random_state=seed, stratify=y)
         custom.fit(XCnn_train, y_train)
         # get the accuracy scores on the testing data and save them in the output file
-        customf1=f1_score(y_true=y_test,y_pred=custom.predict(XCnn_test))
-        customauroc=roc_auc_score(y_true=y_test,y_score=custom.predict(XCnn_test))
+        if task=="binary":
+            customf1=f1_score(y_true=y_test,y_pred=custom.predict(XCnn_test))
+            customauroc=roc_auc_score(y_true=y_test,y_score=custom.predict(XCnn_test))
+        elif task=="multiclass":
+            customf1=f1_score(y_true=y_test,y_pred=custom.predict(XCnn_test),average="macro")
+            customauroc=roc_auc_score(y_true=y_test,y_score=custom.predict_proba(XCnn_test),average="macro",multi_class="ovr")
         pd.DataFrame([[encoding,customauroc,customf1,task,"custom",dataset_name]]).to_csv(outfile,mode='a',index=False,header=False)
 
         resnet.fit(XCnn_train, y_train)
-        resnetf1=f1_score(y_true=y_test,y_pred=resnet.predict(XCnn_test))
-        resnetauroc=roc_auc_score(y_true=y_test,y_score=resnet.predict(XCnn_test))
+        if task=="binary":
+            resnetf1=f1_score(y_true=y_test,y_pred=resnet.predict(XCnn_test))
+            resnetauroc=roc_auc_score(y_true=y_test,y_score=resnet.predict(XCnn_test))
+        elif task=="multiclass":
+            resnetf1=f1_score(y_true=y_test,y_pred=resnet.predict(XCnn_test),average="macro")
+            resnetauroc=roc_auc_score(y_true=y_test,y_score=resnet.predict_proba(XCnn_test),average="macro",multi_class="ovr")
         pd.DataFrame([[encoding,resnetauroc,resnetf1,task,"resnet",dataset_name]]).to_csv(outfile,mode='a',index=False,header=False)
         logger.info(f"{encoding} encoding is done for {task} task with:\n\t-custom\n\t\t-f1: {customf1}\n\t\t-auroc: {customauroc}\n\t-resnet\n\t\t-f1: {resnetf1}\n\t\t-auroc: {resnetauroc}")
         os.remove(fcgrfile)
