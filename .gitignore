@@ -20,10 +20,10 @@ codes/nohup.out
 !results/logs/tox_search.log
 !results/logs/immune_search.log
 
-!results/logs/deeploc_noise.log
-!results/logs/pfam_noise.log
-!results/logs/tox_noise.log
-!results/logs/immune_noise.log
+!results/deeploc_noise.csv
+!results/pfam_noise.csv
+!results/tox_noise.csv
+!results/immune_noise.csv
 
 trial.py
 trial.sh
