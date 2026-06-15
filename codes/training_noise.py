@@ -74,7 +74,7 @@ def main(
     if os.path.exists(outfile):
         pass
     else:
-        out_df=pd.DataFrame(columns=["encoding","auroc","accuracy","type"])
+        out_df=pd.DataFrame(columns=["encoding","auroc","accuracy","task","model","dataset"])
         out_df.to_csv(outfile,index=False)
     loggerConfig(logfile=logfile)
     script_name=os.path.basename(__file__)
@@ -97,7 +97,7 @@ def main(
         torch.manual_seed(j)
         np.random.seed(j)
         random.seed(j)
-    
+
         if task=="binary":
             custom=NeuralNetBinaryClassifier(
                 Cnn(output_dim=1),
