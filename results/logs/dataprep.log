@@ -1,73 +1,39 @@
-2026-06-02 17:26:42 - __main__ - INFO - Dataprep is running for deeploc
-2026-06-02 17:26:43 - __main__ - INFO - Dataset was gathered with status code: 200
-2026-06-02 17:26:43 - __main__ - INFO - The original dataset has shape: (14004, 2)
-2026-06-02 17:26:43 - __main__ - INFO - The cleaned dataset has shape: (6892, 2)
-2026-06-02 17:26:43 - __main__ - INFO - ../data/deeploc.fasta temporary file was removed.
-2026-06-02 17:26:43 - __main__ - INFO - Cleaned deeploc is exported to ../data/deeploc_clean.csv
+2026-06-04 14:05:09 - __main__ - INFO - Dataprep is running for deeploc
+2026-06-04 14:05:10 - __main__ - INFO - Dataset was gathered with status code: 200
+2026-06-04 14:05:10 - __main__ - INFO - The original dataset has shape: (14004, 2)
+2026-06-04 14:05:10 - __main__ - INFO - The cleaned dataset has shape: (6892, 2)
+2026-06-04 14:05:10 - __main__ - INFO - ../data/deeploc.fasta temporary file was removed.
+2026-06-04 14:05:10 - __main__ - INFO - Cleaned deeploc is exported to ../data/deeploc_clean.csv
 
-2026-06-02 17:26:46 - __main__ - INFO - Dataprep is running for tox
-2026-06-02 17:26:46 - __main__ - INFO - Dataset was gathered with status code: 200
-2026-06-02 17:26:48 - __main__ - INFO - Dataprep is running for pfam
-2026-06-02 17:26:50 - __main__ - INFO - Dataset was gathered with status code: 200
-2026-06-02 17:26:50 - __main__ - INFO - The original dataset has shape: (6000, 2)
-2026-06-02 17:26:50 - __main__ - INFO - The cleaned dataset has shape: (5904, 2)
-2026-06-02 17:26:50 - __main__ - INFO - Encoded labels are the followings: {'HYDROLASE': np.int64(0), 'IMMUNE SYSTEM': np.int64(1), 'ISOMERASE': np.int64(2)}
-2026-06-02 17:26:50 - __main__ - INFO - ../data/pfam.csv temporary file was removed.
-2026-06-02 17:26:50 - __main__ - INFO - Cleaned pfam is exported to ../data/pfam_clean.csv
+2026-06-04 14:05:14 - __main__ - INFO - Dataprep is running for tox
+2026-06-04 14:05:14 - __main__ - INFO - Dataset was gathered with status code: 200
+2026-06-04 14:05:14 - __main__ - INFO - The original dataset has shape: (3052, 2)
+2026-06-04 14:05:14 - __main__ - INFO - The cleaned dataset has shape: (3052, 2)
+2026-06-04 14:05:14 - __main__ - INFO - ../data/tox.csv temporary file was removed.
+2026-06-04 14:05:14 - __main__ - INFO - Cleaned tox is exported to ../data/tox_clean.csv
 
-2026-06-02 17:26:53 - __main__ - INFO - Dataprep is running for immune
-2026-06-02 17:26:53 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold "HTTP/1.1 200 OK"
-2026-06-02 17:26:53 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/tree/main?recursive=false&expand=false "HTTP/1.1 200 OK"
-2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/train.csv "HTTP/1.1 307 Temporary Redirect"
-2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/train.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftrain.csv=&etag=%223f6983bc40cfd38d9744e9da046c1c106c44cfbc%22 "HTTP/1.1 206 Partial Content"
-2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/train.csv "HTTP/1.1 307 Temporary Redirect"
-2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/train.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftrain.csv=&etag=%223f6983bc40cfd38d9744e9da046c1c106c44cfbc%22 "HTTP/1.1 206 Partial Content"
-2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/test.csv "HTTP/1.1 307 Temporary Redirect"
-2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/test.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftest.csv=&etag=%22bf1c7467d71fec6a460900280ea997aeaf8e642e%22 "HTTP/1.1 206 Partial Content"
-2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/valid.csv "HTTP/1.1 307 Temporary Redirect"
-2026-06-02 17:26:54 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/valid.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Fvalid.csv=&etag=%22e76ddca76a595f69c5c9048beb67c0b14294ea3b%22 "HTTP/1.1 206 Partial Content"
-2026-06-02 17:26:54 - __main__ - INFO - Dataset was gathered with status code: success
-2026-06-02 17:26:54 - __main__ - INFO - The original dataset has shape: (3964, 2)
-2026-06-02 17:26:54 - __main__ - INFO - The cleaned dataset has shape: (3964, 2)
-2026-06-02 17:26:54 - __main__ - INFO - ../data/immune.csv temporary file was removed.
-2026-06-02 17:26:54 - __main__ - INFO - Cleaned immune is exported to ../data/immune_clean.csv
+2026-06-04 14:05:18 - __main__ - INFO - Dataprep is running for pfam
+2026-06-04 14:05:19 - __main__ - INFO - Dataset was gathered with status code: 200
+2026-06-04 14:05:20 - __main__ - INFO - The original dataset has shape: (10000, 2)
+2026-06-04 14:05:20 - __main__ - INFO - The cleaned dataset has shape: (9548, 2)
+2026-06-04 14:05:20 - __main__ - INFO - Encoded labels are the followings: {'HYDROLASE': np.int64(0), 'HYDROLASE HYDROLASE INHIBITOR': np.int64(1), 'IMMUNE SYSTEM': np.int64(2), 'ISOMERASE': np.int64(3), 'LYASE': np.int64(4)}
+2026-06-04 14:05:20 - __main__ - INFO - ../data/pfam.csv temporary file was removed.
+2026-06-04 14:05:20 - __main__ - INFO - Cleaned pfam is exported to ../data/pfam_clean.csv
 
-2026-06-02 17:27:27 - __main__ - INFO - Dataprep is running for deeploc
-2026-06-02 17:27:27 - __main__ - INFO - Dataset was gathered with status code: 200
-2026-06-02 17:27:27 - __main__ - INFO - The original dataset has shape: (14004, 2)
-2026-06-02 17:27:27 - __main__ - INFO - The cleaned dataset has shape: (6892, 2)
-2026-06-02 17:27:27 - __main__ - INFO - ../data/deeploc.fasta temporary file was removed.
-2026-06-02 17:27:27 - __main__ - INFO - Cleaned deeploc is exported to ../data/deeploc_clean.csv
-
-2026-06-02 17:27:31 - __main__ - INFO - Dataprep is running for tox
-2026-06-02 17:27:31 - __main__ - INFO - Dataset was gathered with status code: 200
-2026-06-02 17:27:31 - __main__ - INFO - The original dataset has shape: (3052, 2)
-2026-06-02 17:27:31 - __main__ - INFO - The cleaned dataset has shape: (1649, 2)
-2026-06-02 17:27:31 - __main__ - INFO - ../data/tox.csv temporary file was removed.
-2026-06-02 17:27:31 - __main__ - INFO - Cleaned tox is exported to ../data/tox_clean.csv
-
-2026-06-02 17:27:33 - __main__ - INFO - Dataprep is running for pfam
-2026-06-02 17:27:35 - __main__ - INFO - Dataset was gathered with status code: 200
-2026-06-02 17:27:35 - __main__ - INFO - The original dataset has shape: (6000, 2)
-2026-06-02 17:27:35 - __main__ - INFO - The cleaned dataset has shape: (5904, 2)
-2026-06-02 17:27:35 - __main__ - INFO - Encoded labels are the followings: {'HYDROLASE': np.int64(0), 'IMMUNE SYSTEM': np.int64(1), 'ISOMERASE': np.int64(2)}
-2026-06-02 17:27:35 - __main__ - INFO - ../data/pfam.csv temporary file was removed.
-2026-06-02 17:27:35 - __main__ - INFO - Cleaned pfam is exported to ../data/pfam_clean.csv
-
-2026-06-02 17:27:38 - __main__ - INFO - Dataprep is running for immune
-2026-06-02 17:27:38 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold "HTTP/1.1 200 OK"
-2026-06-02 17:27:38 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/tree/main?recursive=false&expand=false "HTTP/1.1 200 OK"
-2026-06-02 17:27:38 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/train.csv "HTTP/1.1 307 Temporary Redirect"
-2026-06-02 17:27:38 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/train.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftrain.csv=&etag=%223f6983bc40cfd38d9744e9da046c1c106c44cfbc%22 "HTTP/1.1 206 Partial Content"
-2026-06-02 17:27:39 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/train.csv "HTTP/1.1 307 Temporary Redirect"
-2026-06-02 17:27:39 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/train.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftrain.csv=&etag=%223f6983bc40cfd38d9744e9da046c1c106c44cfbc%22 "HTTP/1.1 206 Partial Content"
-2026-06-02 17:27:39 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/test.csv "HTTP/1.1 307 Temporary Redirect"
-2026-06-02 17:27:39 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/test.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftest.csv=&etag=%22bf1c7467d71fec6a460900280ea997aeaf8e642e%22 "HTTP/1.1 206 Partial Content"
-2026-06-02 17:27:39 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/valid.csv "HTTP/1.1 307 Temporary Redirect"
-2026-06-02 17:27:39 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/valid.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Fvalid.csv=&etag=%22e76ddca76a595f69c5c9048beb67c0b14294ea3b%22 "HTTP/1.1 206 Partial Content"
-2026-06-02 17:27:39 - __main__ - INFO - Dataset was gathered with status code: success
-2026-06-02 17:27:39 - __main__ - INFO - The original dataset has shape: (3964, 2)
-2026-06-02 17:27:39 - __main__ - INFO - The cleaned dataset has shape: (3964, 2)
-2026-06-02 17:27:39 - __main__ - INFO - ../data/immune.csv temporary file was removed.
-2026-06-02 17:27:39 - __main__ - INFO - Cleaned immune is exported to ../data/immune_clean.csv
+2026-06-04 14:05:24 - __main__ - INFO - Dataprep is running for immune
+2026-06-04 14:05:24 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold "HTTP/1.1 200 OK"
+2026-06-04 14:05:24 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/tree/main?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-06-04 14:05:25 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/train.csv "HTTP/1.1 307 Temporary Redirect"
+2026-06-04 14:05:25 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/train.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftrain.csv=&etag=%223f6983bc40cfd38d9744e9da046c1c106c44cfbc%22 "HTTP/1.1 206 Partial Content"
+2026-06-04 14:05:25 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/train.csv "HTTP/1.1 307 Temporary Redirect"
+2026-06-04 14:05:25 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/train.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftrain.csv=&etag=%223f6983bc40cfd38d9744e9da046c1c106c44cfbc%22 "HTTP/1.1 206 Partial Content"
+2026-06-04 14:05:25 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/test.csv "HTTP/1.1 307 Temporary Redirect"
+2026-06-04 14:05:25 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/test.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Ftest.csv=&etag=%22bf1c7467d71fec6a460900280ea997aeaf8e642e%22 "HTTP/1.1 206 Partial Content"
+2026-06-04 14:05:25 - httpx - INFO - HTTP Request: GET https://huggingface.co/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/resolve/main/valid.csv "HTTP/1.1 307 Temporary Redirect"
+2026-06-04 14:05:25 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/e9bf870c7104166467f1ef86004c9e5ebdf634b9/valid.csv?%2Fdatasets%2FAI4Protein%2FVenusVaccine_VirusBinary_ESMFold%2Fresolve%2Fmain%2Fvalid.csv=&etag=%22e76ddca76a595f69c5c9048beb67c0b14294ea3b%22 "HTTP/1.1 206 Partial Content"
+2026-06-04 14:05:25 - __main__ - INFO - Dataset was gathered with status code: success
+2026-06-04 14:05:25 - __main__ - INFO - The original dataset has shape: (3964, 2)
+2026-06-04 14:05:25 - __main__ - INFO - The cleaned dataset has shape: (3964, 2)
+2026-06-04 14:05:25 - __main__ - INFO - ../data/immune.csv temporary file was removed.
+2026-06-04 14:05:25 - __main__ - INFO - Cleaned immune is exported to ../data/immune_clean.csv
 
