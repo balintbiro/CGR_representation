@@ -1,0 +1,5685 @@
+2026-06-18 21:42:43 - __main__ - INFO - Filename: training_noise.py started.
+2026-06-18 21:44:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4312219222188979
+		-auroc: 0.8069133593857398
+	-resnet
+		-f1: 0.42262392868076687
+		-auroc: 0.7278936592254894
+2026-06-18 21:45:29 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39609460588603485
+		-auroc: 0.805241213587076
+	-resnet
+		-f1: 0.3907583250036849
+		-auroc: 0.7349818913269203
+2026-06-18 21:46:46 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41362296247414354
+		-auroc: 0.8084472081549471
+	-resnet
+		-f1: 0.3942663409042908
+		-auroc: 0.7256425523818331
+2026-06-18 21:48:04 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3972067458113765
+		-auroc: 0.8081104470189799
+	-resnet
+		-f1: 0.3535059817234696
+		-auroc: 0.7298101384284893
+2026-06-18 21:49:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4622051816724403
+		-auroc: 0.8036522462642199
+	-resnet
+		-f1: 0.3486213900948309
+		-auroc: 0.7342977047340439
+2026-06-18 21:50:36 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41281117732558553
+		-auroc: 0.8087870748170147
+	-resnet
+		-f1: 0.3550787642677203
+		-auroc: 0.7346924999547821
+2026-06-18 21:51:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4748516735387735
+		-auroc: 0.8096288755171909
+	-resnet
+		-f1: 0.34438356091436073
+		-auroc: 0.7395773313906953
+2026-06-18 21:53:20 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.450080362508028
+		-auroc: 0.8069186085988942
+	-resnet
+		-f1: 0.3546862146619675
+		-auroc: 0.7286472422074721
+2026-06-18 21:54:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4549412908519669
+		-auroc: 0.8034161492567327
+	-resnet
+		-f1: 0.32858571555939947
+		-auroc: 0.7103906426571595
+2026-06-18 21:56:08 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41314214299385343
+		-auroc: 0.8049554422194554
+	-resnet
+		-f1: 0.3781456483573292
+		-auroc: 0.7330286871158734
+2026-06-18 21:57:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4141035986434759
+		-auroc: 0.8063621519171299
+	-resnet
+		-f1: 0.38328384395905485
+		-auroc: 0.7359046019639395
+2026-06-18 21:58:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44624205262156236
+		-auroc: 0.8072484164286955
+	-resnet
+		-f1: 0.42123021137857897
+		-auroc: 0.7381708273911813
+2026-06-18 22:00:20 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4272675929417445
+		-auroc: 0.8083864483420816
+	-resnet
+		-f1: 0.3277073886192574
+		-auroc: 0.7188581576167049
+2026-06-18 22:01:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3980136068555892
+		-auroc: 0.8050688552043292
+	-resnet
+		-f1: 0.41025344180551604
+		-auroc: 0.7322913822695915
+2026-06-18 22:03:07 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46220410487343255
+		-auroc: 0.8079025722485211
+	-resnet
+		-f1: 0.3348850058777802
+		-auroc: 0.7118464827131239
+2026-06-18 22:04:31 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4675355372557487
+		-auroc: 0.7982380294750945
+	-resnet
+		-f1: 0.38648824916367597
+		-auroc: 0.7307157510970372
+2026-06-18 22:05:54 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3904754340641437
+		-auroc: 0.8098061579053691
+	-resnet
+		-f1: 0.37517726405262825
+		-auroc: 0.7345053669509243
+2026-06-18 22:07:18 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39789760361837706
+		-auroc: 0.8066014858301915
+	-resnet
+		-f1: 0.36379419002494584
+		-auroc: 0.7256109714288104
+2026-06-18 22:08:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4358372106450538
+		-auroc: 0.8075496712128306
+	-resnet
+		-f1: 0.3224408230225705
+		-auroc: 0.7431141261752527
+2026-06-18 22:10:03 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40194341364742703
+		-auroc: 0.805479991438966
+	-resnet
+		-f1: 0.3376355106560417
+		-auroc: 0.7122044804912818
+2026-06-18 22:11:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4100499427620046
+		-auroc: 0.8083405778136772
+	-resnet
+		-f1: 0.3723292081525013
+		-auroc: 0.7166403802498706
+2026-06-18 22:12:35 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40609886334807566
+		-auroc: 0.8093969952685157
+	-resnet
+		-f1: 0.3806119868834381
+		-auroc: 0.7304947347572315
+2026-06-18 22:13:49 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4087282117067847
+		-auroc: 0.8021848846401538
+	-resnet
+		-f1: 0.3535185129748818
+		-auroc: 0.7443503350682936
+2026-06-18 22:15:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3934911120625406
+		-auroc: 0.8067435334185442
+	-resnet
+		-f1: 0.31864195293151065
+		-auroc: 0.6937894953773338
+2026-06-18 22:16:35 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4473682888148766
+		-auroc: 0.8059445624422725
+	-resnet
+		-f1: 0.3865503659840143
+		-auroc: 0.7346235113080023
+2026-06-18 22:18:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39161106404238566
+		-auroc: 0.8059535798950247
+	-resnet
+		-f1: 0.37509207333178735
+		-auroc: 0.7282401738703604
+2026-06-18 22:19:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3917099528434915
+		-auroc: 0.8042732634365428
+	-resnet
+		-f1: 0.37447517717971107
+		-auroc: 0.7241529406177618
+2026-06-18 22:20:53 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40527303085798716
+		-auroc: 0.8024161170986399
+	-resnet
+		-f1: 0.38938727092769454
+		-auroc: 0.7240062891532512
+2026-06-18 22:22:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4211930838982519
+		-auroc: 0.8082227143649046
+	-resnet
+		-f1: 0.34258086340923316
+		-auroc: 0.7184600056467223
+2026-06-18 22:23:22 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.399167226912357
+		-auroc: 0.8064479860761832
+	-resnet
+		-f1: 0.4407899239626838
+		-auroc: 0.7532256585783583
+2026-06-18 22:24:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45522021103638827
+		-auroc: 0.8059460759601981
+	-resnet
+		-f1: 0.33383549191403183
+		-auroc: 0.7084315777574901
+2026-06-18 22:25:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4372377521968228
+		-auroc: 0.8040170606325198
+	-resnet
+		-f1: 0.314574382014211
+		-auroc: 0.716026245430295
+2026-06-18 22:27:14 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4031003115144237
+		-auroc: 0.808263426260367
+	-resnet
+		-f1: 0.3519711824179365
+		-auroc: 0.7404156532744164
+2026-06-18 22:28:31 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41943835502660437
+		-auroc: 0.7994091901097937
+	-resnet
+		-f1: 0.33885634818754207
+		-auroc: 0.7187520270139535
+2026-06-18 22:29:47 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45091733403784906
+		-auroc: 0.8074429741273091
+	-resnet
+		-f1: 0.3777794874586421
+		-auroc: 0.7286311450200056
+2026-06-18 22:31:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4672003778148938
+		-auroc: 0.808102824222108
+	-resnet
+		-f1: 0.32385198157050277
+		-auroc: 0.7285976327097881
+2026-06-18 22:32:20 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4097608937936611
+		-auroc: 0.8087172507691225
+	-resnet
+		-f1: 0.3014380859170621
+		-auroc: 0.7209649962027929
+2026-06-18 22:33:36 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4144503192580552
+		-auroc: 0.8115639258914049
+	-resnet
+		-f1: 0.394921066393647
+		-auroc: 0.7334703737944761
+2026-06-18 22:34:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4581931669194706
+		-auroc: 0.8076476608116115
+	-resnet
+		-f1: 0.3356553132086576
+		-auroc: 0.7301559390479142
+2026-06-18 22:36:08 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45066332922542857
+		-auroc: 0.8100518762812552
+	-resnet
+		-f1: 0.34117086527718893
+		-auroc: 0.7111998026013012
+2026-06-18 22:37:23 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4301258938211344
+		-auroc: 0.8104334277089439
+	-resnet
+		-f1: 0.4048841517018662
+		-auroc: 0.7255729442226064
+2026-06-18 22:38:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4034575380755617
+		-auroc: 0.8077631722097843
+	-resnet
+		-f1: 0.3748847349706804
+		-auroc: 0.7366115383794407
+2026-06-18 22:39:55 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46411495048894924
+		-auroc: 0.8074957743962674
+	-resnet
+		-f1: 0.42727064825318556
+		-auroc: 0.7617505706634659
+2026-06-18 22:41:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4693342096148645
+		-auroc: 0.8069062932989517
+	-resnet
+		-f1: 0.34347382179147035
+		-auroc: 0.7249286952126578
+2026-06-18 22:42:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46069578433333
+		-auroc: 0.8083937108022022
+	-resnet
+		-f1: 0.42599238124825806
+		-auroc: 0.7416963813953238
+2026-06-18 22:43:44 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41129743574620264
+		-auroc: 0.8054593024860586
+	-resnet
+		-f1: 0.30785980784907996
+		-auroc: 0.6985889409893609
+2026-06-18 22:45:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4042820721959404
+		-auroc: 0.8077519401802575
+	-resnet
+		-f1: 0.4231658659905138
+		-auroc: 0.7387429260408857
+2026-06-18 22:46:18 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38260765121872986
+		-auroc: 0.7974412155254476
+	-resnet
+		-f1: 0.3787531619747042
+		-auroc: 0.7437853328187991
+2026-06-18 22:47:33 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4066278414182958
+		-auroc: 0.8059308384285858
+	-resnet
+		-f1: 0.4483030770688405
+		-auroc: 0.7694376819473577
+2026-06-18 22:48:49 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39848722531486097
+		-auroc: 0.8071669175959724
+	-resnet
+		-f1: 0.3552558299228818
+		-auroc: 0.7156167463313541
+2026-06-18 22:50:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45377015925514497
+		-auroc: 0.8028747157996989
+	-resnet
+		-f1: 0.34779137868689364
+		-auroc: 0.7235611374208799
+2026-06-18 22:51:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40122907063251156
+		-auroc: 0.8064210963786724
+	-resnet
+		-f1: 0.40026711024077877
+		-auroc: 0.7318135427114655
+2026-06-18 22:52:36 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4288105782635537
+		-auroc: 0.8080880608968763
+	-resnet
+		-f1: 0.2905895295588945
+		-auroc: 0.6811812602362425
+2026-06-18 22:53:53 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4288274084777027
+		-auroc: 0.8078215161017912
+	-resnet
+		-f1: 0.39372563786219167
+		-auroc: 0.7202200573450493
+2026-06-18 22:55:09 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43458142910293807
+		-auroc: 0.808135006102875
+	-resnet
+		-f1: 0.3653398637878568
+		-auroc: 0.7049930648340633
+2026-06-18 22:56:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4355254550071426
+		-auroc: 0.8076329993430355
+	-resnet
+		-f1: 0.371027968667262
+		-auroc: 0.7514286051361383
+2026-06-18 22:57:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39868868132224156
+		-auroc: 0.8063105983628496
+	-resnet
+		-f1: 0.3650369165291558
+		-auroc: 0.7384124830650685
+2026-06-18 22:59:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3885589697689757
+		-auroc: 0.8048466680910064
+	-resnet
+		-f1: 0.37900003572898544
+		-auroc: 0.7148583444671749
+2026-06-18 23:00:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4720029577719628
+		-auroc: 0.8059585424591923
+	-resnet
+		-f1: 0.3008176690364266
+		-auroc: 0.7114516887410318
+2026-06-18 23:01:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4124028105134093
+		-auroc: 0.8108180399086568
+	-resnet
+		-f1: 0.39187052312073756
+		-auroc: 0.7258884848276503
+2026-06-18 23:02:49 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.47524322241839656
+		-auroc: 0.8083598779105255
+	-resnet
+		-f1: 0.3257499602649251
+		-auroc: 0.7063948706859955
+2026-06-18 23:04:04 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4501128240081417
+		-auroc: 0.8035100566400676
+	-resnet
+		-f1: 0.41638595458768285
+		-auroc: 0.7356438056565547
+2026-06-18 23:05:22 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4018924445322435
+		-auroc: 0.8043987711787569
+	-resnet
+		-f1: 0.34255004384850574
+		-auroc: 0.7310601168404249
+2026-06-18 23:06:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44520668818672277
+		-auroc: 0.8110808161141568
+	-resnet
+		-f1: 0.3567400701438094
+		-auroc: 0.73714550758621
+2026-06-18 23:07:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46375604283602156
+		-auroc: 0.8107948381382336
+	-resnet
+		-f1: 0.36332553903263864
+		-auroc: 0.7182486566283008
+2026-06-18 23:09:07 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45323066363244174
+		-auroc: 0.8035529515659187
+	-resnet
+		-f1: 0.29975235569225056
+		-auroc: 0.7077461834152997
+2026-06-18 23:10:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44283840858060086
+		-auroc: 0.8107307798076739
+	-resnet
+		-f1: 0.39876815332871923
+		-auroc: 0.7373397764358153
+2026-06-18 23:11:35 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4604905217387715
+		-auroc: 0.8071457629257764
+	-resnet
+		-f1: 0.3193628683136901
+		-auroc: 0.6712326790025702
+2026-06-18 23:12:50 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4424300668237799
+		-auroc: 0.803329774347807
+	-resnet
+		-f1: 0.34282512469100707
+		-auroc: 0.7179017251751714
+2026-06-18 23:14:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39112446647303506
+		-auroc: 0.8068833510631446
+	-resnet
+		-f1: 0.32101171458998934
+		-auroc: 0.7238801829301622
+2026-06-18 23:15:19 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3806576435720808
+		-auroc: 0.8052808669367211
+	-resnet
+		-f1: 0.4016615518517919
+		-auroc: 0.7359982623451238
+2026-06-18 23:16:34 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3944703836227853
+		-auroc: 0.8063894730438304
+	-resnet
+		-f1: 0.3706818448429336
+		-auroc: 0.7434506972385384
+2026-06-18 23:17:47 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38844732362905304
+		-auroc: 0.8022293767053675
+	-resnet
+		-f1: 0.38770724446719795
+		-auroc: 0.7367496269196048
+2026-06-18 23:19:01 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42419105550132147
+		-auroc: 0.7986355799241587
+	-resnet
+		-f1: 0.3935826349147321
+		-auroc: 0.7272980357488715
+2026-06-18 23:20:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38622061376151906
+		-auroc: 0.8023446090039199
+	-resnet
+		-f1: 0.39172943858240716
+		-auroc: 0.7571568179935091
+2026-06-18 23:21:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4645449772580833
+		-auroc: 0.808409173618362
+	-resnet
+		-f1: 0.39606824327059165
+		-auroc: 0.7455723996324484
+2026-06-18 23:22:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4238638535779294
+		-auroc: 0.8075654023351948
+	-resnet
+		-f1: 0.3703170267759578
+		-auroc: 0.7330644522319228
+2026-06-18 23:23:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41599400746329984
+		-auroc: 0.8055164000639092
+	-resnet
+		-f1: 0.351076526615283
+		-auroc: 0.7298420767290601
+2026-06-18 23:25:14 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45361461503769984
+		-auroc: 0.8088696692015466
+	-resnet
+		-f1: 0.3027587571543049
+		-auroc: 0.7226779862643522
+2026-06-18 23:26:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41974635976491975
+		-auroc: 0.8078440344017827
+	-resnet
+		-f1: 0.37331168880991145
+		-auroc: 0.7216153546588681
+2026-06-18 23:27:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4686265498001597
+		-auroc: 0.8099211479191117
+	-resnet
+		-f1: 0.3470266918301747
+		-auroc: 0.7240303587056198
+2026-06-18 23:28:58 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4270113092410804
+		-auroc: 0.8089047775530925
+	-resnet
+		-f1: 0.32145117176482263
+		-auroc: 0.7234898094748214
+2026-06-18 23:30:13 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4321020027435045
+		-auroc: 0.8087974765667715
+	-resnet
+		-f1: 0.40339191730005586
+		-auroc: 0.7409247065379463
+2026-06-18 23:31:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41823240348219104
+		-auroc: 0.806720203343616
+	-resnet
+		-f1: 0.3457264628711535
+		-auroc: 0.7404189439912167
+2026-06-18 23:32:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38903415667484526
+		-auroc: 0.8063136146347158
+	-resnet
+		-f1: 0.35796759309413345
+		-auroc: 0.7342028744052469
+2026-06-18 23:33:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3874995759480162
+		-auroc: 0.8033330744990413
+	-resnet
+		-f1: 0.3677053303833312
+		-auroc: 0.7133143348282578
+2026-06-18 23:35:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4167546750240782
+		-auroc: 0.8080439250865638
+	-resnet
+		-f1: 0.29954759576397044
+		-auroc: 0.7075178660158928
+2026-06-18 23:36:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4386126348737459
+		-auroc: 0.8069789267080483
+	-resnet
+		-f1: 0.3432947427984297
+		-auroc: 0.7221500341376754
+2026-06-18 23:37:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39328246731051
+		-auroc: 0.8067121099200276
+	-resnet
+		-f1: 0.31456996586489605
+		-auroc: 0.7142305351667397
+2026-06-18 23:38:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4440579237567331
+		-auroc: 0.8064360146595003
+	-resnet
+		-f1: 0.37135317236630794
+		-auroc: 0.7190139073209634
+2026-06-18 23:40:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4551931334125355
+		-auroc: 0.8088684969471964
+	-resnet
+		-f1: 0.32954262577511984
+		-auroc: 0.7272270958212639
+2026-06-18 23:41:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4383109669228008
+		-auroc: 0.8103488686252227
+	-resnet
+		-f1: 0.36604712906101333
+		-auroc: 0.7216044615029432
+2026-06-18 23:42:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4001706512900583
+		-auroc: 0.8038799583599175
+	-resnet
+		-f1: 0.36777158842663815
+		-auroc: 0.7316084171192963
+2026-06-18 23:43:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4420228818123012
+		-auroc: 0.8058349794983425
+	-resnet
+		-f1: 0.3126632075910552
+		-auroc: 0.7173773681967448
+2026-06-18 23:45:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43309325891738404
+		-auroc: 0.8014794603589307
+	-resnet
+		-f1: 0.2915024510596874
+		-auroc: 0.7174940925969792
+2026-06-18 23:46:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41544343513205745
+		-auroc: 0.8031581631264448
+	-resnet
+		-f1: 0.3527236255022314
+		-auroc: 0.7026295126339124
+2026-06-18 23:47:40 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4481774208170054
+		-auroc: 0.8050532557720341
+	-resnet
+		-f1: 0.40198695711705107
+		-auroc: 0.7350111976944624
+2026-06-18 23:48:55 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4680519353856337
+		-auroc: 0.7976342070048993
+	-resnet
+		-f1: 0.40018730127082736
+		-auroc: 0.7547795926323244
+2026-06-18 23:50:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4509348309128279
+		-auroc: 0.802634033194128
+	-resnet
+		-f1: 0.40760257695609275
+		-auroc: 0.7421454233375732
+2026-06-18 23:51:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45620888139234095
+		-auroc: 0.8055561353703092
+	-resnet
+		-f1: 0.3980747564144534
+		-auroc: 0.748720127014346
+2026-06-18 23:52:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41165061898068733
+		-auroc: 0.8082110943213741
+	-resnet
+		-f1: 0.3776223027630795
+		-auroc: 0.735826485262183
+2026-06-18 23:53:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39301489744660806
+		-auroc: 0.8061425550665937
+	-resnet
+		-f1: 0.3485256168722059
+		-auroc: 0.7280696913733677
+2026-06-18 23:55:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4320712799342961
+		-auroc: 0.8081234914200403
+	-resnet
+		-f1: 0.400839287521643
+		-auroc: 0.7445461705834387
+2026-06-18 23:56:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39687831043057575
+		-auroc: 0.8062790586826092
+	-resnet
+		-f1: 0.3725515344275116
+		-auroc: 0.716242514578818
+2026-06-18 23:57:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46387127310269144
+		-auroc: 0.8107308804445491
+	-resnet
+		-f1: 0.366715841402687
+		-auroc: 0.7367272739495986
+2026-06-18 23:58:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40761295843037965
+		-auroc: 0.8040646217069041
+	-resnet
+		-f1: 0.4244539468292655
+		-auroc: 0.7221111777977833
+2026-06-19 00:00:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44756153724366393
+		-auroc: 0.8060777928826989
+	-resnet
+		-f1: 0.35370765707975993
+		-auroc: 0.7276542772637387
+2026-06-19 00:01:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4416491440213788
+		-auroc: 0.8063233870829863
+	-resnet
+		-f1: 0.40036511438677014
+		-auroc: 0.7204347762661782
+2026-06-19 00:02:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4748316362732582
+		-auroc: 0.8050565665617778
+	-resnet
+		-f1: 0.33138531892888945
+		-auroc: 0.7041948937143003
+2026-06-19 00:03:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46284125985733315
+		-auroc: 0.8042402665492643
+	-resnet
+		-f1: 0.332458420371481
+		-auroc: 0.7020057498921266
+2026-06-19 00:05:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4578580784229417
+		-auroc: 0.8060555543064641
+	-resnet
+		-f1: 0.32322474245288096
+		-auroc: 0.7067495992120664
+2026-06-19 00:06:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41554633070245217
+		-auroc: 0.8038379045078659
+	-resnet
+		-f1: 0.37196877425683256
+		-auroc: 0.7168889073287614
+2026-06-19 00:07:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46013644766455003
+		-auroc: 0.8067583761313868
+	-resnet
+		-f1: 0.34347761941400134
+		-auroc: 0.6989238998754317
+2026-06-19 00:08:58 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4078045310345829
+		-auroc: 0.8072542722455003
+	-resnet
+		-f1: 0.3798661555611454
+		-auroc: 0.7558545102944392
+2026-06-19 00:10:14 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4284898032554397
+		-auroc: 0.8097710633157691
+	-resnet
+		-f1: 0.3368140649455326
+		-auroc: 0.7278884305043481
+2026-06-19 00:11:29 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4617397105244706
+		-auroc: 0.803679377493666
+	-resnet
+		-f1: 0.3695275145005962
+		-auroc: 0.6959164102693075
+2026-06-19 00:12:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4576757851864925
+		-auroc: 0.8081736740151791
+	-resnet
+		-f1: 0.2659691232104921
+		-auroc: 0.6972009179378412
+2026-06-19 00:14:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4425302649107688
+		-auroc: 0.8045893067598724
+	-resnet
+		-f1: 0.3632893350438432
+		-auroc: 0.7249481764590859
+2026-06-19 00:15:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4308307271020718
+		-auroc: 0.8012727364565114
+	-resnet
+		-f1: 0.33208029438551284
+		-auroc: 0.7121928135319318
+2026-06-19 00:16:31 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4528905722009364
+		-auroc: 0.8097613612292351
+	-resnet
+		-f1: 0.35617123280466656
+		-auroc: 0.7240756196132705
+2026-06-19 00:17:46 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.467085323066883
+		-auroc: 0.8080245439933933
+	-resnet
+		-f1: 0.3423131845588733
+		-auroc: 0.7265153989873551
+2026-06-19 00:19:01 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45928797270970073
+		-auroc: 0.8042420225401441
+	-resnet
+		-f1: 0.34807413761427486
+		-auroc: 0.7005402874810656
+2026-06-19 00:20:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.47775540273025785
+		-auroc: 0.8079719289419632
+	-resnet
+		-f1: 0.4080191833461953
+		-auroc: 0.7209637965638155
+2026-06-19 00:21:31 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44371201276943106
+		-auroc: 0.80365107980757
+	-resnet
+		-f1: 0.33834822682648397
+		-auroc: 0.705922465323761
+2026-06-19 00:22:46 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3921201242189668
+		-auroc: 0.8042183722924081
+	-resnet
+		-f1: 0.3671717449069921
+		-auroc: 0.7134010914535436
+2026-06-19 00:24:01 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4660201140779261
+		-auroc: 0.8082592689005186
+	-resnet
+		-f1: 0.3551423441227422
+		-auroc: 0.7357545209861953
+2026-06-19 00:25:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3901997076678011
+		-auroc: 0.8038323705786213
+	-resnet
+		-f1: 0.4288391583422523
+		-auroc: 0.7346937876034823
+2026-06-19 00:26:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4321235589092174
+		-auroc: 0.8092176164578829
+	-resnet
+		-f1: 0.3707847417426456
+		-auroc: 0.7180122855622476
+2026-06-19 00:27:46 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4405054416321602
+		-auroc: 0.8031386933666316
+	-resnet
+		-f1: 0.36069249440130885
+		-auroc: 0.6971379827197843
+2026-06-19 00:29:01 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39136405834246113
+		-auroc: 0.8018308936822489
+	-resnet
+		-f1: 0.2855676934317243
+		-auroc: 0.6734268534402654
+2026-06-19 00:30:17 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41195543408571567
+		-auroc: 0.8078712265758885
+	-resnet
+		-f1: 0.41774145853175204
+		-auroc: 0.734747477356233
+2026-06-19 00:31:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3976501761110841
+		-auroc: 0.8056853502898651
+	-resnet
+		-f1: 0.34846454905278434
+		-auroc: 0.7220375985405735
+2026-06-19 00:32:47 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4552105245407197
+		-auroc: 0.8032284762158074
+	-resnet
+		-f1: 0.31184479617042177
+		-auroc: 0.7133670789282567
+2026-06-19 00:34:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46835463707158453
+		-auroc: 0.803671763974806
+	-resnet
+		-f1: 0.33680927717361897
+		-auroc: 0.7028295763039393
+2026-06-19 00:35:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45189589199911195
+		-auroc: 0.806353402519693
+	-resnet
+		-f1: 0.38689012265636336
+		-auroc: 0.7265592227079132
+2026-06-19 00:36:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45477436990331555
+		-auroc: 0.8068031836482913
+	-resnet
+		-f1: 0.4078486258904417
+		-auroc: 0.7361700057255239
+2026-06-19 00:37:46 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4042799973315409
+		-auroc: 0.8060968856569699
+	-resnet
+		-f1: 0.3978324226996271
+		-auroc: 0.7244100139356482
+2026-06-19 00:39:01 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4324429465285545
+		-auroc: 0.8041259749674099
+	-resnet
+		-f1: 0.38350668057715287
+		-auroc: 0.7554311153458168
+2026-06-19 00:40:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44779017254421055
+		-auroc: 0.8092673523294911
+	-resnet
+		-f1: 0.35786751107370135
+		-auroc: 0.7146106974729867
+2026-06-19 00:41:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45035361176775063
+		-auroc: 0.8046218433031418
+	-resnet
+		-f1: 0.3881013926534833
+		-auroc: 0.7342722335238788
+2026-06-19 00:42:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42211080700304027
+		-auroc: 0.8019039370703129
+	-resnet
+		-f1: 0.34671754235638336
+		-auroc: 0.7119809089156226
+2026-06-19 00:44:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43567756437848404
+		-auroc: 0.8078808508309893
+	-resnet
+		-f1: 0.3467126490530746
+		-auroc: 0.7128324311957382
+2026-06-19 00:45:14 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4348020651895432
+		-auroc: 0.8084020622378933
+	-resnet
+		-f1: 0.3528164696094146
+		-auroc: 0.7062847125172895
+2026-06-19 00:46:29 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4724177442973806
+		-auroc: 0.8068900474124453
+	-resnet
+		-f1: 0.36673224878191946
+		-auroc: 0.7140180475437926
+2026-06-19 00:47:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43370840362442264
+		-auroc: 0.8075370436342599
+	-resnet
+		-f1: 0.2670418272591468
+		-auroc: 0.6788646072195258
+2026-06-19 00:49:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4577154442425916
+		-auroc: 0.8032240255403306
+	-resnet
+		-f1: 0.39088354823747085
+		-auroc: 0.7220201183321134
+2026-06-19 00:50:14 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4392501486664229
+		-auroc: 0.8038616792120873
+	-resnet
+		-f1: 0.36455569090853984
+		-auroc: 0.7195495376323656
+2026-06-19 00:51:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4222833255089709
+		-auroc: 0.8084372209966997
+	-resnet
+		-f1: 0.36755156953109996
+		-auroc: 0.7316556017561785
+2026-06-19 00:52:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.48225233257504324
+		-auroc: 0.8064602105131892
+	-resnet
+		-f1: 0.3854323540626321
+		-auroc: 0.7355345267054766
+2026-06-19 00:53:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44323880346519384
+		-auroc: 0.809732356595898
+	-resnet
+		-f1: 0.2750406212033598
+		-auroc: 0.6831447774174948
+2026-06-19 00:55:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38833110797413706
+		-auroc: 0.8068948710773579
+	-resnet
+		-f1: 0.39993641697423543
+		-auroc: 0.7388404009975446
+2026-06-19 00:56:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3911290694772492
+		-auroc: 0.8041829149299919
+	-resnet
+		-f1: 0.3547179053659118
+		-auroc: 0.7025836750244903
+2026-06-19 00:57:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3979645109063947
+		-auroc: 0.8058339401920496
+	-resnet
+		-f1: 0.4258737745812902
+		-auroc: 0.7354206011568964
+2026-06-19 00:58:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42116490730279993
+		-auroc: 0.8022090259767409
+	-resnet
+		-f1: 0.3438453272122509
+		-auroc: 0.7426639245325237
+2026-06-19 01:00:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42937211131885544
+		-auroc: 0.805485250601477
+	-resnet
+		-f1: 0.34003185908199096
+		-auroc: 0.7312383131748946
+2026-06-19 01:01:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3828568563808186
+		-auroc: 0.8023935940940579
+	-resnet
+		-f1: 0.39325857188924457
+		-auroc: 0.7439129307341154
+2026-06-19 01:02:44 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3961469996951509
+		-auroc: 0.8061152350761803
+	-resnet
+		-f1: 0.3213218993839784
+		-auroc: 0.7011220455546814
+2026-06-19 01:03:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45015111275710923
+		-auroc: 0.8061515134008301
+	-resnet
+		-f1: 0.3662102403932649
+		-auroc: 0.7270796064578396
+2026-06-19 01:05:14 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.432559728807257
+		-auroc: 0.8005446290787104
+	-resnet
+		-f1: 0.3219758418216553
+		-auroc: 0.6996502043956634
+2026-06-19 01:06:29 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4142435874566243
+		-auroc: 0.8084427631374048
+	-resnet
+		-f1: 0.31894565285869636
+		-auroc: 0.7115246932666771
+2026-06-19 01:07:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43805539431379215
+		-auroc: 0.8022900613165845
+	-resnet
+		-f1: 0.43060861806364886
+		-auroc: 0.7327975302390443
+2026-06-19 01:08:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4390794249888783
+		-auroc: 0.8058708532053664
+	-resnet
+		-f1: 0.4286262339495163
+		-auroc: 0.7397937982206866
+2026-06-19 01:10:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44931520844745415
+		-auroc: 0.8013278382003269
+	-resnet
+		-f1: 0.35751109534331593
+		-auroc: 0.7390772079211729
+2026-06-19 01:11:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4589515340067346
+		-auroc: 0.8030870622110516
+	-resnet
+		-f1: 0.4251808973625836
+		-auroc: 0.761808162750594
+2026-06-19 01:12:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.432887716176387
+		-auroc: 0.8018408693867624
+	-resnet
+		-f1: 0.3008390832093882
+		-auroc: 0.6972820324815896
+2026-06-19 01:13:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42188469229961634
+		-auroc: 0.8092495767410467
+	-resnet
+		-f1: 0.39295814543647467
+		-auroc: 0.728387111792174
+2026-06-19 01:15:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4564929235761487
+		-auroc: 0.8056444975790171
+	-resnet
+		-f1: 0.3386337940917359
+		-auroc: 0.7117890214467184
+2026-06-19 01:16:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4126210671855432
+		-auroc: 0.8070980288164329
+	-resnet
+		-f1: 0.3775983765790039
+		-auroc: 0.7440711448919235
+2026-06-19 01:17:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45747953789413937
+		-auroc: 0.8043558448722601
+	-resnet
+		-f1: 0.39626788789893697
+		-auroc: 0.734099084271694
+2026-06-19 01:18:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4627502838052857
+		-auroc: 0.807257774172729
+	-resnet
+		-f1: 0.403121624088001
+		-auroc: 0.7482918971405177
+2026-06-19 01:20:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4181855981746769
+		-auroc: 0.8111127406109151
+	-resnet
+		-f1: 0.3195182893434548
+		-auroc: 0.7089542128560393
+2026-06-19 01:21:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4225001252738922
+		-auroc: 0.8070857250252121
+	-resnet
+		-f1: 0.263667325771147
+		-auroc: 0.697167296097829
+2026-06-19 01:22:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4522415643879902
+		-auroc: 0.8088836742456085
+	-resnet
+		-f1: 0.26997092569313874
+		-auroc: 0.6825203635599747
+2026-06-19 01:23:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4621862348178138
+		-auroc: 0.8092721874297626
+	-resnet
+		-f1: 0.3632477088226551
+		-auroc: 0.7264152262406006
+2026-06-19 01:25:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4459277959319775
+		-auroc: 0.8030887548865089
+	-resnet
+		-f1: 0.32301934712435243
+		-auroc: 0.7031032928452975
+2026-06-19 01:26:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4407455202652586
+		-auroc: 0.8049278261208868
+	-resnet
+		-f1: 0.3378282140985667
+		-auroc: 0.7125999305136151
+2026-06-19 01:27:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.433990373901052
+		-auroc: 0.8049178163733239
+	-resnet
+		-f1: 0.31915664999853977
+		-auroc: 0.6882598507182582
+2026-06-19 01:28:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.48346830732515694
+		-auroc: 0.8082843122145743
+	-resnet
+		-f1: 0.37637321917532995
+		-auroc: 0.7323684571514392
+2026-06-19 01:30:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.404247899053052
+		-auroc: 0.80425802509272
+	-resnet
+		-f1: 0.3981737873349581
+		-auroc: 0.7239406843016704
+2026-06-19 01:31:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39433197553283145
+		-auroc: 0.8094593245574755
+	-resnet
+		-f1: 0.3448582493605975
+		-auroc: 0.7249284276932422
+2026-06-19 01:32:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.37855026033849565
+		-auroc: 0.798037317793842
+	-resnet
+		-f1: 0.34389352351055436
+		-auroc: 0.7235471832198026
+2026-06-19 01:33:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44552016029057945
+		-auroc: 0.804328708857376
+	-resnet
+		-f1: 0.31896883218359523
+		-auroc: 0.6985508131606062
+2026-06-19 01:35:14 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.384183566379747
+		-auroc: 0.7999320736198644
+	-resnet
+		-f1: 0.4039543396376737
+		-auroc: 0.7470935860386354
+2026-06-19 01:36:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42140869741184056
+		-auroc: 0.8063163799146942
+	-resnet
+		-f1: 0.3876712561005612
+		-auroc: 0.734972485054867
+2026-06-19 01:37:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46702911636580824
+		-auroc: 0.8063158884895122
+	-resnet
+		-f1: 0.3460278312299711
+		-auroc: 0.7499579004385986
+2026-06-19 01:38:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4376167923624751
+		-auroc: 0.8074807749514126
+	-resnet
+		-f1: 0.37149423208084403
+		-auroc: 0.741487689151958
+2026-06-19 01:40:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44572854741813817
+		-auroc: 0.8033568730078864
+	-resnet
+		-f1: 0.39163878230239163
+		-auroc: 0.7361021477225022
+2026-06-19 01:41:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45559879395078784
+		-auroc: 0.8081736523693035
+	-resnet
+		-f1: 0.32924534791273274
+		-auroc: 0.7078278347826653
+2026-06-19 01:42:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42598339068399005
+		-auroc: 0.8022441323420967
+	-resnet
+		-f1: 0.4209405383461675
+		-auroc: 0.734970738031899
+2026-06-19 01:43:53 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.415515596203967
+		-auroc: 0.8042840144295805
+	-resnet
+		-f1: 0.3025676881499565
+		-auroc: 0.7010663857167365
+2026-06-19 01:45:07 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4029540367100372
+		-auroc: 0.807895467448607
+	-resnet
+		-f1: 0.39387663892497543
+		-auroc: 0.7322136383458001
+2026-06-19 01:46:22 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44710165017251635
+		-auroc: 0.8077270568098562
+	-resnet
+		-f1: 0.3658030743563801
+		-auroc: 0.735004701367513
+2026-06-19 01:47:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4513345946640242
+		-auroc: 0.8052287864573122
+	-resnet
+		-f1: 0.35695855800530396
+		-auroc: 0.7212181380143966
+2026-06-19 01:48:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4670459499619347
+		-auroc: 0.8065192753749864
+	-resnet
+		-f1: 0.3426533797465474
+		-auroc: 0.7365888362277755
+2026-06-19 01:50:08 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4184639763891031
+		-auroc: 0.8093328394994582
+	-resnet
+		-f1: 0.36520620997779857
+		-auroc: 0.7282552686144835
+2026-06-19 01:51:23 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38173053307344446
+		-auroc: 0.7981147282375395
+	-resnet
+		-f1: 0.4065460451692304
+		-auroc: 0.7481127990741925
+2026-06-19 01:52:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44666256285854705
+		-auroc: 0.8075309067445273
+	-resnet
+		-f1: 0.3869757126071099
+		-auroc: 0.7226309393229184
+2026-06-19 01:53:53 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45756847551014757
+		-auroc: 0.801873292243647
+	-resnet
+		-f1: 0.35972034814385967
+		-auroc: 0.7330951439070604
+2026-06-19 01:55:06 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39177734578631107
+		-auroc: 0.8053550561581047
+	-resnet
+		-f1: 0.40160313481430265
+		-auroc: 0.7252545095096288
+2026-06-19 01:56:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40019472555115393
+		-auroc: 0.8072696943026954
+	-resnet
+		-f1: 0.36927912877431174
+		-auroc: 0.7166187752834763
+2026-06-19 01:57:36 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3866053830227743
+		-auroc: 0.8057650390139536
+	-resnet
+		-f1: 0.361773590447562
+		-auroc: 0.7246438578221184
+2026-06-19 01:58:50 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42498375777412367
+		-auroc: 0.7990637364913725
+	-resnet
+		-f1: 0.4206355648748653
+		-auroc: 0.7379537070199204
+2026-06-19 02:00:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44290510640948544
+		-auroc: 0.8051839825651033
+	-resnet
+		-f1: 0.33659637050400076
+		-auroc: 0.7255762802959385
+2026-06-19 02:01:18 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40900996665247985
+		-auroc: 0.8053435775114453
+	-resnet
+		-f1: 0.2764263699218711
+		-auroc: 0.6824041913073213
+2026-06-19 02:02:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4688618009605799
+		-auroc: 0.8058605082446515
+	-resnet
+		-f1: 0.44781003499746835
+		-auroc: 0.7489649367593463
+2026-06-19 02:03:47 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4364535817201075
+		-auroc: 0.8054475227330384
+	-resnet
+		-f1: 0.34143701761628514
+		-auroc: 0.7041408226734273
+2026-06-19 02:05:01 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3828175647727122
+		-auroc: 0.8009055132220892
+	-resnet
+		-f1: 0.4292901595360602
+		-auroc: 0.7258042152693956
+2026-06-19 02:06:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40554534159847827
+		-auroc: 0.8049073488978056
+	-resnet
+		-f1: 0.3623647929374795
+		-auroc: 0.7380237039844934
+2026-06-19 02:07:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4743370497076054
+		-auroc: 0.8109818461521991
+	-resnet
+		-f1: 0.41700524246889614
+		-auroc: 0.7226029030817948
+2026-06-19 02:08:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4427756535875165
+		-auroc: 0.8097816460876391
+	-resnet
+		-f1: 0.3548883641644196
+		-auroc: 0.7330512061510897
+2026-06-19 02:09:58 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45282099059954256
+		-auroc: 0.8058261669542907
+	-resnet
+		-f1: 0.37769895203180576
+		-auroc: 0.7290249799252594
+2026-06-19 02:11:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45292322067562585
+		-auroc: 0.8085591835078715
+	-resnet
+		-f1: 0.32677790596554335
+		-auroc: 0.7012425088464167
+2026-06-19 02:12:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44187787509131243
+		-auroc: 0.8059613709783043
+	-resnet
+		-f1: 0.40263567111811416
+		-auroc: 0.751011663673785
+2026-06-19 02:13:38 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4149370599374659
+		-auroc: 0.8051682576379907
+	-resnet
+		-f1: 0.28035617096986337
+		-auroc: 0.719348676138017
+2026-06-19 02:14:53 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4560688505081707
+		-auroc: 0.8099741549811332
+	-resnet
+		-f1: 0.3288446099819488
+		-auroc: 0.6943551719009147
+2026-06-19 02:16:08 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4295901568199015
+		-auroc: 0.8077703421454645
+	-resnet
+		-f1: 0.2992676375144822
+		-auroc: 0.7066897768798749
+2026-06-19 02:17:22 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39315758073852725
+		-auroc: 0.8076706906539017
+	-resnet
+		-f1: 0.31727882373062233
+		-auroc: 0.7039762011897397
+2026-06-19 02:18:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45486487143528587
+		-auroc: 0.8082412820328455
+	-resnet
+		-f1: 0.43538578706596043
+		-auroc: 0.7298320572812649
+2026-06-19 02:19:51 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44867138012762664
+		-auroc: 0.8032981341589182
+	-resnet
+		-f1: 0.4074538530315463
+		-auroc: 0.7285267184255007
+2026-06-19 02:21:06 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4463681605326147
+		-auroc: 0.8064179466338691
+	-resnet
+		-f1: 0.3902192433168878
+		-auroc: 0.7380207598155134
+2026-06-19 02:22:20 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39837991206536516
+		-auroc: 0.8062403147226076
+	-resnet
+		-f1: 0.37080621611718134
+		-auroc: 0.7397119731160874
+2026-06-19 02:23:35 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45502057240668065
+		-auroc: 0.8055520363787242
+	-resnet
+		-f1: 0.2829635695614871
+		-auroc: 0.697108332874434
+2026-06-19 02:24:50 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40125836938899295
+		-auroc: 0.8055750285167648
+	-resnet
+		-f1: 0.3606190933756198
+		-auroc: 0.7064472790282863
+2026-06-19 02:26:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4119241839978353
+		-auroc: 0.8081515823951344
+	-resnet
+		-f1: 0.361739791995616
+		-auroc: 0.7302851810162755
+2026-06-19 02:27:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40941410598456446
+		-auroc: 0.8043734922407781
+	-resnet
+		-f1: 0.3889864882258659
+		-auroc: 0.7277128203551724
+2026-06-19 02:28:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42749597464399935
+		-auroc: 0.8046410252887997
+	-resnet
+		-f1: 0.36089537690962176
+		-auroc: 0.7393842656875004
+2026-06-19 02:30:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45088531334613285
+		-auroc: 0.8049426129955952
+	-resnet
+		-f1: 0.39813058419243985
+		-auroc: 0.7376769264357844
+2026-06-19 02:31:36 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45356050517123403
+		-auroc: 0.8065528157261841
+	-resnet
+		-f1: 0.4099411886157801
+		-auroc: 0.7187579377103204
+2026-06-19 02:32:53 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4427689755370148
+		-auroc: 0.8055566470669404
+	-resnet
+		-f1: 0.3699081651410309
+		-auroc: 0.7240806335418339
+2026-06-19 02:34:09 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43764647441393867
+		-auroc: 0.805874681138025
+	-resnet
+		-f1: 0.2688164183130253
+		-auroc: 0.6847729993875777
+2026-06-19 02:35:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4370053474594928
+		-auroc: 0.8067326763320766
+	-resnet
+		-f1: 0.38517092919052753
+		-auroc: 0.7230514306875355
+2026-06-19 02:36:50 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4446631721995729
+		-auroc: 0.8023087861433776
+	-resnet
+		-f1: 0.3759232114668332
+		-auroc: 0.709726545566123
+2026-06-19 02:38:06 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44287335750100576
+		-auroc: 0.8109269708128266
+	-resnet
+		-f1: 0.3958636036568629
+		-auroc: 0.7072380621287578
+2026-06-19 02:39:22 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4456536343208321
+		-auroc: 0.8061872677509877
+	-resnet
+		-f1: 0.3198042314115911
+		-auroc: 0.7270460211568894
+2026-06-19 02:40:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.417601507718744
+		-auroc: 0.8074173511768834
+	-resnet
+		-f1: 0.3651824907108825
+		-auroc: 0.7284484445562264
+2026-06-19 02:41:50 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39854820150658465
+		-auroc: 0.8074006425022038
+	-resnet
+		-f1: 0.37594810316808847
+		-auroc: 0.743937312363863
+2026-06-19 02:43:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4386079162789974
+		-auroc: 0.8071139825513338
+	-resnet
+		-f1: 0.3213018302291272
+		-auroc: 0.6935132730012159
+2026-06-19 02:44:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38834471444748014
+		-auroc: 0.8046058648936008
+	-resnet
+		-f1: 0.42484526925629984
+		-auroc: 0.7445159377562279
+2026-06-19 02:45:36 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42179005742236547
+		-auroc: 0.8077416235642703
+	-resnet
+		-f1: 0.3733969309700441
+		-auroc: 0.730836389219057
+2026-06-19 02:46:51 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4762173659684679
+		-auroc: 0.8062065357308029
+	-resnet
+		-f1: 0.3135725768750962
+		-auroc: 0.6801730963474513
+2026-06-19 02:48:06 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44625983233806626
+		-auroc: 0.8059055163508427
+	-resnet
+		-f1: 0.3931012014296591
+		-auroc: 0.7319533153892468
+2026-06-19 02:49:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42301425593734365
+		-auroc: 0.8002216085533924
+	-resnet
+		-f1: 0.3527367265882109
+		-auroc: 0.7337907889970525
+2026-06-19 02:50:36 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45113493509577635
+		-auroc: 0.8073204907361575
+	-resnet
+		-f1: 0.3705597983112075
+		-auroc: 0.7346993350410742
+2026-06-19 02:51:50 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45023102674465665
+		-auroc: 0.8054278021705972
+	-resnet
+		-f1: 0.42148443405946007
+		-auroc: 0.7409543216031065
+2026-06-19 02:53:04 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.415997830552286
+		-auroc: 0.799609187052178
+	-resnet
+		-f1: 0.36422802782548713
+		-auroc: 0.7321514919859752
+2026-06-19 02:54:19 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4631364717652439
+		-auroc: 0.8027543209956631
+	-resnet
+		-f1: 0.2655528689703137
+		-auroc: 0.7141692734256122
+2026-06-19 02:55:33 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4550470360551011
+		-auroc: 0.8077414345341198
+	-resnet
+		-f1: 0.33603138566696605
+		-auroc: 0.7138405682748937
+2026-06-19 02:56:49 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4208462477904634
+		-auroc: 0.8075794492296178
+	-resnet
+		-f1: 0.30984797053369667
+		-auroc: 0.6937178899720026
+2026-06-19 02:58:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4270746639838013
+		-auroc: 0.8091128085943122
+	-resnet
+		-f1: 0.37433951801864934
+		-auroc: 0.7391372512121741
+2026-06-19 02:59:19 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4359180530488228
+		-auroc: 0.8021260513524032
+	-resnet
+		-f1: 0.33139677482776075
+		-auroc: 0.7292158696041346
+2026-06-19 03:00:34 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3894056684639331
+		-auroc: 0.8053621134229779
+	-resnet
+		-f1: 0.3696147559838824
+		-auroc: 0.7161182020620906
+2026-06-19 03:01:50 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43626774138040203
+		-auroc: 0.8038300405841705
+	-resnet
+		-f1: 0.3727484146493757
+		-auroc: 0.7067486782854255
+2026-06-19 03:03:03 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4520176943684174
+		-auroc: 0.7929621449953225
+	-resnet
+		-f1: 0.3868530425444268
+		-auroc: 0.7372530925317531
+2026-06-19 03:04:17 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4385275941252165
+		-auroc: 0.8056557148030548
+	-resnet
+		-f1: 0.4243354628631707
+		-auroc: 0.7403261962160267
+2026-06-19 03:05:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39086533886705166
+		-auroc: 0.8074078445167489
+	-resnet
+		-f1: 0.38091945000138666
+		-auroc: 0.7305885062530671
+2026-06-19 03:06:47 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39155619334327463
+		-auroc: 0.8060528884916589
+	-resnet
+		-f1: 0.41914905795103036
+		-auroc: 0.7414235056703247
+2026-06-19 03:08:03 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3861575965504723
+		-auroc: 0.7977718731331327
+	-resnet
+		-f1: 0.361756055945684
+		-auroc: 0.7414848746853153
+2026-06-19 03:09:17 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45681263160088753
+		-auroc: 0.8085088190189488
+	-resnet
+		-f1: 0.4222159785521578
+		-auroc: 0.7367491370649619
+2026-06-19 03:10:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39987116334485845
+		-auroc: 0.8043213657581312
+	-resnet
+		-f1: 0.40908260157669263
+		-auroc: 0.7403458159525956
+2026-06-19 03:11:48 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4619801845478452
+		-auroc: 0.807002948742868
+	-resnet
+		-f1: 0.36296776583133006
+		-auroc: 0.7124087959378628
+2026-06-19 03:13:01 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4535596547048222
+		-auroc: 0.8053194932295537
+	-resnet
+		-f1: 0.35704277493506414
+		-auroc: 0.7175481235757538
+2026-06-19 03:14:17 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4274129773654348
+		-auroc: 0.8070651510588945
+	-resnet
+		-f1: 0.32508283902601004
+		-auroc: 0.7267043973321509
+2026-06-19 03:15:33 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39294092703605277
+		-auroc: 0.8059263277476285
+	-resnet
+		-f1: 0.31065181778013073
+		-auroc: 0.7008840893920038
+2026-06-19 03:16:47 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4428102895725933
+		-auroc: 0.8075510892287033
+	-resnet
+		-f1: 0.35754894881731064
+		-auroc: 0.7230980108806316
+2026-06-19 03:18:01 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4493926002790493
+		-auroc: 0.8052838604141839
+	-resnet
+		-f1: 0.36017122140326224
+		-auroc: 0.7264005334691612
+2026-06-19 03:19:17 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4037032004147747
+		-auroc: 0.8055222178326622
+	-resnet
+		-f1: 0.4119081092656338
+		-auroc: 0.7274011879719682
+2026-06-19 03:20:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45826833977887843
+		-auroc: 0.8060378421443678
+	-resnet
+		-f1: 0.32027748992999927
+		-auroc: 0.7023214229740274
+2026-06-19 03:21:48 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45254657537726883
+		-auroc: 0.8101376004225982
+	-resnet
+		-f1: 0.34416242817754683
+		-auroc: 0.7192113117892236
+2026-06-19 03:23:04 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39644099948650524
+		-auroc: 0.8067407322543201
+	-resnet
+		-f1: 0.39511304007915365
+		-auroc: 0.7421266473139363
+2026-06-19 03:24:19 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44618764797319876
+		-auroc: 0.8092347096124033
+	-resnet
+		-f1: 0.33424384456390244
+		-auroc: 0.7140624497189211
+2026-06-19 03:25:35 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4061186414519618
+		-auroc: 0.8035302470463147
+	-resnet
+		-f1: 0.3264212401659097
+		-auroc: 0.719808117465847
+2026-06-19 03:26:51 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39772783070530665
+		-auroc: 0.8036671631085965
+	-resnet
+		-f1: 0.39130943117309375
+		-auroc: 0.7338793294023899
+2026-06-19 03:28:06 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4449765631247173
+		-auroc: 0.8042366738870623
+	-resnet
+		-f1: 0.3933332723770705
+		-auroc: 0.7387458660684743
+2026-06-19 03:29:22 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39226016810982733
+		-auroc: 0.8051906864033465
+	-resnet
+		-f1: 0.3429740526574819
+		-auroc: 0.6995366786439439
+2026-06-19 03:30:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39042088058024305
+		-auroc: 0.8032525327244399
+	-resnet
+		-f1: 0.4244247950395
+		-auroc: 0.7543535919056569
+2026-06-19 03:31:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4579242956995901
+		-auroc: 0.8076040762697028
+	-resnet
+		-f1: 0.341506293712577
+		-auroc: 0.6989736360620225
+2026-06-19 03:33:08 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.395374279168904
+		-auroc: 0.8057946915429639
+	-resnet
+		-f1: 0.3885194777702569
+		-auroc: 0.7192065586254572
+2026-06-19 03:34:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41085802522307446
+		-auroc: 0.805742807421604
+	-resnet
+		-f1: 0.35409178720443824
+		-auroc: 0.7320712225289
+2026-06-19 03:35:38 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46913955746457925
+		-auroc: 0.8067664636055462
+	-resnet
+		-f1: 0.3895353597598866
+		-auroc: 0.7326706767467603
+2026-06-19 03:36:54 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38461784828699663
+		-auroc: 0.8050173953725623
+	-resnet
+		-f1: 0.27642865877240874
+		-auroc: 0.724465072842152
+2026-06-19 03:38:08 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43662809724029283
+		-auroc: 0.8042790094382136
+	-resnet
+		-f1: 0.2846821841053492
+		-auroc: 0.6939646888891181
+2026-06-19 03:39:24 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4440338995442267
+		-auroc: 0.8060124713319364
+	-resnet
+		-f1: 0.3903737359108076
+		-auroc: 0.733786382262838
+2026-06-19 03:40:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4011883900624039
+		-auroc: 0.8070921082129943
+	-resnet
+		-f1: 0.3486709288794179
+		-auroc: 0.7237830289694763
+2026-06-19 03:41:54 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45633076379530096
+		-auroc: 0.8074188824907484
+	-resnet
+		-f1: 0.40218080647475435
+		-auroc: 0.7327998914925999
+2026-06-19 03:43:09 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39434756571341933
+		-auroc: 0.805056290392128
+	-resnet
+		-f1: 0.39444564202346216
+		-auroc: 0.7409955994425322
+2026-06-19 03:44:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39998919724630977
+		-auroc: 0.8037399434120394
+	-resnet
+		-f1: 0.3995620859402446
+		-auroc: 0.7439634294953047
+2026-06-19 03:45:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3942389828512901
+		-auroc: 0.8023150783811992
+	-resnet
+		-f1: 0.3860623136452174
+		-auroc: 0.7370871605087655
+2026-06-19 03:46:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40066246096034436
+		-auroc: 0.806246786283921
+	-resnet
+		-f1: 0.3779632173382173
+		-auroc: 0.7114388558818353
+2026-06-19 03:48:13 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45356282824378324
+		-auroc: 0.8006397649645338
+	-resnet
+		-f1: 0.35083978299594726
+		-auroc: 0.7241998188863872
+2026-06-19 03:49:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4595897630546951
+		-auroc: 0.8066233806339212
+	-resnet
+		-f1: 0.3431013861450945
+		-auroc: 0.7199655917265967
+2026-06-19 03:50:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44520013820927495
+		-auroc: 0.8070604193176409
+	-resnet
+		-f1: 0.41012577684253754
+		-auroc: 0.729922179367535
+2026-06-19 03:51:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.47115180237643484
+		-auroc: 0.804352724657974
+	-resnet
+		-f1: 0.4045204036167299
+		-auroc: 0.7301057112202863
+2026-06-19 03:53:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42007048116680873
+		-auroc: 0.8102277703531678
+	-resnet
+		-f1: 0.3242589210624107
+		-auroc: 0.6993720082977715
+2026-06-19 03:54:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4151501077929378
+		-auroc: 0.8040693195225608
+	-resnet
+		-f1: 0.34567044422647675
+		-auroc: 0.7326307838097287
+2026-06-19 03:55:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42157591935634675
+		-auroc: 0.809034679780034
+	-resnet
+		-f1: 0.3488920344636212
+		-auroc: 0.7322494095564417
+2026-06-19 03:56:58 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4393730400400325
+		-auroc: 0.8040736683783829
+	-resnet
+		-f1: 0.37394227724544726
+		-auroc: 0.7223149844542369
+2026-06-19 03:58:13 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41537616657178134
+		-auroc: 0.8072619531915028
+	-resnet
+		-f1: 0.3700781542627662
+		-auroc: 0.7274006470716932
+2026-06-19 03:59:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41883901385692457
+		-auroc: 0.8104424522637347
+	-resnet
+		-f1: 0.37528947501991317
+		-auroc: 0.7407304892491444
+2026-06-19 04:00:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.414555846936478
+		-auroc: 0.8049208051387483
+	-resnet
+		-f1: 0.37125794982722854
+		-auroc: 0.741988715943886
+2026-06-19 04:01:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41890373147589727
+		-auroc: 0.806381850869926
+	-resnet
+		-f1: 0.362341205454413
+		-auroc: 0.7357070500928633
+2026-06-19 04:03:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40650746433624674
+		-auroc: 0.8065353932281596
+	-resnet
+		-f1: 0.3908401949591675
+		-auroc: 0.7493112243555636
+2026-06-19 04:04:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44679958008914794
+		-auroc: 0.8080215176282011
+	-resnet
+		-f1: 0.4448064067316033
+		-auroc: 0.7411025871412613
+2026-06-19 04:05:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43433369783934656
+		-auroc: 0.8057414877241593
+	-resnet
+		-f1: 0.35041197188194595
+		-auroc: 0.7000828279082236
+2026-06-19 04:06:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4156369659058446
+		-auroc: 0.8057258501574032
+	-resnet
+		-f1: 0.36826899077336034
+		-auroc: 0.6928035223778297
+2026-06-19 04:08:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3780180628257719
+		-auroc: 0.80198363940555
+	-resnet
+		-f1: 0.29588555818893064
+		-auroc: 0.7068863421970122
+2026-06-19 04:09:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4264099140442153
+		-auroc: 0.8102777131949012
+	-resnet
+		-f1: 0.39499513115022306
+		-auroc: 0.7262248687045167
+2026-06-19 04:10:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4131815155473702
+		-auroc: 0.8101896149976039
+	-resnet
+		-f1: 0.3469806280576554
+		-auroc: 0.7176282828454358
+2026-06-19 04:11:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40541959339198463
+		-auroc: 0.807473622406109
+	-resnet
+		-f1: 0.37282404878644365
+		-auroc: 0.7200640482825194
+2026-06-19 04:13:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38987421247588006
+		-auroc: 0.804099070503416
+	-resnet
+		-f1: 0.3301334560349339
+		-auroc: 0.7277593108184655
+2026-06-19 04:14:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4491558608844999
+		-auroc: 0.8041187150806269
+	-resnet
+		-f1: 0.34887065410536044
+		-auroc: 0.7277580931361787
+2026-06-19 04:15:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45671867296932633
+		-auroc: 0.8030643605078103
+	-resnet
+		-f1: 0.38160057747756193
+		-auroc: 0.7196594433494108
+2026-06-19 04:16:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4616878591702657
+		-auroc: 0.8055377181090166
+	-resnet
+		-f1: 0.34173243435691536
+		-auroc: 0.7141744744411898
+2026-06-19 04:18:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3920287114380476
+		-auroc: 0.8043365717163015
+	-resnet
+		-f1: 0.3758294477059322
+		-auroc: 0.7095343456351015
+2026-06-19 04:19:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44141656008155616
+		-auroc: 0.8028877092648166
+	-resnet
+		-f1: 0.40532702945660015
+		-auroc: 0.7514723899015653
+2026-06-19 04:20:44 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44473185515451197
+		-auroc: 0.805378613382264
+	-resnet
+		-f1: 0.31030853094802396
+		-auroc: 0.6994407215454704
+2026-06-19 04:22:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39733732542462974
+		-auroc: 0.80140445351546
+	-resnet
+		-f1: 0.3598629478848682
+		-auroc: 0.7192080464681953
+2026-06-19 04:23:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44312053106990107
+		-auroc: 0.8088688448703223
+	-resnet
+		-f1: 0.40257206054813527
+		-auroc: 0.7644197179775233
+2026-06-19 04:24:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46311189350796916
+		-auroc: 0.8073259387672186
+	-resnet
+		-f1: 0.38301951064784956
+		-auroc: 0.736446853186731
+2026-06-19 04:25:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3956256255647512
+		-auroc: 0.8055448305504797
+	-resnet
+		-f1: 0.3719673389591881
+		-auroc: 0.715486880798087
+2026-06-19 04:27:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.474120500761195
+		-auroc: 0.8116331402650596
+	-resnet
+		-f1: 0.3582420441772618
+		-auroc: 0.7093248859622578
+2026-06-19 04:28:17 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4279269658634018
+		-auroc: 0.8067043496409276
+	-resnet
+		-f1: 0.36934514079986064
+		-auroc: 0.7378618312223894
+2026-06-19 04:29:31 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42467113685189356
+		-auroc: 0.8018601153043395
+	-resnet
+		-f1: 0.3819117862644522
+		-auroc: 0.7300838780893698
+2026-06-19 04:30:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38696581824246856
+		-auroc: 0.8057909673250142
+	-resnet
+		-f1: 0.3939250654618457
+		-auroc: 0.7491047984049128
+2026-06-19 04:32:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4370182651096036
+		-auroc: 0.7981433242825993
+	-resnet
+		-f1: 0.3475366758369798
+		-auroc: 0.7241056382688971
+2026-06-19 04:33:14 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4490351325285122
+		-auroc: 0.8076087683676985
+	-resnet
+		-f1: 0.3997163800433225
+		-auroc: 0.7295779525791593
+2026-06-19 04:34:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40727880715956877
+		-auroc: 0.8047283250414641
+	-resnet
+		-f1: 0.4063699846770038
+		-auroc: 0.725612586988708
+2026-06-19 04:35:44 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3921478535478748
+		-auroc: 0.8033513049482395
+	-resnet
+		-f1: 0.3661552909046727
+		-auroc: 0.7237645495233149
+2026-06-19 04:36:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46096781326199
+		-auroc: 0.806982875031611
+	-resnet
+		-f1: 0.3948605117592535
+		-auroc: 0.7328054961822912
+2026-06-19 04:38:14 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46532770017318575
+		-auroc: 0.8056436739581458
+	-resnet
+		-f1: 0.37882646457904123
+		-auroc: 0.7251326719117157
+2026-06-19 04:39:29 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44808401196796044
+		-auroc: 0.8031982302533898
+	-resnet
+		-f1: 0.3576152238744127
+		-auroc: 0.7227332862331743
+2026-06-19 04:40:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3796138570795083
+		-auroc: 0.8031927695659812
+	-resnet
+		-f1: 0.4033498082691211
+		-auroc: 0.7682435231430412
+2026-06-19 04:41:58 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4133065306499824
+		-auroc: 0.8063880069215511
+	-resnet
+		-f1: 0.3614155299984815
+		-auroc: 0.7273445636741751
+2026-06-19 04:43:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4161634172976399
+		-auroc: 0.8043479241546502
+	-resnet
+		-f1: 0.3117943167579281
+		-auroc: 0.697884714322033
+2026-06-19 04:44:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45267666685047
+		-auroc: 0.8067555902000029
+	-resnet
+		-f1: 0.40357370317725466
+		-auroc: 0.7404197660614619
+2026-06-19 04:45:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4412214691515838
+		-auroc: 0.8102515157771515
+	-resnet
+		-f1: 0.4025240942437439
+		-auroc: 0.7257700763621839
+2026-06-19 04:46:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4332356667156111
+		-auroc: 0.8047907195523759
+	-resnet
+		-f1: 0.35110690143194256
+		-auroc: 0.7092373111697458
+2026-06-19 04:48:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4297599407623062
+		-auroc: 0.8074894075128768
+	-resnet
+		-f1: 0.33047665974424734
+		-auroc: 0.7220725559943116
+2026-06-19 04:49:24 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38299314590613787
+		-auroc: 0.8008216002410835
+	-resnet
+		-f1: 0.32911807365350537
+		-auroc: 0.7075486201534232
+2026-06-19 04:50:40 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45118833812260534
+		-auroc: 0.8091496716948269
+	-resnet
+		-f1: 0.439546999718251
+		-auroc: 0.7403207592988148
+2026-06-19 04:51:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38990333875349104
+		-auroc: 0.807058796980168
+	-resnet
+		-f1: 0.34101955481671076
+		-auroc: 0.7225649373427383
+2026-06-19 04:53:10 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3924367392261982
+		-auroc: 0.8067414187630249
+	-resnet
+		-f1: 0.2835344470327113
+		-auroc: 0.706144417665471
+2026-06-19 04:54:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44238123099195426
+		-auroc: 0.8070425463905861
+	-resnet
+		-f1: 0.36284930085740796
+		-auroc: 0.7333053265285837
+2026-06-19 04:55:40 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4156525175278234
+		-auroc: 0.8067670377302593
+	-resnet
+		-f1: 0.3797597493136585
+		-auroc: 0.7440178599563861
+2026-06-19 04:56:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4519438403352538
+		-auroc: 0.8044628841873139
+	-resnet
+		-f1: 0.35561589986259606
+		-auroc: 0.7198310853517917
+2026-06-19 04:58:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4613227480092469
+		-auroc: 0.8074389453497283
+	-resnet
+		-f1: 0.3810084617375276
+		-auroc: 0.7188231313933675
+2026-06-19 04:59:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4412238723703849
+		-auroc: 0.8055752089556287
+	-resnet
+		-f1: 0.40040808929965666
+		-auroc: 0.7254035804069016
+2026-06-19 05:00:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43978094221749203
+		-auroc: 0.810555962837473
+	-resnet
+		-f1: 0.40253806790499275
+		-auroc: 0.7231719054792678
+2026-06-19 05:01:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41357992943535493
+		-auroc: 0.8073950716469678
+	-resnet
+		-f1: 0.41992470256271475
+		-auroc: 0.7431929675208045
+2026-06-19 05:03:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3849387338894773
+		-auroc: 0.8038315171359043
+	-resnet
+		-f1: 0.3184761521942662
+		-auroc: 0.7027520824582622
+2026-06-19 05:04:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40207618791948585
+		-auroc: 0.8031795175976205
+	-resnet
+		-f1: 0.30501124193696116
+		-auroc: 0.7232610722672919
+2026-06-19 05:05:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3927854587996993
+		-auroc: 0.8042104871453747
+	-resnet
+		-f1: 0.35464132334546405
+		-auroc: 0.7175529706992017
+2026-06-19 05:06:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4448498127353536
+		-auroc: 0.8033166467885617
+	-resnet
+		-f1: 0.38548702501202503
+		-auroc: 0.7338775439743055
+2026-06-19 05:08:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.445093027920465
+		-auroc: 0.8053641119497126
+	-resnet
+		-f1: 0.3579044698161237
+		-auroc: 0.7328554453122903
+2026-06-19 05:09:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3839442104202018
+		-auroc: 0.8060843586310751
+	-resnet
+		-f1: 0.39292539351979117
+		-auroc: 0.7260864100933817
+2026-06-19 05:10:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.431107423677211
+		-auroc: 0.8037453984532711
+	-resnet
+		-f1: 0.3635701106781132
+		-auroc: 0.7165621083428968
+2026-06-19 05:11:54 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4276624526202245
+		-auroc: 0.8052922143208573
+	-resnet
+		-f1: 0.38219792718069534
+		-auroc: 0.7299431534422848
+2026-06-19 05:13:09 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3940979701584494
+		-auroc: 0.8055518868577536
+	-resnet
+		-f1: 0.3504441122029188
+		-auroc: 0.7192064890497871
+2026-06-19 05:14:24 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46493185074882276
+		-auroc: 0.8049473909456445
+	-resnet
+		-f1: 0.4210397275661254
+		-auroc: 0.7559493349476952
+2026-06-19 05:15:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.454874131380414
+		-auroc: 0.8060372035602283
+	-resnet
+		-f1: 0.3684773570812604
+		-auroc: 0.7344940085621332
+2026-06-19 05:16:55 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.400230285672072
+		-auroc: 0.8038708556451081
+	-resnet
+		-f1: 0.39988128863725003
+		-auroc: 0.7364384425180979
+2026-06-19 05:18:10 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4499405244769947
+		-auroc: 0.8071697479429046
+	-resnet
+		-f1: 0.3388634285495272
+		-auroc: 0.7230903095642309
+2026-06-19 05:19:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44539936344908326
+		-auroc: 0.8077804968857698
+	-resnet
+		-f1: 0.3230478648481009
+		-auroc: 0.7414049785126668
+2026-06-19 05:20:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4659957227045914
+		-auroc: 0.8064024129131427
+	-resnet
+		-f1: 0.39332901320411046
+		-auroc: 0.7392657710416465
+2026-06-19 05:21:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4580562573185446
+		-auroc: 0.808542414850716
+	-resnet
+		-f1: 0.3758451443569554
+		-auroc: 0.7144117080855779
+2026-06-19 05:23:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3825988551082232
+		-auroc: 0.8031974669590441
+	-resnet
+		-f1: 0.3495784006958299
+		-auroc: 0.7219617727108775
+2026-06-19 05:24:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43664488280778
+		-auroc: 0.805539558072353
+	-resnet
+		-f1: 0.33838138809830026
+		-auroc: 0.7126298312751617
+2026-06-19 05:25:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4550046659932831
+		-auroc: 0.8025318763834657
+	-resnet
+		-f1: 0.36562983704859625
+		-auroc: 0.7154090650140652
+2026-06-19 05:26:55 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3906265971934685
+		-auroc: 0.7979778622574587
+	-resnet
+		-f1: 0.3774710108596701
+		-auroc: 0.7284592834069838
+2026-06-19 05:28:10 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40259117079992623
+		-auroc: 0.807707757182774
+	-resnet
+		-f1: 0.3977846218925887
+		-auroc: 0.7247670283255905
+2026-06-19 05:29:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4708802751933628
+		-auroc: 0.8085331569712414
+	-resnet
+		-f1: 0.3590478557883941
+		-auroc: 0.7091260221546138
+2026-06-19 05:30:40 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4640804548531543
+		-auroc: 0.808189577881356
+	-resnet
+		-f1: 0.3883711050610431
+		-auroc: 0.7240486752900046
+2026-06-19 05:31:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.407223219915272
+		-auroc: 0.8089842098515486
+	-resnet
+		-f1: 0.27787123749293535
+		-auroc: 0.7139283054738428
+2026-06-19 05:33:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3964373235069212
+		-auroc: 0.8049276497139302
+	-resnet
+		-f1: 0.38368277648927057
+		-auroc: 0.7291886336020961
+2026-06-19 05:34:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4380743419005856
+		-auroc: 0.8074222193988151
+	-resnet
+		-f1: 0.41905576862368593
+		-auroc: 0.7433274663620058
+2026-06-19 05:35:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40890959505757174
+		-auroc: 0.8075057226465819
+	-resnet
+		-f1: 0.3547781982742414
+		-auroc: 0.7500192213664548
+2026-06-19 05:36:55 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4344836773121232
+		-auroc: 0.804942984240855
+	-resnet
+		-f1: 0.30271264303615697
+		-auroc: 0.7044716300219401
+2026-06-19 05:38:10 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4475105506408498
+		-auroc: 0.8060257831385071
+	-resnet
+		-f1: 0.36779501349283084
+		-auroc: 0.7145358673455241
+2026-06-19 05:39:24 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.37935724339245985
+		-auroc: 0.8019552407837965
+	-resnet
+		-f1: 0.32129373209057954
+		-auroc: 0.7261076340858337
+2026-06-19 05:40:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3840436128025241
+		-auroc: 0.7974494504288042
+	-resnet
+		-f1: 0.34389421423349215
+		-auroc: 0.7284771281329364
+2026-06-19 05:41:54 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39952133879356666
+		-auroc: 0.8095387549923201
+	-resnet
+		-f1: 0.35710734635248575
+		-auroc: 0.6968144106720425
+2026-06-19 05:43:03 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3904795662941035
+		-auroc: 0.8048642831150719
+	-resnet
+		-f1: 0.37504772756341875
+		-auroc: 0.7235769667028779
+2026-06-19 05:44:09 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4112259590268611
+		-auroc: 0.808386217528283
+	-resnet
+		-f1: 0.3513942700146798
+		-auroc: 0.7079598327644856
+2026-06-19 05:45:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44147202629812654
+		-auroc: 0.8057903407055989
+	-resnet
+		-f1: 0.39348880620029186
+		-auroc: 0.7358223247315969
+2026-06-19 05:46:22 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4718613364260298
+		-auroc: 0.8083234143449708
+	-resnet
+		-f1: 0.35707970474309497
+		-auroc: 0.716644344557857
+2026-06-19 05:47:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4395287191700669
+		-auroc: 0.80962648749563
+	-resnet
+		-f1: 0.402347419876495
+		-auroc: 0.733378712467301
+2026-06-19 05:48:35 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4387477423962383
+		-auroc: 0.8075291799846104
+	-resnet
+		-f1: 0.3171326318854583
+		-auroc: 0.7388248658245061
+2026-06-19 05:49:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4161802447226878
+		-auroc: 0.8081702452543551
+	-resnet
+		-f1: 0.3838487586903928
+		-auroc: 0.7318788378147992
+2026-06-19 05:50:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43355132469654534
+		-auroc: 0.8059790513868119
+	-resnet
+		-f1: 0.3859481598685296
+		-auroc: 0.7422211969972896
+2026-06-19 05:51:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4047459431077184
+		-auroc: 0.8048061365244928
+	-resnet
+		-f1: 0.39839518321939377
+		-auroc: 0.7276363879631867
+2026-06-19 05:52:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44945146413358117
+		-auroc: 0.804174530301065
+	-resnet
+		-f1: 0.3738149357239602
+		-auroc: 0.7321136629590106
+2026-06-19 05:54:04 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4243172222134691
+		-auroc: 0.8094763064394591
+	-resnet
+		-f1: 0.4304497020571527
+		-auroc: 0.7513220701886916
+2026-06-19 05:55:10 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44117017284307003
+		-auroc: 0.8110048145831751
+	-resnet
+		-f1: 0.34913527961344126
+		-auroc: 0.7036070448283136
+2026-06-19 05:56:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4137844309657641
+		-auroc: 0.8059830977986577
+	-resnet
+		-f1: 0.3613877820760002
+		-auroc: 0.7286776824021166
+2026-06-19 05:57:22 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.452565565644493
+		-auroc: 0.80520737263386
+	-resnet
+		-f1: 0.3162648597324982
+		-auroc: 0.7184256977057306
+2026-06-19 05:58:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3991880770001387
+		-auroc: 0.8059941906969076
+	-resnet
+		-f1: 0.3185868927483834
+		-auroc: 0.7351203161972558
+2026-06-19 05:59:34 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4538318663746083
+		-auroc: 0.8085411846212336
+	-resnet
+		-f1: 0.3299312452253629
+		-auroc: 0.6995560208575261
+2026-06-19 06:00:40 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41907591583663395
+		-auroc: 0.8104145664749879
+	-resnet
+		-f1: 0.3657928303677316
+		-auroc: 0.7221529868772706
+2026-06-19 06:01:49 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40952449508860483
+		-auroc: 0.8079094248929577
+	-resnet
+		-f1: 0.3608586306722953
+		-auroc: 0.7231277215112069
+2026-06-19 06:02:55 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38463732225886127
+		-auroc: 0.8039928353727243
+	-resnet
+		-f1: 0.3981148632781082
+		-auroc: 0.7454969884057409
+2026-06-19 06:04:02 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4546461983536131
+		-auroc: 0.8057671934673678
+	-resnet
+		-f1: 0.44321191408179983
+		-auroc: 0.7548452163297472
+2026-06-19 06:05:08 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3964315997555836
+		-auroc: 0.8076690861797873
+	-resnet
+		-f1: 0.3234108595378618
+		-auroc: 0.7126127296846899
+2026-06-19 06:06:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4388348102650994
+		-auroc: 0.8056291723925669
+	-resnet
+		-f1: 0.3976290868164601
+		-auroc: 0.7427424443114641
+2026-06-19 06:07:24 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46079523674481715
+		-auroc: 0.8071285184355157
+	-resnet
+		-f1: 0.3325982626792289
+		-auroc: 0.7358128635570605
+2026-06-19 06:08:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44468838004135397
+		-auroc: 0.8051739128208283
+	-resnet
+		-f1: 0.3133978593028138
+		-auroc: 0.6964220453113508
+2026-06-19 06:09:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4079900732027405
+		-auroc: 0.8059571428116532
+	-resnet
+		-f1: 0.3196187965122601
+		-auroc: 0.7346359348050481
+2026-06-19 06:10:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.428196423193805
+		-auroc: 0.8095615829442959
+	-resnet
+		-f1: 0.3736673467504198
+		-auroc: 0.7353926891741576
+2026-06-19 06:11:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4477407837822942
+		-auroc: 0.8066030086778456
+	-resnet
+		-f1: 0.36537005281447693
+		-auroc: 0.7225082660951615
+2026-06-19 06:12:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4466314989181684
+		-auroc: 0.8077653083605478
+	-resnet
+		-f1: 0.2840033476803314
+		-auroc: 0.7139052895003257
+2026-06-19 06:14:06 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3944930847320399
+		-auroc: 0.8060130763269218
+	-resnet
+		-f1: 0.33456451853354696
+		-auroc: 0.7325265128939848
+2026-06-19 06:15:14 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4575403836847098
+		-auroc: 0.8091522606701911
+	-resnet
+		-f1: 0.3541509833194658
+		-auroc: 0.7181820794486566
+2026-06-19 06:16:20 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3906189391838043
+		-auroc: 0.8054625748368999
+	-resnet
+		-f1: 0.39277140034292646
+		-auroc: 0.7260967378498631
+2026-06-19 06:17:29 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46450001335570545
+		-auroc: 0.8077918914849741
+	-resnet
+		-f1: 0.39046587174189634
+		-auroc: 0.733075474840725
+2026-06-19 06:18:34 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.404222519663889
+		-auroc: 0.8050113918923714
+	-resnet
+		-f1: 0.3309111116764985
+		-auroc: 0.6894612968077378
+2026-06-19 06:19:40 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4552525992702541
+		-auroc: 0.8076196179881261
+	-resnet
+		-f1: 0.4075697970593379
+		-auroc: 0.7522539365430343
+2026-06-19 06:20:46 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.37835260469867216
+		-auroc: 0.8007171982470387
+	-resnet
+		-f1: 0.3726325857984941
+		-auroc: 0.7317811297361707
+2026-06-19 06:21:54 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4021652253005058
+		-auroc: 0.8109173305490529
+	-resnet
+		-f1: 0.3857734336087638
+		-auroc: 0.7382003351351278
+2026-06-19 06:23:03 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4316885012849684
+		-auroc: 0.8074864093133737
+	-resnet
+		-f1: 0.3620475344657347
+		-auroc: 0.7147168361166525
+2026-06-19 06:24:10 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4689737384217956
+		-auroc: 0.8040506765960791
+	-resnet
+		-f1: 0.31851554209287763
+		-auroc: 0.7202164778196798
+2026-06-19 06:25:17 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4255911344882982
+		-auroc: 0.7973910528539021
+	-resnet
+		-f1: 0.38669030182541064
+		-auroc: 0.7238150361554722
+2026-06-19 06:26:20 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4106461574899277
+		-auroc: 0.8052793896407474
+	-resnet
+		-f1: 0.3134171136550762
+		-auroc: 0.7221717433448511
+2026-06-19 06:27:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39482173861473757
+		-auroc: 0.8059489882933224
+	-resnet
+		-f1: 0.36789474137058986
+		-auroc: 0.6982325628033305
+2026-06-19 06:28:34 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43571357345184847
+		-auroc: 0.8089255318472004
+	-resnet
+		-f1: 0.2976408774705312
+		-auroc: 0.6950760270035025
+2026-06-19 06:29:40 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4454892083575511
+		-auroc: 0.8105144268087713
+	-resnet
+		-f1: 0.37193550617688764
+		-auroc: 0.6977309482090522
+2026-06-19 06:30:47 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4571205824836212
+		-auroc: 0.8078870889720946
+	-resnet
+		-f1: 0.41464335440981126
+		-auroc: 0.7429932229043958
+2026-06-19 06:31:55 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4620659682858236
+		-auroc: 0.8064034438861025
+	-resnet
+		-f1: 0.3557020184860186
+		-auroc: 0.7314494781872002
+2026-06-19 06:33:02 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4405882783267693
+		-auroc: 0.8075400967928218
+	-resnet
+		-f1: 0.3383442241918998
+		-auroc: 0.6913905998028653
+2026-06-19 06:34:10 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4580730954238952
+		-auroc: 0.8084309597586536
+	-resnet
+		-f1: 0.41158259116555246
+		-auroc: 0.7357752267966197
+2026-06-19 06:35:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.427202905117588
+		-auroc: 0.8059452056088527
+	-resnet
+		-f1: 0.4114181906262305
+		-auroc: 0.7501538312469045
+2026-06-19 06:36:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4162298048036269
+		-auroc: 0.8061888468818769
+	-resnet
+		-f1: 0.33434030449894747
+		-auroc: 0.7179787929797431
+2026-06-19 06:37:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4616600837308802
+		-auroc: 0.8080260694963123
+	-resnet
+		-f1: 0.3431987426729609
+		-auroc: 0.7264539336688295
+2026-06-19 06:38:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40369056644051315
+		-auroc: 0.8096636705985709
+	-resnet
+		-f1: 0.3711220704584767
+		-auroc: 0.7346741364501306
+2026-06-19 06:39:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42192008921069374
+		-auroc: 0.8078557256941675
+	-resnet
+		-f1: 0.42026222005232505
+		-auroc: 0.7347283073130864
+2026-06-19 06:40:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3996951831026182
+		-auroc: 0.8064595070623147
+	-resnet
+		-f1: 0.3567223781654556
+		-auroc: 0.7407896767040467
+2026-06-19 06:41:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4377720151026126
+		-auroc: 0.8077097786659861
+	-resnet
+		-f1: 0.4080931002670133
+		-auroc: 0.7310141651040645
+2026-06-19 06:42:58 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46379555032361425
+		-auroc: 0.8088163595748983
+	-resnet
+		-f1: 0.32083508222099727
+		-auroc: 0.7026420583634573
+2026-06-19 06:44:06 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.453396600585228
+		-auroc: 0.807578407730219
+	-resnet
+		-f1: 0.33727276001625317
+		-auroc: 0.7238675636055854
+2026-06-19 06:45:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39705861965522815
+		-auroc: 0.8063782728543428
+	-resnet
+		-f1: 0.40617816273272866
+		-auroc: 0.7346928404861893
+2026-06-19 06:46:19 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3897972924369816
+		-auroc: 0.8057305113638783
+	-resnet
+		-f1: 0.35609964233935704
+		-auroc: 0.706941520250438
+2026-06-19 06:47:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44500990591249634
+		-auroc: 0.8095967139610452
+	-resnet
+		-f1: 0.3582280864944892
+		-auroc: 0.6842068092389488
+2026-06-19 06:48:33 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4551305464068676
+		-auroc: 0.8057090211510726
+	-resnet
+		-f1: 0.4221921717161387
+		-auroc: 0.7395885932429972
+2026-06-19 06:49:38 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46104270245655565
+		-auroc: 0.8044329690847345
+	-resnet
+		-f1: 0.2896652736394659
+		-auroc: 0.6947707276651343
+2026-06-19 06:50:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45764714165276005
+		-auroc: 0.8077880192314815
+	-resnet
+		-f1: 0.3596541174725342
+		-auroc: 0.7046977019738024
+2026-06-19 06:51:50 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.439656347255095
+		-auroc: 0.8056365963139729
+	-resnet
+		-f1: 0.3256543239399213
+		-auroc: 0.7020843005464802
+2026-06-19 06:52:58 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44352884241554547
+		-auroc: 0.8067951377481029
+	-resnet
+		-f1: 0.37804854525727527
+		-auroc: 0.7277070604606442
+2026-06-19 06:54:07 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4320230065598107
+		-auroc: 0.8059517283781601
+	-resnet
+		-f1: 0.39734430242966395
+		-auroc: 0.7130696755234796
+2026-06-19 06:55:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4606537082022837
+		-auroc: 0.8081779887992123
+	-resnet
+		-f1: 0.30149045515297324
+		-auroc: 0.7142362003063981
+2026-06-19 06:56:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3963032632348816
+		-auroc: 0.808115695771064
+	-resnet
+		-f1: 0.3447973230176943
+		-auroc: 0.7245014032882606
+2026-06-19 06:57:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4013696396249415
+		-auroc: 0.8076621692960815
+	-resnet
+		-f1: 0.3653527992155287
+		-auroc: 0.7312829000758907
+2026-06-19 06:58:33 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4434378663918448
+		-auroc: 0.8069515366780486
+	-resnet
+		-f1: 0.36848087971800847
+		-auroc: 0.7282494594486126
+2026-06-19 06:59:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4503189807263001
+		-auroc: 0.8022791899755651
+	-resnet
+		-f1: 0.3612683666080558
+		-auroc: 0.7256920889742341
+2026-06-19 07:00:48 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43938678888749694
+		-auroc: 0.8088124330835129
+	-resnet
+		-f1: 0.3973125384871778
+		-auroc: 0.7196821836569263
+2026-06-19 07:01:55 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4412335580989919
+		-auroc: 0.8045735346653607
+	-resnet
+		-f1: 0.38244271343136665
+		-auroc: 0.7356397175542929
+2026-06-19 07:03:04 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40815294269325914
+		-auroc: 0.8066905998188677
+	-resnet
+		-f1: 0.24604413244413242
+		-auroc: 0.6927612819653703
+2026-06-19 07:04:14 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42416653485276046
+		-auroc: 0.8039552477083344
+	-resnet
+		-f1: 0.3355257853015699
+		-auroc: 0.7082398614882237
+2026-06-19 07:05:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4641356380180729
+		-auroc: 0.8054323069722826
+	-resnet
+		-f1: 0.40166631848842255
+		-auroc: 0.7436076883485077
+2026-06-19 07:06:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39066635499906527
+		-auroc: 0.8019571180834685
+	-resnet
+		-f1: 0.35838236061127626
+		-auroc: 0.7297983645086694
+2026-06-19 07:07:35 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4595940838930533
+		-auroc: 0.8093691579094836
+	-resnet
+		-f1: 0.4038908180717929
+		-auroc: 0.7317872412020455
+2026-06-19 07:08:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4012814414995412
+		-auroc: 0.8044331009487602
+	-resnet
+		-f1: 0.3072432690168832
+		-auroc: 0.6884510426831837
+2026-06-19 07:09:48 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43944134446433025
+		-auroc: 0.8104989453339693
+	-resnet
+		-f1: 0.3634208526001509
+		-auroc: 0.7098785364584899
+2026-06-19 07:10:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42358687334197426
+		-auroc: 0.8046353697060653
+	-resnet
+		-f1: 0.3054755895510187
+		-auroc: 0.7224113896290676
+2026-06-19 07:12:03 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4401780668504312
+		-auroc: 0.807230221251821
+	-resnet
+		-f1: 0.39964004906347617
+		-auroc: 0.7640607080663608
+2026-06-19 07:13:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45561209454762397
+		-auroc: 0.8065553549165291
+	-resnet
+		-f1: 0.38639850020420186
+		-auroc: 0.7410061115218982
+2026-06-19 07:14:17 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4494631850186547
+		-auroc: 0.8081862026707833
+	-resnet
+		-f1: 0.340816501851117
+		-auroc: 0.709081192908673
+2026-06-19 07:15:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45238668719530245
+		-auroc: 0.8059198392508099
+	-resnet
+		-f1: 0.405184872195254
+		-auroc: 0.7521174929657437
+2026-06-19 07:16:33 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4505165982793978
+		-auroc: 0.8044403099948862
+	-resnet
+		-f1: 0.37353679765576614
+		-auroc: 0.7004393055283058
+2026-06-19 07:17:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4599743191992366
+		-auroc: 0.8068465048979995
+	-resnet
+		-f1: 0.3044993033425904
+		-auroc: 0.7051690927182787
+2026-06-19 07:18:46 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46259330860400477
+		-auroc: 0.8082118020517658
+	-resnet
+		-f1: 0.3426521535891826
+		-auroc: 0.719953078452713
+2026-06-19 07:19:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45077173132857506
+		-auroc: 0.8032331123480023
+	-resnet
+		-f1: 0.34690348894688505
+		-auroc: 0.7224367433719218
+2026-06-19 07:21:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4125757110680288
+		-auroc: 0.8109849083188859
+	-resnet
+		-f1: 0.34862340612623666
+		-auroc: 0.7370701308372921
+2026-06-19 07:22:06 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3974943774261027
+		-auroc: 0.8034491406473829
+	-resnet
+		-f1: 0.3859450200329376
+		-auroc: 0.7335064135763606
+2026-06-19 07:23:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4471940591964425
+		-auroc: 0.808934274220249
+	-resnet
+		-f1: 0.3414367780263189
+		-auroc: 0.7281039024787935
+2026-06-19 07:24:20 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4424220272513488
+		-auroc: 0.8026741708362672
+	-resnet
+		-f1: 0.35410097460460177
+		-auroc: 0.7320077612218074
+2026-06-19 07:25:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.468493569479675
+		-auroc: 0.8061862629051099
+	-resnet
+		-f1: 0.33581557519523253
+		-auroc: 0.7138738797249387
+2026-06-19 07:26:34 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4192657429421331
+		-auroc: 0.8038084379398777
+	-resnet
+		-f1: 0.38948703699485687
+		-auroc: 0.7297011184519442
+2026-06-19 07:27:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43840519112731346
+		-auroc: 0.8036176117353271
+	-resnet
+		-f1: 0.38797683447278924
+		-auroc: 0.725455866468734
+2026-06-19 07:28:49 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3807027366894216
+		-auroc: 0.8011452982914372
+	-resnet
+		-f1: 0.34226962431199337
+		-auroc: 0.7185886032455444
+2026-06-19 07:29:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3959032777375143
+		-auroc: 0.8056259549668654
+	-resnet
+		-f1: 0.40984846382439455
+		-auroc: 0.731208586974898
+2026-06-19 07:31:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4210240553864496
+		-auroc: 0.8054219450427397
+	-resnet
+		-f1: 0.28843913460995313
+		-auroc: 0.7042317972711826
+2026-06-19 07:32:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40971547868484465
+		-auroc: 0.8058278075693586
+	-resnet
+		-f1: 0.299083685600745
+		-auroc: 0.6727191221932671
+2026-06-19 07:33:20 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38614880014642794
+		-auroc: 0.8062794945282752
+	-resnet
+		-f1: 0.34756371800530805
+		-auroc: 0.7343898706997891
+2026-06-19 07:34:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43489414818487865
+		-auroc: 0.8070078319943527
+	-resnet
+		-f1: 0.3575407502309479
+		-auroc: 0.7308433851927015
+2026-06-19 07:35:33 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46119874034701364
+		-auroc: 0.809565628073776
+	-resnet
+		-f1: 0.3438663428825103
+		-auroc: 0.7341011560188434
+2026-06-19 07:36:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.47252917085711044
+		-auroc: 0.8073959249546384
+	-resnet
+		-f1: 0.3325311636084615
+		-auroc: 0.7199594830578608
+2026-06-19 07:37:47 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39591381418824584
+		-auroc: 0.8070259990907702
+	-resnet
+		-f1: 0.3460689954565904
+		-auroc: 0.7420457597809261
+2026-06-19 07:38:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4546526274425055
+		-auroc: 0.8092940948710734
+	-resnet
+		-f1: 0.32353633504146756
+		-auroc: 0.7116924234350507
+2026-06-19 07:40:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40571412087323366
+		-auroc: 0.8082673295533513
+	-resnet
+		-f1: 0.3524782020394987
+		-auroc: 0.7014965591841307
+2026-06-19 07:41:08 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43857934858017417
+		-auroc: 0.807558678666554
+	-resnet
+		-f1: 0.3352286405791828
+		-auroc: 0.7061783035567585
+2026-06-19 07:42:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40095193214264657
+		-auroc: 0.8087795718250815
+	-resnet
+		-f1: 0.33520658212816484
+		-auroc: 0.6864295046433091
+2026-06-19 07:43:24 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4225008128324802
+		-auroc: 0.8046953961346981
+	-resnet
+		-f1: 0.393625639605201
+		-auroc: 0.7222170712626932
+2026-06-19 07:44:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4732943612227499
+		-auroc: 0.8100138973488322
+	-resnet
+		-f1: 0.3630841845831313
+		-auroc: 0.7286915859072847
+2026-06-19 07:45:40 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42934908367905306
+		-auroc: 0.805049932589203
+	-resnet
+		-f1: 0.37732055875442383
+		-auroc: 0.7436034184215282
+2026-06-19 07:46:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4174170557033838
+		-auroc: 0.805579185393172
+	-resnet
+		-f1: 0.4221078505999828
+		-auroc: 0.7480274722438657
+2026-06-19 07:47:54 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39081538561862345
+		-auroc: 0.8056857589282396
+	-resnet
+		-f1: 0.394173882527692
+		-auroc: 0.727443035616259
+2026-06-19 07:49:02 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41571350888843916
+		-auroc: 0.8042114349538778
+	-resnet
+		-f1: 0.3665256309412025
+		-auroc: 0.7019616959530134
+2026-06-19 07:50:09 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43638951914504087
+		-auroc: 0.8074671940103684
+	-resnet
+		-f1: 0.3691662225361101
+		-auroc: 0.7239538875100868
+2026-06-19 07:51:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4431018518518518
+		-auroc: 0.8069726064407622
+	-resnet
+		-f1: 0.4131919526998541
+		-auroc: 0.7309591002105597
+2026-06-19 07:52:22 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40246149270939957
+		-auroc: 0.8069450151946211
+	-resnet
+		-f1: 0.2990218392001566
+		-auroc: 0.706433954622194
+2026-06-19 07:53:31 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44466063237355585
+		-auroc: 0.8055863277692084
+	-resnet
+		-f1: 0.3584411919720524
+		-auroc: 0.742728523975617
+2026-06-19 07:54:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4337788996453538
+		-auroc: 0.8059764928614163
+	-resnet
+		-f1: 0.36242916066049435
+		-auroc: 0.7242263769215929
+2026-06-19 07:55:44 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4163363331691127
+		-auroc: 0.8093874315603327
+	-resnet
+		-f1: 0.3661861738117687
+		-auroc: 0.73781388073422
+2026-06-19 07:56:50 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45017643231871907
+		-auroc: 0.8068580387838319
+	-resnet
+		-f1: 0.38735934738812017
+		-auroc: 0.7416290154619593
+2026-06-19 07:57:58 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4004311217336213
+		-auroc: 0.8039893796740307
+	-resnet
+		-f1: 0.3762047681347114
+		-auroc: 0.7495735457844235
+2026-06-19 07:59:07 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4486909815443084
+		-auroc: 0.802844862352288
+	-resnet
+		-f1: 0.2916963618552962
+		-auroc: 0.6969995376901708
+2026-06-19 08:00:13 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4058236717483961
+		-auroc: 0.8002231903678471
+	-resnet
+		-f1: 0.4092283884815012
+		-auroc: 0.7370183784773312
+2026-06-19 08:01:20 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4204911413148621
+		-auroc: 0.8054964724780062
+	-resnet
+		-f1: 0.40212323309946907
+		-auroc: 0.720113553524516
+2026-06-19 08:02:29 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40535783235099077
+		-auroc: 0.8083120352531512
+	-resnet
+		-f1: 0.4053253395119444
+		-auroc: 0.732849553487869
+2026-06-19 08:03:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4426239302171324
+		-auroc: 0.8071247985901067
+	-resnet
+		-f1: 0.30684091037906486
+		-auroc: 0.7124788458763732
+2026-06-19 08:04:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4254947383235426
+		-auroc: 0.804614711461779
+	-resnet
+		-f1: 0.36738920639047945
+		-auroc: 0.7232573003698276
+2026-06-19 08:05:49 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3938483082211436
+		-auroc: 0.8049832937956574
+	-resnet
+		-f1: 0.4327100513410554
+		-auroc: 0.747591911096521
+2026-06-19 08:06:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4691563133943955
+		-auroc: 0.8069680399494075
+	-resnet
+		-f1: 0.36219496600951534
+		-auroc: 0.7373515205007777
+2026-06-19 08:08:01 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44837314325371896
+		-auroc: 0.8072922760666383
+	-resnet
+		-f1: 0.38650519901117714
+		-auroc: 0.7261179290134936
+2026-06-19 08:09:09 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45697597191121087
+		-auroc: 0.804283273380701
+	-resnet
+		-f1: 0.352805985184668
+		-auroc: 0.7209935040344637
+2026-06-19 08:10:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46072454637586413
+		-auroc: 0.806917198680995
+	-resnet
+		-f1: 0.3848338574824539
+		-auroc: 0.73537518310082
+2026-06-19 08:11:23 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4216142199256643
+		-auroc: 0.7984593963024135
+	-resnet
+		-f1: 0.36928725808036156
+		-auroc: 0.7147114049307483
+2026-06-19 08:12:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44562685595490503
+		-auroc: 0.8036503973831722
+	-resnet
+		-f1: 0.31530523199838195
+		-auroc: 0.7022896111776901
+2026-06-19 08:13:36 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44204557364865515
+		-auroc: 0.8068046532934838
+	-resnet
+		-f1: 0.407722624989632
+		-auroc: 0.7333449480499822
+2026-06-19 08:14:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4010521395725859
+		-auroc: 0.8072196261615877
+	-resnet
+		-f1: 0.38196771293776066
+		-auroc: 0.7190053682277912
+2026-06-19 08:15:49 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40766640258750186
+		-auroc: 0.8076219844815787
+	-resnet
+		-f1: 0.3951566383922299
+		-auroc: 0.7231348856955806
+2026-06-19 08:16:58 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39584599200398485
+		-auroc: 0.8056046741270515
+	-resnet
+		-f1: 0.3380883877446991
+		-auroc: 0.7321216482643818
+2026-06-19 08:18:07 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39998868792802733
+		-auroc: 0.8038210519384823
+	-resnet
+		-f1: 0.3261556937826963
+		-auroc: 0.7292090187855311
+2026-06-19 08:19:14 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44527278910535334
+		-auroc: 0.8043049891349383
+	-resnet
+		-f1: 0.3216560600372509
+		-auroc: 0.714048585492288
+2026-06-19 08:20:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.47466122391848725
+		-auroc: 0.8091779051847091
+	-resnet
+		-f1: 0.282599014206062
+		-auroc: 0.7085666514304251
+2026-06-19 08:21:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4154946834204193
+		-auroc: 0.8040225433566002
+	-resnet
+		-f1: 0.2755009045951461
+		-auroc: 0.6902766778902713
+2026-06-19 08:22:35 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42693646452747397
+		-auroc: 0.8041197092892771
+	-resnet
+		-f1: 0.3530595431997524
+		-auroc: 0.7431755437985038
+2026-06-19 08:23:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41702085908331227
+		-auroc: 0.8069567902698921
+	-resnet
+		-f1: 0.3618577946683219
+		-auroc: 0.7139593754238167
+2026-06-19 08:24:47 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4015854431522786
+		-auroc: 0.8070541171071071
+	-resnet
+		-f1: 0.31073484385952427
+		-auroc: 0.702793950910819
+2026-06-19 08:25:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4345216998677521
+		-auroc: 0.7982206788987493
+	-resnet
+		-f1: 0.3798095020280288
+		-auroc: 0.7135034798138007
+2026-06-19 08:27:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40766444100078625
+		-auroc: 0.8074632484243374
+	-resnet
+		-f1: 0.3602287240810158
+		-auroc: 0.7352345710977384
+2026-06-19 08:28:07 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3980259976123608
+		-auroc: 0.8054311634906199
+	-resnet
+		-f1: 0.3606796067005127
+		-auroc: 0.6989115033720591
+2026-06-19 08:29:14 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4537513472329466
+		-auroc: 0.8074708393864396
+	-resnet
+		-f1: 0.31024617844504754
+		-auroc: 0.6938794272662413
+2026-06-19 08:30:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.442463590067146
+		-auroc: 0.8052971992291512
+	-resnet
+		-f1: 0.3420575338937966
+		-auroc: 0.6972614693778609
+2026-06-19 08:31:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40702356183909877
+		-auroc: 0.8083208322385136
+	-resnet
+		-f1: 0.39070152864811586
+		-auroc: 0.7353626567880003
+2026-06-19 08:32:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46694229126321335
+		-auroc: 0.8038704982047417
+	-resnet
+		-f1: 0.36393282932685544
+		-auroc: 0.727116807293785
+2026-06-19 08:33:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4306487944701657
+		-auroc: 0.8041896862981707
+	-resnet
+		-f1: 0.35694340874670355
+		-auroc: 0.7166292228027287
+2026-06-19 08:34:47 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3970560384706129
+		-auroc: 0.8074487795219994
+	-resnet
+		-f1: 0.38307610476862886
+		-auroc: 0.7413830682001422
+2026-06-19 08:35:54 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41877432851581864
+		-auroc: 0.8103365080618097
+	-resnet
+		-f1: 0.4024887801511682
+		-auroc: 0.7419081741009073
+2026-06-19 08:37:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39516070586839463
+		-auroc: 0.8094908744345328
+	-resnet
+		-f1: 0.38409999579777127
+		-auroc: 0.7077965878287988
+2026-06-19 08:38:08 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4575340047688477
+		-auroc: 0.8052954956483147
+	-resnet
+		-f1: 0.3316089160212067
+		-auroc: 0.7280412417358588
+2026-06-19 08:39:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45896810801950966
+		-auroc: 0.8060778557058217
+	-resnet
+		-f1: 0.3935744611396562
+		-auroc: 0.7383013724660636
+2026-06-19 08:40:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3977718214487168
+		-auroc: 0.8035932791209254
+	-resnet
+		-f1: 0.32224083273327114
+		-auroc: 0.7042647941329898
+2026-06-19 08:41:29 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3991281773963473
+		-auroc: 0.8085168712456342
+	-resnet
+		-f1: 0.3528222080106199
+		-auroc: 0.7169122218217605
+2026-06-19 08:42:36 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4252463990373503
+		-auroc: 0.8011838346188558
+	-resnet
+		-f1: 0.3698928685981026
+		-auroc: 0.728409280817561
+2026-06-19 08:43:44 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39822637065571154
+		-auroc: 0.8020687839675636
+	-resnet
+		-f1: 0.29655763035939203
+		-auroc: 0.7081219993312635
+2026-06-19 08:44:55 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4370459285433072
+		-auroc: 0.804182374670915
+	-resnet
+		-f1: 0.4556349807149015
+		-auroc: 0.7547534502124664
+2026-06-19 08:46:08 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40055460856127045
+		-auroc: 0.8044435366829694
+	-resnet
+		-f1: 0.3147516975103182
+		-auroc: 0.7127550200721682
+2026-06-19 08:47:22 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4240164382068
+		-auroc: 0.8122179657458529
+	-resnet
+		-f1: 0.3420013854820049
+		-auroc: 0.7223385751904526
+2026-06-19 08:48:36 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4343200716535206
+		-auroc: 0.8065042380202214
+	-resnet
+		-f1: 0.3458875219633369
+		-auroc: 0.7200841940059192
+2026-06-19 08:49:50 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43256086607339367
+		-auroc: 0.8064913189888431
+	-resnet
+		-f1: 0.36312732333923115
+		-auroc: 0.7071690680700825
+2026-06-19 08:50:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4008228906656077
+		-auroc: 0.8024252467597993
+	-resnet
+		-f1: 0.4169486511815384
+		-auroc: 0.7332938892245926
+2026-06-19 08:52:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44621708420685263
+		-auroc: 0.8072015478532167
+	-resnet
+		-f1: 0.41757584701938527
+		-auroc: 0.7478330381489727
+2026-06-19 08:53:13 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45561450094254735
+		-auroc: 0.806329106807844
+	-resnet
+		-f1: 0.3304001403726929
+		-auroc: 0.7031340068464488
+2026-06-19 08:54:17 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43803381837284483
+		-auroc: 0.8068421700512346
+	-resnet
+		-f1: 0.4282740016094035
+		-auroc: 0.7174622227599142
+2026-06-19 08:55:24 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46837672306617584
+		-auroc: 0.809660758370107
+	-resnet
+		-f1: 0.38451161119713717
+		-auroc: 0.7484004749545952
+2026-06-19 08:56:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4473249933729475
+		-auroc: 0.8053891100525462
+	-resnet
+		-f1: 0.3877014575821803
+		-auroc: 0.7337060487376751
+2026-06-19 08:57:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40321542880801414
+		-auroc: 0.8079167901322786
+	-resnet
+		-f1: 0.3781029211806225
+		-auroc: 0.7339130498771245
+2026-06-19 08:58:46 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4609280055365246
+		-auroc: 0.8067027047679348
+	-resnet
+		-f1: 0.38520494011653017
+		-auroc: 0.7473441733220451
+2026-06-19 08:59:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4584271756486709
+		-auroc: 0.8062336846724408
+	-resnet
+		-f1: 0.3740274448010461
+		-auroc: 0.7296235794990282
+2026-06-19 09:01:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40725964242208573
+		-auroc: 0.8101678249179969
+	-resnet
+		-f1: 0.40069995063946784
+		-auroc: 0.73166551959802
+2026-06-19 09:02:07 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3978558482839638
+		-auroc: 0.8060374695405464
+	-resnet
+		-f1: 0.3159110904063456
+		-auroc: 0.7137349596213421
+2026-06-19 09:03:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43624035003990735
+		-auroc: 0.8045759122185056
+	-resnet
+		-f1: 0.35626095594681506
+		-auroc: 0.7182760844058269
+2026-06-19 09:04:24 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45415646900843454
+		-auroc: 0.8049645888571371
+	-resnet
+		-f1: 0.41840733347570935
+		-auroc: 0.7381733684320023
+2026-06-19 09:05:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43038333522367395
+		-auroc: 0.8075518776161685
+	-resnet
+		-f1: 0.38116565250670614
+		-auroc: 0.7230896018390585
+2026-06-19 09:06:38 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3900611683869605
+		-auroc: 0.8039522148033607
+	-resnet
+		-f1: 0.35825758095602195
+		-auroc: 0.7454773676622848
+2026-06-19 09:07:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4319398932982441
+		-auroc: 0.8075596090256474
+	-resnet
+		-f1: 0.29647367364385874
+		-auroc: 0.684288181783549
+2026-06-19 09:08:53 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44914335513188064
+		-auroc: 0.8061760012114894
+	-resnet
+		-f1: 0.35291753001245824
+		-auroc: 0.7150982681944215
+2026-06-19 09:10:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40442396494837335
+		-auroc: 0.8077348359840867
+	-resnet
+		-f1: 0.362039488534516
+		-auroc: 0.7108350179198111
+2026-06-19 09:11:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4306113115383182
+		-auroc: 0.8099110162745916
+	-resnet
+		-f1: 0.4274138057791867
+		-auroc: 0.7521278463841128
+2026-06-19 09:12:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4584967239559341
+		-auroc: 0.8022768957454967
+	-resnet
+		-f1: 0.3357706301881636
+		-auroc: 0.6990190642072238
+2026-06-19 09:13:28 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.409575709628212
+		-auroc: 0.8048909633054316
+	-resnet
+		-f1: 0.3656637048556456
+		-auroc: 0.7210044054734099
+2026-06-19 09:14:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4480110270994843
+		-auroc: 0.8074448314946879
+	-resnet
+		-f1: 0.3795267418562103
+		-auroc: 0.7387925261799542
+2026-06-19 09:15:44 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.469242509688479
+		-auroc: 0.8030016414230602
+	-resnet
+		-f1: 0.3440210763345469
+		-auroc: 0.7196982543255078
+2026-06-19 09:16:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40969454480928447
+		-auroc: 0.8062988187555618
+	-resnet
+		-f1: 0.3833744109413602
+		-auroc: 0.729724965019517
+2026-06-19 09:17:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4286669421409427
+		-auroc: 0.8062234896716749
+	-resnet
+		-f1: 0.378673651911163
+		-auroc: 0.7417570669124137
+2026-06-19 09:19:01 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42386632070972363
+		-auroc: 0.803181605442058
+	-resnet
+		-f1: 0.3207757848073401
+		-auroc: 0.7259699842786101
+2026-06-19 09:20:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46407984676696773
+		-auroc: 0.8065991514957996
+	-resnet
+		-f1: 0.3769061074968575
+		-auroc: 0.7256421637313333
+2026-06-19 09:21:18 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3925569765093905
+		-auroc: 0.8034750731294492
+	-resnet
+		-f1: 0.3220038267107034
+		-auroc: 0.6821357995926519
+2026-06-19 09:22:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4716413423257612
+		-auroc: 0.8119459121942707
+	-resnet
+		-f1: 0.4091624128488558
+		-auroc: 0.7389210523968583
+2026-06-19 09:23:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4450045283746665
+		-auroc: 0.8077151178780179
+	-resnet
+		-f1: 0.3507476109694771
+		-auroc: 0.7201835546151878
+2026-06-19 09:24:50 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38899670035903033
+		-auroc: 0.8099369264167094
+	-resnet
+		-f1: 0.30916041129495203
+		-auroc: 0.7224134694822494
+2026-06-19 09:26:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45433312847145013
+		-auroc: 0.8104610337241642
+	-resnet
+		-f1: 0.33891000394669724
+		-auroc: 0.7161611172066482
+2026-06-19 09:27:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42319652825468024
+		-auroc: 0.8104309089526008
+	-resnet
+		-f1: 0.36191134444312684
+		-auroc: 0.7319982895299948
+2026-06-19 09:28:54 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4641890854987459
+		-auroc: 0.8086244850652591
+	-resnet
+		-f1: 0.3353902444721023
+		-auroc: 0.705047910950198
+2026-06-19 09:30:17 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45339368594016893
+		-auroc: 0.8093473136587536
+	-resnet
+		-f1: 0.3449655660381028
+		-auroc: 0.7291994552846027
+2026-06-19 09:31:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40386030911480075
+		-auroc: 0.8080826911204196
+	-resnet
+		-f1: 0.42024463265453643
+		-auroc: 0.7544003840241634
+2026-06-19 09:32:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4220903309489444
+		-auroc: 0.8097942860270269
+	-resnet
+		-f1: 0.40265441062088314
+		-auroc: 0.7382302732057929
+2026-06-19 09:34:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44974952745216773
+		-auroc: 0.8072213068750791
+	-resnet
+		-f1: 0.3577111292341017
+		-auroc: 0.7174514871529603
+2026-06-19 09:35:24 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4177950317330462
+		-auroc: 0.8071587596613525
+	-resnet
+		-f1: 0.3963805847851251
+		-auroc: 0.7162988701893505
+2026-06-19 09:36:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44401545715639373
+		-auroc: 0.8087829314955888
+	-resnet
+		-f1: 0.3815452925561743
+		-auroc: 0.7350403293498268
+2026-06-19 09:37:50 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42319716862256707
+		-auroc: 0.8031309445453763
+	-resnet
+		-f1: 0.39009370240262975
+		-auroc: 0.720403134480975
+2026-06-19 09:38:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3948650432797871
+		-auroc: 0.8023193087101419
+	-resnet
+		-f1: 0.37048092332469373
+		-auroc: 0.7213884675572988
+2026-06-19 09:40:02 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41145468214884995
+		-auroc: 0.8084827224062272
+	-resnet
+		-f1: 0.32107159431095755
+		-auroc: 0.7199565566633384
+2026-06-19 09:41:10 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.458995692620557
+		-auroc: 0.8100513079457997
+	-resnet
+		-f1: 0.3562239501158918
+		-auroc: 0.7141501566705728
+2026-06-19 09:42:18 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4066429315516985
+		-auroc: 0.8049504733846427
+	-resnet
+		-f1: 0.3682491143345374
+		-auroc: 0.7056088724189041
+2026-06-19 09:43:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4439449803811377
+		-auroc: 0.8057603972414814
+	-resnet
+		-f1: 0.37993933506441363
+		-auroc: 0.7085597604284726
+2026-06-19 09:44:33 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4379875770342066
+		-auroc: 0.8047257462909825
+	-resnet
+		-f1: 0.3684921947603139
+		-auroc: 0.735161918258399
+2026-06-19 09:45:40 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45304521770756734
+		-auroc: 0.8093103674524714
+	-resnet
+		-f1: 0.30313535977094486
+		-auroc: 0.7068931449140384
+2026-06-19 09:46:47 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4461064859680201
+		-auroc: 0.8041359456941105
+	-resnet
+		-f1: 0.4265176633322583
+		-auroc: 0.7354129981128409
+2026-06-19 09:47:54 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4355816207541127
+		-auroc: 0.8080892938392804
+	-resnet
+		-f1: 0.3058518794999291
+		-auroc: 0.6985661039314577
+2026-06-19 09:49:02 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4398918057256207
+		-auroc: 0.8084376203406032
+	-resnet
+		-f1: 0.37416710342977627
+		-auroc: 0.7404777462994835
+2026-06-19 09:50:10 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4009057341361329
+		-auroc: 0.8037586686484076
+	-resnet
+		-f1: 0.32994017250643964
+		-auroc: 0.7188459335235333
+2026-06-19 09:51:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4772968124846801
+		-auroc: 0.805401438201294
+	-resnet
+		-f1: 0.3227750026784398
+		-auroc: 0.7190026311103448
+2026-06-19 09:52:20 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44385211877745545
+		-auroc: 0.8056768267759636
+	-resnet
+		-f1: 0.3761381673832853
+		-auroc: 0.725363475090007
+2026-06-19 09:53:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46092864619241347
+		-auroc: 0.8097757275885865
+	-resnet
+		-f1: 0.3203047309901347
+		-auroc: 0.7034909864010472
+2026-06-19 09:54:35 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4647472717648157
+		-auroc: 0.8070284143776763
+	-resnet
+		-f1: 0.3456771241536637
+		-auroc: 0.7156712130888838
+2026-06-19 09:55:40 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41365428508984187
+		-auroc: 0.8087712288126209
+	-resnet
+		-f1: 0.348039302698555
+		-auroc: 0.7279167876510495
+2026-06-19 09:56:47 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4399014785727302
+		-auroc: 0.8031354246090299
+	-resnet
+		-f1: 0.3732714170361229
+		-auroc: 0.7234647106211151
+2026-06-19 09:57:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41700803007309634
+		-auroc: 0.8054418693765648
+	-resnet
+		-f1: 0.3014041950918879
+		-auroc: 0.7037576281267411
+2026-06-19 09:59:02 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.443553566728209
+		-auroc: 0.8067247611817969
+	-resnet
+		-f1: 0.3819014288877197
+		-auroc: 0.696232011129938
+2026-06-19 10:00:09 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39656201704366045
+		-auroc: 0.802503594750154
+	-resnet
+		-f1: 0.4422801674335409
+		-auroc: 0.7441509599697276
+2026-06-19 10:01:20 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4085495196219405
+		-auroc: 0.8054783551351641
+	-resnet
+		-f1: 0.3839426032725093
+		-auroc: 0.7303891687564884
+2026-06-19 10:02:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46851994259934926
+		-auroc: 0.8087384713456988
+	-resnet
+		-f1: 0.3615488354025715
+		-auroc: 0.7356431977913622
+2026-06-19 10:03:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45966972011516294
+		-auroc: 0.808320356543175
+	-resnet
+		-f1: 0.29313096656946847
+		-auroc: 0.7208596718029507
+2026-06-19 10:04:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3945180509572984
+		-auroc: 0.8059399082194473
+	-resnet
+		-f1: 0.40288286139968854
+		-auroc: 0.7321038047162641
+2026-06-19 10:05:46 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3929142048295386
+		-auroc: 0.8046314972076566
+	-resnet
+		-f1: 0.3560398818914135
+		-auroc: 0.7391256504774197
+2026-06-19 10:06:53 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40058215172593864
+		-auroc: 0.8079729672440396
+	-resnet
+		-f1: 0.3092047173061965
+		-auroc: 0.7090850675886361
+2026-06-19 10:07:58 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43997767788207104
+		-auroc: 0.8070189390132814
+	-resnet
+		-f1: 0.34487468411199795
+		-auroc: 0.7080967708028373
+2026-06-19 10:09:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4548515774945419
+		-auroc: 0.810012998066408
+	-resnet
+		-f1: 0.2557073241872563
+		-auroc: 0.6719721432922943
+2026-06-19 10:10:13 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.403793732718987
+		-auroc: 0.8057090120103745
+	-resnet
+		-f1: 0.36505606605987156
+		-auroc: 0.7293157496311669
+2026-06-19 10:11:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4194957311426645
+		-auroc: 0.8043022462432626
+	-resnet
+		-f1: 0.3341648383241823
+		-auroc: 0.7266202400170163
+2026-06-19 10:12:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43079771492174046
+		-auroc: 0.8047919090764752
+	-resnet
+		-f1: 0.3850714001500346
+		-auroc: 0.7397010497842762
+2026-06-19 10:13:34 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3913459571051804
+		-auroc: 0.8029832601310062
+	-resnet
+		-f1: 0.3252525037215519
+		-auroc: 0.7310096912743111
+2026-06-19 10:14:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39368546459782416
+		-auroc: 0.8054952248211563
+	-resnet
+		-f1: 0.3004288837668089
+		-auroc: 0.7139583065584167
+2026-06-19 10:15:48 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39466786878830484
+		-auroc: 0.8088751372812105
+	-resnet
+		-f1: 0.37474736504968736
+		-auroc: 0.7249092156145125
+2026-06-19 10:16:53 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38609887769273005
+		-auroc: 0.8030031547517101
+	-resnet
+		-f1: 0.2636311089610762
+		-auroc: 0.6906043815883905
+2026-06-19 10:18:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44283542224211825
+		-auroc: 0.8056136353668905
+	-resnet
+		-f1: 0.38617476416856783
+		-auroc: 0.7202169393155178
+2026-06-19 10:19:08 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4089596081543915
+		-auroc: 0.7944193745966823
+	-resnet
+		-f1: 0.3453428868842062
+		-auroc: 0.7143036834795791
+2026-06-19 10:20:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.466489105848956
+		-auroc: 0.8040144335377782
+	-resnet
+		-f1: 0.35192224735628913
+		-auroc: 0.7013686155279153
+2026-06-19 10:21:22 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3886390158386701
+		-auroc: 0.8057626322474825
+	-resnet
+		-f1: 0.3261707156112336
+		-auroc: 0.7001805114388572
+2026-06-19 10:22:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4545685920742244
+		-auroc: 0.8017666592648023
+	-resnet
+		-f1: 0.3881595439346199
+		-auroc: 0.7213225993248272
+2026-06-19 10:23:36 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45684199829791555
+		-auroc: 0.8075084741512084
+	-resnet
+		-f1: 0.38789010190356804
+		-auroc: 0.7449969692076309
+2026-06-19 10:24:44 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.461121128472176
+		-auroc: 0.7977104799520902
+	-resnet
+		-f1: 0.39911890137393047
+		-auroc: 0.7202238838810866
+2026-06-19 10:25:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46074045152508863
+		-auroc: 0.8075134854929698
+	-resnet
+		-f1: 0.2876843352152562
+		-auroc: 0.6906343778461366
+2026-06-19 10:26:58 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45658623453554004
+		-auroc: 0.8075881818162678
+	-resnet
+		-f1: 0.37115420415603334
+		-auroc: 0.7214622584887054
+2026-06-19 10:28:06 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38722134341440556
+		-auroc: 0.8020364826845496
+	-resnet
+		-f1: 0.3777644321055315
+		-auroc: 0.7227276424179312
+2026-06-19 10:29:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4543325156083153
+		-auroc: 0.8089462110368302
+	-resnet
+		-f1: 0.3677181094041752
+		-auroc: 0.7349066791307186
+2026-06-19 10:30:19 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45243452304262055
+		-auroc: 0.8055342594162035
+	-resnet
+		-f1: 0.32962723341315514
+		-auroc: 0.6903903426313107
+2026-06-19 10:31:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4630955718516974
+		-auroc: 0.8060456007970179
+	-resnet
+		-f1: 0.3136247077801545
+		-auroc: 0.7110113783192966
+2026-06-19 10:32:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3859965334445442
+		-auroc: 0.8061584186861479
+	-resnet
+		-f1: 0.3917722090069981
+		-auroc: 0.7413739702826719
+2026-06-19 10:33:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4611452946129794
+		-auroc: 0.8073972268858636
+	-resnet
+		-f1: 0.31669169955578663
+		-auroc: 0.6999758984853671
+2026-06-19 10:34:46 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46263838568681204
+		-auroc: 0.8054690667952158
+	-resnet
+		-f1: 0.33055546345168463
+		-auroc: 0.7139881897583215
+2026-06-19 10:35:53 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42808834202627644
+		-auroc: 0.8074410034379429
+	-resnet
+		-f1: 0.41137045644795156
+		-auroc: 0.7345928490863889
+2026-06-19 10:37:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4640182853604647
+		-auroc: 0.8063174076854212
+	-resnet
+		-f1: 0.3708307399266059
+		-auroc: 0.7426540249922089
+2026-06-19 10:38:07 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3996275698106627
+		-auroc: 0.8036304353247019
+	-resnet
+		-f1: 0.3819930828941235
+		-auroc: 0.7129776488178574
+2026-06-19 10:39:13 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39672721520636245
+		-auroc: 0.8073990318682499
+	-resnet
+		-f1: 0.38632122918874273
+		-auroc: 0.7348783062445851
+2026-06-19 10:40:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46020490775807615
+		-auroc: 0.8067764552882315
+	-resnet
+		-f1: 0.30727509361906624
+		-auroc: 0.6752794831706159
+2026-06-19 10:41:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.37368020209337705
+		-auroc: 0.7996434216804827
+	-resnet
+		-f1: 0.36397244098106785
+		-auroc: 0.7074984351950828
+2026-06-19 10:42:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44724660051641474
+		-auroc: 0.806342474361356
+	-resnet
+		-f1: 0.39723115773141704
+		-auroc: 0.7375222076841306
+2026-06-19 10:43:38 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4134682018689202
+		-auroc: 0.8070345981525371
+	-resnet
+		-f1: 0.42411929987364355
+		-auroc: 0.7356962240630374
+2026-06-19 10:44:44 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4451782724742155
+		-auroc: 0.8046172032588157
+	-resnet
+		-f1: 0.3383331005888626
+		-auroc: 0.7030817284843919
+2026-06-19 10:45:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43738209129104366
+		-auroc: 0.8091464889872594
+	-resnet
+		-f1: 0.3237689982375795
+		-auroc: 0.7085446396922048
+2026-06-19 10:46:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39954207995731555
+		-auroc: 0.8001648322620856
+	-resnet
+		-f1: 0.404782312228049
+		-auroc: 0.7567538609878826
+2026-06-19 10:48:07 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41208119633924484
+		-auroc: 0.8091713554465805
+	-resnet
+		-f1: 0.38176875077759387
+		-auroc: 0.7305589833912297
+2026-06-19 10:49:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39399588885971254
+		-auroc: 0.8031184167857617
+	-resnet
+		-f1: 0.4015748745723492
+		-auroc: 0.7219232460199929
+2026-06-19 10:50:23 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4477620186021974
+		-auroc: 0.8081994381142635
+	-resnet
+		-f1: 0.36524618483298976
+		-auroc: 0.7086683518801531
+2026-06-19 10:51:29 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41261810515227226
+		-auroc: 0.8144446223524211
+	-resnet
+		-f1: 0.36019252524828527
+		-auroc: 0.7241742883650415
+2026-06-19 10:52:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45676001167459307
+		-auroc: 0.8073983309163705
+	-resnet
+		-f1: 0.3817268078477499
+		-auroc: 0.7211934778239393
+2026-06-19 10:53:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4053350105660532
+		-auroc: 0.8033434256167254
+	-resnet
+		-f1: 0.3658753697825511
+		-auroc: 0.7291680643955644
+2026-06-19 10:54:54 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.428905754435596
+		-auroc: 0.8062644966779635
+	-resnet
+		-f1: 0.3098789414133362
+		-auroc: 0.7182404453805665
+2026-06-19 10:56:19 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42805967746122686
+		-auroc: 0.804755302183197
+	-resnet
+		-f1: 0.3302679984337603
+		-auroc: 0.7010116840594247
+2026-06-19 10:57:23 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42369712552837785
+		-auroc: 0.8044459326900488
+	-resnet
+		-f1: 0.32125462609222266
+		-auroc: 0.7176227455969159
+2026-06-19 10:58:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40558330380748303
+		-auroc: 0.805401889094917
+	-resnet
+		-f1: 0.41623519355783295
+		-auroc: 0.7477720402311754
+2026-06-19 10:59:34 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44901408734693654
+		-auroc: 0.8059579368613432
+	-resnet
+		-f1: 0.41948860818121264
+		-auroc: 0.7536196938423111
+2026-06-19 11:00:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46356874858689745
+		-auroc: 0.807072680020757
+	-resnet
+		-f1: 0.35987630128515624
+		-auroc: 0.717807937680801
+2026-06-19 11:01:51 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4005748827690665
+		-auroc: 0.8029910525424994
+	-resnet
+		-f1: 0.3374364626573133
+		-auroc: 0.7324174951672917
+2026-06-19 11:02:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44882300084990934
+		-auroc: 0.8036938261639553
+	-resnet
+		-f1: 0.24352950469211368
+		-auroc: 0.6898786543304763
+2026-06-19 11:04:04 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44822399698840876
+		-auroc: 0.806531597013711
+	-resnet
+		-f1: 0.42889580080946643
+		-auroc: 0.7471100825237319
+2026-06-19 11:05:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3640081194611665
+		-auroc: 0.7931888384551158
+	-resnet
+		-f1: 0.33138542918758407
+		-auroc: 0.6963299375555811
+2026-06-19 11:06:18 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4084195527073632
+		-auroc: 0.8031081648683187
+	-resnet
+		-f1: 0.38995915378252727
+		-auroc: 0.7289888498713388
+2026-06-19 11:07:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43369923816421113
+		-auroc: 0.8020592297994211
+	-resnet
+		-f1: 0.3814082650846302
+		-auroc: 0.746087667688044
+2026-06-19 11:08:32 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3947305475275172
+		-auroc: 0.8011551132120112
+	-resnet
+		-f1: 0.38229572581434557
+		-auroc: 0.7276317509077338
+2026-06-19 11:09:38 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4477060622521213
+		-auroc: 0.8080225939944544
+	-resnet
+		-f1: 0.29448360338070395
+		-auroc: 0.7044854626095564
+2026-06-19 11:10:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40525340573739277
+		-auroc: 0.8049797314915903
+	-resnet
+		-f1: 0.3313017660751039
+		-auroc: 0.7175749380289821
+2026-06-19 11:11:53 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.405186791437307
+		-auroc: 0.8085028820828887
+	-resnet
+		-f1: 0.33343873170106714
+		-auroc: 0.7084722579302565
+2026-06-19 11:13:01 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3976254377418397
+		-auroc: 0.8041046163463521
+	-resnet
+		-f1: 0.3341543177922419
+		-auroc: 0.7002480797642807
+2026-06-19 11:14:08 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.423704930216973
+		-auroc: 0.8064779512762502
+	-resnet
+		-f1: 0.39399541887919265
+		-auroc: 0.734866816454872
+2026-06-19 11:15:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38697726947788547
+		-auroc: 0.8039962031951676
+	-resnet
+		-f1: 0.4083015263042761
+		-auroc: 0.7485332515534442
+2026-06-19 11:16:24 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.431556472994012
+		-auroc: 0.8046617223768623
+	-resnet
+		-f1: 0.40250130232241227
+		-auroc: 0.7436928236974893
+2026-06-19 11:17:31 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3997026041038888
+		-auroc: 0.8057392318291873
+	-resnet
+		-f1: 0.40846341654725926
+		-auroc: 0.7347304565832289
+2026-06-19 11:18:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.424719202570072
+		-auroc: 0.8032633705457946
+	-resnet
+		-f1: 0.3347581987528006
+		-auroc: 0.7186501482514964
+2026-06-19 11:19:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4551898675389111
+		-auroc: 0.8041175122503962
+	-resnet
+		-f1: 0.42335828555226945
+		-auroc: 0.7392182025090348
+2026-06-19 11:20:51 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4481071992101294
+		-auroc: 0.8076504354174162
+	-resnet
+		-f1: 0.34795302494777014
+		-auroc: 0.7352049562779065
+2026-06-19 11:22:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38838369594763705
+		-auroc: 0.8048835067997053
+	-resnet
+		-f1: 0.3835407809533057
+		-auroc: 0.7339666553188591
+2026-06-19 11:23:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4091434663174314
+		-auroc: 0.806417779998144
+	-resnet
+		-f1: 0.31697209155550493
+		-auroc: 0.7038591862655232
+2026-06-19 11:24:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41201408747867374
+		-auroc: 0.8083675987671002
+	-resnet
+		-f1: 0.3734630721919117
+		-auroc: 0.7322043488783029
+2026-06-19 11:25:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3894092976836597
+		-auroc: 0.8047181394873055
+	-resnet
+		-f1: 0.37280347318635587
+		-auroc: 0.7399605318776711
+2026-06-19 11:27:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43987061762589813
+		-auroc: 0.8071322653494203
+	-resnet
+		-f1: 0.348502370636921
+		-auroc: 0.710648486646371
+2026-06-19 11:28:13 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3995668841500719
+		-auroc: 0.8075124062102738
+	-resnet
+		-f1: 0.3854591494787836
+		-auroc: 0.7368678406039522
+2026-06-19 11:29:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43857343345466593
+		-auroc: 0.8009511386920647
+	-resnet
+		-f1: 0.4008416312070306
+		-auroc: 0.7310430645794653
+2026-06-19 11:30:24 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45500706162719284
+		-auroc: 0.8074465139961673
+	-resnet
+		-f1: 0.3398572913286372
+		-auroc: 0.7410369171631019
+2026-06-19 11:31:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4418935686543056
+		-auroc: 0.8104340679453503
+	-resnet
+		-f1: 0.3587464769298235
+		-auroc: 0.7357032491662336
+2026-06-19 11:32:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4518006331300225
+		-auroc: 0.8071475454091217
+	-resnet
+		-f1: 0.3427535554144527
+		-auroc: 0.7457468467355514
+2026-06-19 11:33:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43165418770315844
+		-auroc: 0.8065182663210159
+	-resnet
+		-f1: 0.33449824254048777
+		-auroc: 0.7138458530382492
+2026-06-19 11:34:48 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4602535351876919
+		-auroc: 0.810194041168755
+	-resnet
+		-f1: 0.39111085998803163
+		-auroc: 0.740653364633366
+2026-06-19 11:35:54 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40855627973302144
+		-auroc: 0.8089509739800779
+	-resnet
+		-f1: 0.4499447063580865
+		-auroc: 0.755728172966727
+2026-06-19 11:37:02 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39486587937480694
+		-auroc: 0.8038607600870943
+	-resnet
+		-f1: 0.3843438864703816
+		-auroc: 0.7149311078758813
+2026-06-19 11:38:08 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4002122936875517
+		-auroc: 0.8088970199146104
+	-resnet
+		-f1: 0.4134066996028431
+		-auroc: 0.731758361689016
+2026-06-19 11:39:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4594260158281275
+		-auroc: 0.8067298158615352
+	-resnet
+		-f1: 0.3298031735113867
+		-auroc: 0.6962654260209401
+2026-06-19 11:40:24 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45521750284646023
+		-auroc: 0.8097272745111651
+	-resnet
+		-f1: 0.3856630628965826
+		-auroc: 0.7165062539887576
+2026-06-19 11:41:31 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4627775059903808
+		-auroc: 0.8053185526542093
+	-resnet
+		-f1: 0.38400567985864215
+		-auroc: 0.7371782434139521
+2026-06-19 11:42:35 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44696134657282044
+		-auroc: 0.8003899827575974
+	-resnet
+		-f1: 0.42056266487689975
+		-auroc: 0.750784379405572
+2026-06-19 11:43:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3784314223142512
+		-auroc: 0.8011558979360254
+	-resnet
+		-f1: 0.3405549017105117
+		-auroc: 0.7322065974635097
+2026-06-19 11:44:48 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4152416599683114
+		-auroc: 0.8083747115267975
+	-resnet
+		-f1: 0.35391784841048374
+		-auroc: 0.692636008428145
+2026-06-19 11:45:53 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4099160898722318
+		-auroc: 0.8040995296531669
+	-resnet
+		-f1: 0.35160569398092784
+		-auroc: 0.7238161816780379
+2026-06-19 11:46:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.46241245507465667
+		-auroc: 0.8087206531468505
+	-resnet
+		-f1: 0.39000077261066707
+		-auroc: 0.7328597949525819
+2026-06-19 11:48:03 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4158002014057744
+		-auroc: 0.8082482820419907
+	-resnet
+		-f1: 0.3523535825876251
+		-auroc: 0.7310060060024333
+2026-06-19 11:49:07 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4184339957632435
+		-auroc: 0.8096763718118936
+	-resnet
+		-f1: 0.34273736512859493
+		-auroc: 0.7234602041428664
+2026-06-19 11:50:14 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4354371817736592
+		-auroc: 0.8030259539351959
+	-resnet
+		-f1: 0.3888036991327303
+		-auroc: 0.713436344824584
+2026-06-19 11:51:19 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44905533667303893
+		-auroc: 0.80789261702283
+	-resnet
+		-f1: 0.3494897158743381
+		-auroc: 0.7069299669148925
+2026-06-19 11:52:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40598427260597225
+		-auroc: 0.8055171340166714
+	-resnet
+		-f1: 0.3306971110030825
+		-auroc: 0.6940669337780141
+2026-06-19 11:53:29 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45721171911892167
+		-auroc: 0.8068759614972532
+	-resnet
+		-f1: 0.4320252555609493
+		-auroc: 0.7425110688217975
+2026-06-19 11:54:34 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44303504610852834
+		-auroc: 0.8001477768150821
+	-resnet
+		-f1: 0.35938118859326124
+		-auroc: 0.7426086546395402
+2026-06-19 11:55:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41340812861287873
+		-auroc: 0.8091147743961159
+	-resnet
+		-f1: 0.38605913758912647
+		-auroc: 0.7345181339380695
+2026-06-19 11:56:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39346132126024697
+		-auroc: 0.8026583040863408
+	-resnet
+		-f1: 0.32816168113736527
+		-auroc: 0.7152535741373853
+2026-06-19 11:57:53 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43067805037370566
+		-auroc: 0.8073346732497809
+	-resnet
+		-f1: 0.37399316905376695
+		-auroc: 0.7016289743622244
+2026-06-19 11:58:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4447705117636594
+		-auroc: 0.8082808670469322
+	-resnet
+		-f1: 0.34818659583003825
+		-auroc: 0.7344976564900274
+2026-06-19 12:00:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41360648374783926
+		-auroc: 0.8096268457486755
+	-resnet
+		-f1: 0.32626024826678407
+		-auroc: 0.7157796881545933
+2026-06-19 12:01:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42512457209638477
+		-auroc: 0.805770914024114
+	-resnet
+		-f1: 0.3659946610284607
+		-auroc: 0.7072762670964627
+2026-06-19 12:02:19 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45885591419040744
+		-auroc: 0.8075931311483201
+	-resnet
+		-f1: 0.35345348684127187
+		-auroc: 0.7197937392811278
+2026-06-19 12:03:24 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.39862320879987195
+		-auroc: 0.8039920930016151
+	-resnet
+		-f1: 0.3554011576109116
+		-auroc: 0.716771376080659
+2026-06-19 12:04:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4288038343928572
+		-auroc: 0.8062371475907663
+	-resnet
+		-f1: 0.3867589406873291
+		-auroc: 0.7353507979949857
+2026-06-19 12:05:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.429388849104842
+		-auroc: 0.7997622679408986
+	-resnet
+		-f1: 0.43325441501905965
+		-auroc: 0.7495983205920347
+2026-06-19 12:06:45 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44336663739903637
+		-auroc: 0.8087806463438174
+	-resnet
+		-f1: 0.38243475426237966
+		-auroc: 0.7061436031993555
+2026-06-19 12:07:51 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45797598983773247
+		-auroc: 0.8083315766073766
+	-resnet
+		-f1: 0.36949442804470956
+		-auroc: 0.7124872201666305
+2026-06-19 12:08:58 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4302050409668655
+		-auroc: 0.7972133359390214
+	-resnet
+		-f1: 0.37663897063594753
+		-auroc: 0.7341144923970733
+2026-06-19 12:10:04 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4256721870985892
+		-auroc: 0.8091606708395496
+	-resnet
+		-f1: 0.38169679668580747
+		-auroc: 0.7234914835979779
+2026-06-19 12:11:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40431310943897153
+		-auroc: 0.8057730326733786
+	-resnet
+		-f1: 0.3473789372549476
+		-auroc: 0.7081534166806291
+2026-06-19 12:12:17 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4014702991919181
+		-auroc: 0.8057248352689316
+	-resnet
+		-f1: 0.42683747515217946
+		-auroc: 0.7485750953516019
+2026-06-19 12:13:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42627078017686665
+		-auroc: 0.803089330999699
+	-resnet
+		-f1: 0.44565713455744654
+		-auroc: 0.7394282201271137
+2026-06-19 12:14:31 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.454833810101505
+		-auroc: 0.8031403694871505
+	-resnet
+		-f1: 0.3895186932024652
+		-auroc: 0.70427315337562
+2026-06-19 12:15:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.434027081465395
+		-auroc: 0.8058979394896454
+	-resnet
+		-f1: 0.3422709164372142
+		-auroc: 0.7328255775756037
+2026-06-19 12:16:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4091295540166692
+		-auroc: 0.8072725767269965
+	-resnet
+		-f1: 0.3202449627013827
+		-auroc: 0.7126457367172163
+2026-06-19 12:17:46 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4743539865242342
+		-auroc: 0.8049375571615297
+	-resnet
+		-f1: 0.38447291527981187
+		-auroc: 0.7357717974846437
+2026-06-19 12:18:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4332839980669328
+		-auroc: 0.8013144173878596
+	-resnet
+		-f1: 0.3449177807015468
+		-auroc: 0.7175472491944224
+2026-06-19 12:19:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.460325004787211
+		-auroc: 0.8040094893367129
+	-resnet
+		-f1: 0.37477336949365114
+		-auroc: 0.7178633306287688
+2026-06-19 12:21:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41058447893940464
+		-auroc: 0.8081132560726232
+	-resnet
+		-f1: 0.3948770121089154
+		-auroc: 0.7381714653079204
+2026-06-19 12:22:09 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4454953657810051
+		-auroc: 0.8027028586487696
+	-resnet
+		-f1: 0.36491652049721834
+		-auroc: 0.7269031087174886
+2026-06-19 12:23:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41895649800414175
+		-auroc: 0.8096693914927989
+	-resnet
+		-f1: 0.37929195167006485
+		-auroc: 0.7307535209326141
+2026-06-19 12:24:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38418102819803096
+		-auroc: 0.8044744429995336
+	-resnet
+		-f1: 0.37585362583424375
+		-auroc: 0.7237227425181804
+2026-06-19 12:25:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4376627309745517
+		-auroc: 0.8091074645396166
+	-resnet
+		-f1: 0.3118237264840926
+		-auroc: 0.713662111711707
+2026-06-19 12:26:35 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44718576824621764
+		-auroc: 0.8088061716311443
+	-resnet
+		-f1: 0.39354077705458224
+		-auroc: 0.71354437232318
+2026-06-19 12:27:43 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4561458039784119
+		-auroc: 0.8008381389587103
+	-resnet
+		-f1: 0.2893384802933848
+		-auroc: 0.7030597743220308
+2026-06-19 12:28:51 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4562008901737542
+		-auroc: 0.8073659371286949
+	-resnet
+		-f1: 0.36463082688639076
+		-auroc: 0.7308938885403118
+2026-06-19 12:29:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3977533348093718
+		-auroc: 0.8041541197615061
+	-resnet
+		-f1: 0.3405715321390491
+		-auroc: 0.7286595821591335
+2026-06-19 12:31:03 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45890864767343764
+		-auroc: 0.8066688152961288
+	-resnet
+		-f1: 0.3917146455012497
+		-auroc: 0.7145280647047125
+2026-06-19 12:32:08 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.446563547805917
+		-auroc: 0.8065391410527083
+	-resnet
+		-f1: 0.36322959795641774
+		-auroc: 0.7280363089467491
+2026-06-19 12:33:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4235321749868766
+		-auroc: 0.8081412295927703
+	-resnet
+		-f1: 0.38387056813736603
+		-auroc: 0.7428212493825459
+2026-06-19 12:34:22 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3854647483421535
+		-auroc: 0.7996955558299892
+	-resnet
+		-f1: 0.38527987996504337
+		-auroc: 0.7385843992132726
+2026-06-19 12:35:30 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4013488559907916
+		-auroc: 0.805535984698779
+	-resnet
+		-f1: 0.32561000227760395
+		-auroc: 0.7079211863999737
+2026-06-19 12:36:37 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4337243143416153
+		-auroc: 0.8104118273568378
+	-resnet
+		-f1: 0.3865651378095496
+		-auroc: 0.7378492497485204
+2026-06-19 12:37:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44374710146651636
+		-auroc: 0.808966192730926
+	-resnet
+		-f1: 0.3864084848545117
+		-auroc: 0.7448158439209035
+2026-06-19 12:38:44 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3996345811230665
+		-auroc: 0.8059332375176051
+	-resnet
+		-f1: 0.32758612053442654
+		-auroc: 0.6933275044950946
+2026-06-19 12:39:50 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3896495829265536
+		-auroc: 0.8049560918892326
+	-resnet
+		-f1: 0.3283880141877023
+		-auroc: 0.7426930885813059
+2026-06-19 12:40:59 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4527286133092134
+		-auroc: 0.8061354676457888
+	-resnet
+		-f1: 0.35133607189774174
+		-auroc: 0.7087434375061654
+2026-06-19 12:42:05 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4541381051041853
+		-auroc: 0.8090751037695358
+	-resnet
+		-f1: 0.37475547498945094
+		-auroc: 0.715923541472731
+2026-06-19 12:43:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45415925174803873
+		-auroc: 0.8072304922434789
+	-resnet
+		-f1: 0.366504692204413
+		-auroc: 0.7000520551732146
+2026-06-19 12:44:18 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4096717725950033
+		-auroc: 0.8078572462572369
+	-resnet
+		-f1: 0.38485063453449203
+		-auroc: 0.724534569094726
+2026-06-19 12:45:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4431040634120663
+		-auroc: 0.8054271775772509
+	-resnet
+		-f1: 0.35221821624890676
+		-auroc: 0.7133957957576432
+2026-06-19 12:46:35 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4009503126864649
+		-auroc: 0.8068235704890154
+	-resnet
+		-f1: 0.3806046025438671
+		-auroc: 0.7287966607828548
+2026-06-19 12:47:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4007897188962679
+		-auroc: 0.8036221342565742
+	-resnet
+		-f1: 0.4151868317078725
+		-auroc: 0.7378829014954096
+2026-06-19 12:48:46 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4160176472476003
+		-auroc: 0.8053881236691117
+	-resnet
+		-f1: 0.2719433684024818
+		-auroc: 0.6823482971078436
+2026-06-19 12:49:52 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4541535205604122
+		-auroc: 0.8081071589883406
+	-resnet
+		-f1: 0.3814924771658305
+		-auroc: 0.7314325175616304
+2026-06-19 12:50:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.43617313236092603
+		-auroc: 0.8050099876009739
+	-resnet
+		-f1: 0.35776107053333017
+		-auroc: 0.7079020646502594
+2026-06-19 12:52:03 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45505579390421386
+		-auroc: 0.808497645522986
+	-resnet
+		-f1: 0.3476685325924603
+		-auroc: 0.7131165040404628
+2026-06-19 12:53:11 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45252572894858745
+		-auroc: 0.8085239997214462
+	-resnet
+		-f1: 0.42012075988587555
+		-auroc: 0.7408070760331105
+2026-06-19 12:54:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45865922819153226
+		-auroc: 0.8070440720318519
+	-resnet
+		-f1: 0.32962115973142797
+		-auroc: 0.7154038613144955
+2026-06-19 12:55:20 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4577998816012287
+		-auroc: 0.8084159763761631
+	-resnet
+		-f1: 0.3888786886722366
+		-auroc: 0.7427238170534559
+2026-06-19 12:56:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3768047029598754
+		-auroc: 0.8082846051256871
+	-resnet
+		-f1: 0.32443642824684965
+		-auroc: 0.7082356905522572
+2026-06-19 12:57:35 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41527097038759286
+		-auroc: 0.804826601166783
+	-resnet
+		-f1: 0.32071693992994865
+		-auroc: 0.703086289673932
+2026-06-19 12:58:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4272254836574178
+		-auroc: 0.8026898760860565
+	-resnet
+		-f1: 0.31159573089626613
+		-auroc: 0.7033105176819031
+2026-06-19 12:59:49 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41396159753695827
+		-auroc: 0.8059536473554367
+	-resnet
+		-f1: 0.38554865298669516
+		-auroc: 0.7433268475945952
+2026-06-19 13:00:56 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3984994605355157
+		-auroc: 0.8045397551534436
+	-resnet
+		-f1: 0.3841176963100214
+		-auroc: 0.7152943424560776
+2026-06-19 13:02:03 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4606928334086965
+		-auroc: 0.8041222564110841
+	-resnet
+		-f1: 0.38772827068503435
+		-auroc: 0.7334986909189739
+2026-06-19 13:03:09 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4095212561637463
+		-auroc: 0.8029140444502609
+	-resnet
+		-f1: 0.4223582848015185
+		-auroc: 0.7552010284655644
+2026-06-19 13:04:13 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4196467634359786
+		-auroc: 0.8062420073076231
+	-resnet
+		-f1: 0.39961181818302227
+		-auroc: 0.7288284871783046
+2026-06-19 13:05:18 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42181542324496457
+		-auroc: 0.8071498635043775
+	-resnet
+		-f1: 0.3443872791916244
+		-auroc: 0.717083475606939
+2026-06-19 13:06:22 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4448763676043475
+		-auroc: 0.8119606496266224
+	-resnet
+		-f1: 0.3419958379041402
+		-auroc: 0.7286175772869924
+2026-06-19 13:07:29 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3893811420988686
+		-auroc: 0.8025984757369334
+	-resnet
+		-f1: 0.37039565000189284
+		-auroc: 0.7179068065472324
+2026-06-19 13:08:34 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4559020102355314
+		-auroc: 0.7999412390862944
+	-resnet
+		-f1: 0.40030876510782293
+		-auroc: 0.7313130298023378
+2026-06-19 13:09:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42676511239493403
+		-auroc: 0.8041103177521416
+	-resnet
+		-f1: 0.39488040921857354
+		-auroc: 0.7219462344375469
+2026-06-19 13:10:49 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3947420425925829
+		-auroc: 0.8076176740533618
+	-resnet
+		-f1: 0.3509375798583553
+		-auroc: 0.7057555461147571
+2026-06-19 13:11:55 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38793878173307605
+		-auroc: 0.805044163108952
+	-resnet
+		-f1: 0.34270555067288944
+		-auroc: 0.7247231167728491
+2026-06-19 13:12:58 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44160062330531835
+		-auroc: 0.8001884151781387
+	-resnet
+		-f1: 0.3782973497389973
+		-auroc: 0.7245485496589597
+2026-06-19 13:14:07 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.415762210330222
+		-auroc: 0.8110192903792521
+	-resnet
+		-f1: 0.3668440438644574
+		-auroc: 0.7364542227375392
+2026-06-19 13:15:12 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3921345580597346
+		-auroc: 0.8030227008447636
+	-resnet
+		-f1: 0.4004697218120591
+		-auroc: 0.7284979705092531
+2026-06-19 13:16:19 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.44689984213325024
+		-auroc: 0.8048881670050289
+	-resnet
+		-f1: 0.35861957578097214
+		-auroc: 0.7238792426250331
+2026-06-19 13:17:27 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3937085706067262
+		-auroc: 0.8030271778187055
+	-resnet
+		-f1: 0.34577811834155364
+		-auroc: 0.7099297973279596
+2026-06-19 13:18:34 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4689710777297595
+		-auroc: 0.8060603173242183
+	-resnet
+		-f1: 0.40263935267217066
+		-auroc: 0.72773161395609
+2026-06-19 13:19:41 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4288911781514277
+		-auroc: 0.8064005277232316
+	-resnet
+		-f1: 0.3189136760580901
+		-auroc: 0.7427536524484302
+2026-06-19 13:20:48 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4390571935513995
+		-auroc: 0.810047294404491
+	-resnet
+		-f1: 0.3513867964675976
+		-auroc: 0.6937795079562789
+2026-06-19 13:21:55 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4088150167810949
+		-auroc: 0.8077876682583444
+	-resnet
+		-f1: 0.3766035654620502
+		-auroc: 0.7311898906205464
+2026-06-19 13:23:02 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41062735888880597
+		-auroc: 0.8046636087380608
+	-resnet
+		-f1: 0.33808739243192054
+		-auroc: 0.7265440757097428
+2026-06-19 13:24:09 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3888855714047143
+		-auroc: 0.8051075245578213
+	-resnet
+		-f1: 0.39283168747556685
+		-auroc: 0.7274687492323915
+2026-06-19 13:25:16 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4367334053633181
+		-auroc: 0.8037738679203205
+	-resnet
+		-f1: 0.39440267412913343
+		-auroc: 0.7320194655475307
+2026-06-19 13:26:22 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4192844750427847
+		-auroc: 0.8073072198525946
+	-resnet
+		-f1: 0.38982639151101023
+		-auroc: 0.7374996080393758
+2026-06-19 13:27:25 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4477768255026782
+		-auroc: 0.8068419339656616
+	-resnet
+		-f1: 0.38978169354629644
+		-auroc: 0.753049824765953
+2026-06-19 13:28:33 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40722602533694063
+		-auroc: 0.8085151242690906
+	-resnet
+		-f1: 0.3440846105334948
+		-auroc: 0.7242021170688282
+2026-06-19 13:29:39 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4385751596438598
+		-auroc: 0.805265848204218
+	-resnet
+		-f1: 0.4079429010510302
+		-auroc: 0.7584598683223748
+2026-06-19 13:30:47 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4105737580864641
+		-auroc: 0.8030588234507336
+	-resnet
+		-f1: 0.4317883876973199
+		-auroc: 0.7523975076515912
+2026-06-19 13:31:54 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4081576036632065
+		-auroc: 0.8081219326033111
+	-resnet
+		-f1: 0.32937701764575794
+		-auroc: 0.68258866231163
+2026-06-19 13:33:00 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4265215164120232
+		-auroc: 0.8053307227344242
+	-resnet
+		-f1: 0.3655086689502741
+		-auroc: 0.7157656509588837
+2026-06-19 13:34:06 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.42119040739980873
+		-auroc: 0.8060364450681415
+	-resnet
+		-f1: 0.31394375712267314
+		-auroc: 0.7079949452631056
+2026-06-19 13:35:13 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4515741731535141
+		-auroc: 0.808634487929712
+	-resnet
+		-f1: 0.3770203782825594
+		-auroc: 0.7358808346342837
+2026-06-19 13:36:19 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.4673857715513362
+		-auroc: 0.8042825549085763
+	-resnet
+		-f1: 0.3146314975347233
+		-auroc: 0.7060872382339788
+2026-06-19 13:37:26 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3948738012878506
+		-auroc: 0.8017192845569413
+	-resnet
+		-f1: 0.36968670650258284
+		-auroc: 0.7351771359052431
+2026-06-19 13:38:34 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40126453789639316
+		-auroc: 0.8067539931045757
+	-resnet
+		-f1: 0.35498278797382066
+		-auroc: 0.7280308090946558
+2026-06-19 13:39:42 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.47489020529507203
+		-auroc: 0.8093652408017021
+	-resnet
+		-f1: 0.3498371667721608
+		-auroc: 0.707564075160703
+2026-06-19 13:40:49 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3894661493044243
+		-auroc: 0.8038051871985786
+	-resnet
+		-f1: 0.30858476878529933
+		-auroc: 0.701961765259984
+2026-06-19 13:41:57 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.38818943566643416
+		-auroc: 0.8037108816084976
+	-resnet
+		-f1: 0.4145182154028301
+		-auroc: 0.7277407334183728
+2026-06-19 13:43:04 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.40300837003168805
+		-auroc: 0.8058535986580793
+	-resnet
+		-f1: 0.3844224189900498
+		-auroc: 0.7309980433807906
+2026-06-19 13:44:10 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.41259225701588437
+		-auroc: 0.811514566240078
+	-resnet
+		-f1: 0.342447635703228
+		-auroc: 0.7164390578631838
+2026-06-19 13:45:15 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.45433588806718206
+		-auroc: 0.8067950977612057
+	-resnet
+		-f1: 0.34610783505046416
+		-auroc: 0.7169706397411779
+2026-06-19 13:46:21 - __main__ - INFO - WCYKMVHQFDGRLITNEASP encoding is done for multiclass task with:
+	-custom
+		-f1: 0.3959072084843021
+		-auroc: 0.8056184785993714
+	-resnet
+		-f1: 0.34764246229287676
+		-auroc: 0.7129745426064793
