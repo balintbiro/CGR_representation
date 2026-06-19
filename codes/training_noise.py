@@ -74,7 +74,7 @@ def main(
     if os.path.exists(outfile):
         pass
     else:
-        out_df=pd.DataFrame(columns=["encoding","auroc","accuracy","task","model","dataset"])
+        out_df=pd.DataFrame(columns=["encoding","auroc","f1","task","model","dataset"])
         out_df.to_csv(outfile,index=False)
     loggerConfig(logfile=logfile)
     script_name=os.path.basename(__file__)
