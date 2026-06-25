@@ -64,7 +64,7 @@ def main(
     if os.path.exists(outfile):
         pass
     else:
-        out_df=pd.DataFrame(columns=["encoding","mean","median","std","dataset"])
+        out_df=pd.DataFrame(columns=["encoding","zeros_mean","zeros_median","len_norm_mean","len_norm_median","res_norm_mean","res_norm_median"])
         out_df.to_csv(outfile,index=False)
     loggerConfig(logfile=logfile)
     script_name=os.path.basename(__file__)
@@ -84,8 +84,13 @@ def main(
         # getting the FCGRs and training the CNN on them
         df=pd.read_csv(fcgrfile)
         zeros=(df==0).astype(int).sum(axis=1)
-        mean,median,std=(zeros/(35*35)).mean(),(zeros/(35*35)).median(),(zeros/(35*35)).std()
-        pd.DataFrame([[encoding,mean,median,std,dataset_name]]).to_csv(outfile,mode='a',index=False,header=False)
+        len_norm=zeros/df.sum(axis=1)
+        res_norm=zeros/(35*35)
+        pd.DataFrame([[
+            encoding,zeros.mean(),zeros.median(),
+            len_norm.mean(),len_norm.median(),
+            res_norm.mean(),res_norm.median()
+        ]]).to_csv(outfile,mode='a',index=False,header=False)
         logger.info(f"{i+1} encoding is done!")
 
 
