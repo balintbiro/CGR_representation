@@ -1,6 +1,6 @@
 *.csv
 *.out
-*.png
+# *.png
 *.pyc
 *.fasta
 codes/nohup.out
