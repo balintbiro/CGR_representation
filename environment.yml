@@ -14,8 +14,10 @@ dependencies:
   - huggingface_hub
   - r-base
   - r-optparse
+  - matplotlib
   - pip
 
   - pip:
     - skorch
+    - shap
 prefix: /home/user/miniconda3/envs/chaos_rep

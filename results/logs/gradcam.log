@@ -1,0 +1,8 @@
+2026-07-05 12:41:29 - __main__ - INFO - Loading FCGR matrix from ../data/spec_datasets/deeploc_q2.csv
+2026-07-05 12:41:29 - __main__ - INFO - Training the CNN on 5169 samples
+2026-07-05 12:41:33 - __main__ - INFO - Computing Grad-CAM for 1723 test images
+2026-07-05 12:41:34 - __main__ - INFO - Saved 1723 Grad-CAM maps to ../results/gradcam_deeploc/deeploc_q2_gradcam_maps.npz (test accuracy 0.757)
+2026-07-05 12:43:14 - __main__ - INFO - Loading SHAP stack from ../results/gradcam_deeploc/deeploc_q2_gradcam_maps.npz
+2026-07-05 12:43:15 - __main__ - INFO - Wrote ../results/gradcam_deeploc/deeploc_q2_gradcam_correct_vs_wrong_by_class.png
+2026-07-05 12:43:15 - __main__ - INFO - Wrote ../results/gradcam_deeploc/deeploc_q2_gradcam_overlay.png
+2026-07-05 12:43:15 - __main__ - INFO - Aggregate figures written to ../results/gradcam_deeploc

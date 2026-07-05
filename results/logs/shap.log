@@ -1,0 +1,8 @@
+2026-07-05 12:27:30 - __main__ - INFO - Loading FCGR matrix from ../data/spec_datasets/deeploc_q2.csv
+2026-07-05 12:27:30 - __main__ - INFO - Training the CNN on 5169 samples
+2026-07-05 12:27:34 - __main__ - INFO - Computing SHAP: 100 background, 200 test images
+2026-07-05 12:27:43 - __main__ - INFO - Saved 200 per-image maps to ../results/shap_deeploc/deeploc_q2_shap_maps.npz (test accuracy 0.760)
+2026-07-05 12:28:30 - __main__ - INFO - Loading SHAP stack from ../results/shap_deeploc/deeploc_q2_shap_maps.npz
+2026-07-05 12:28:31 - __main__ - INFO - Wrote ../results/shap_deeploc/deeploc_q2_correct_vs_wrong_by_class.png
+2026-07-05 12:28:31 - __main__ - INFO - Wrote ../results/shap_deeploc/deeploc_q2_overlay.png
+2026-07-05 12:28:31 - __main__ - INFO - Aggregate figures written to ../results/shap_deeploc
