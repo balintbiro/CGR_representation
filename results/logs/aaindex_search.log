@@ -1,0 +1,91 @@
+2026-07-07 15:06:54 - __main__ - INFO - There are 566 available AA indices.
+2026-07-07 15:06:54 - __main__ - INFO - There are 144 AA indices that have distinct values for all the proteinogenic AAs.
+2026-07-07 15:06:54 - __main__ - INFO - ioi AA indices are scaled and written into ../data/scaled_aaindex.csv
+2026-07-07 15:06:54 - __main__ - INFO - The resulting table has
+	- physicochemical properties as indices
+	- AAs as columns
+2026-07-07 15:06:54 - __main__ - INFO - 3x3 sample: 
+                   A         C         D
+AVBF000107 -0.549828  0.553265  0.082474
+NAKH920103  0.090630 -0.496160  0.274962
+OOBM770103  0.291280 -0.372913  0.792208
+2026-07-07 15:08:40 - __main__ - INFO - There are 566 available AA indices.
+2026-07-07 15:08:40 - __main__ - INFO - There are 144 AA indices that have distinct values for all the proteinogenic AAs.
+2026-07-07 15:08:41 - __main__ - INFO - ioi AA indices are scaled and written into ../data/scaled_aaindex.csv
+2026-07-07 15:08:41 - __main__ - INFO - The resulting table has
+	- physicochemical properties as indices
+	- AAs as columns
+2026-07-07 15:08:41 - __main__ - INFO - 3x3 sample: 
+                   A         C         D
+AVBF000107 -0.549828  0.553265  0.082474
+NAKH920103  0.090630 -0.496160  0.274962
+OOBM770103  0.291280 -0.372913  0.792208
+2026-07-07 15:08:56 - __main__ - INFO - There are 566 available AA indices.
+2026-07-07 15:08:56 - __main__ - INFO - There are 144 AA indices that have distinct values for all the proteinogenic AAs.
+2026-07-07 15:08:56 - __main__ - INFO - ARGP820102    DKERNHYGQPWTSVAICFML
+ARGP820103    DKENHRQGYPSTWVCAIFLM
+AURR980113    PGTCSDNHQVYIEKRFWALM
+AVBF000102    GDNWSYKRAHCLETQFMIVP
+AVBF000104    AGLENDQRMKHSWCYFTIVP
+                      ...         
+WILM950104    HYAGDPQTMLEKRSVFNWCI
+WOLR810101    RDHENKQYWSTPMCFAVILG
+WOLS870101    FWILVMYPACTSQGHKREND
+WOLS870102    GVTAISLCMEQPDFKNHYRW
+WOLS870103    RKTVQILMEYAGFSNWHPDC
+Length: 144, dtype: str
+2026-07-07 15:08:56 - __main__ - INFO - ioi AA indices are scaled and written into ../data/scaled_aaindex.csv
+2026-07-07 15:08:56 - __main__ - INFO - The resulting table has
+	- physicochemical properties as indices
+	- AAs as columns
+2026-07-07 15:08:56 - __main__ - INFO - 3x3 sample: 
+                   A         C         D
+AVBF000107 -0.549828  0.553265  0.082474
+NAKH920103  0.090630 -0.496160  0.274962
+OOBM770103  0.291280 -0.372913  0.792208
+2026-07-08 15:49:21 - __main__ - INFO - There are 566 available AA indices.
+2026-07-08 15:49:21 - __main__ - INFO - There are 144 AA indices that have distinct values for all the proteinogenic AAs.
+2026-07-08 15:49:21 - __main__ - INFO - ARGP820102    DKERNHYGQPWTSVAICFML
+ARGP820103    DKENHRQGYPSTWVCAIFLM
+AURR980113    PGTCSDNHQVYIEKRFWALM
+AVBF000102    GDNWSYKRAHCLETQFMIVP
+AVBF000104    AGLENDQRMKHSWCYFTIVP
+                      ...         
+WILM950104    HYAGDPQTMLEKRSVFNWCI
+WOLR810101    RDHENKQYWSTPMCFAVILG
+WOLS870101    FWILVMYPACTSQGHKREND
+WOLS870102    GVTAISLCMEQPDFKNHYRW
+WOLS870103    RKTVQILMEYAGFSNWHPDC
+Length: 144, dtype: str
+2026-07-08 15:49:21 - __main__ - INFO - ioi AA indices are scaled and written into ../data/scaled_aaindex.csv
+2026-07-08 15:49:21 - __main__ - INFO - The resulting table has
+	- physicochemical properties as indices
+	- AAs as columns
+2026-07-08 15:49:21 - __main__ - INFO - 3x3 sample: 
+                   A         C         D
+AVBF000107 -0.549828  0.553265  0.082474
+NAKH920103  0.090630 -0.496160  0.274962
+OOBM770103  0.291280 -0.372913  0.792208
+2026-07-08 16:08:36 - __main__ - INFO - There are 566 available AA indices.
+2026-07-08 16:08:36 - __main__ - INFO - There are 144 AA indices that have distinct values for all the proteinogenic AAs.
+2026-07-08 16:08:36 - __main__ - INFO - ARGP820102    DKERNHYGQPWTSVAICFML
+ARGP820103    DKENHRQGYPSTWVCAIFLM
+AURR980113    PGTCSDNHQVYIEKRFWALM
+AVBF000102    GDNWSYKRAHCLETQFMIVP
+AVBF000104    AGLENDQRMKHSWCYFTIVP
+                      ...         
+WILM950104    HYAGDPQTMLEKRSVFNWCI
+WOLR810101    RDHENKQYWSTPMCFAVILG
+WOLS870101    FWILVMYPACTSQGHKREND
+WOLS870102    GVTAISLCMEQPDFKNHYRW
+WOLS870103    RKTVQILMEYAGFSNWHPDC
+Length: 144, dtype: str
+2026-07-08 16:08:36 - __main__ - INFO - ioi AA indices are scaled and written into ../data/scaled_aaindex.csv
+2026-07-08 16:08:36 - __main__ - INFO - The resulting table has
+	- physicochemical properties as indices
+	- AAs as columns
+2026-07-08 16:08:36 - __main__ - INFO - 3x3 sample: 
+                   A         C         D
+AVBF000107 -0.549828  0.553265  0.082474
+NAKH920103  0.090630 -0.496160  0.274962
+OOBM770103  0.291280 -0.372913  0.792208
