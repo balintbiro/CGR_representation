@@ -15,24 +15,35 @@ from skorch import NeuralNetBinaryClassifier,NeuralNetClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_auc_score,accuracy_score,f1_score
 
-from utils import loggerConfig,PreProcess,ResNet,Cnn
+from utils import loggerConfig,ResNet,Cnn
 
 logger=logging.getLogger(__name__)
 logger.addHandler(logging.StreamHandler(sys.stdout))
 
 def permute(sequence:str)->list:
     permuted_sequences=[]
+    mismatches=[]
     for i in range(0,len(sequence)):
         subseq_const=sequence[:i]
         subseq_var=sequence[i:len(sequence)]
-        for j in range(3):
-            permuted_sequences.append(subseq_const+''.join(np.random.chocie(a=list(subseq_var),size=len(subseq_var),replace=False)))
-    return permuted_sequences
+        for j in range(10):
+            permuted_sequences.append(subseq_const+''.join(np.random.choice(a=list(subseq_var),size=len(subseq_var),replace=False)))
+            mismatches.append(len(subseq_var))
+    results=pd.DataFrame(columns=["original_seq","permuted_seq","mismatches"])
+    results["original_seq"]=len(permuted_sequences)*[sequence]
+    results["permuted_seq"]=permuted_sequences
+    results["mismatches"]=mismatches
+    return results
 
 @click.command()
 @click.option(
     "--logfile",
     help="Path to logfile.[log]",
+    required=True
+)
+@click.option(
+    "--seqfile",
+    help="Path to seqfile.[csv]",
     required=True
 )
 @click.option(
@@ -43,21 +54,54 @@ def permute(sequence:str)->list:
 
 def main(
         logfile:str,
+        seqfile:str,
         outfile:str
     )->None:
+    fcgrfile,sf,res="../data/random_encoding_0865_35.csv",0.865,35
+    if os.path.exists(outfile):
+        pass
+    else:
+        out_df=pd.DataFrame(columns=["original_seq","encoding","mismatches","auroc","f1"])
+        out_df.to_csv(outfile,index=False)
     loggerConfig(logfile=logfile)
-    pp=PreProcess(aaindex1)
-    n_all,all_idx=pp.check_all()
-    logger.info(f"There are {n_all} available AA indices.")
-    n_ioi,iois=pp.check_ioi(all_indices=all_idx)
-    logger.info(f"There are {n_ioi} AA indices that have distinct values for all the proteinogenic AAs.")
-    values=pp.collect_values(ioi=iois)
-    scaled=pp.minmax_scaling(values=values)
-    scaled.to_csv(outfile)
-    logger.info(scaled.apply(lambda row: "".join(row.sort_values().index),axis=1))
-    logger.info(f"ioi AA indices are scaled and written into {outfile}")
-    logger.info(f"The resulting table has\n\t- physicochemical properties as indices\n\t- AAs as columns")
-    logger.info(f"3x3 sample: \n{scaled.sample(n=3,random_state=0)[scaled.columns[:3]]}")
+    script_name=os.path.basename(__file__)
+    logger.info(f"Filename: {script_name} started.")
+    # permuting aaindices ARGP820102 and 103
+    # signal sequence helical potential and membrane-buried preference parameters
+    sequences=pd.concat([permute(sequence="DKERNHYGQPWTSVAICFML"),permute(sequence="DKENHRQGYPSTWVCAIFLM")]).reset_index(drop=True)
+    for index,encoding in enumerate(sequences["permuted_seq"]):
+        # set seed for reproducible results in training and testing
+        seed=0
+        torch.manual_seed(seed)
+        np.random.seed(seed)
+        random.seed(seed)
+        # creating the random encodings and the corresponding FCGRs
+        subprocess.run(f"""Rscript --vanilla FCGR_gen.R --encoding {encoding} --output_file {fcgrfile} --input_filename {seqfile} --scaling_factor {sf} --resolution {res}""",shell=True)
+        logger.info(f"Input matrix with {encoding} encoding is generated.")
+        # getting the FCGRs and training the CNN on them
+        df=pd.read_csv(fcgrfile)
+        device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        custom=NeuralNetBinaryClassifier(
+            Cnn(output_dim=1),
+            max_epochs=10,
+            lr=0.001,
+            optimizer=torch.optim.Adam,
+            device=device,
+            train_split=None,
+            iterator_train__shuffle=None
+        )
+        y=df["label"].values.astype("float32")
+        X=df.drop(columns=["label"]).div(df.drop(columns=["label"]).max(axis=1),axis=0).values.astype("float32")
+        XCnn = X.reshape(-1, 1, res,res)
+        XCnn_train, XCnn_test, y_train, y_test = train_test_split(XCnn, y, test_size=0.25, random_state=seed, stratify=y)
+        custom.fit(XCnn_train, y_train)
+        # get the accuracy scores on the testing data and save them in the output file
+        customf1=f1_score(y_true=y_test,y_pred=custom.predict(XCnn_test))
+        customauroc=roc_auc_score(y_true=y_test,y_score=custom.predict(XCnn_test))
+        pd.DataFrame([[sequences["original_seq"].values[index],encoding,sequences["mismatches"].values[index],customauroc,customf1]]).to_csv(outfile,mode='a',index=False,header=False)
+        logger.info(f"{encoding} encoding is done with:\n\t-custom\n\t\t-f1: {customf1}\n\t\t-auroc: {customauroc}\n\t")
+        os.remove(fcgrfile)
+        logger.info(f"Input matrix with {encoding} encoding is removed.\n")
 
 if __name__=="__main__":
     main()
