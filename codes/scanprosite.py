@@ -48,18 +48,21 @@ def main(logfile:str,seqfile:str,outdir:str)->None:
     sequences=pd.read_csv(seqfile)
     for index,sequence in enumerate(sequences["sequence"]):
         prosite=ProSite(sequence=sequence)
-        # find motives in a particular sequence
-        motives=prosite.find_motives()
-        if motives.shape[0]>0:
-            # if theres any motives, write it out and search for signatures
-            motives["sequence"]=sequence
-            motives.to_csv(os.path.join(outdir,"prosite_motives.csv"),mode='a',index=False,header=False)
-            signatures=pd.DataFrame(
-                data=motives.apply(lambda row: prosite.get_motives(row),axis=1).tolist(),
-                columns=["accession","name","description","pattern"]
-            )
-            signatures["original_sequence"]=sequence
-            signatures.to_csv(os.path.join(outdir,"prosite_signatures.csv"),mode='a',index=False,header=False)
+        try:
+            # find motives in a particular sequence
+            motives=prosite.find_motives()
+            if motives.shape[0]>0:
+                # if theres any motives, write it out and search for signatures
+                motives["sequence"]=sequence
+                motives.to_csv(os.path.join(outdir,"prosite_motives.csv"),mode='a',index=False,header=False)
+                signatures=pd.DataFrame(
+                    data=motives.apply(lambda row: prosite.get_motives(row),axis=1).tolist(),
+                    columns=["accession","name","description","pattern"]
+                )
+                signatures["original_sequence"]=sequence
+                signatures.to_csv(os.path.join(outdir,"prosite_signatures.csv"),mode='a',index=False,header=False)
+        except Exception as e:
+            logger.info(f"Problem with {index}th sequence: {str(e)}")
         if (index!=0) & (index%100==0):
             logger.info(f"{index}th sequence (/{sequences.shape[0]}) is done scanning.")
     logger.info(f"Motives are written into {os.path.join(outdir,"prosite_motives.csv")}")
