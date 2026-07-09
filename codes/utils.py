@@ -11,6 +11,9 @@ from sklearn.metrics import accuracy_score
 from Bio import SeqIO
 from sklearn.preprocessing import LabelEncoder
 from torchvision.models import resnet18
+from Bio.ExPASy import ScanProsite,Prosite
+from Bio import ExPASy
+import json
 
 def tester(mtx:pd.DataFrame,dataset_name:str,skf:StratifiedKFold)->pd.DataFrame:
     """
@@ -184,3 +187,21 @@ class MultiTox:
         proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
         fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
         return (sequences[fil],sequences.shape,{})
+    
+class ProSite:
+    def __init__(self,sequence:str):
+        self.sequence=sequence
+
+    def find_motives(self)->pd.DataFrame:
+        scan=ScanProsite.scan(seq=self.sequence,output="json")
+        data=scan.read()
+        if isinstance(data,bytes):
+            data=data.decode("utf-8")
+        results=pd.DataFrame(json.loads(data).get("matchset"))
+        return results
+    
+    def get_motives(self,row:pd.Series)->pd.DataFrame:
+        start,stop,signature=row["start"],row["stop"],row["signature_ac"]
+        with ExPASy.get_prosite_raw(signature) as handle:
+            signature_info=Prosite.read(handle)
+        return [signature,signature_info.name,signature_info.description,signature_info.pattern]
