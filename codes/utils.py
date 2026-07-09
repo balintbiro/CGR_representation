@@ -184,31 +184,3 @@ class MultiTox:
         proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
         fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
         return (sequences[fil],sequences.shape,{})
-    
-class PreProcess:
-    def __init__(self,aaindex)->None:
-        self.aaindex=aaindex
-
-    def check_all(self)->tuple:
-        all_indices=self.aaindex.record_codes()
-        return len(all_indices),all_indices
-    
-    def check_ioi(self,all_indices:list)->tuple:
-        n_distinct_vals=[len(set(self.aaindex[idx].get("values").values())) for idx in all_indices]
-        n_distinct_vals=pd.Series(n_distinct_vals)
-        fil=n_distinct_vals==21
-        return len(n_distinct_vals[fil]),pd.Series(all_indices)[fil].tolist()
-    
-    def collect_values(self,ioi:list)->pd.DataFrame:
-        values=pd.DataFrame([self.aaindex[idx].get("values") for idx in ioi])
-        values=values.drop(columns=["-"])
-        values.index=ioi
-        return values
-    
-    def minmax_scaling(self,values:pd.DataFrame)->pd.DataFrame:
-        scaled=values.apply(
-            lambda row: 2*(row-row.min())
-                        /(row.max()-row.min())-1,
-                        axis=1
-        )
-        return scaled
