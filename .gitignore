@@ -27,6 +27,7 @@ codes/nohup.out
 
 !results/prosite_motives.csv
 !results/prosite_signatures.csv
+!results/scaled_indices.csv
 
 trial.py
 trial.sh
