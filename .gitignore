@@ -25,7 +25,8 @@ codes/nohup.out
 !results/tox_noise.csv
 !results/immune_noise.csv
 
-!results/overlap.csv
+!results/prosite_motives.csv
+!results/prosite_signatures.csv
 
 trial.py
 trial.sh
