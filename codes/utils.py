@@ -68,7 +68,7 @@ class Cnn(nn.Module):
         x = x.view(x.size(0), -1)
         x = self.fc(x)
         return x
-    
+
 class ResNet(nn.Module):
     def __init__(self,output_dim:int):
         super().__init__()
@@ -95,7 +95,7 @@ class DeepLoc:
         with open(outfile,"wb") as f:
             f.write(response.content)
         return response.status_code
-    
+
     def clean(self,tempfile:str)->tuple:
         parser=SeqIO.parse(
             handle=tempfile,
@@ -105,13 +105,14 @@ class DeepLoc:
         sequences=[]
         for record in parser:
             label=record.description.split('-')[-1]
-            sequences.append([str(record.seq),label])
+            seq_id=record.id.split()[0][1:]
+            sequences.append([seq_id,str(record.seq),label])
         # create dataframe from sequences and labels
-        sequences=pd.DataFrame(data=sequences,columns=["sequence","label"])
+        sequences=pd.DataFrame(data=sequences,columns=["id","sequence","label"])
         fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
         sequences["label"]=sequences["label"].replace(['M','S'],[0,1])
         return (sequences[sequences["label"].isin([0,1])][fil],sequences.shape,{})
-    
+
 class Immune:
     def init(self):
         pass
@@ -139,13 +140,13 @@ class Immune:
         else:
             status="error"
         return status
-    
+
     def clean(self,tempfile:str)->tuple:
         proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
         sequences=pd.read_csv(tempfile)
         fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
         return (sequences[fil],sequences.shape,{})
-    
+
 class PFAM:
     def __init__(self):
         self.url="https://zenodo.org/records/8167436/files/pfam_46872x62.csv?download=1"
@@ -155,7 +156,7 @@ class PFAM:
         with open(outfile,"wb") as f:
             f.write(response.content)
         return response.status_code
-    
+
     def clean(self,tempfile:str)->tuple:
         proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
         sequences=(
@@ -180,14 +181,14 @@ class MultiTox:
         with open(outfile,"wb") as f:
             f.write(response.content)
         return response.status_code
-    
+
     def clean(self,tempfile:str)->tuple:
         sequences=pd.read_csv(tempfile)
         sequences.rename(columns={"Sequence":"sequence","Label":"label"},inplace=True)
         proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
         fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
         return (sequences[fil],sequences.shape,{})
-    
+
 class ProSite:
     def __init__(self,sequence:str):
         self.sequence=sequence
@@ -199,7 +200,7 @@ class ProSite:
             data=data.decode("utf-8")
         results=pd.DataFrame(json.loads(data).get("matchset"))
         return results
-    
+
     def get_motives(self,row:pd.Series)->pd.DataFrame:
         start,stop,signature=row["start"],row["stop"],row["signature_ac"]
         with ExPASy.get_prosite_raw(signature) as handle:
