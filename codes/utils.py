@@ -190,15 +190,17 @@ class MultiTox:
         return (sequences[fil],sequences.shape,{})
 
 class ProSite:
-    def __init__(self,sequence:str):
+    def __init__(self,sequence:str,id:str):
         self.sequence=sequence
+        self.id=id
 
     def find_motives(self)->pd.DataFrame:
         scan=ScanProsite.scan(seq=self.sequence,output="json")
         data=scan.read()
         if isinstance(data,bytes):
             data=data.decode("utf-8")
-        results=pd.DataFrame(json.loads(data).get("matchset"))
+        matchset=json.loads(data).get("matchset")
+        results=pd.DataFrame(matchset)
         return results
 
     def get_motives(self,row:pd.Series)->pd.DataFrame:
