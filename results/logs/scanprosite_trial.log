@@ -1,1 +1,125 @@
 2026-07-14 00:25:29 - __main__ - INFO - Filename: scanprosite.py started.
+2026-07-14 00:30:26 - __main__ - INFO - 100th sequence (/6892) is done scanning.
+2026-07-14 00:35:30 - __main__ - INFO - 200th sequence (/6892) is done scanning.
+2026-07-14 00:40:38 - __main__ - INFO - 300th sequence (/6892) is done scanning.
+2026-07-14 00:45:58 - __main__ - INFO - 400th sequence (/6892) is done scanning.
+2026-07-14 00:50:50 - __main__ - INFO - 500th sequence (/6892) is done scanning.
+2026-07-14 00:55:43 - __main__ - INFO - 600th sequence (/6892) is done scanning.
+2026-07-14 01:00:26 - __main__ - INFO - 700th sequence (/6892) is done scanning.
+2026-07-14 01:05:19 - __main__ - INFO - 800th sequence (/6892) is done scanning.
+2026-07-14 01:10:13 - __main__ - INFO - 900th sequence (/6892) is done scanning.
+2026-07-14 01:14:56 - __main__ - INFO - 1000th sequence (/6892) is done scanning.
+2026-07-14 01:19:52 - __main__ - INFO - 1100th sequence (/6892) is done scanning.
+2026-07-14 01:24:34 - __main__ - INFO - 1200th sequence (/6892) is done scanning.
+2026-07-14 01:29:19 - __main__ - INFO - 1300th sequence (/6892) is done scanning.
+2026-07-14 01:34:03 - __main__ - INFO - 1400th sequence (/6892) is done scanning.
+2026-07-14 01:39:04 - __main__ - INFO - 1500th sequence (/6892) is done scanning.
+2026-07-14 01:43:52 - __main__ - INFO - 1600th sequence (/6892) is done scanning.
+2026-07-14 01:48:36 - __main__ - INFO - 1700th sequence (/6892) is done scanning.
+2026-07-14 01:53:19 - __main__ - INFO - 1800th sequence (/6892) is done scanning.
+2026-07-14 01:58:04 - __main__ - INFO - 1900th sequence (/6892) is done scanning.
+2026-07-14 02:02:55 - __main__ - INFO - 2000th sequence (/6892) is done scanning.
+2026-07-14 02:07:40 - __main__ - INFO - 2100th sequence (/6892) is done scanning.
+2026-07-14 02:12:24 - __main__ - INFO - 2200th sequence (/6892) is done scanning.
+2026-07-14 02:17:08 - __main__ - INFO - 2300th sequence (/6892) is done scanning.
+2026-07-14 02:22:02 - __main__ - INFO - 2400th sequence (/6892) is done scanning.
+2026-07-14 02:26:54 - __main__ - INFO - 2500th sequence (/6892) is done scanning.
+2026-07-14 02:31:44 - __main__ - INFO - 2600th sequence (/6892) is done scanning.
+2026-07-14 02:36:30 - __main__ - INFO - 2700th sequence (/6892) is done scanning.
+2026-07-14 02:41:20 - __main__ - INFO - 2800th sequence (/6892) is done scanning.
+2026-07-14 02:46:03 - __main__ - INFO - 2900th sequence (/6892) is done scanning.
+2026-07-14 02:50:49 - __main__ - INFO - 3000th sequence (/6892) is done scanning.
+2026-07-14 02:55:41 - __main__ - INFO - 3100th sequence (/6892) is done scanning.
+2026-07-14 03:00:02 - __main__ - INFO - 3200th sequence (/6892) is done scanning.
+2026-07-14 03:04:36 - __main__ - INFO - 3300th sequence (/6892) is done scanning.
+2026-07-14 03:09:00 - __main__ - INFO - 3400th sequence (/6892) is done scanning.
+2026-07-14 03:13:17 - __main__ - INFO - 3500th sequence (/6892) is done scanning.
+2026-07-14 03:17:39 - __main__ - INFO - 3600th sequence (/6892) is done scanning.
+2026-07-14 03:22:08 - __main__ - INFO - 3700th sequence (/6892) is done scanning.
+2026-07-14 03:26:25 - __main__ - INFO - 3800th sequence (/6892) is done scanning.
+2026-07-14 03:30:48 - __main__ - INFO - 3900th sequence (/6892) is done scanning.
+2026-07-14 03:35:17 - __main__ - INFO - 4000th sequence (/6892) is done scanning.
+2026-07-14 03:39:46 - __main__ - INFO - 4100th sequence (/6892) is done scanning.
+2026-07-14 03:44:12 - __main__ - INFO - 4200th sequence (/6892) is done scanning.
+2026-07-14 03:48:34 - __main__ - INFO - 4300th sequence (/6892) is done scanning.
+2026-07-14 03:52:55 - __main__ - INFO - 4400th sequence (/6892) is done scanning.
+2026-07-14 03:57:13 - __main__ - INFO - 4500th sequence (/6892) is done scanning.
+2026-07-14 04:01:35 - __main__ - INFO - 4600th sequence (/6892) is done scanning.
+2026-07-14 04:05:58 - __main__ - INFO - 4700th sequence (/6892) is done scanning.
+2026-07-14 04:10:41 - __main__ - INFO - 4800th sequence (/6892) is done scanning.
+2026-07-14 04:15:27 - __main__ - INFO - 4900th sequence (/6892) is done scanning.
+2026-07-14 04:20:10 - __main__ - INFO - 5000th sequence (/6892) is done scanning.
+2026-07-14 04:24:27 - __main__ - INFO - 5100th sequence (/6892) is done scanning.
+2026-07-14 04:28:47 - __main__ - INFO - 5200th sequence (/6892) is done scanning.
+2026-07-14 04:28:47 - __main__ - INFO - Problem with 5201th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:48 - __main__ - INFO - Problem with 5202th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:48 - __main__ - INFO - Problem with 5203th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:48 - __main__ - INFO - Problem with 5204th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:49 - __main__ - INFO - Problem with 5205th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:49 - __main__ - INFO - Problem with 5206th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:49 - __main__ - INFO - Problem with 5207th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:49 - __main__ - INFO - Problem with 5208th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:50 - __main__ - INFO - Problem with 5209th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:50 - __main__ - INFO - Problem with 5210th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:50 - __main__ - INFO - Problem with 5211th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:51 - __main__ - INFO - Problem with 5212th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:51 - __main__ - INFO - Problem with 5213th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:51 - __main__ - INFO - Problem with 5214th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:51 - __main__ - INFO - Problem with 5215th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:52 - __main__ - INFO - Problem with 5216th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:52 - __main__ - INFO - Problem with 5217th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:52 - __main__ - INFO - Problem with 5218th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:52 - __main__ - INFO - Problem with 5219th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:53 - __main__ - INFO - Problem with 5220th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:53 - __main__ - INFO - Problem with 5221th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:53 - __main__ - INFO - Problem with 5222th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:54 - __main__ - INFO - Problem with 5223th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:54 - __main__ - INFO - Problem with 5224th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:28:54 - __main__ - INFO - Problem with 5225th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:11 - __main__ - INFO - Problem with 5232th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:11 - __main__ - INFO - Problem with 5233th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:11 - __main__ - INFO - Problem with 5234th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:11 - __main__ - INFO - Problem with 5235th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:12 - __main__ - INFO - Problem with 5236th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:12 - __main__ - INFO - Problem with 5237th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:12 - __main__ - INFO - Problem with 5238th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:12 - __main__ - INFO - Problem with 5239th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:13 - __main__ - INFO - Problem with 5240th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:36 - __main__ - INFO - Problem with 5250th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:36 - __main__ - INFO - Problem with 5251th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:36 - __main__ - INFO - Problem with 5252th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:37 - __main__ - INFO - Problem with 5253th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:37 - __main__ - INFO - Problem with 5254th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:37 - __main__ - INFO - Problem with 5255th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:37 - __main__ - INFO - Problem with 5256th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:38 - __main__ - INFO - Problem with 5257th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:38 - __main__ - INFO - Problem with 5258th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:38 - __main__ - INFO - Problem with 5259th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:39 - __main__ - INFO - Problem with 5260th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:39 - __main__ - INFO - Problem with 5261th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:39 - __main__ - INFO - Problem with 5262th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:39 - __main__ - INFO - Problem with 5263th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:40 - __main__ - INFO - Problem with 5264th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:40 - __main__ - INFO - Problem with 5265th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:40 - __main__ - INFO - Problem with 5266th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:29:40 - __main__ - INFO - Problem with 5267th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:30:07 - __main__ - INFO - Problem with 5278th sequence: Expecting value: line 1 column 1 (char 0)
+2026-07-14 04:31:04 - __main__ - INFO - 5300th sequence (/6892) is done scanning.
+2026-07-14 04:34:14 - __main__ - INFO - Problem with 5370th sequence: HTTP Error 414: Request-URI Too Long
+2026-07-14 04:35:29 - __main__ - INFO - 5400th sequence (/6892) is done scanning.
+2026-07-14 04:40:08 - __main__ - INFO - 5500th sequence (/6892) is done scanning.
+2026-07-14 04:44:30 - __main__ - INFO - 5600th sequence (/6892) is done scanning.
+2026-07-14 04:49:02 - __main__ - INFO - 5700th sequence (/6892) is done scanning.
+2026-07-14 04:53:16 - __main__ - INFO - 5800th sequence (/6892) is done scanning.
+2026-07-14 04:57:58 - __main__ - INFO - 5900th sequence (/6892) is done scanning.
+2026-07-14 05:02:22 - __main__ - INFO - 6000th sequence (/6892) is done scanning.
+2026-07-14 05:06:47 - __main__ - INFO - 6100th sequence (/6892) is done scanning.
+2026-07-14 05:10:58 - __main__ - INFO - 6200th sequence (/6892) is done scanning.
+2026-07-14 05:15:29 - __main__ - INFO - 6300th sequence (/6892) is done scanning.
+2026-07-14 05:19:50 - __main__ - INFO - 6400th sequence (/6892) is done scanning.
+2026-07-14 05:24:11 - __main__ - INFO - 6500th sequence (/6892) is done scanning.
+2026-07-14 05:28:45 - __main__ - INFO - 6600th sequence (/6892) is done scanning.
+2026-07-14 05:33:26 - __main__ - INFO - 6700th sequence (/6892) is done scanning.
+2026-07-14 05:37:39 - __main__ - INFO - 6800th sequence (/6892) is done scanning.
+2026-07-14 05:41:44 - __main__ - INFO - Motives are written into ../results/prosite_motives.csv
+2026-07-14 05:41:44 - __main__ - INFO - Signatures are written into ../results/prosite_signatures.csv
