@@ -70,3 +70,7 @@
 2026-07-10 04:04:30 - __main__ - INFO - 6800th sequence (/6892) is done scanning.
 2026-07-10 04:08:34 - __main__ - INFO - Motives are written into ../results/prosite_motives.csv
 2026-07-10 04:08:34 - __main__ - INFO - Signatures are written into ../results/prosite_signatures.csv
+2026-07-10 22:19:01 - __main__ - INFO - Filename: scanprosite.py started.
+2026-07-10 22:19:17 - __main__ - INFO - Filename: scanprosite.py started.
+2026-07-10 22:19:31 - __main__ - INFO - Motives are written into ../results/prosite_motives.csv
+2026-07-10 22:19:31 - __main__ - INFO - Signatures are written into ../results/prosite_signatures.csv

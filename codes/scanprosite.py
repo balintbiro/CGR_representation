@@ -35,7 +35,11 @@ def main(logfile:str,seqfile:str,outdir:str)->None:
     if os.path.exists(os.path.join(outdir,"prosite_motives.csv")):
         pass
     else:
+<<<<<<< HEAD
         out_df=pd.DataFrame(columns=["sequence_id","signature_ac","start","stop"])
+=======
+        out_df=pd.DataFrame(columns=["sequence_ac","start","stop","signature_ac","score","level","sequence",])
+>>>>>>> 5cb608f (Scanprosite code and log)
         out_df.to_csv(os.path.join(outdir,"prosite_motives.csv"),index=False)
     if os.path.exists(os.path.join(outdir,"prosite_signatures.csv")):
         pass
@@ -46,10 +50,15 @@ def main(logfile:str,seqfile:str,outdir:str)->None:
     script_name=os.path.basename(__file__)
     logger.info(f"Filename: {script_name} started.")
     sequences=pd.read_csv(seqfile)
+<<<<<<< HEAD
     accessions=[]
     for index,sequence in enumerate(sequences["sequence"]):
         seqid=sequences["id"].values[index]
         prosite=ProSite(sequence=sequence,id=seqid)
+=======
+    for index,sequence in enumerate(sequences["sequence"][:5]):
+        prosite=ProSite(sequence=sequence)
+>>>>>>> 5cb608f (Scanprosite code and log)
         try:
             # find motives in a particular sequence
             motives=prosite.find_motives()

@@ -89,3 +89,4394 @@ Length: 144, dtype: str
 AVBF000107 -0.549828  0.553265  0.082474
 NAKH920103  0.090630 -0.496160  0.274962
 OOBM770103  0.291280 -0.372913  0.792208
+2026-07-08 16:15:29 - __main__ - INFO - Filename: aaindex_search.py started.
+2026-07-08 16:24:29 - __main__ - INFO - Filename: aaindex_search.py started.
+2026-07-08 16:24:49 - __main__ - INFO - Filename: aaindex_search.py started.
+2026-07-08 16:25:02 - __main__ - INFO - Input matrix with WHQGRSEVNAIDPTFCLKMY encoding is generated.
+2026-07-08 16:25:08 - __main__ - INFO - WHQGRSEVNAIDPTFCLKMY encoding is done with:
+	-custom
+		-f1: 0.8290293855743545
+		-auroc: 0.74652385377165
+	
+2026-07-08 16:25:08 - __main__ - INFO - Input matrix with WHQGRSEVNAIDPTFCLKMY encoding is removed.
+
+2026-07-08 16:26:47 - __main__ - INFO - Filename: aaindex_search.py started.
+2026-07-08 16:27:00 - __main__ - INFO - Input matrix with MLAYGCHQVEIRFPKTNSWD encoding is generated.
+2026-07-08 16:27:06 - __main__ - INFO - MLAYGCHQVEIRFPKTNSWD encoding is done with:
+	-custom
+		-f1: 0.8272157564905999
+		-auroc: 0.7466570955797205
+	
+2026-07-08 16:27:06 - __main__ - INFO - Input matrix with MLAYGCHQVEIRFPKTNSWD encoding is removed.
+
+2026-07-08 16:27:18 - __main__ - INFO - Input matrix with ERPGAMSCTQDLHYNIFKVW encoding is generated.
+2026-07-08 16:27:23 - __main__ - INFO - ERPGAMSCTQDLHYNIFKVW encoding is done with:
+	-custom
+		-f1: 0.8388245770258237
+		-auroc: 0.7597454872185528
+	
+2026-07-08 16:27:23 - __main__ - INFO - Input matrix with ERPGAMSCTQDLHYNIFKVW encoding is removed.
+
+2026-07-08 16:27:36 - __main__ - INFO - Input matrix with WGNERLHKIFCVPDQTSAMY encoding is generated.
+2026-07-08 16:27:41 - __main__ - INFO - WGNERLHKIFCVPDQTSAMY encoding is done with:
+	-custom
+		-f1: 0.8269058295964126
+		-auroc: 0.7471021650747411
+	
+2026-07-08 16:27:41 - __main__ - INFO - Input matrix with WGNERLHKIFCVPDQTSAMY encoding is removed.
+
+2026-07-08 16:27:54 - __main__ - INFO - Input matrix with DVCPNAQLMGRIHTYFWSEK encoding is generated.
+2026-07-08 16:27:59 - __main__ - INFO - DVCPNAQLMGRIHTYFWSEK encoding is done with:
+	-custom
+		-f1: 0.8323036187113857
+		-auroc: 0.7467024396505297
+	
+2026-07-08 16:27:59 - __main__ - INFO - Input matrix with DVCPNAQLMGRIHTYFWSEK encoding is removed.
+
+2026-07-08 16:28:12 - __main__ - INFO - Input matrix with DNHCMLPKGVAFSITRQYEW encoding is generated.
+2026-07-08 16:28:17 - __main__ - INFO - DNHCMLPKGVAFSITRQYEW encoding is done with:
+	-custom
+		-f1: 0.8298829882988299
+		-auroc: 0.7528001707727467
+	
+2026-07-08 16:28:17 - __main__ - INFO - Input matrix with DNHCMLPKGVAFSITRQYEW encoding is removed.
+
+2026-07-08 16:28:29 - __main__ - INFO - Input matrix with DGYPVEINALWHRKFTSMCQ encoding is generated.
+2026-07-08 16:28:34 - __main__ - INFO - DGYPVEINALWHRKFTSMCQ encoding is done with:
+	-custom
+		-f1: 0.827027027027027
+		-auroc: 0.7494168054892835
+	
+2026-07-08 16:28:34 - __main__ - INFO - Input matrix with DGYPVEINALWHRKFTSMCQ encoding is removed.
+
+2026-07-08 16:28:47 - __main__ - INFO - Input matrix with DKMYECLIFAPHQWSTRVNG encoding is generated.
+2026-07-08 16:28:52 - __main__ - INFO - DKMYECLIFAPHQWSTRVNG encoding is done with:
+	-custom
+		-f1: 0.8400718778077269
+		-auroc: 0.765576734724629
+	
+2026-07-08 16:28:52 - __main__ - INFO - Input matrix with DKMYECLIFAPHQWSTRVNG encoding is removed.
+
+2026-07-08 16:29:04 - __main__ - INFO - Input matrix with DKGIAEHYQSRFPMWVTCLN encoding is generated.
+2026-07-08 16:29:10 - __main__ - INFO - DKGIAEHYQSRFPMWVTCLN encoding is done with:
+	-custom
+		-f1: 0.8289007092198581
+		-auroc: 0.7442092133571075
+	
+2026-07-08 16:29:10 - __main__ - INFO - Input matrix with DKGIAEHYQSRFPMWVTCLN encoding is removed.
+
+2026-07-08 16:29:23 - __main__ - INFO - Input matrix with DKFVHPYCSNAEQGWTLRMI encoding is generated.
+2026-07-08 16:29:28 - __main__ - INFO - DKFVHPYCSNAEQGWTLRMI encoding is done with:
+	-custom
+		-f1: 0.8400890868596882
+		-auroc: 0.7616597046077948
+	
+2026-07-08 16:29:28 - __main__ - INFO - Input matrix with DKFVHPYCSNAEQGWTLRMI encoding is removed.
+
+2026-07-08 16:29:41 - __main__ - INFO - Input matrix with DKEHAFYNCWGPRILQMVST encoding is generated.
+2026-07-08 16:29:46 - __main__ - INFO - DKEHAFYNCWGPRILQMVST encoding is done with:
+	-custom
+		-f1: 0.8357015985790408
+		-auroc: 0.7542700162680575
+	
+2026-07-08 16:29:46 - __main__ - INFO - Input matrix with DKEHAFYNCWGPRILQMVST encoding is removed.
+
+2026-07-08 16:29:59 - __main__ - INFO - Input matrix with DKENGPVARFTQIWHYLMCS encoding is generated.
+2026-07-08 16:30:04 - __main__ - INFO - DKENGPVARFTQIWHYLMCS encoding is done with:
+	-custom
+		-f1: 0.8322981366459627
+		-auroc: 0.7492396148125826
+	
+2026-07-08 16:30:04 - __main__ - INFO - Input matrix with DKENGPVARFTQIWHYLMCS encoding is removed.
+
+2026-07-08 16:30:16 - __main__ - INFO - Input matrix with DKEHTMYQRAWGSNLVCFPI encoding is generated.
+2026-07-08 16:30:22 - __main__ - INFO - DKEHTMYQRAWGSNLVCFPI encoding is done with:
+	-custom
+		-f1: 0.8355555555555556
+		-auroc: 0.7544925510155677
+	
+2026-07-08 16:30:22 - __main__ - INFO - Input matrix with DKEHTMYQRAWGSNLVCFPI encoding is removed.
+
+2026-07-08 16:30:34 - __main__ - INFO - Input matrix with DKERMIWNTQHAYGSFCLVP encoding is generated.
+2026-07-08 16:30:39 - __main__ - INFO - DKERMIWNTQHAYGSFCLVP encoding is done with:
+	-custom
+		-f1: 0.8415446071904128
+		-auroc: 0.7619715322947449
+	
+2026-07-08 16:30:39 - __main__ - INFO - Input matrix with DKERMIWNTQHAYGSFCLVP encoding is removed.
+
+2026-07-08 16:30:52 - __main__ - INFO - Input matrix with DKERNGIHYAWVMPTFLQSC encoding is generated.
+2026-07-08 16:30:57 - __main__ - INFO - DKERNGIHYAWVMPTFLQSC encoding is done with:
+	-custom
+		-f1: 0.8418230563002681
+		-auroc: 0.7654434929165586
+	
+2026-07-08 16:30:57 - __main__ - INFO - Input matrix with DKERNGIHYAWVMPTFLQSC encoding is removed.
+
+2026-07-08 16:31:10 - __main__ - INFO - Input matrix with DKERCITWPNHSYQLVAFGM encoding is generated.
+2026-07-08 16:31:15 - __main__ - INFO - DKERCITWPNHSYQLVAFGM encoding is done with:
+	-custom
+		-f1: 0.8362676056338029
+		-auroc: 0.7508427021159637
+	
+2026-07-08 16:31:15 - __main__ - INFO - Input matrix with DKERCITWPNHSYQLVAFGM encoding is removed.
+
+2026-07-08 16:31:28 - __main__ - INFO - Input matrix with DKERNLTAHWFCQISPGVYM encoding is generated.
+2026-07-08 16:31:33 - __main__ - INFO - DKERNLTAHWFCQISPGVYM encoding is done with:
+	-custom
+		-f1: 0.8386532575426323
+		-auroc: 0.7509766415251236
+	
+2026-07-08 16:31:33 - __main__ - INFO - Input matrix with DKERNLTAHWFCQISPGVYM encoding is removed.
+
+2026-07-08 16:31:45 - __main__ - INFO - Input matrix with DKERNIMLGQWVYFPAHCTS encoding is generated.
+2026-07-08 16:31:51 - __main__ - INFO - DKERNIMLGQWVYFPAHCTS encoding is done with:
+	-custom
+		-f1: 0.8303571428571429
+		-auroc: 0.7495953913681632
+	
+2026-07-08 16:31:51 - __main__ - INFO - Input matrix with DKERNIMLGQWVYFPAHCTS encoding is removed.
+
+2026-07-08 16:32:03 - __main__ - INFO - Input matrix with DKERNSAITVPQCLYMGFHW encoding is generated.
+2026-07-08 16:32:08 - __main__ - INFO - DKERNSAITVPQCLYMGFHW encoding is done with:
+	-custom
+		-f1: 0.8431200701139352
+		-auroc: 0.7581437951173504
+	
+2026-07-08 16:32:08 - __main__ - INFO - Input matrix with DKERNSAITVPQCLYMGFHW encoding is removed.
+
+2026-07-08 16:32:21 - __main__ - INFO - Input matrix with DKERNHGTVQCMALWPYFIS encoding is generated.
+2026-07-08 16:32:26 - __main__ - INFO - DKERNHGTVQCMALWPYFIS encoding is done with:
+	-custom
+		-f1: 0.8291814946619217
+		-auroc: 0.7463013190241399
+	
+2026-07-08 16:32:26 - __main__ - INFO - Input matrix with DKERNHGTVQCMALWPYFIS encoding is removed.
+
+2026-07-08 16:32:39 - __main__ - INFO - Input matrix with DKERNHQCSGPVTAYFILWM encoding is generated.
+2026-07-08 16:32:44 - __main__ - INFO - DKERNHQCSGPVTAYFILWM encoding is done with:
+	-custom
+		-f1: 0.8358074673864148
+		-auroc: 0.7605016867994341
+	
+2026-07-08 16:32:44 - __main__ - INFO - Input matrix with DKERNHQCSGPVTAYFILWM encoding is removed.
+
+2026-07-08 16:32:56 - __main__ - INFO - Input matrix with DKERNHLIQAWGCYPVMTSF encoding is generated.
+2026-07-08 16:33:02 - __main__ - INFO - DKERNHLIQAWGCYPVMTSF encoding is done with:
+	-custom
+		-f1: 0.8322639780018332
+		-auroc: 0.7644626657848989
+	
+2026-07-08 16:33:02 - __main__ - INFO - Input matrix with DKERNHLIQAWGCYPVMTSF encoding is removed.
+
+2026-07-08 16:33:14 - __main__ - INFO - Input matrix with DKERNHYWTQSPICALGVFM encoding is generated.
+2026-07-08 16:33:19 - __main__ - INFO - DKERNHYWTQSPICALGVFM encoding is done with:
+	-custom
+		-f1: 0.8371886120996441
+		-auroc: 0.7571190191170603
+	
+2026-07-08 16:33:19 - __main__ - INFO - Input matrix with DKERNHYWTQSPICALGVFM encoding is removed.
+
+2026-07-08 16:33:32 - __main__ - INFO - Input matrix with DKERNHYSFPLAICVMTQGW encoding is generated.
+2026-07-08 16:33:37 - __main__ - INFO - DKERNHYSFPLAICVMTQGW encoding is done with:
+	-custom
+		-f1: 0.8389380530973451
+		-auroc: 0.7569857773089896
+	
+2026-07-08 16:33:37 - __main__ - INFO - Input matrix with DKERNHYSFPLAICVMTQGW encoding is removed.
+
+2026-07-08 16:33:50 - __main__ - INFO - Input matrix with DKERNHYLICFWQTASMGVP encoding is generated.
+2026-07-08 16:33:55 - __main__ - INFO - DKERNHYLICFWQTASMGVP encoding is done with:
+	-custom
+		-f1: 0.8413120567375887
+		-auroc: 0.7610367468349839
+	
+2026-07-08 16:33:55 - __main__ - INFO - Input matrix with DKERNHYLICFWQTASMGVP encoding is removed.
+
+2026-07-08 16:44:08 - __main__ - INFO - Filename: aaindex_search.py started.
+2026-07-08 16:44:21 - __main__ - INFO - Input matrix with REWLDMTVNAKGYCHSQPFI encoding is generated.
+2026-07-08 16:44:28 - __main__ - INFO - REWLDMTVNAKGYCHSQPFI encoding is done with:
+	-custom
+		-f1: 0.8232094288304623
+		-auroc: 0.7473686486908817
+	
+2026-07-08 16:44:28 - __main__ - INFO - Input matrix with REWLDMTVNAKGYCHSQPFI encoding is removed.
+
+2026-07-08 16:44:40 - __main__ - INFO - Input matrix with GLEPMFHWQTDIANRCYKSV encoding is generated.
+2026-07-08 16:44:45 - __main__ - INFO - GLEPMFHWQTDIANRCYKSV encoding is done with:
+	-custom
+		-f1: 0.8250112460638777
+		-auroc: 0.7460780866755401
+	
+2026-07-08 16:44:45 - __main__ - INFO - Input matrix with GLEPMFHWQTDIANRCYKSV encoding is removed.
+
+2026-07-08 16:44:58 - __main__ - INFO - Input matrix with WPQHELKAVCMIRSNFDYTG encoding is generated.
+2026-07-08 16:45:03 - __main__ - INFO - WPQHELKAVCMIRSNFDYTG encoding is done with:
+	-custom
+		-f1: 0.8226887003126395
+		-auroc: 0.7394899419874934
+	
+2026-07-08 16:45:03 - __main__ - INFO - Input matrix with WPQHELKAVCMIRSNFDYTG encoding is removed.
+
+2026-07-08 16:45:16 - __main__ - INFO - Input matrix with DEYLRIVQFHWSMGATKNCP encoding is generated.
+2026-07-08 16:45:21 - __main__ - INFO - DEYLRIVQFHWSMGATKNCP encoding is done with:
+	-custom
+		-f1: 0.8281110116383169
+		-auroc: 0.7478590622567115
+	
+2026-07-08 16:45:21 - __main__ - INFO - Input matrix with DEYLRIVQFHWSMGATKNCP encoding is removed.
+
+2026-07-08 16:45:34 - __main__ - INFO - Input matrix with DGLYCTRHVQMWKFPANEIS encoding is generated.
+2026-07-08 16:45:39 - __main__ - INFO - DGLYCTRHVQMWKFPANEIS encoding is done with:
+	-custom
+		-f1: 0.8241516086381666
+		-auroc: 0.7349499540978482
+	
+2026-07-08 16:45:39 - __main__ - INFO - Input matrix with DGLYCTRHVQMWKFPANEIS encoding is removed.
+
+2026-07-08 16:45:52 - __main__ - INFO - Input matrix with DSYFTIAWQGNEMPKRHVLC encoding is generated.
+2026-07-08 16:45:57 - __main__ - INFO - DSYFTIAWQGNEMPKRHVLC encoding is done with:
+	-custom
+		-f1: 0.8303571428571429
+		-auroc: 0.7495953913681632
+	
+2026-07-08 16:45:57 - __main__ - INFO - Input matrix with DSYFTIAWQGNEMPKRHVLC encoding is removed.
+
+2026-07-08 16:46:10 - __main__ - INFO - Input matrix with DKLFCYVNWQMAGTERPSHI encoding is generated.
+2026-07-08 16:46:15 - __main__ - INFO - DKLFCYVNWQMAGTERPSHI encoding is done with:
+	-custom
+		-f1: 0.8316920322291853
+		-auroc: 0.7526669289646764
+	
+2026-07-08 16:46:15 - __main__ - INFO - Input matrix with DKLFCYVNWQMAGTERPSHI encoding is removed.
+
+2026-07-08 16:46:28 - __main__ - INFO - Input matrix with DKCQAELSVTPMRGIHWNYF encoding is generated.
+2026-07-08 16:46:33 - __main__ - INFO - DKCQAELSVTPMRGIHWNYF encoding is done with:
+	-custom
+		-f1: 0.8335540838852097
+		-auroc: 0.7486166570397715
+	
+2026-07-08 16:46:33 - __main__ - INFO - Input matrix with DKCQAELSVTPMRGIHWNYF encoding is removed.
+
+2026-07-08 16:46:46 - __main__ - INFO - Input matrix with DKNTMLFHCYVRGPIWSAQE encoding is generated.
+2026-07-08 16:46:51 - __main__ - INFO - DKNTMLFHCYVRGPIWSAQE encoding is done with:
+	-custom
+		-f1: 0.8361233480176211
+		-auroc: 0.7510652368634738
+	
+2026-07-08 16:46:51 - __main__ - INFO - Input matrix with DKNTMLFHCYVRGPIWSAQE encoding is removed.
+
+2026-07-08 16:47:04 - __main__ - INFO - Input matrix with DKEHWPFLGQRVTCYSAIMN encoding is generated.
+2026-07-08 16:47:09 - __main__ - INFO - DKEHWPFLGQRVTCYSAIMN encoding is done with:
+	-custom
+		-f1: 0.8343666961913198
+		-auroc: 0.7511984786715443
+	
+2026-07-08 16:47:09 - __main__ - INFO - Input matrix with DKEHWPFLGQRVTCYSAIMN encoding is removed.
+
+2026-07-08 16:47:22 - __main__ - INFO - Input matrix with DKEIHVGTFMCWYNSQRLAP encoding is generated.
+2026-07-08 16:47:27 - __main__ - INFO - DKEIHVGTFMCWYNSQRLAP encoding is done with:
+	-custom
+		-f1: 0.8303217276333187
+		-auroc: 0.7433637208367865
+	
+2026-07-08 16:47:27 - __main__ - INFO - Input matrix with DKEIHVGTFMCWYNSQRLAP encoding is removed.
+
+2026-07-08 16:47:40 - __main__ - INFO - Input matrix with DKEYHRTVLMSICQAWPFNG encoding is generated.
+2026-07-08 16:47:45 - __main__ - INFO - DKEYHRTVLMSICQAWPFNG encoding is done with:
+	-custom
+		-f1: 0.8349600709849158
+		-auroc: 0.752845514843556
+	
+2026-07-08 16:47:45 - __main__ - INFO - Input matrix with DKEYHRTVLMSICQAWPFNG encoding is removed.
+
+2026-07-08 16:47:58 - __main__ - INFO - Input matrix with DKERYWCQSAMVILNPHFGT encoding is generated.
+2026-07-08 16:48:03 - __main__ - INFO - DKERYWCQSAMVILNPHFGT encoding is done with:
+	-custom
+		-f1: 0.8298059964726632
+		-auroc: 0.742874004872046
+	
+2026-07-08 16:48:03 - __main__ - INFO - Input matrix with DKERYWCQSAMVILNPHFGT encoding is removed.
+
+2026-07-08 16:48:15 - __main__ - INFO - Input matrix with DKERHICNLVPYFMQASGWT encoding is generated.
+2026-07-08 16:48:20 - __main__ - INFO - DKERHICNLVPYFMQASGWT encoding is done with:
+	-custom
+		-f1: 0.8376220053238687
+		-auroc: 0.7564514148745294
+	
+2026-07-08 16:48:20 - __main__ - INFO - Input matrix with DKERHICNLVPYFMQASGWT encoding is removed.
+
+2026-07-08 16:48:33 - __main__ - INFO - Input matrix with DKERGQHAYLVPWIMTFCNS encoding is generated.
+2026-07-08 16:48:38 - __main__ - INFO - DKERGQHAYLVPWIMTFCNS encoding is done with:
+	-custom
+		-f1: 0.839396628216504
+		-auroc: 0.7588553482285118
+	
+2026-07-08 16:48:38 - __main__ - INFO - Input matrix with DKERGQHAYLVPWIMTFCNS encoding is removed.
+
+2026-07-08 16:48:51 - __main__ - INFO - Input matrix with DKERNTSMLAGVYPQCIHFW encoding is generated.
+2026-07-08 16:48:57 - __main__ - INFO - DKERNTSMLAGVYPQCIHFW encoding is done with:
+	-custom
+		-f1: 0.8351063829787234
+		-auroc: 0.7526229800960458
+	
+2026-07-08 16:48:57 - __main__ - INFO - Input matrix with DKERNTSMLAGVYPQCIHFW encoding is removed.
+
+2026-07-08 16:49:09 - __main__ - INFO - Input matrix with DKERNSAYTMCFVWLIPQHG encoding is generated.
+2026-07-08 16:49:14 - __main__ - INFO - DKERNSAYTMCFVWLIPQHG encoding is done with:
+	-custom
+		-f1: 0.8419654714475432
+		-auroc: 0.7613039280522141
+	
+2026-07-08 16:49:14 - __main__ - INFO - Input matrix with DKERNSAYTMCFVWLIPQHG encoding is removed.
+
+2026-07-08 16:49:27 - __main__ - INFO - Input matrix with DKERNHATPQGVCMSIYFWL encoding is generated.
+2026-07-08 16:49:32 - __main__ - INFO - DKERNHATPQGVCMSIYFWL encoding is done with:
+	-custom
+		-f1: 0.825696316262354
+		-auroc: 0.7463452678927703
+	
+2026-07-08 16:49:32 - __main__ - INFO - Input matrix with DKERNHATPQGVCMSIYFWL encoding is removed.
+
+2026-07-08 16:49:45 - __main__ - INFO - Input matrix with DKERNHPVTYWGIAMCLFSQ encoding is generated.
+2026-07-08 16:49:50 - __main__ - INFO - DKERNHPVTYWGIAMCLFSQ encoding is done with:
+	-custom
+		-f1: 0.8451845184518452
+		-auroc: 0.7732336042815965
+	
+2026-07-08 16:49:50 - __main__ - INFO - Input matrix with DKERNHPVTYWGIAMCLFSQ encoding is removed.
+
+2026-07-08 16:50:03 - __main__ - INFO - Input matrix with DKERNHAGQVIMWPCSTFLY encoding is generated.
+2026-07-08 16:50:08 - __main__ - INFO - DKERNHAGQVIMWPCSTFLY encoding is done with:
+	-custom
+		-f1: 0.8303411131059246
+		-auroc: 0.7521325665302159
+	
+2026-07-08 16:50:08 - __main__ - INFO - Input matrix with DKERNHAGQVIMWPCSTFLY encoding is removed.
+
+2026-07-08 16:50:21 - __main__ - INFO - Input matrix with DKERNHMVTFLASGCYWPQI encoding is generated.
+2026-07-08 16:50:26 - __main__ - INFO - DKERNHMVTFLASGCYWPQI encoding is done with:
+	-custom
+		-f1: 0.8394062078272605
+		-auroc: 0.7653095535073987
+	
+2026-07-08 16:50:26 - __main__ - INFO - Input matrix with DKERNHMVTFLASGCYWPQI encoding is removed.
+
+2026-07-08 16:50:38 - __main__ - INFO - Input matrix with DKERNHYWTLGPCMASFQVI encoding is generated.
+2026-07-08 16:50:44 - __main__ - INFO - DKERNHYWTLGPCMASFQVI encoding is done with:
+	-custom
+		-f1: 0.8325188804975566
+		-auroc: 0.7501744002723436
+	
+2026-07-08 16:50:44 - __main__ - INFO - Input matrix with DKERNHYWTLGPCMASFQVI encoding is removed.
+
+2026-07-08 16:50:56 - __main__ - INFO - Input matrix with DKERNHYLPSTAVGMWQICF encoding is generated.
+2026-07-08 16:51:02 - __main__ - INFO - DKERNHYLPSTAVGMWQICF encoding is done with:
+	-custom
+		-f1: 0.8318505338078291
+		-auroc: 0.7499072190551133
+	
+2026-07-08 16:51:02 - __main__ - INFO - Input matrix with DKERNHYLPSTAVGMWQICF encoding is removed.
+
+2026-07-08 16:51:14 - __main__ - INFO - Input matrix with DKERNHYWITLSAQGPMCVF encoding is generated.
+2026-07-08 16:51:19 - __main__ - INFO - DKERNHYWITLSAQGPMCVF encoding is done with:
+	-custom
+		-f1: 0.8341485104490884
+		-auroc: 0.7528008683738361
+	
+2026-07-08 16:51:19 - __main__ - INFO - Input matrix with DKERNHYWITLSAQGPMCVF encoding is removed.
+
+2026-07-08 16:51:32 - __main__ - INFO - Input matrix with DKERNHYGSTCWLFPAMQIV encoding is generated.
+2026-07-08 16:51:37 - __main__ - INFO - DKERNHYGSTCWLFPAMQIV encoding is done with:
+	-custom
+		-f1: 0.8372093023255814
+		-auroc: 0.759656194279113
+	
+2026-07-08 16:51:37 - __main__ - INFO - Input matrix with DKERNHYGSTCWLFPAMQIV encoding is removed.
+
+2026-07-08 16:51:50 - __main__ - INFO - Input matrix with DKERNHYGQSPAIWLCFMTV encoding is generated.
+2026-07-08 16:51:55 - __main__ - INFO - DKERNHYGQSPAIWLCFMTV encoding is done with:
+	-custom
+		-f1: 0.8411214953271028
+		-auroc: 0.7626391365372757
+	
+2026-07-08 16:51:55 - __main__ - INFO - Input matrix with DKERNHYGQSPAIWLCFMTV encoding is removed.
+
+2026-07-08 16:52:08 - __main__ - INFO - Input matrix with DKERNHYGSIVLPFTQWMCA encoding is generated.
+2026-07-08 16:52:13 - __main__ - INFO - DKERNHYGSIVLPFTQWMCA encoding is done with:
+	-custom
+		-f1: 0.8396811337466785
+		-auroc: 0.7584102787334912
+	
+2026-07-08 16:52:13 - __main__ - INFO - Input matrix with DKERNHYGSIVLPFTQWMCA encoding is removed.
+
+2026-07-08 16:52:25 - __main__ - INFO - Input matrix with DKERNHYGQIWPTFALMCSV encoding is generated.
+2026-07-08 16:52:30 - __main__ - INFO - DKERNHYGQIWPTFALMCSV encoding is done with:
+	-custom
+		-f1: 0.83311199645861
+		-auroc: 0.7492842612823023
+	
+2026-07-08 16:52:30 - __main__ - INFO - Input matrix with DKERNHYGQIWPTFALMCSV encoding is removed.
+
+2026-07-08 16:52:43 - __main__ - INFO - Input matrix with DKERNHYGQCLSTFIWPAMV encoding is generated.
+2026-07-08 16:52:48 - __main__ - INFO - DKERNHYGQCLSTFIWPAMV encoding is done with:
+	-custom
+		-f1: 0.8332600087989441
+		-auroc: 0.7465245513727395
+	
+2026-07-08 16:52:48 - __main__ - INFO - Input matrix with DKERNHYGQCLSTFIWPAMV encoding is removed.
+
+2026-07-08 16:53:01 - __main__ - INFO - Input matrix with DKERNHYGQSMTLCVIPAFW encoding is generated.
+2026-07-08 16:53:06 - __main__ - INFO - DKERNHYGQSMTLCVIPAFW encoding is done with:
+	-custom
+		-f1: 0.8302055406613047
+		-auroc: 0.7498179261156734
+	
+2026-07-08 16:53:06 - __main__ - INFO - Input matrix with DKERNHYGQSMTLCVIPAFW encoding is removed.
+
+2026-07-08 16:53:18 - __main__ - INFO - Input matrix with DKERNHYGQPLISCAWTMFV encoding is generated.
+2026-07-08 16:53:23 - __main__ - INFO - DKERNHYGQPLISCAWTMFV encoding is done with:
+	-custom
+		-f1: 0.8322925958965209
+		-auroc: 0.7517767899746353
+	
+2026-07-08 16:53:23 - __main__ - INFO - Input matrix with DKERNHYGQPLISCAWTMFV encoding is removed.
+
+2026-07-08 16:53:36 - __main__ - INFO - Input matrix with DKERNHYGQPSATWCVFILM encoding is generated.
+2026-07-08 16:53:41 - __main__ - INFO - DKERNHYGQPSATWCVFILM encoding is done with:
+	-custom
+		-f1: 0.8316120341266278
+		-auroc: 0.7540467839194578
+	
+2026-07-08 16:53:41 - __main__ - INFO - Input matrix with DKERNHYGQPSATWCVFILM encoding is removed.
+
+2026-07-08 16:53:54 - __main__ - INFO - Input matrix with DKERNHYGQPVMFLWIATCS encoding is generated.
+2026-07-08 16:53:59 - __main__ - INFO - DKERNHYGQPVMFLWIATCS encoding is done with:
+	-custom
+		-f1: 0.8468792096991469
+		-auroc: 0.7744802174283075
+	
+2026-07-08 16:53:59 - __main__ - INFO - Input matrix with DKERNHYGQPVMFLWIATCS encoding is removed.
+
+2026-07-08 16:54:12 - __main__ - INFO - Input matrix with DKERNHYGQPWAFLCMVITS encoding is generated.
+2026-07-08 16:54:17 - __main__ - INFO - DKERNHYGQPWAFLCMVITS encoding is done with:
+	-custom
+		-f1: 0.835352175863616
+		-auroc: 0.7586321158799121
+	
+2026-07-08 16:54:17 - __main__ - INFO - Input matrix with DKERNHYGQPWAFLCMVITS encoding is removed.
+
+2026-07-08 16:54:29 - __main__ - INFO - Input matrix with DKERNHYGQPWSILVACTMF encoding is generated.
+2026-07-08 16:54:35 - __main__ - INFO - DKERNHYGQPWSILVACTMF encoding is done with:
+	-custom
+		-f1: 0.8362494392104083
+		-auroc: 0.7598340825569034
+	
+2026-07-08 16:54:35 - __main__ - INFO - Input matrix with DKERNHYGQPWSILVACTMF encoding is removed.
+
+2026-07-08 16:54:47 - __main__ - INFO - Input matrix with DKERNHYGQPWLMFCTSAIV encoding is generated.
+2026-07-08 16:54:52 - __main__ - INFO - DKERNHYGQPWLMFCTSAIV encoding is done with:
+	-custom
+		-f1: 0.8317631224764468
+		-auroc: 0.7538242491719475
+	
+2026-07-08 16:54:52 - __main__ - INFO - Input matrix with DKERNHYGQPWLMFCTSAIV encoding is removed.
+
+2026-07-08 16:55:05 - __main__ - INFO - Input matrix with DKERNHYGQPWTICLMFAVS encoding is generated.
+2026-07-08 16:55:10 - __main__ - INFO - DKERNHYGQPWTICLMFAVS encoding is done with:
+	-custom
+		-f1: 0.8343722172751559
+		-auroc: 0.753735653833597
+	
+2026-07-08 16:55:10 - __main__ - INFO - Input matrix with DKERNHYGQPWTICLMFAVS encoding is removed.
+
+2026-07-08 16:55:22 - __main__ - INFO - Input matrix with DKERNHYGQPWTSAVLIFMC encoding is generated.
+2026-07-08 16:55:28 - __main__ - INFO - DKERNHYGQPWTSAVLIFMC encoding is done with:
+	-custom
+		-f1: 0.8413053196244971
+		-auroc: 0.7649537769518181
+	
+2026-07-08 16:55:28 - __main__ - INFO - Input matrix with DKERNHYGQPWTSAVLIFMC encoding is removed.
+
+2026-07-08 16:55:40 - __main__ - INFO - Input matrix with DKERNHYGQPWTMIALCSFV encoding is generated.
+2026-07-08 16:55:45 - __main__ - INFO - DKERNHYGQPWTMIALCSFV encoding is done with:
+	-custom
+		-f1: 0.8344549125168237
+		-auroc: 0.757430149202921
+	
+2026-07-08 16:55:45 - __main__ - INFO - Input matrix with DKERNHYGQPWTMIALCSFV encoding is removed.
+
+2026-07-08 16:55:58 - __main__ - INFO - Input matrix with DKERNHYGQPWTSCVILFAM encoding is generated.
+2026-07-08 16:56:03 - __main__ - INFO - DKERNHYGQPWTSCVILFAM encoding is done with:
+	-custom
+		-f1: 0.842671447781264
+		-auroc: 0.7680253145483312
+	
+2026-07-08 16:56:03 - __main__ - INFO - Input matrix with DKERNHYGQPWTSCVILFAM encoding is removed.
+
+2026-07-08 16:56:15 - __main__ - INFO - Input matrix with DKERNHYGQPWTSIMCALVF encoding is generated.
+2026-07-08 16:56:20 - __main__ - INFO - DKERNHYGQPWTSIMCALVF encoding is done with:
+	-custom
+		-f1: 0.8374384236453202
+		-auroc: 0.7605909797388739
+	
+2026-07-08 16:56:20 - __main__ - INFO - Input matrix with DKERNHYGQPWTSIMCALVF encoding is removed.
+
+2026-07-08 16:56:33 - __main__ - INFO - Input matrix with DKERNHYGQPWTSCAFMLVI encoding is generated.
+2026-07-08 16:56:38 - __main__ - INFO - DKERNHYGQPWTSCAFMLVI encoding is done with:
+	-custom
+		-f1: 0.83576803895529
+		-auroc: 0.7528901613132759
+	
+2026-07-08 16:56:38 - __main__ - INFO - Input matrix with DKERNHYGQPWTSCAFMLVI encoding is removed.
+
+2026-07-08 16:56:50 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVCLAFMI encoding is generated.
+2026-07-08 16:56:56 - __main__ - INFO - DKERNHYGQPWTSVCLAFMI encoding is done with:
+	-custom
+		-f1: 0.8320070733863837
+		-auroc: 0.7471475091455503
+	
+2026-07-08 16:56:56 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVCLAFMI encoding is removed.
+
+2026-07-08 16:57:08 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVFICMLA encoding is generated.
+2026-07-08 16:57:13 - __main__ - INFO - DKERNHYGQPWTSVFICMLA encoding is done with:
+	-custom
+		-f1: 0.8374945247481385
+		-auroc: 0.7502197443431528
+	
+2026-07-08 16:57:13 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVFICMLA encoding is removed.
+
+2026-07-08 16:57:26 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVIFCLMA encoding is generated.
+2026-07-08 16:57:31 - __main__ - INFO - DKERNHYGQPWTSVIFCLMA encoding is done with:
+	-custom
+		-f1: 0.8362030905077262
+		-auroc: 0.752222557070745
+	
+2026-07-08 16:57:31 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVIFCLMA encoding is removed.
+
+2026-07-08 16:57:43 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVACFLIM encoding is generated.
+2026-07-08 16:57:48 - __main__ - INFO - DKERNHYGQPWTSVACFLIM encoding is done with:
+	-custom
+		-f1: 0.8346595932802829
+		-auroc: 0.7507534091765237
+	
+2026-07-08 16:57:48 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVACFLIM encoding is removed.
+
+2026-07-08 16:58:01 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAFCMLI encoding is generated.
+2026-07-08 16:58:06 - __main__ - INFO - DKERNHYGQPWTSVAFCMLI encoding is done with:
+	-custom
+		-f1: 0.8313413014608234
+		-auroc: 0.74688032792832
+	
+2026-07-08 16:58:06 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAFCMLI encoding is removed.
+
+2026-07-08 16:58:19 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAMLCFI encoding is generated.
+2026-07-08 16:58:24 - __main__ - INFO - DKERNHYGQPWTSVAMLCFI encoding is done with:
+	-custom
+		-f1: 0.8344429649356414
+		-auroc: 0.7523557988788155
+	
+2026-07-08 16:58:24 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAMLCFI encoding is removed.
+
+2026-07-08 16:58:36 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIMLFC encoding is generated.
+2026-07-08 16:58:42 - __main__ - INFO - DKERNHYGQPWTSVAIMLFC encoding is done with:
+	-custom
+		-f1: 0.8313199105145413
+		-auroc: 0.7519546782524256
+	
+2026-07-08 16:58:42 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIMLFC encoding is removed.
+
+2026-07-08 16:58:54 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIFLMC encoding is generated.
+2026-07-08 16:58:59 - __main__ - INFO - DKERNHYGQPWTSVAIFLMC encoding is done with:
+	-custom
+		-f1: 0.8350287483414418
+		-auroc: 0.7514656598887745
+	
+2026-07-08 16:58:59 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIFLMC encoding is removed.
+
+2026-07-08 16:59:12 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMFL encoding is generated.
+2026-07-08 16:59:17 - __main__ - INFO - DKERNHYGQPWTSVAICMFL encoding is done with:
+	-custom
+		-f1: 0.8344429649356414
+		-auroc: 0.7523557988788155
+	
+2026-07-08 16:59:17 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMFL encoding is removed.
+
+2026-07-08 16:59:29 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMLF encoding is generated.
+2026-07-08 16:59:34 - __main__ - INFO - DKERNHYGQPWTSVAICMLF encoding is done with:
+	-custom
+		-f1: 0.8283548818546589
+		-auroc: 0.7462566725544199
+	
+2026-07-08 16:59:34 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMLF encoding is removed.
+
+2026-07-08 16:59:47 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICLMF encoding is generated.
+2026-07-08 16:59:52 - __main__ - INFO - DKERNHYGQPWTSVAICLMF encoding is done with:
+	-custom
+		-f1: 0.838339222614841
+		-auroc: 0.7553387411369781
+	
+2026-07-08 16:59:52 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICLMF encoding is removed.
+
+2026-07-08 17:00:04 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICLMF encoding is generated.
+2026-07-08 17:00:10 - __main__ - INFO - DKERNHYGQPWTSVAICLMF encoding is done with:
+	-custom
+		-f1: 0.838339222614841
+		-auroc: 0.7553387411369781
+	
+2026-07-08 17:00:10 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICLMF encoding is removed.
+
+2026-07-08 17:00:22 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-08 17:00:28 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-08 17:00:28 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-08 17:00:40 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-08 17:00:45 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-08 17:00:45 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-08 17:00:58 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-08 17:01:03 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-08 17:01:03 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-08 17:01:15 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-08 17:01:20 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-08 17:01:20 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-08 17:01:33 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-08 17:01:38 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-08 17:01:38 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-08 17:01:51 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-08 17:01:56 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-08 17:01:56 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-08 17:02:08 - __main__ - INFO - Input matrix with GCHKWMPNFLDIAYVQRSTE encoding is generated.
+2026-07-08 17:02:13 - __main__ - INFO - GCHKWMPNFLDIAYVQRSTE encoding is done with:
+	-custom
+		-f1: 0.8310749774164409
+		-auroc: 0.7560942431167701
+	
+2026-07-08 17:02:13 - __main__ - INFO - Input matrix with GCHKWMPNFLDIAYVQRSTE encoding is removed.
+
+2026-07-08 17:02:26 - __main__ - INFO - Input matrix with TEDGCKYVRMPIHNSAFWLQ encoding is generated.
+2026-07-08 17:02:31 - __main__ - INFO - TEDGCKYVRMPIHNSAFWLQ encoding is done with:
+	-custom
+		-f1: 0.8242049469964664
+		-auroc: 0.7361072743051195
+	
+2026-07-08 17:02:31 - __main__ - INFO - Input matrix with TEDGCKYVRMPIHNSAFWLQ encoding is removed.
+
+2026-07-08 17:02:44 - __main__ - INFO - Input matrix with HVQIYRNCEATKGLPSFMDW encoding is generated.
+2026-07-08 17:02:49 - __main__ - INFO - HVQIYRNCEATKGLPSFMDW encoding is done with:
+	-custom
+		-f1: 0.8255813953488372
+		-auroc: 0.7440306274782278
+	
+2026-07-08 17:02:49 - __main__ - INFO - Input matrix with HVQIYRNCEATKGLPSFMDW encoding is removed.
+
+2026-07-08 17:03:02 - __main__ - INFO - Input matrix with DELQGMHSTKRFCIVAYPNW encoding is generated.
+2026-07-08 17:03:07 - __main__ - INFO - DELQGMHSTKRFCIVAYPNW encoding is done with:
+	-custom
+		-f1: 0.8297491039426523
+		-auroc: 0.7504855303582043
+	
+2026-07-08 17:03:07 - __main__ - INFO - Input matrix with DELQGMHSTKRFCIVAYPNW encoding is removed.
+
+2026-07-08 17:03:19 - __main__ - INFO - Input matrix with DIHSYCFWPEKLNGVTMAQR encoding is generated.
+2026-07-08 17:03:24 - __main__ - INFO - DIHSYCFWPEKLNGVTMAQR encoding is done with:
+	-custom
+		-f1: 0.8256387270282385
+		-auroc: 0.7451879476854991
+	
+2026-07-08 17:03:24 - __main__ - INFO - Input matrix with DIHSYCFWPEKLNGVTMAQR encoding is removed.
+
+2026-07-08 17:03:37 - __main__ - INFO - Input matrix with DWCHYLSMEVINQKFAGRTP encoding is generated.
+2026-07-08 17:03:42 - __main__ - INFO - DWCHYLSMEVINQKFAGRTP encoding is done with:
+	-custom
+		-f1: 0.8329660643455267
+		-auroc: 0.74696962086776
+	
+2026-07-08 17:03:42 - __main__ - INFO - Input matrix with DWCHYLSMEVINQKFAGRTP encoding is removed.
+
+2026-07-08 17:03:54 - __main__ - INFO - Input matrix with DKIPWHTCGMSRFENYVALQ encoding is generated.
+2026-07-08 17:03:59 - __main__ - INFO - DKIPWHTCGMSRFENYVALQ encoding is done with:
+	-custom
+		-f1: 0.8245614035087719
+		-auroc: 0.7331250296480464
+	
+2026-07-08 17:03:59 - __main__ - INFO - Input matrix with DKIPWHTCGMSRFENYVALQ encoding is removed.
+
+2026-07-08 17:04:12 - __main__ - INFO - Input matrix with DKAYVLQEMTCNRWPFIHGS encoding is generated.
+2026-07-08 17:04:17 - __main__ - INFO - DKAYVLQEMTCNRWPFIHGS encoding is done with:
+	-custom
+		-f1: 0.8345195729537367
+		-auroc: 0.7535131190860868
+	
+2026-07-08 17:04:17 - __main__ - INFO - Input matrix with DKAYVLQEMTCNRWPFIHGS encoding is removed.
+
+2026-07-08 17:04:30 - __main__ - INFO - Input matrix with DKWIFPTSRVMQGNLHECYA encoding is generated.
+2026-07-08 17:04:35 - __main__ - INFO - DKWIFPTSRVMQGNLHECYA encoding is done with:
+	-custom
+		-f1: 0.8282828282828283
+		-auroc: 0.7388676818157719
+	
+2026-07-08 17:04:35 - __main__ - INFO - Input matrix with DKWIFPTSRVMQGNLHECYA encoding is removed.
+
+2026-07-08 17:04:47 - __main__ - INFO - Input matrix with DKEWCYNFRLPHISMGTAVQ encoding is generated.
+2026-07-08 17:04:52 - __main__ - INFO - DKEWCYNFRLPHISMGTAVQ encoding is done with:
+	-custom
+		-f1: 0.8290941543953592
+		-auroc: 0.7476811739789213
+	
+2026-07-08 17:04:52 - __main__ - INFO - Input matrix with DKEWCYNFRLPHISMGTAVQ encoding is removed.
+
+2026-07-08 17:05:05 - __main__ - INFO - Input matrix with DKEGIAVWTNLQYMSFHCRP encoding is generated.
+2026-07-08 17:05:10 - __main__ - INFO - DKEGIAVWTNLQYMSFHCRP encoding is done with:
+	-custom
+		-f1: 0.8352626892252895
+		-auroc: 0.7549376205105883
+	
+2026-07-08 17:05:10 - __main__ - INFO - Input matrix with DKEGIAVWTNLQYMSFHCRP encoding is removed.
+
+2026-07-08 17:05:23 - __main__ - INFO - Input matrix with DKEGHLAFPTWQVRSIYMCN encoding is generated.
+2026-07-08 17:05:28 - __main__ - INFO - DKEGHLAFPTWQVRSIYMCN encoding is done with:
+	-custom
+		-f1: 0.8396811337466785
+		-auroc: 0.7584102787334912
+	
+2026-07-08 17:05:28 - __main__ - INFO - Input matrix with DKEGHLAFPTWQVRSIYMCN encoding is removed.
+
+2026-07-08 17:05:40 - __main__ - INFO - Input matrix with DKENRVPILWASGCQHYFMT encoding is generated.
+2026-07-08 17:05:45 - __main__ - INFO - DKENRVPILWASGCQHYFMT encoding is done with:
+	-custom
+		-f1: 0.8311804008908686
+		-auroc: 0.7496400378378829
+	
+2026-07-08 17:05:45 - __main__ - INFO - Input matrix with DKENRVPILWASGCQHYFMT encoding is removed.
+
+2026-07-08 17:05:58 - __main__ - INFO - Input matrix with DKENYCTGALFWQPISRMVH encoding is generated.
+2026-07-08 17:06:03 - __main__ - INFO - DKENYCTGALFWQPISRMVH encoding is done with:
+	-custom
+		-f1: 0.8322147651006712
+		-auroc: 0.7531566449294168
+	
+2026-07-08 17:06:03 - __main__ - INFO - Input matrix with DKENYCTGALFWQPISRMVH encoding is removed.
+
+2026-07-08 17:06:15 - __main__ - INFO - Input matrix with DKENQCVPMAFWGRILHYTS encoding is generated.
+2026-07-08 17:06:20 - __main__ - INFO - DKENQCVPMAFWGRILHYTS encoding is done with:
+	-custom
+		-f1: 0.8437775816416593
+		-auroc: 0.7623280064514149
+	
+2026-07-08 17:06:20 - __main__ - INFO - Input matrix with DKENQCVPMAFWGRILHYTS encoding is removed.
+
+2026-07-08 17:06:33 - __main__ - INFO - Input matrix with DKENHYPAVSTLCGQFIWRM encoding is generated.
+2026-07-08 17:06:38 - __main__ - INFO - DKENHYPAVSTLCGQFIWRM encoding is done with:
+	-custom
+		-f1: 0.8230008984725966
+		-auroc: 0.7427393678617968
+	
+2026-07-08 17:06:38 - __main__ - INFO - Input matrix with DKENHYPAVSTLCGQFIWRM encoding is removed.
+
+2026-07-08 17:06:51 - __main__ - INFO - Input matrix with DKENHSAPMYQRVWTLIFCG encoding is generated.
+2026-07-08 17:06:56 - __main__ - INFO - DKENHSAPMYQRVWTLIFCG encoding is done with:
+	-custom
+		-f1: 0.8347514554411106
+		-auroc: 0.7569850797079004
+	
+2026-07-08 17:06:56 - __main__ - INFO - Input matrix with DKENHSAPMYQRVWTLIFCG encoding is removed.
+
+2026-07-08 17:07:08 - __main__ - INFO - Input matrix with DKENHVTGRMFSAYIWLCPQ encoding is generated.
+2026-07-08 17:07:13 - __main__ - INFO - DKENHVTGRMFSAYIWLCPQ encoding is done with:
+	-custom
+		-f1: 0.8340767172167708
+		-auroc: 0.7541807233286175
+	
+2026-07-08 17:07:13 - __main__ - INFO - Input matrix with DKENHVTGRMFSAYIWLCPQ encoding is removed.
+
+2026-07-08 17:07:26 - __main__ - INFO - Input matrix with DKENHRMYPGWQTCISLAVF encoding is generated.
+2026-07-08 17:07:31 - __main__ - INFO - DKENHRMYPGWQTCISLAVF encoding is done with:
+	-custom
+		-f1: 0.838796587337225
+		-auroc: 0.763662517335387
+	
+2026-07-08 17:07:31 - __main__ - INFO - Input matrix with DKENHRMYPGWQTCISLAVF encoding is removed.
+
+2026-07-08 17:07:44 - __main__ - INFO - Input matrix with DKENHRAVSTCQMPGFIWYL encoding is generated.
+2026-07-08 17:07:49 - __main__ - INFO - DKENHRAVSTCQMPGFIWYL encoding is done with:
+	-custom
+		-f1: 0.8250444049733571
+		-auroc: 0.7398464161441635
+	
+2026-07-08 17:07:49 - __main__ - INFO - Input matrix with DKENHRAVSTCQMPGFIWYL encoding is removed.
+
+2026-07-08 17:08:01 - __main__ - INFO - Input matrix with DKENHRYTAFWSVCMPLQIG encoding is generated.
+2026-07-08 17:08:06 - __main__ - INFO - DKENHRYTAFWSVCMPLQIG encoding is done with:
+	-custom
+		-f1: 0.832
+		-auroc: 0.749684684307603
+	
+2026-07-08 17:08:06 - __main__ - INFO - Input matrix with DKENHRYTAFWSVCMPLQIG encoding is removed.
+
+2026-07-08 17:08:19 - __main__ - INFO - Input matrix with DKENHRQPWTGYLVCISFAM encoding is generated.
+2026-07-08 17:08:24 - __main__ - INFO - DKENHRQPWTGYLVCISFAM encoding is done with:
+	-custom
+		-f1: 0.8375387339530765
+		-auroc: 0.7552940946672582
+	
+2026-07-08 17:08:24 - __main__ - INFO - Input matrix with DKENHRQPWTGYLVCISFAM encoding is removed.
+
+2026-07-08 17:08:36 - __main__ - INFO - Input matrix with DKENHRQPSFCAGIVYLTMW encoding is generated.
+2026-07-08 17:08:41 - __main__ - INFO - DKENHRQPSFCAGIVYLTMW encoding is done with:
+	-custom
+		-f1: 0.8379588182632051
+		-auroc: 0.7610806957036144
+	
+2026-07-08 17:08:41 - __main__ - INFO - Input matrix with DKENHRQPSFCAGIVYLTMW encoding is removed.
+
+2026-07-08 17:08:54 - __main__ - INFO - Input matrix with DKENHRQFLGIPTMSCWAVY encoding is generated.
+2026-07-08 17:08:59 - __main__ - INFO - DKENHRQFLGIPTMSCWAVY encoding is done with:
+	-custom
+		-f1: 0.8389679715302492
+		-auroc: 0.7595229524710426
+	
+2026-07-08 17:08:59 - __main__ - INFO - Input matrix with DKENHRQFLGIPTMSCWAVY encoding is removed.
+
+2026-07-08 17:09:12 - __main__ - INFO - Input matrix with DKENHRQGPLIWMYFSCAVT encoding is generated.
+2026-07-08 17:09:17 - __main__ - INFO - DKENHRQGPLIWMYFSCAVT encoding is done with:
+	-custom
+		-f1: 0.8382222222222222
+		-auroc: 0.758098451046541
+	
+2026-07-08 17:09:17 - __main__ - INFO - Input matrix with DKENHRQGPLIWMYFSCAVT encoding is removed.
+
+2026-07-08 17:09:29 - __main__ - INFO - Input matrix with DKENHRQGLPCVSWIMTAFY encoding is generated.
+2026-07-08 17:09:34 - __main__ - INFO - DKENHRQGLPCVSWIMTAFY encoding is done with:
+	-custom
+		-f1: 0.8302222222222222
+		-auroc: 0.7472807509536207
+	
+2026-07-08 17:09:34 - __main__ - INFO - Input matrix with DKENHRQGLPCVSWIMTAFY encoding is removed.
+
+2026-07-08 17:09:47 - __main__ - INFO - Input matrix with DKENHRQGLMPCFWIVYSTA encoding is generated.
+2026-07-08 17:09:52 - __main__ - INFO - DKENHRQGLMPCFWIVYSTA encoding is done with:
+	-custom
+		-f1: 0.8380782918149466
+		-auroc: 0.7583209857940514
+	
+2026-07-08 17:09:52 - __main__ - INFO - Input matrix with DKENHRQGLMPCFWIVYSTA encoding is removed.
+
+2026-07-08 17:10:05 - __main__ - INFO - Input matrix with DKENHRQGYFITCMWPVSLA encoding is generated.
+2026-07-08 17:10:10 - __main__ - INFO - DKENHRQGYFITCMWPVSLA encoding is done with:
+	-custom
+		-f1: 0.8291592128801432
+		-auroc: 0.7488384941861925
+	
+2026-07-08 17:10:10 - __main__ - INFO - Input matrix with DKENHRQGYFITCMWPVSLA encoding is removed.
+
+2026-07-08 17:10:22 - __main__ - INFO - Input matrix with DKENHRQGYVIMWPCTSFAL encoding is generated.
+2026-07-08 17:10:27 - __main__ - INFO - DKENHRQGYVIMWPCTSFAL encoding is done with:
+	-custom
+		-f1: 0.838248436103664
+		-auroc: 0.760635626208594
+	
+2026-07-08 17:10:27 - __main__ - INFO - Input matrix with DKENHRQGYVIMWPCTSFAL encoding is removed.
+
+2026-07-08 17:10:40 - __main__ - INFO - Input matrix with DKENHRQGYTCLFMWIAVPS encoding is generated.
+2026-07-08 17:10:45 - __main__ - INFO - DKENHRQGYTCLFMWIAVPS encoding is done with:
+	-custom
+		-f1: 0.834589800443459
+		-auroc: 0.7521332641313054
+	
+2026-07-08 17:10:45 - __main__ - INFO - Input matrix with DKENHRQGYTCLFMWIAVPS encoding is removed.
+
+2026-07-08 17:10:58 - __main__ - INFO - Input matrix with DKENHRQGYPLISCAFVWTM encoding is generated.
+2026-07-08 17:11:03 - __main__ - INFO - DKENHRQGYPLISCAFVWTM encoding is done with:
+	-custom
+		-f1: 0.8381962864721485
+		-auroc: 0.7555612758844884
+	
+2026-07-08 17:11:03 - __main__ - INFO - Input matrix with DKENHRQGYPLISCAFVWTM encoding is removed.
+
+2026-07-08 17:11:15 - __main__ - INFO - Input matrix with DKENHRQGYPMFWALVSITC encoding is generated.
+2026-07-08 17:11:21 - __main__ - INFO - DKENHRQGYPMFWALVSITC encoding is done with:
+	-custom
+		-f1: 0.8385370205173952
+		-auroc: 0.7601905567135734
+	
+2026-07-08 17:11:21 - __main__ - INFO - Input matrix with DKENHRQGYPMFWALVSITC encoding is removed.
+
+2026-07-08 17:11:33 - __main__ - INFO - Input matrix with DKENHRQGYPVSICMLATFW encoding is generated.
+2026-07-08 17:11:38 - __main__ - INFO - DKENHRQGYPVSICMLATFW encoding is done with:
+	-custom
+		-f1: 0.8296164139161463
+		-auroc: 0.7481708899436618
+	
+2026-07-08 17:11:38 - __main__ - INFO - Input matrix with DKENHRQGYPVSICMLATFW encoding is removed.
+
+2026-07-08 17:11:51 - __main__ - INFO - Input matrix with DKENHRQGYPSLIVAFMWCT encoding is generated.
+2026-07-08 17:11:56 - __main__ - INFO - DKENHRQGYPSLIVAFMWCT encoding is done with:
+	-custom
+		-f1: 0.8358744394618834
+		-auroc: 0.7591218318446527
+	
+2026-07-08 17:11:56 - __main__ - INFO - Input matrix with DKENHRQGYPSLIVAFMWCT encoding is removed.
+
+2026-07-08 17:12:08 - __main__ - INFO - Input matrix with DKENHRQGYPSIMVLTWACF encoding is generated.
+2026-07-08 17:12:13 - __main__ - INFO - DKENHRQGYPSIMVLTWACF encoding is done with:
+	-custom
+		-f1: 0.8297968397291197
+		-auroc: 0.7541800257275282
+	
+2026-07-08 17:12:13 - __main__ - INFO - Input matrix with DKENHRQGYPSIMVLTWACF encoding is removed.
+
+2026-07-08 17:12:26 - __main__ - INFO - Input matrix with DKENHRQGYPSTAMCVIFLW encoding is generated.
+2026-07-08 17:12:31 - __main__ - INFO - DKENHRQGYPSTAMCVIFLW encoding is done with:
+	-custom
+		-f1: 0.8337088778729157
+		-auroc: 0.7585428229404723
+	
+2026-07-08 17:12:31 - __main__ - INFO - Input matrix with DKENHRQGYPSTAMCVIFLW encoding is removed.
+
+2026-07-08 17:12:44 - __main__ - INFO - Input matrix with DKENHRQGYPSTWLVICAFM encoding is generated.
+2026-07-08 17:12:49 - __main__ - INFO - DKENHRQGYPSTWLVICAFM encoding is done with:
+	-custom
+		-f1: 0.8308790718429273
+		-auroc: 0.7500851073329036
+	
+2026-07-08 17:12:49 - __main__ - INFO - Input matrix with DKENHRQGYPSTWLVICAFM encoding is removed.
+
+2026-07-08 17:13:01 - __main__ - INFO - Input matrix with DKENHRQGYPSTAVFCLMWI encoding is generated.
+2026-07-08 17:13:06 - __main__ - INFO - DKENHRQGYPSTAVFCLMWI encoding is done with:
+	-custom
+		-f1: 0.8400357462019661
+		-auroc: 0.7630395595625762
+	
+2026-07-08 17:13:06 - __main__ - INFO - Input matrix with DKENHRQGYPSTAVFCLMWI encoding is removed.
+
+2026-07-08 17:13:19 - __main__ - INFO - Input matrix with DKENHRQGYPSTCMWFAILV encoding is generated.
+2026-07-08 17:13:24 - __main__ - INFO - DKENHRQGYPSTCMWFAILV encoding is done with:
+	-custom
+		-f1: 0.8266309204647007
+		-auroc: 0.7450100594077087
+	
+2026-07-08 17:13:24 - __main__ - INFO - Input matrix with DKENHRQGYPSTCMWFAILV encoding is removed.
+
+2026-07-08 17:13:37 - __main__ - INFO - Input matrix with DKENHRQGYPSTWLVAICFM encoding is generated.
+2026-07-08 17:13:42 - __main__ - INFO - DKENHRQGYPSTWLVAICFM encoding is done with:
+	-custom
+		-f1: 0.8322925958965209
+		-auroc: 0.7517767899746353
+	
+2026-07-08 17:13:42 - __main__ - INFO - Input matrix with DKENHRQGYPSTWLVAICFM encoding is removed.
+
+2026-07-08 17:13:54 - __main__ - INFO - Input matrix with DKENHRQGYPSTWCMLAVIF encoding is generated.
+2026-07-08 17:13:59 - __main__ - INFO - DKENHRQGYPSTWCMLAVIF encoding is done with:
+	-custom
+		-f1: 0.8319928507596068
+		-auroc: 0.7522218594696557
+	
+2026-07-08 17:13:59 - __main__ - INFO - Input matrix with DKENHRQGYPSTWCMLAVIF encoding is removed.
+
+2026-07-08 17:14:12 - __main__ - INFO - Input matrix with DKENHRQGYPSTWAVCFLIM encoding is generated.
+2026-07-08 17:14:17 - __main__ - INFO - DKENHRQGYPSTWAVCFLIM encoding is done with:
+	-custom
+		-f1: 0.8379341050756901
+		-auroc: 0.7585435205415617
+	
+2026-07-08 17:14:17 - __main__ - INFO - Input matrix with DKENHRQGYPSTWAVCFLIM encoding is removed.
+
+2026-07-08 17:14:30 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVFMALCI encoding is generated.
+2026-07-08 17:14:35 - __main__ - INFO - DKENHRQGYPSTWVFMALCI encoding is done with:
+	-custom
+		-f1: 0.8310542567269519
+		-auroc: 0.744788222261288
+	
+2026-07-08 17:14:35 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVFMALCI encoding is removed.
+
+2026-07-08 17:14:47 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVMACFLI encoding is generated.
+2026-07-08 17:14:52 - __main__ - INFO - DKENHRQGYPSTWVMACFLI encoding is done with:
+	-custom
+		-f1: 0.8299379982285208
+		-auroc: 0.7451886452865885
+	
+2026-07-08 17:14:52 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVMACFLI encoding is removed.
+
+2026-07-08 17:15:05 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVLIAFMC encoding is generated.
+2026-07-08 17:15:10 - __main__ - INFO - DKENHRQGYPSTWVLIAFMC encoding is done with:
+	-custom
+		-f1: 0.8317008014247551
+		-auroc: 0.7501297538026235
+	
+2026-07-08 17:15:10 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVLIAFMC encoding is removed.
+
+2026-07-08 17:15:23 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCIAMLF encoding is generated.
+2026-07-08 17:15:28 - __main__ - INFO - DKENHRQGYPSTWVCIAMLF encoding is done with:
+	-custom
+		-f1: 0.8299198575244879
+		-auroc: 0.7477258204486413
+	
+2026-07-08 17:15:28 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCIAMLF encoding is removed.
+
+2026-07-08 17:15:40 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCMILFA encoding is generated.
+2026-07-08 17:15:46 - __main__ - INFO - DKENHRQGYPSTWVCMILFA encoding is done with:
+	-custom
+		-f1: 0.8379588182632051
+		-auroc: 0.7610806957036144
+	
+2026-07-08 17:15:46 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCMILFA encoding is removed.
+
+2026-07-08 17:15:58 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCILFAM encoding is generated.
+2026-07-08 17:16:03 - __main__ - INFO - DKENHRQGYPSTWVCILFAM encoding is done with:
+	-custom
+		-f1: 0.8369807949977669
+		-auroc: 0.758721408819352
+	
+2026-07-08 17:16:03 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCILFAM encoding is removed.
+
+2026-07-08 17:16:16 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFILM encoding is generated.
+2026-07-08 17:16:21 - __main__ - INFO - DKENHRQGYPSTWVCAFILM encoding is done with:
+	-custom
+		-f1: 0.831410825199645
+		-auroc: 0.7480376481355913
+	
+2026-07-08 17:16:21 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFILM encoding is removed.
+
+2026-07-08 17:16:33 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCALMIF encoding is generated.
+2026-07-08 17:16:39 - __main__ - INFO - DKENHRQGYPSTWVCALMIF encoding is done with:
+	-custom
+		-f1: 0.8331084120557805
+		-auroc: 0.7568957867684607
+	
+2026-07-08 17:16:39 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCALMIF encoding is removed.
+
+2026-07-08 17:16:51 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFMLI encoding is generated.
+2026-07-08 17:16:56 - __main__ - INFO - DKENHRQGYPSTWVCAFMLI encoding is done with:
+	-custom
+		-f1: 0.8399646330680813
+		-auroc: 0.7579652092384707
+	
+2026-07-08 17:16:56 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFMLI encoding is removed.
+
+2026-07-08 17:17:08 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAILMF encoding is generated.
+2026-07-08 17:17:14 - __main__ - INFO - DKENHRQGYPSTWVCAILMF encoding is done with:
+	-custom
+		-f1: 0.837292693859256
+		-auroc: 0.7608135144863843
+	
+2026-07-08 17:17:14 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAILMF encoding is removed.
+
+2026-07-08 17:17:26 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMLF encoding is generated.
+2026-07-08 17:17:31 - __main__ - INFO - DKENHRQGYPSTWVCAIMLF encoding is done with:
+	-custom
+		-f1: 0.8331084120557805
+		-auroc: 0.7568957867684607
+	
+2026-07-08 17:17:31 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMLF encoding is removed.
+
+2026-07-08 17:17:44 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMFL encoding is generated.
+2026-07-08 17:17:49 - __main__ - INFO - DKENHRQGYPSTWVCAIMFL encoding is done with:
+	-custom
+		-f1: 0.8359409924005364
+		-auroc: 0.7577419768898711
+	
+2026-07-08 17:17:49 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMFL encoding is removed.
+
+2026-07-08 17:18:01 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-08 17:18:07 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-08 17:18:07 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-08 17:18:19 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFML encoding is generated.
+2026-07-08 17:18:24 - __main__ - INFO - DKENHRQGYPSTWVCAIFML encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-08 17:18:24 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFML encoding is removed.
+
+2026-07-08 17:18:37 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-08 17:18:42 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-08 17:18:42 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-08 17:18:54 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-08 17:18:59 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-08 17:18:59 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-08 17:19:12 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-08 17:19:17 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-08 17:19:17 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-08 17:19:29 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-08 17:19:34 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-08 17:19:34 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 09:01:52 - __main__ - INFO - Filename: aaindex_search.py started.
+2026-07-09 09:02:04 - __main__ - INFO - Input matrix with RFVNQGMPAYIHCELTKSDW encoding is generated.
+2026-07-09 09:02:10 - __main__ - INFO - RFVNQGMPAYIHCELTKSDW encoding is done with:
+	-custom
+		-f1: 0.8238482384823849
+		-auroc: 0.7464785097008406
+	
+2026-07-09 09:02:10 - __main__ - INFO - Input matrix with RFVNQGMPAYIHCELTKSDW encoding is removed.
+
+2026-07-09 09:02:23 - __main__ - INFO - Input matrix with GKVANYCRPMDHTWEQISFL encoding is generated.
+2026-07-09 09:02:28 - __main__ - INFO - GKVANYCRPMDHTWEQISFL encoding is done with:
+	-custom
+		-f1: 0.825812274368231
+		-auroc: 0.7486599083073128
+	
+2026-07-09 09:02:28 - __main__ - INFO - Input matrix with GKVANYCRPMDHTWEQISFL encoding is removed.
+
+2026-07-09 09:02:40 - __main__ - INFO - Input matrix with DTREGYNWHAKLSVMQPFCI encoding is generated.
+2026-07-09 09:02:45 - __main__ - INFO - DTREGYNWHAKLSVMQPFCI encoding is done with:
+	-custom
+		-f1: 0.8290293855743545
+		-auroc: 0.74652385377165
+	
+2026-07-09 09:02:45 - __main__ - INFO - Input matrix with DTREGYNWHAKLSVMQPFCI encoding is removed.
+
+2026-07-09 09:04:54 - __main__ - INFO - Filename: aaindex_search.py started.
+2026-07-09 09:05:07 - __main__ - INFO - Input matrix with DCSNMTIEGKWQFRALPVYH encoding is generated.
+2026-07-09 09:05:14 - __main__ - INFO - DCSNMTIEGKWQFRALPVYH encoding is done with:
+	-custom
+		-f1: 0.8383658969804618
+		-auroc: 0.757875916299031
+	
+2026-07-09 09:05:14 - __main__ - INFO - Input matrix with DCSNMTIEGKWQFRALPVYH encoding is removed.
+
+2026-07-09 09:05:26 - __main__ - INFO - Input matrix with WDMFRVQSIGCLPHYKTANE encoding is generated.
+2026-07-09 09:05:32 - __main__ - INFO - WDMFRVQSIGCLPHYKTANE encoding is done with:
+	-custom
+		-f1: 0.8244541484716157
+		-auroc: 0.7308103892335037
+	
+2026-07-09 09:05:32 - __main__ - INFO - Input matrix with WDMFRVQSIGCLPHYKTANE encoding is removed.
+
+2026-07-09 09:05:44 - __main__ - INFO - Input matrix with MTQSLEIAVCNYWHGRKDPF encoding is generated.
+2026-07-09 09:05:50 - __main__ - INFO - MTQSLEIAVCNYWHGRKDPF encoding is done with:
+	-custom
+		-f1: 0.8232662192393736
+		-auroc: 0.7411369781595051
+	
+2026-07-09 09:05:50 - __main__ - INFO - Input matrix with MTQSLEIAVCNYWHGRKDPF encoding is removed.
+
+2026-07-09 09:06:02 - __main__ - INFO - Input matrix with NSAPHDFRVKCEIQYGWMTL encoding is generated.
+2026-07-09 09:06:07 - __main__ - INFO - NSAPHDFRVKCEIQYGWMTL encoding is done with:
+	-custom
+		-f1: 0.8200986989681471
+		-auroc: 0.7381986823710622
+	
+2026-07-09 09:06:07 - __main__ - INFO - Input matrix with NSAPHDFRVKCEIQYGWMTL encoding is removed.
+
+2026-07-09 09:06:20 - __main__ - INFO - Input matrix with YDQLFGVEPNKMTWCAHISR encoding is generated.
+2026-07-09 09:06:25 - __main__ - INFO - YDQLFGVEPNKMTWCAHISR encoding is done with:
+	-custom
+		-f1: 0.8216704288939052
+		-auroc: 0.7433623256346077
+	
+2026-07-09 09:06:25 - __main__ - INFO - Input matrix with YDQLFGVEPNKMTWCAHISR encoding is removed.
+
+2026-07-09 09:06:38 - __main__ - INFO - Input matrix with LGFDQPAHYVRWEMCSKTNI encoding is generated.
+2026-07-09 09:06:43 - __main__ - INFO - LGFDQPAHYVRWEMCSKTNI encoding is done with:
+	-custom
+		-f1: 0.8329679964927663
+		-auroc: 0.7444324457057072
+	
+2026-07-09 09:06:43 - __main__ - INFO - Input matrix with LGFDQPAHYVRWEMCSKTNI encoding is removed.
+
+2026-07-09 09:06:56 - __main__ - INFO - Input matrix with EDSGCRQWHKPIMYVLTANF encoding is generated.
+2026-07-09 09:07:01 - __main__ - INFO - EDSGCRQWHKPIMYVLTANF encoding is done with:
+	-custom
+		-f1: 0.8371886120996441
+		-auroc: 0.7571190191170603
+	
+2026-07-09 09:07:01 - __main__ - INFO - Input matrix with EDSGCRQWHKPIMYVLTANF encoding is removed.
+
+2026-07-09 09:07:13 - __main__ - INFO - Input matrix with CWKSAYFPNDMVQGLITERH encoding is generated.
+2026-07-09 09:07:18 - __main__ - INFO - CWKSAYFPNDMVQGLITERH encoding is done with:
+	-custom
+		-f1: 0.8292682926829268
+		-auroc: 0.7449214640693582
+	
+2026-07-09 09:07:18 - __main__ - INFO - Input matrix with CWKSAYFPNDMVQGLITERH encoding is removed.
+
+2026-07-09 09:07:31 - __main__ - INFO - Input matrix with GCWLPEQMDKRYHVITSNFA encoding is generated.
+2026-07-09 09:07:36 - __main__ - INFO - GCWLPEQMDKRYHVITSNFA encoding is done with:
+	-custom
+		-f1: 0.8367978770455551
+		-auroc: 0.7538695932427566
+	
+2026-07-09 09:07:36 - __main__ - INFO - Input matrix with GCWLPEQMDKRYHVITSNFA encoding is removed.
+
+2026-07-09 09:07:48 - __main__ - INFO - Input matrix with KPQDYMHGFNCWSETAVRLI encoding is generated.
+2026-07-09 09:07:53 - __main__ - INFO - KPQDYMHGFNCWSETAVRLI encoding is done with:
+	-custom
+		-f1: 0.8328958880139983
+		-auroc: 0.743275125498436
+	
+2026-07-09 09:07:53 - __main__ - INFO - Input matrix with KPQDYMHGFNCWSETAVRLI encoding is removed.
+
+2026-07-09 09:08:06 - __main__ - INFO - Input matrix with DRCGEQKMWFNTLHPIAVYS encoding is generated.
+2026-07-09 09:08:11 - __main__ - INFO - DRCGEQKMWFNTLHPIAVYS encoding is done with:
+	-custom
+		-f1: 0.8353096179183136
+		-auroc: 0.7484834152317014
+	
+2026-07-09 09:08:11 - __main__ - INFO - Input matrix with DRCGEQKMWFNTLHPIAVYS encoding is removed.
+
+2026-07-09 09:08:23 - __main__ - INFO - Input matrix with DSPFQWAYTLMHKGIREVCN encoding is generated.
+2026-07-09 09:08:28 - __main__ - INFO - DSPFQWAYTLMHKGIREVCN encoding is done with:
+	-custom
+		-f1: 0.8275245755138516
+		-auroc: 0.7462120260846998
+	
+2026-07-09 09:08:28 - __main__ - INFO - Input matrix with DSPFQWAYTLMHKGIREVCN encoding is removed.
+
+2026-07-09 09:08:41 - __main__ - INFO - Input matrix with DREPTANMQSVLGYCWFKHI encoding is generated.
+2026-07-09 09:08:46 - __main__ - INFO - DREPTANMQSVLGYCWFKHI encoding is done with:
+	-custom
+		-f1: 0.8318505338078291
+		-auroc: 0.7499072190551133
+	
+2026-07-09 09:08:46 - __main__ - INFO - Input matrix with DREPTANMQSVLGYCWFKHI encoding is removed.
+
+2026-07-09 09:08:59 - __main__ - INFO - Input matrix with DALGYNMTCPISVHFKQEWR encoding is generated.
+2026-07-09 09:09:06 - __main__ - INFO - DALGYNMTCPISVHFKQEWR encoding is done with:
+	-custom
+		-f1: 0.8355984217448488
+		-auroc: 0.7480383457366808
+	
+2026-07-09 09:09:06 - __main__ - INFO - Input matrix with DALGYNMTCPISVHFKQEWR encoding is removed.
+
+2026-07-09 09:09:19 - __main__ - INFO - Input matrix with DLTIHESQKNRGCFPVAYMW encoding is generated.
+2026-07-09 09:09:24 - __main__ - INFO - DLTIHESQKNRGCFPVAYMW encoding is done with:
+	-custom
+		-f1: 0.8365427675772503
+		-auroc: 0.7593890130618828
+	
+2026-07-09 09:09:24 - __main__ - INFO - Input matrix with DLTIHESQKNRGCFPVAYMW encoding is removed.
+
+2026-07-09 09:09:36 - __main__ - INFO - Input matrix with DVQKAFSNPCGHYWELTIMR encoding is generated.
+2026-07-09 09:09:46 - __main__ - INFO - DVQKAFSNPCGHYWELTIMR encoding is done with:
+	-custom
+		-f1: 0.8267394270122783
+		-auroc: 0.7535563703536279
+	
+2026-07-09 09:09:46 - __main__ - INFO - Input matrix with DVQKAFSNPCGHYWELTIMR encoding is removed.
+
+2026-07-09 09:09:59 - __main__ - INFO - Input matrix with DMGYATWNLVEFCIHKRSQP encoding is generated.
+2026-07-09 09:10:04 - __main__ - INFO - DMGYATWNLVEFCIHKRSQP encoding is done with:
+	-custom
+		-f1: 0.840373499333037
+		-auroc: 0.7612146351127741
+	
+2026-07-09 09:10:04 - __main__ - INFO - Input matrix with DMGYATWNLVEFCIHKRSQP encoding is removed.
+
+2026-07-09 09:10:17 - __main__ - INFO - Input matrix with DWFKYNHGACELIMPVQRTS encoding is generated.
+2026-07-09 09:10:22 - __main__ - INFO - DWFKYNHGACELIMPVQRTS encoding is done with:
+	-custom
+		-f1: 0.8262443438914027
+		-auroc: 0.7505294792268348
+	
+2026-07-09 09:10:22 - __main__ - INFO - Input matrix with DWFKYNHGACELIMPVQRTS encoding is removed.
+
+2026-07-09 09:10:34 - __main__ - INFO - Input matrix with DQEVKNSATWCYFGLRPHIM encoding is generated.
+2026-07-09 09:10:39 - __main__ - INFO - DQEVKNSATWCYFGLRPHIM encoding is done with:
+	-custom
+		-f1: 0.8277703604806409
+		-auroc: 0.7446096363824082
+	
+2026-07-09 09:10:39 - __main__ - INFO - Input matrix with DQEVKNSATWCYFGLRPHIM encoding is removed.
+
+2026-07-09 09:10:51 - __main__ - INFO - Input matrix with DMNSEGFIKLQTRWCVAYPH encoding is generated.
+2026-07-09 09:10:57 - __main__ - INFO - DMNSEGFIKLQTRWCVAYPH encoding is done with:
+	-custom
+		-f1: 0.8301382077574677
+		-auroc: 0.748660605908402
+	
+2026-07-09 09:10:57 - __main__ - INFO - Input matrix with DMNSEGFIKLQTRWCVAYPH encoding is removed.
+
+2026-07-09 09:11:09 - __main__ - INFO - Input matrix with DKLVSMGWPERFCNHAYITQ encoding is generated.
+2026-07-09 09:11:14 - __main__ - INFO - DKLVSMGWPERFCNHAYITQ encoding is done with:
+	-custom
+		-f1: 0.8293755496921724
+		-auroc: 0.741004433952524
+	
+2026-07-09 09:11:14 - __main__ - INFO - Input matrix with DKLVSMGWPERFCNHAYITQ encoding is removed.
+
+2026-07-09 09:11:26 - __main__ - INFO - Input matrix with DKETIHMFCPSLRWQGANVY encoding is generated.
+2026-07-09 09:11:31 - __main__ - INFO - DKETIHMFCPSLRWQGANVY encoding is done with:
+	-custom
+		-f1: 0.8374558303886925
+		-auroc: 0.754136774459987
+	
+2026-07-09 09:11:31 - __main__ - INFO - Input matrix with DKETIHMFCPSLRWQGANVY encoding is removed.
+
+2026-07-09 09:11:44 - __main__ - INFO - Input matrix with DKLARSWMGVHITEFNYCQP encoding is generated.
+2026-07-09 09:11:49 - __main__ - INFO - DKLARSWMGVHITEFNYCQP encoding is done with:
+	-custom
+		-f1: 0.8348993288590604
+		-auroc: 0.7567625449603902
+	
+2026-07-09 09:11:49 - __main__ - INFO - Input matrix with DKLARSWMGVHITEFNYCQP encoding is removed.
+
+2026-07-09 09:12:01 - __main__ - INFO - Input matrix with DKIPWCNSMAVYFERGHLTQ encoding is generated.
+2026-07-09 09:12:06 - __main__ - INFO - DKIPWCNSMAVYFERGHLTQ encoding is done with:
+	-custom
+		-f1: 0.8386243386243386
+		-auroc: 0.7548936716419576
+	
+2026-07-09 09:12:06 - __main__ - INFO - Input matrix with DKIPWCNSMAVYFERGHLTQ encoding is removed.
+
+2026-07-09 09:12:19 - __main__ - INFO - Input matrix with DKNMFTYREVQISPCLAHWG encoding is generated.
+2026-07-09 09:12:24 - __main__ - INFO - DKNMFTYREVQISPCLAHWG encoding is done with:
+	-custom
+		-f1: 0.8286852589641435
+		-auroc: 0.7432744278973467
+	
+2026-07-09 09:12:24 - __main__ - INFO - Input matrix with DKNMFTYREVQISPCLAHWG encoding is removed.
+
+2026-07-09 09:12:36 - __main__ - INFO - Input matrix with DKACYSFGVMPHEQITRNWL encoding is generated.
+2026-07-09 09:12:41 - __main__ - INFO - DKACYSFGVMPHEQITRNWL encoding is done with:
+	-custom
+		-f1: 0.8208820882088209
+		-auroc: 0.740780504002835
+	
+2026-07-09 09:12:41 - __main__ - INFO - Input matrix with DKACYSFGVMPHEQITRNWL encoding is removed.
+
+2026-07-09 09:12:54 - __main__ - INFO - Input matrix with DKEGMNLWHVFCPRYISAQT encoding is generated.
+2026-07-09 09:12:59 - __main__ - INFO - DKEGMNLWHVFCPRYISAQT encoding is done with:
+	-custom
+		-f1: 0.8409986859395532
+		-auroc: 0.7550276110511174
+	
+2026-07-09 09:12:59 - __main__ - INFO - Input matrix with DKEGMNLWHVFCPRYISAQT encoding is removed.
+
+2026-07-09 09:13:11 - __main__ - INFO - Input matrix with DKCYGRQNHESPLWIMFVAT encoding is generated.
+2026-07-09 09:13:16 - __main__ - INFO - DKCYGRQNHESPLWIMFVAT encoding is done with:
+	-custom
+		-f1: 0.8391982182628063
+		-auroc: 0.7604577379308036
+	
+2026-07-09 09:13:16 - __main__ - INFO - Input matrix with DKCYGRQNHESPLWIMFVAT encoding is removed.
+
+2026-07-09 09:13:28 - __main__ - INFO - Input matrix with DKCMVPSLQTHEWFYNAGRI encoding is generated.
+2026-07-09 09:13:33 - __main__ - INFO - DKCMVPSLQTHEWFYNAGRI encoding is done with:
+	-custom
+		-f1: 0.8328187031318923
+		-auroc: 0.7471921556152701
+	
+2026-07-09 09:13:33 - __main__ - INFO - Input matrix with DKCMVPSLQTHEWFYNAGRI encoding is removed.
+
+2026-07-09 09:13:45 - __main__ - INFO - Input matrix with DKECIGRNAHSYFVTWPMLQ encoding is generated.
+2026-07-09 09:13:50 - __main__ - INFO - DKECIGRNAHSYFVTWPMLQ encoding is done with:
+	-custom
+		-f1: 0.8372911169744943
+		-auroc: 0.7518221340454445
+	
+2026-07-09 09:13:50 - __main__ - INFO - Input matrix with DKECIGRNAHSYFVTWPMLQ encoding is removed.
+
+2026-07-09 09:14:03 - __main__ - INFO - Input matrix with DKEFMVSRHQWGLCTIYAPN encoding is generated.
+2026-07-09 09:14:08 - __main__ - INFO - DKEFMVSRHQWGLCTIYAPN encoding is done with:
+	-custom
+		-f1: 0.8367071524966262
+		-auroc: 0.7617036534764252
+	
+2026-07-09 09:14:08 - __main__ - INFO - Input matrix with DKEFMVSRHQWGLCTIYAPN encoding is removed.
+
+2026-07-09 09:14:20 - __main__ - INFO - Input matrix with DKEILVSNYTARMPQGFHWC encoding is generated.
+2026-07-09 09:14:25 - __main__ - INFO - DKEILVSNYTARMPQGFHWC encoding is done with:
+	-custom
+		-f1: 0.826526130873957
+		-auroc: 0.7364637484617897
+	
+2026-07-09 09:14:25 - __main__ - INFO - Input matrix with DKEILVSNYTARMPQGFHWC encoding is removed.
+
+2026-07-09 09:14:38 - __main__ - INFO - Input matrix with DKEFPLNYRGTAHSIQVCMW encoding is generated.
+2026-07-09 09:14:43 - __main__ - INFO - DKEFPLNYRGTAHSIQVCMW encoding is done with:
+	-custom
+		-f1: 0.82688028482421
+		-auroc: 0.7434076697054169
+	
+2026-07-09 09:14:43 - __main__ - INFO - Input matrix with DKEFPLNYRGTAHSIQVCMW encoding is removed.
+
+2026-07-09 09:14:55 - __main__ - INFO - Input matrix with DKEANFIRGVLTWYSQPCMH encoding is generated.
+2026-07-09 09:15:00 - __main__ - INFO - DKEANFIRGVLTWYSQPCMH encoding is done with:
+	-custom
+		-f1: 0.8372505543237251
+		-auroc: 0.7557391641622788
+	
+2026-07-09 09:15:00 - __main__ - INFO - Input matrix with DKEANFIRGVLTWYSQPCMH encoding is removed.
+
+2026-07-09 09:15:13 - __main__ - INFO - Input matrix with DKECWIQMHFYSLATVPNGR encoding is generated.
+2026-07-09 09:15:18 - __main__ - INFO - DKECWIQMHFYSLATVPNGR encoding is done with:
+	-custom
+		-f1: 0.8400531679220203
+		-auroc: 0.7591225294457419
+	
+2026-07-09 09:15:18 - __main__ - INFO - Input matrix with DKECWIQMHFYSLATVPNGR encoding is removed.
+
+2026-07-09 09:15:30 - __main__ - INFO - Input matrix with DKENLHIACPMSRWYVFGQT encoding is generated.
+2026-07-09 09:15:35 - __main__ - INFO - DKENLHIACPMSRWYVFGQT encoding is done with:
+	-custom
+		-f1: 0.8344429649356414
+		-auroc: 0.7523557988788155
+	
+2026-07-09 09:15:35 - __main__ - INFO - Input matrix with DKENLHIACPMSRWYVFGQT encoding is removed.
+
+2026-07-09 09:15:48 - __main__ - INFO - Input matrix with DKEFPRSIAGLWQMHYVNTC encoding is generated.
+2026-07-09 09:15:53 - __main__ - INFO - DKEFPRSIAGLWQMHYVNTC encoding is done with:
+	-custom
+		-f1: 0.8353982300884956
+		-auroc: 0.7521779106010251
+	
+2026-07-09 09:15:53 - __main__ - INFO - Input matrix with DKEFPRSIAGLWQMHYVNTC encoding is removed.
+
+2026-07-09 09:16:05 - __main__ - INFO - Input matrix with DKEHNFPVAIRLCQSWGMYT encoding is generated.
+2026-07-09 09:16:10 - __main__ - INFO - DKEHNFPVAIRLCQSWGMYT encoding is done with:
+	-custom
+		-f1: 0.8325188804975566
+		-auroc: 0.7501744002723436
+	
+2026-07-09 09:16:10 - __main__ - INFO - Input matrix with DKEHNFPVAIRLCQSWGMYT encoding is removed.
+
+2026-07-09 09:16:23 - __main__ - INFO - Input matrix with DKEYHRWIMNATGLCQSFPV encoding is generated.
+2026-07-09 09:16:28 - __main__ - INFO - DKEYHRWIMNATGLCQSFPV encoding is done with:
+	-custom
+		-f1: 0.8347438752783964
+		-auroc: 0.7544479045458478
+	
+2026-07-09 09:16:28 - __main__ - INFO - Input matrix with DKEYHRWIMNATGLCQSFPV encoding is removed.
+
+2026-07-09 09:16:40 - __main__ - INFO - Input matrix with DKERGPAITHCQYNLVFMSW encoding is generated.
+2026-07-09 09:16:45 - __main__ - INFO - DKERGPAITHCQYNLVFMSW encoding is done with:
+	-custom
+		-f1: 0.8362183754993342
+		-auroc: 0.7547597322327979
+	
+2026-07-09 09:16:45 - __main__ - INFO - Input matrix with DKERGPAITHCQYNLVFMSW encoding is removed.
+
+2026-07-09 09:16:57 - __main__ - INFO - Input matrix with DKERAQMVPYTCNSLIGWFH encoding is generated.
+2026-07-09 09:17:02 - __main__ - INFO - DKERAQMVPYTCNSLIGWFH encoding is done with:
+	-custom
+		-f1: 0.8362676056338029
+		-auroc: 0.7508427021159637
+	
+2026-07-09 09:17:02 - __main__ - INFO - Input matrix with DKERAQMVPYTCNSLIGWFH encoding is removed.
+
+2026-07-09 09:17:15 - __main__ - INFO - Input matrix with DKERCPNSMGTFHYIAVWLQ encoding is generated.
+2026-07-09 09:17:20 - __main__ - INFO - DKERCPNSMGTFHYIAVWLQ encoding is done with:
+	-custom
+		-f1: 0.84472049689441
+		-auroc: 0.7660671482904589
+	
+2026-07-09 09:17:20 - __main__ - INFO - Input matrix with DKERCPNSMGTFHYIAVWLQ encoding is removed.
+
+2026-07-09 09:17:32 - __main__ - INFO - Input matrix with DKERITMLANQFYVWGCSPH encoding is generated.
+2026-07-09 09:17:37 - __main__ - INFO - DKERITMLANQFYVWGCSPH encoding is done with:
+	-custom
+		-f1: 0.833555259653795
+		-auroc: 0.7511538322018244
+	
+2026-07-09 09:17:37 - __main__ - INFO - Input matrix with DKERITMLANQFYVWGCSPH encoding is removed.
+
+2026-07-09 09:17:50 - __main__ - INFO - Input matrix with DKERVGWFHAMLCTNIPQSY encoding is generated.
+2026-07-09 09:17:55 - __main__ - INFO - DKERVGWFHAMLCTNIPQSY encoding is done with:
+	-custom
+		-f1: 0.8381037567084079
+		-auroc: 0.7608581609561041
+	
+2026-07-09 09:17:55 - __main__ - INFO - Input matrix with DKERVGWFHAMLCTNIPQSY encoding is removed.
+
+2026-07-09 09:18:07 - __main__ - INFO - Input matrix with DKERSTWVNLFQMPYCHAGI encoding is generated.
+2026-07-09 09:18:12 - __main__ - INFO - DKERSTWVNLFQMPYCHAGI encoding is done with:
+	-custom
+		-f1: 0.8350561797752809
+		-auroc: 0.7590771853749326
+	
+2026-07-09 09:18:12 - __main__ - INFO - Input matrix with DKERSTWVNLFQMPYCHAGI encoding is removed.
+
+2026-07-09 09:18:24 - __main__ - INFO - Input matrix with DKERTNHAIQLVGFWYMCSP encoding is generated.
+2026-07-09 09:18:29 - __main__ - INFO - DKERTNHAIQLVGFWYMCSP encoding is done with:
+	-custom
+		-f1: 0.8340847610459874
+		-auroc: 0.7592550736527229
+	
+2026-07-09 09:18:29 - __main__ - INFO - Input matrix with DKERTNHAIQLVGFWYMCSP encoding is removed.
+
+2026-07-09 09:18:42 - __main__ - INFO - Input matrix with DKERPVSIQYGHLATMFCNW encoding is generated.
+2026-07-09 09:18:47 - __main__ - INFO - DKERPVSIQYGHLATMFCNW encoding is done with:
+	-custom
+		-f1: 0.8295964125560538
+		-auroc: 0.7507080651057144
+	
+2026-07-09 09:18:47 - __main__ - INFO - Input matrix with DKERPVSIQYGHLATMFCNW encoding is removed.
+
+2026-07-09 09:18:59 - __main__ - INFO - Input matrix with DKERTFMLYGWSPHVQICNA encoding is generated.
+2026-07-09 09:19:04 - __main__ - INFO - DKERTFMLYGWSPHVQICNA encoding is done with:
+	-custom
+		-f1: 0.8330388692579506
+		-auroc: 0.7481269410750311
+	
+2026-07-09 09:19:04 - __main__ - INFO - Input matrix with DKERTFMLYGWSPHVQICNA encoding is removed.
+
+2026-07-09 09:19:16 - __main__ - INFO - Input matrix with DKERFPLMAVGQWCHYNITS encoding is generated.
+2026-07-09 09:19:21 - __main__ - INFO - DKERFPLMAVGQWCHYNITS encoding is done with:
+	-custom
+		-f1: 0.8374606033318325
+		-auroc: 0.7631281549009268
+	
+2026-07-09 09:19:21 - __main__ - INFO - Input matrix with DKERFPLMAVGQWCHYNITS encoding is removed.
+
+2026-07-09 09:19:34 - __main__ - INFO - Input matrix with DKERFCIVANPYQGMTWHSL encoding is generated.
+2026-07-09 09:19:39 - __main__ - INFO - DKERFCIVANPYQGMTWHSL encoding is done with:
+	-custom
+		-f1: 0.8379341050756901
+		-auroc: 0.7585435205415617
+	
+2026-07-09 09:19:39 - __main__ - INFO - Input matrix with DKERFCIVANPYQGMTWHSL encoding is removed.
+
+2026-07-09 09:19:51 - __main__ - INFO - Input matrix with DKERNLHQSVAYIGPMFWTC encoding is generated.
+2026-07-09 09:19:56 - __main__ - INFO - DKERNLHQSVAYIGPMFWTC encoding is done with:
+	-custom
+		-f1: 0.8320712694877506
+		-auroc: 0.7508420045148743
+	
+2026-07-09 09:19:56 - __main__ - INFO - Input matrix with DKERNLHQSVAYIGPMFWTC encoding is removed.
+
+2026-07-09 09:20:08 - __main__ - INFO - Input matrix with DKERNILCAQSGPWFTVHYM encoding is generated.
+2026-07-09 09:20:13 - __main__ - INFO - DKERNILCAQSGPWFTVHYM encoding is done with:
+	-custom
+		-f1: 0.8350469378632096
+		-auroc: 0.7565400102128799
+	
+2026-07-09 09:20:13 - __main__ - INFO - Input matrix with DKERNILCAQSGPWFTVHYM encoding is removed.
+
+2026-07-09 09:20:26 - __main__ - INFO - Input matrix with DKERNSQLVHAFCTGIMYWP encoding is generated.
+2026-07-09 09:20:31 - __main__ - INFO - DKERNSQLVHAFCTGIMYWP encoding is done with:
+	-custom
+		-f1: 0.8420107719928187
+		-auroc: 0.767758133331101
+	
+2026-07-09 09:20:31 - __main__ - INFO - Input matrix with DKERNSQLVHAFCTGIMYWP encoding is removed.
+
+2026-07-09 09:20:43 - __main__ - INFO - Input matrix with DKERNIWLVMSYQAFCGHTP encoding is generated.
+2026-07-09 09:20:48 - __main__ - INFO - DKERNIWLVMSYQAFCGHTP encoding is done with:
+	-custom
+		-f1: 0.843501326259947
+		-auroc: 0.7627730759464354
+	
+2026-07-09 09:20:48 - __main__ - INFO - Input matrix with DKERNIWLVMSYQAFCGHTP encoding is removed.
+
+2026-07-09 09:21:01 - __main__ - INFO - Input matrix with DKERNQFVGPSWMHYICLAT encoding is generated.
+2026-07-09 09:21:06 - __main__ - INFO - DKERNQFVGPSWMHYICLAT encoding is done with:
+	-custom
+		-f1: 0.838539375274967
+		-auroc: 0.7537363514346864
+	
+2026-07-09 09:21:06 - __main__ - INFO - Input matrix with DKERNQFVGPSWMHYICLAT encoding is removed.
+
+2026-07-09 09:21:18 - __main__ - INFO - Input matrix with DKERNFWTCPGAVIMLQSHY encoding is generated.
+2026-07-09 09:21:23 - __main__ - INFO - DKERNFWTCPGAVIMLQSHY encoding is done with:
+	-custom
+		-f1: 0.8353413654618473
+		-auroc: 0.7560949407178594
+	
+2026-07-09 09:21:23 - __main__ - INFO - Input matrix with DKERNFWTCPGAVIMLQSHY encoding is removed.
+
+2026-07-09 09:21:35 - __main__ - INFO - Input matrix with DKERNGSWQCYTIVAPHMFL encoding is generated.
+2026-07-09 09:21:41 - __main__ - INFO - DKERNGSWQCYTIVAPHMFL encoding is done with:
+	-custom
+		-f1: 0.8394950405770965
+		-auroc: 0.7664668737146699
+	
+2026-07-09 09:21:41 - __main__ - INFO - Input matrix with DKERNGSWQCYTIVAPHMFL encoding is removed.
+
+2026-07-09 09:21:53 - __main__ - INFO - Input matrix with DKERNPMHTAQWIVLCFSGY encoding is generated.
+2026-07-09 09:21:58 - __main__ - INFO - DKERNPMHTAQWIVLCFSGY encoding is done with:
+	-custom
+		-f1: 0.8340044742729307
+		-auroc: 0.7555605782833991
+	
+2026-07-09 09:21:58 - __main__ - INFO - Input matrix with DKERNPMHTAQWIVLCFSGY encoding is removed.
+
+2026-07-09 09:22:11 - __main__ - INFO - Input matrix with DKERNVGLQTMIWPCYFSHA encoding is generated.
+2026-07-09 09:22:16 - __main__ - INFO - DKERNVGLQTMIWPCYFSHA encoding is done with:
+	-custom
+		-f1: 0.8319139399372478
+		-auroc: 0.7536017144244372
+	
+2026-07-09 09:22:16 - __main__ - INFO - Input matrix with DKERNVGLQTMIWPCYFSHA encoding is removed.
+
+2026-07-09 09:22:28 - __main__ - INFO - Input matrix with DKERNLWMQCIVTHAYPSGF encoding is generated.
+2026-07-09 09:22:33 - __main__ - INFO - DKERNLWMQCIVTHAYPSGF encoding is done with:
+	-custom
+		-f1: 0.8421520675855936
+		-auroc: 0.7636185684667566
+	
+2026-07-09 09:22:33 - __main__ - INFO - Input matrix with DKERNLWMQCIVTHAYPSGF encoding is removed.
+
+2026-07-09 09:22:45 - __main__ - INFO - Input matrix with DKERNHPQCAVILFMGWYST encoding is generated.
+2026-07-09 09:22:50 - __main__ - INFO - DKERNHPQCAVILFMGWYST encoding is done with:
+	-custom
+		-f1: 0.8429458740017747
+		-auroc: 0.7636632149364764
+	
+2026-07-09 09:22:50 - __main__ - INFO - Input matrix with DKERNHPQCAVILFMGWYST encoding is removed.
+
+2026-07-09 09:23:03 - __main__ - INFO - Input matrix with DKERNHAICWMQYVGPTLFS encoding is generated.
+2026-07-09 09:23:08 - __main__ - INFO - DKERNHAICWMQYVGPTLFS encoding is done with:
+	-custom
+		-f1: 0.8397291196388262
+		-auroc: 0.767401659174431
+	
+2026-07-09 09:23:08 - __main__ - INFO - Input matrix with DKERNHAICWMQYVGPTLFS encoding is removed.
+
+2026-07-09 09:23:20 - __main__ - INFO - Input matrix with DKERNHCFWGAYSMTLVIPQ encoding is generated.
+2026-07-09 09:23:25 - __main__ - INFO - DKERNHCFWGAYSMTLVIPQ encoding is done with:
+	-custom
+		-f1: 0.8424778761061947
+		-auroc: 0.7617936440169546
+	
+2026-07-09 09:23:25 - __main__ - INFO - Input matrix with DKERNHCFWGAYSMTLVIPQ encoding is removed.
+
+2026-07-09 09:23:37 - __main__ - INFO - Input matrix with DKERNHQYGPTLSFMAIVCW encoding is generated.
+2026-07-09 09:23:43 - __main__ - INFO - DKERNHQYGPTLSFMAIVCW encoding is done with:
+	-custom
+		-f1: 0.8367899008115419
+		-auroc: 0.7628609736836965
+	
+2026-07-09 09:23:43 - __main__ - INFO - Input matrix with DKERNHQYGPTLSFMAIVCW encoding is removed.
+
+2026-07-09 09:23:55 - __main__ - INFO - Input matrix with DKERNHGLIQFWTSCMYVPA encoding is generated.
+2026-07-09 09:24:00 - __main__ - INFO - DKERNHGLIQFWTSCMYVPA encoding is done with:
+	-custom
+		-f1: 0.8314806580702534
+		-auroc: 0.7491949683428626
+	
+2026-07-09 09:24:00 - __main__ - INFO - Input matrix with DKERNHGLIQFWTSCMYVPA encoding is removed.
+
+2026-07-09 09:24:12 - __main__ - INFO - Input matrix with DKERNHISYVPWFGTLQAMC encoding is generated.
+2026-07-09 09:24:17 - __main__ - INFO - DKERNHISYVPWFGTLQAMC encoding is done with:
+	-custom
+		-f1: 0.8367346938775511
+		-auroc: 0.7552494481975383
+	
+2026-07-09 09:24:17 - __main__ - INFO - Input matrix with DKERNHISYVPWFGTLQAMC encoding is removed.
+
+2026-07-09 09:24:30 - __main__ - INFO - Input matrix with DKERNHGVMLTCIFWPSQYA encoding is generated.
+2026-07-09 09:24:35 - __main__ - INFO - DKERNHGVMLTCIFWPSQYA encoding is done with:
+	-custom
+		-f1: 0.8404255319148937
+		-auroc: 0.7598347801579927
+	
+2026-07-09 09:24:35 - __main__ - INFO - Input matrix with DKERNHGVMLTCIFWPSQYA encoding is removed.
+
+2026-07-09 09:24:47 - __main__ - INFO - Input matrix with DKERNHTCYVQMAIGSPWLF encoding is generated.
+2026-07-09 09:24:52 - __main__ - INFO - DKERNHTCYVQMAIGSPWLF encoding is done with:
+	-custom
+		-f1: 0.8306451612903226
+		-auroc: 0.7516874970351954
+	
+2026-07-09 09:24:52 - __main__ - INFO - Input matrix with DKERNHTCYVQMAIGSPWLF encoding is removed.
+
+2026-07-09 09:25:05 - __main__ - INFO - Input matrix with DKERNHPMWILSTCVYGFAQ encoding is generated.
+2026-07-09 09:25:10 - __main__ - INFO - DKERNHPMWILSTCVYGFAQ encoding is done with:
+	-custom
+		-f1: 0.8381962864721485
+		-auroc: 0.7555612758844884
+	
+2026-07-09 09:25:10 - __main__ - INFO - Input matrix with DKERNHPMWILSTCVYGFAQ encoding is removed.
+
+2026-07-09 09:25:23 - __main__ - INFO - Input matrix with DKERNHPLSTYQCIVWFMGA encoding is generated.
+2026-07-09 09:25:28 - __main__ - INFO - DKERNHPLSTYQCIVWFMGA encoding is done with:
+	-custom
+		-f1: 0.8419182948490231
+		-auroc: 0.7626837830069955
+	
+2026-07-09 09:25:28 - __main__ - INFO - Input matrix with DKERNHPLSTYQCIVWFMGA encoding is removed.
+
+2026-07-09 09:25:40 - __main__ - INFO - Input matrix with DKERNHYPCVLSFMGTIAWQ encoding is generated.
+2026-07-09 09:25:45 - __main__ - INFO - DKERNHYPCVLSFMGTIAWQ encoding is done with:
+	-custom
+		-f1: 0.8415398388540735
+		-auroc: 0.7658885624115791
+	
+2026-07-09 09:25:45 - __main__ - INFO - Input matrix with DKERNHYPCVLSFMGTIAWQ encoding is removed.
+
+2026-07-09 09:25:58 - __main__ - INFO - Input matrix with DKERNHYLGWFTCSMPQVIA encoding is generated.
+2026-07-09 09:26:03 - __main__ - INFO - DKERNHYLGWFTCSMPQVIA encoding is done with:
+	-custom
+		-f1: 0.8298158958239784
+		-auroc: 0.7516428505654754
+	
+2026-07-09 09:26:03 - __main__ - INFO - Input matrix with DKERNHYLGWFTCSMPQVIA encoding is removed.
+
+2026-07-09 09:26:15 - __main__ - INFO - Input matrix with DKERNHYSFQCVIWTPLGAM encoding is generated.
+2026-07-09 09:26:20 - __main__ - INFO - DKERNHYSFQCVIWTPLGAM encoding is done with:
+	-custom
+		-f1: 0.8388540734109221
+		-auroc: 0.7622826623806056
+	
+2026-07-09 09:26:20 - __main__ - INFO - Input matrix with DKERNHYSFQCVIWTPLGAM encoding is removed.
+
+2026-07-09 09:26:33 - __main__ - INFO - Input matrix with DKERNHYGACVSIQPTLMWF encoding is generated.
+2026-07-09 09:26:38 - __main__ - INFO - DKERNHYGACVSIQPTLMWF encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 09:26:38 - __main__ - INFO - Input matrix with DKERNHYGACVSIQPTLMWF encoding is removed.
+
+2026-07-09 09:26:50 - __main__ - INFO - Input matrix with DKERNHYGTWPMSVFICQAL encoding is generated.
+2026-07-09 09:26:55 - __main__ - INFO - DKERNHYGTWPMSVFICQAL encoding is done with:
+	-custom
+		-f1: 0.8396811337466785
+		-auroc: 0.7584102787334912
+	
+2026-07-09 09:26:55 - __main__ - INFO - Input matrix with DKERNHYGTWPMSVFICQAL encoding is removed.
+
+2026-07-09 09:27:07 - __main__ - INFO - Input matrix with DKERNHYVQAWLTIGPSFCM encoding is generated.
+2026-07-09 09:27:13 - __main__ - INFO - DKERNHYVQAWLTIGPSFCM encoding is done with:
+	-custom
+		-f1: 0.83772910147519
+		-auroc: 0.7601459102438535
+	
+2026-07-09 09:27:13 - __main__ - INFO - Input matrix with DKERNHYVQAWLTIGPSFCM encoding is removed.
+
+2026-07-09 09:27:25 - __main__ - INFO - Input matrix with DKERNHYLAMTVSPFWQGCI encoding is generated.
+2026-07-09 09:27:30 - __main__ - INFO - DKERNHYLAMTVSPFWQGCI encoding is done with:
+	-custom
+		-f1: 0.8394515701017249
+		-auroc: 0.7574754932737302
+	
+2026-07-09 09:27:30 - __main__ - INFO - Input matrix with DKERNHYLAMTVSPFWQGCI encoding is removed.
+
+2026-07-09 09:27:42 - __main__ - INFO - Input matrix with DKERNHYPVMWQGACILTSF encoding is generated.
+2026-07-09 09:27:47 - __main__ - INFO - DKERNHYPVMWQGACILTSF encoding is done with:
+	-custom
+		-f1: 0.825812274368231
+		-auroc: 0.7486599083073128
+	
+2026-07-09 09:27:47 - __main__ - INFO - Input matrix with DKERNHYPVMWQGACILTSF encoding is removed.
+
+2026-07-09 09:27:59 - __main__ - INFO - Input matrix with DKERNHYSQIAVFMCWLPTG encoding is generated.
+2026-07-09 09:28:04 - __main__ - INFO - DKERNHYSQIAVFMCWLPTG encoding is done with:
+	-custom
+		-f1: 0.82907133243607
+		-auroc: 0.750218349140974
+	
+2026-07-09 09:28:04 - __main__ - INFO - Input matrix with DKERNHYSQIAVFMCWLPTG encoding is removed.
+
+2026-07-09 09:28:17 - __main__ - INFO - Input matrix with DKERNHYSIALMPGTQFWVC encoding is generated.
+2026-07-09 09:28:22 - __main__ - INFO - DKERNHYSIALMPGTQFWVC encoding is done with:
+	-custom
+		-f1: 0.8390856118332586
+		-auroc: 0.7632174478403665
+	
+2026-07-09 09:28:22 - __main__ - INFO - Input matrix with DKERNHYSIALMPGTQFWVC encoding is removed.
+
+2026-07-09 09:28:34 - __main__ - INFO - Input matrix with DKERNHYGFPWACSVLIMQT encoding is generated.
+2026-07-09 09:28:39 - __main__ - INFO - DKERNHYGFPWACSVLIMQT encoding is done with:
+	-custom
+		-f1: 0.8287392679620424
+		-auroc: 0.7532005937980473
+	
+2026-07-09 09:28:39 - __main__ - INFO - Input matrix with DKERNHYGFPWACSVLIMQT encoding is removed.
+
+2026-07-09 09:28:51 - __main__ - INFO - Input matrix with DKERNHYGISFVWATLQCMP encoding is generated.
+2026-07-09 09:28:57 - __main__ - INFO - DKERNHYGISFVWATLQCMP encoding is done with:
+	-custom
+		-f1: 0.8360875390799464
+		-auroc: 0.7575194421423609
+	
+2026-07-09 09:28:57 - __main__ - INFO - Input matrix with DKERNHYGISFVWATLQCMP encoding is removed.
+
+2026-07-09 09:29:09 - __main__ - INFO - Input matrix with DKERNHYGMCSFTQWALPVI encoding is generated.
+2026-07-09 09:29:14 - __main__ - INFO - DKERNHYGMCSFTQWALPVI encoding is done with:
+	-custom
+		-f1: 0.8328131966116807
+		-auroc: 0.7522665059393756
+	
+2026-07-09 09:29:14 - __main__ - INFO - Input matrix with DKERNHYGMCSFTQWALPVI encoding is removed.
+
+2026-07-09 09:29:26 - __main__ - INFO - Input matrix with DKERNHYGPIWQCFVTALSM encoding is generated.
+2026-07-09 09:29:32 - __main__ - INFO - DKERNHYGPIWQCFVTALSM encoding is done with:
+	-custom
+		-f1: 0.8404112650871703
+		-auroc: 0.763751810274827
+	
+2026-07-09 09:29:32 - __main__ - INFO - Input matrix with DKERNHYGPIWQCFVTALSM encoding is removed.
+
+2026-07-09 09:29:44 - __main__ - INFO - Input matrix with DKERNHYGIPFALTQWSVCM encoding is generated.
+2026-07-09 09:29:49 - __main__ - INFO - DKERNHYGIPFALTQWSVCM encoding is done with:
+	-custom
+		-f1: 0.8372093023255814
+		-auroc: 0.759656194279113
+	
+2026-07-09 09:29:49 - __main__ - INFO - Input matrix with DKERNHYGIPFALTQWSVCM encoding is removed.
+
+2026-07-09 09:30:01 - __main__ - INFO - Input matrix with DKERNHYGCFPLWSQMTIAV encoding is generated.
+2026-07-09 09:30:07 - __main__ - INFO - DKERNHYGCFPLWSQMTIAV encoding is done with:
+	-custom
+		-f1: 0.8346883468834688
+		-auroc: 0.7609021098247347
+	
+2026-07-09 09:30:07 - __main__ - INFO - Input matrix with DKERNHYGCFPLWSQMTIAV encoding is removed.
+
+2026-07-09 09:30:19 - __main__ - INFO - Input matrix with DKERNHYGLIAPWFMCVQST encoding is generated.
+2026-07-09 09:30:24 - __main__ - INFO - DKERNHYGLIAPWFMCVQST encoding is done with:
+	-custom
+		-f1: 0.8384787472035794
+		-auroc: 0.7615704116683548
+	
+2026-07-09 09:30:24 - __main__ - INFO - Input matrix with DKERNHYGLIAPWFMCVQST encoding is removed.
+
+2026-07-09 09:30:36 - __main__ - INFO - Input matrix with DKERNHYGWMLFITSPQACV encoding is generated.
+2026-07-09 09:30:41 - __main__ - INFO - DKERNHYGWMLFITSPQACV encoding is done with:
+	-custom
+		-f1: 0.8337777777777777
+		-auroc: 0.7520886176615853
+	
+2026-07-09 09:30:41 - __main__ - INFO - Input matrix with DKERNHYGWMLFITSPQACV encoding is removed.
+
+2026-07-09 09:30:54 - __main__ - INFO - Input matrix with DKERNHYGCIATQMFLPWVS encoding is generated.
+2026-07-09 09:30:59 - __main__ - INFO - DKERNHYGCIATQMFLPWVS encoding is done with:
+	-custom
+		-f1: 0.8364779874213837
+		-auroc: 0.7607688680166643
+	
+2026-07-09 09:30:59 - __main__ - INFO - Input matrix with DKERNHYGCIATQMFLPWVS encoding is removed.
+
+2026-07-09 09:31:11 - __main__ - INFO - Input matrix with DKERNHYGMWTCAPLVQSFI encoding is generated.
+2026-07-09 09:31:16 - __main__ - INFO - DKERNHYGMWTCAPLVQSFI encoding is done with:
+	-custom
+		-f1: 0.8380782918149466
+		-auroc: 0.7583209857940514
+	
+2026-07-09 09:31:16 - __main__ - INFO - Input matrix with DKERNHYGMWTCAPLVQSFI encoding is removed.
+
+2026-07-09 09:31:29 - __main__ - INFO - Input matrix with DKERNHYGQSVALFPCMIWT encoding is generated.
+2026-07-09 09:31:34 - __main__ - INFO - DKERNHYGQSVALFPCMIWT encoding is done with:
+	-custom
+		-f1: 0.8287640449438203
+		-auroc: 0.7506634186359946
+	
+2026-07-09 09:31:34 - __main__ - INFO - Input matrix with DKERNHYGQSVALFPCMIWT encoding is removed.
+
+2026-07-09 09:31:46 - __main__ - INFO - Input matrix with DKERNHYGQVIATSMFWCLP encoding is generated.
+2026-07-09 09:31:51 - __main__ - INFO - DKERNHYGQVIATSMFWCLP encoding is done with:
+	-custom
+		-f1: 0.8316027088036118
+		-auroc: 0.7565839590815105
+	
+2026-07-09 09:31:51 - __main__ - INFO - Input matrix with DKERNHYGQVIATSMFWCLP encoding is removed.
+
+2026-07-09 09:32:04 - __main__ - INFO - Input matrix with DKERNHYGQVCALWIMPFTS encoding is generated.
+2026-07-09 09:32:09 - __main__ - INFO - DKERNHYGQVCALWIMPFTS encoding is done with:
+	-custom
+		-f1: 0.8331822302810517
+		-auroc: 0.7605902821377846
+	
+2026-07-09 09:32:09 - __main__ - INFO - Input matrix with DKERNHYGQVCALWIMPFTS encoding is removed.
+
+2026-07-09 09:32:21 - __main__ - INFO - Input matrix with DKERNHYGQSVPITWAMFCL encoding is generated.
+2026-07-09 09:32:26 - __main__ - INFO - DKERNHYGQSVPITWAMFCL encoding is done with:
+	-custom
+		-f1: 0.8247978436657682
+		-auroc: 0.7451433012157792
+	
+2026-07-09 09:32:26 - __main__ - INFO - Input matrix with DKERNHYGQSVPITWAMFCL encoding is removed.
+
+2026-07-09 09:32:38 - __main__ - INFO - Input matrix with DKERNHYGQFSWCATPMILV encoding is generated.
+2026-07-09 09:32:43 - __main__ - INFO - DKERNHYGQFSWCATPMILV encoding is done with:
+	-custom
+		-f1: 0.8232642019837692
+		-auroc: 0.7448314735288291
+	
+2026-07-09 09:32:43 - __main__ - INFO - Input matrix with DKERNHYGQFSWCATPMILV encoding is removed.
+
+2026-07-09 09:32:56 - __main__ - INFO - Input matrix with DKERNHYGQLSIMTWVPCFA encoding is generated.
+2026-07-09 09:33:01 - __main__ - INFO - DKERNHYGQLSIMTWVPCFA encoding is done with:
+	-custom
+		-f1: 0.8316120341266278
+		-auroc: 0.7540467839194578
+	
+2026-07-09 09:33:01 - __main__ - INFO - Input matrix with DKERNHYGQLSIMTWVPCFA encoding is removed.
+
+2026-07-09 09:33:13 - __main__ - INFO - Input matrix with DKERNHYGQPVWACMFLIST encoding is generated.
+2026-07-09 09:33:18 - __main__ - INFO - DKERNHYGQPVWACMFLIST encoding is done with:
+	-custom
+		-f1: 0.8388814913448736
+		-auroc: 0.7583656322637714
+	
+2026-07-09 09:33:18 - __main__ - INFO - Input matrix with DKERNHYGQPVWACMFLIST encoding is removed.
+
+2026-07-09 09:33:30 - __main__ - INFO - Input matrix with DKERNHYGQAWMVSFPICLT encoding is generated.
+2026-07-09 09:33:36 - __main__ - INFO - DKERNHYGQAWMVSFPICLT encoding is done with:
+	-custom
+		-f1: 0.8296164139161463
+		-auroc: 0.7481708899436618
+	
+2026-07-09 09:33:36 - __main__ - INFO - Input matrix with DKERNHYGQAWMVSFPICLT encoding is removed.
+
+2026-07-09 09:33:48 - __main__ - INFO - Input matrix with DKERNHYGQMASFPCTILVW encoding is generated.
+2026-07-09 09:33:53 - __main__ - INFO - DKERNHYGQMASFPCTILVW encoding is done with:
+	-custom
+		-f1: 0.8294223826714802
+		-auroc: 0.7534677750152776
+	
+2026-07-09 09:33:53 - __main__ - INFO - Input matrix with DKERNHYGQMASFPCTILVW encoding is removed.
+
+2026-07-09 09:34:05 - __main__ - INFO - Input matrix with DKERNHYGQFVPITLASCMW encoding is generated.
+2026-07-09 09:34:10 - __main__ - INFO - DKERNHYGQFVPITLASCMW encoding is done with:
+	-custom
+		-f1: 0.8360728565082186
+		-auroc: 0.7549822669803081
+	
+2026-07-09 09:34:10 - __main__ - INFO - Input matrix with DKERNHYGQFVPITLASCMW encoding is removed.
+
+2026-07-09 09:34:22 - __main__ - INFO - Input matrix with DKERNHYGQPSVILMCWTAF encoding is generated.
+2026-07-09 09:34:27 - __main__ - INFO - DKERNHYGQPSVILMCWTAF encoding is done with:
+	-custom
+		-f1: 0.8374606033318325
+		-auroc: 0.7631281549009268
+	
+2026-07-09 09:34:27 - __main__ - INFO - Input matrix with DKERNHYGQPSVILMCWTAF encoding is removed.
+
+2026-07-09 09:34:40 - __main__ - INFO - Input matrix with DKERNHYGQPTALSFCIVWM encoding is generated.
+2026-07-09 09:34:45 - __main__ - INFO - DKERNHYGQPTALSFCIVWM encoding is done with:
+	-custom
+		-f1: 0.8398576512455516
+		-auroc: 0.7607249191480336
+	
+2026-07-09 09:34:45 - __main__ - INFO - Input matrix with DKERNHYGQPTALSFCIVWM encoding is removed.
+
+2026-07-09 09:34:57 - __main__ - INFO - Input matrix with DKERNHYGQPICAVWLFTMS encoding is generated.
+2026-07-09 09:35:02 - __main__ - INFO - DKERNHYGQPICAVWLFTMS encoding is done with:
+	-custom
+		-f1: 0.8476404494382023
+		-auroc: 0.775904718852809
+	
+2026-07-09 09:35:02 - __main__ - INFO - Input matrix with DKERNHYGQPICAVWLFTMS encoding is removed.
+
+2026-07-09 09:35:14 - __main__ - INFO - Input matrix with DKERNHYGQPMCVFITALSW encoding is generated.
+2026-07-09 09:35:19 - __main__ - INFO - DKERNHYGQPMCVFITALSW encoding is done with:
+	-custom
+		-f1: 0.8341573033707865
+		-auroc: 0.7578752186979416
+	
+2026-07-09 09:35:19 - __main__ - INFO - Input matrix with DKERNHYGQPMCVFITALSW encoding is removed.
+
+2026-07-09 09:35:32 - __main__ - INFO - Input matrix with DKERNHYGQPMLFASICWVT encoding is generated.
+2026-07-09 09:35:37 - __main__ - INFO - DKERNHYGQPMLFASICWVT encoding is done with:
+	-custom
+		-f1: 0.8351351351351352
+		-auroc: 0.7602345055822038
+	
+2026-07-09 09:35:37 - __main__ - INFO - Input matrix with DKERNHYGQPMLFASICWVT encoding is removed.
+
+2026-07-09 09:35:49 - __main__ - INFO - Input matrix with DKERNHYGQPSMITWFCVLA encoding is generated.
+2026-07-09 09:35:54 - __main__ - INFO - DKERNHYGQPSMITWFCVLA encoding is done with:
+	-custom
+		-f1: 0.832
+		-auroc: 0.749684684307603
+	
+2026-07-09 09:35:54 - __main__ - INFO - Input matrix with DKERNHYGQPSMITWFCVLA encoding is removed.
+
+2026-07-09 09:36:07 - __main__ - INFO - Input matrix with DKERNHYGQPFATICSWVML encoding is generated.
+2026-07-09 09:36:12 - __main__ - INFO - DKERNHYGQPFATICSWVML encoding is done with:
+	-custom
+		-f1: 0.8326603858232391
+		-auroc: 0.7550262158489387
+	
+2026-07-09 09:36:12 - __main__ - INFO - Input matrix with DKERNHYGQPFATICSWVML encoding is removed.
+
+2026-07-09 09:36:24 - __main__ - INFO - Input matrix with DKERNHYGQPSVMALCTFWI encoding is generated.
+2026-07-09 09:36:29 - __main__ - INFO - DKERNHYGQPSVMALCTFWI encoding is done with:
+	-custom
+		-f1: 0.8393094289508632
+		-auroc: 0.7576980280212405
+	
+2026-07-09 09:36:29 - __main__ - INFO - Input matrix with DKERNHYGQPSVMALCTFWI encoding is removed.
+
+2026-07-09 09:36:41 - __main__ - INFO - Input matrix with DKERNHYGQPTSWACFIVML encoding is generated.
+2026-07-09 09:36:47 - __main__ - INFO - DKERNHYGQPTSWACFIVML encoding is done with:
+	-custom
+		-f1: 0.8324468085106383
+		-auroc: 0.7490170800650723
+	
+2026-07-09 09:36:47 - __main__ - INFO - Input matrix with DKERNHYGQPTSWACFIVML encoding is removed.
+
+2026-07-09 09:36:59 - __main__ - INFO - Input matrix with DKERNHYGQPSIAVWMCTFL encoding is generated.
+2026-07-09 09:37:04 - __main__ - INFO - DKERNHYGQPSIAVWMCTFL encoding is done with:
+	-custom
+		-f1: 0.8337801608579088
+		-auroc: 0.7546257928236381
+	
+2026-07-09 09:37:04 - __main__ - INFO - Input matrix with DKERNHYGQPSIAVWMCTFL encoding is removed.
+
+2026-07-09 09:37:16 - __main__ - INFO - Input matrix with DKERNHYGQPWLICAVSMFT encoding is generated.
+2026-07-09 09:37:21 - __main__ - INFO - DKERNHYGQPWLICAVSMFT encoding is done with:
+	-custom
+		-f1: 0.8334825425246195
+		-auroc: 0.7550708623186585
+	
+2026-07-09 09:37:21 - __main__ - INFO - Input matrix with DKERNHYGQPWLICAVSMFT encoding is removed.
+
+2026-07-09 09:37:34 - __main__ - INFO - Input matrix with DKERNHYGQPWIFLCMVSTA encoding is generated.
+2026-07-09 09:37:39 - __main__ - INFO - DKERNHYGQPWIFLCMVSTA encoding is done with:
+	-custom
+		-f1: 0.8397839783978398
+		-auroc: 0.7660218042196494
+	
+2026-07-09 09:37:39 - __main__ - INFO - Input matrix with DKERNHYGQPWIFLCMVSTA encoding is removed.
+
+2026-07-09 09:37:51 - __main__ - INFO - Input matrix with DKERNHYGQPWIVAFCMLST encoding is generated.
+2026-07-09 09:37:56 - __main__ - INFO - DKERNHYGQPWIVAFCMLST encoding is done with:
+	-custom
+		-f1: 0.8441674087266251
+		-auroc: 0.7669572872804997
+	
+2026-07-09 09:37:56 - __main__ - INFO - Input matrix with DKERNHYGQPWIVAFCMLST encoding is removed.
+
+2026-07-09 09:38:08 - __main__ - INFO - Input matrix with DKERNHYGQPWVIAMFCLST encoding is generated.
+2026-07-09 09:38:13 - __main__ - INFO - DKERNHYGQPWVIAMFCLST encoding is done with:
+	-custom
+		-f1: 0.8428123600537394
+		-auroc: 0.767802779800821
+	
+2026-07-09 09:38:13 - __main__ - INFO - Input matrix with DKERNHYGQPWVIAMFCLST encoding is removed.
+
+2026-07-09 09:38:26 - __main__ - INFO - Input matrix with DKERNHYGQPWSFLCIMVAT encoding is generated.
+2026-07-09 09:38:31 - __main__ - INFO - DKERNHYGQPWSFLCIMVAT encoding is done with:
+	-custom
+		-f1: 0.8349163274536409
+		-auroc: 0.7618368952844956
+	
+2026-07-09 09:38:31 - __main__ - INFO - Input matrix with DKERNHYGQPWSFLCIMVAT encoding is removed.
+
+2026-07-09 09:38:43 - __main__ - INFO - Input matrix with DKERNHYGQPWTSFLMVACI encoding is generated.
+2026-07-09 09:38:48 - __main__ - INFO - DKERNHYGQPWTSFLMVACI encoding is done with:
+	-custom
+		-f1: 0.8331854480922803
+		-auroc: 0.7504415814895736
+	
+2026-07-09 09:38:48 - __main__ - INFO - Input matrix with DKERNHYGQPWTSFLMVACI encoding is removed.
+
+2026-07-09 09:39:01 - __main__ - INFO - Input matrix with DKERNHYGQPWAMIFLVTSC encoding is generated.
+2026-07-09 09:39:06 - __main__ - INFO - DKERNHYGQPWAMIFLVTSC encoding is done with:
+	-custom
+		-f1: 0.8444643657552667
+		-auroc: 0.7704292479023136
+	
+2026-07-09 09:39:06 - __main__ - INFO - Input matrix with DKERNHYGQPWAMIFLVTSC encoding is removed.
+
+2026-07-09 09:39:18 - __main__ - INFO - Input matrix with DKERNHYGQPWCVFIMSLTA encoding is generated.
+2026-07-09 09:39:23 - __main__ - INFO - DKERNHYGQPWCVFIMSLTA encoding is done with:
+	-custom
+		-f1: 0.8345965225144896
+		-auroc: 0.754670439293358
+	
+2026-07-09 09:39:23 - __main__ - INFO - Input matrix with DKERNHYGQPWCVFIMSLTA encoding is removed.
+
+2026-07-09 09:39:36 - __main__ - INFO - Input matrix with DKERNHYGQPWATISCVLMF encoding is generated.
+2026-07-09 09:39:41 - __main__ - INFO - DKERNHYGQPWATISCVLMF encoding is done with:
+	-custom
+		-f1: 0.8358074673864148
+		-auroc: 0.7605016867994341
+	
+2026-07-09 09:39:41 - __main__ - INFO - Input matrix with DKERNHYGQPWATISCVLMF encoding is removed.
+
+2026-07-09 09:39:53 - __main__ - INFO - Input matrix with DKERNHYGQPWCFTMIAVLS encoding is generated.
+2026-07-09 09:39:58 - __main__ - INFO - DKERNHYGQPWCFTMIAVLS encoding is done with:
+	-custom
+		-f1: 0.8356596127870328
+		-auroc: 0.7607242215469444
+	
+2026-07-09 09:39:58 - __main__ - INFO - Input matrix with DKERNHYGQPWCFTMIAVLS encoding is removed.
+
+2026-07-09 09:40:10 - __main__ - INFO - Input matrix with DKERNHYGQPWTAMFCSIVL encoding is generated.
+2026-07-09 09:40:15 - __main__ - INFO - DKERNHYGQPWTAMFCSIVL encoding is done with:
+	-custom
+		-f1: 0.8272157564905999
+		-auroc: 0.7466570955797205
+	
+2026-07-09 09:40:15 - __main__ - INFO - Input matrix with DKERNHYGQPWTAMFCSIVL encoding is removed.
+
+2026-07-09 09:40:28 - __main__ - INFO - Input matrix with DKERNHYGQPWTMIVFALSC encoding is generated.
+2026-07-09 09:40:33 - __main__ - INFO - DKERNHYGQPWTMIVFALSC encoding is done with:
+	-custom
+		-f1: 0.83998207082026
+		-auroc: 0.7644194145173577
+	
+2026-07-09 09:40:33 - __main__ - INFO - Input matrix with DKERNHYGQPWTMIVFALSC encoding is removed.
+
+2026-07-09 09:40:45 - __main__ - INFO - Input matrix with DKERNHYGQPWTSMALCIVF encoding is generated.
+2026-07-09 09:40:50 - __main__ - INFO - DKERNHYGQPWTSMALCIVF encoding is done with:
+	-custom
+		-f1: 0.8351158645276292
+		-auroc: 0.7551601552580983
+	
+2026-07-09 09:40:50 - __main__ - INFO - Input matrix with DKERNHYGQPWTSMALCIVF encoding is removed.
+
+2026-07-09 09:41:02 - __main__ - INFO - Input matrix with DKERNHYGQPWTVSFALIMC encoding is generated.
+2026-07-09 09:41:07 - __main__ - INFO - DKERNHYGQPWTVSFALIMC encoding is done with:
+	-custom
+		-f1: 0.8413547237076648
+		-auroc: 0.7635739219970366
+	
+2026-07-09 09:41:07 - __main__ - INFO - Input matrix with DKERNHYGQPWTVSFALIMC encoding is removed.
+
+2026-07-09 09:41:20 - __main__ - INFO - Input matrix with DKERNHYGQPWTALIVCSMF encoding is generated.
+2026-07-09 09:41:25 - __main__ - INFO - DKERNHYGQPWTALIVCSMF encoding is done with:
+	-custom
+		-f1: 0.8360215053763441
+		-auroc: 0.7588992970971423
+	
+2026-07-09 09:41:25 - __main__ - INFO - Input matrix with DKERNHYGQPWTALIVCSMF encoding is removed.
+
+2026-07-09 09:41:37 - __main__ - INFO - Input matrix with DKERNHYGQPWTFAIVCSML encoding is generated.
+2026-07-09 09:41:42 - __main__ - INFO - DKERNHYGQPWTFAIVCSML encoding is done with:
+	-custom
+		-f1: 0.8311804008908686
+		-auroc: 0.7496400378378829
+	
+2026-07-09 09:41:42 - __main__ - INFO - Input matrix with DKERNHYGQPWTFAIVCSML encoding is removed.
+
+2026-07-09 09:41:54 - __main__ - INFO - Input matrix with DKERNHYGQPWTAMFILSVC encoding is generated.
+2026-07-09 09:42:00 - __main__ - INFO - DKERNHYGQPWTAMFILSVC encoding is done with:
+	-custom
+		-f1: 0.8349954669084315
+		-auroc: 0.7629942154917669
+	
+2026-07-09 09:42:00 - __main__ - INFO - Input matrix with DKERNHYGQPWTAMFILSVC encoding is removed.
+
+2026-07-09 09:42:12 - __main__ - INFO - Input matrix with DKERNHYGQPWTMSVACLFI encoding is generated.
+2026-07-09 09:42:17 - __main__ - INFO - DKERNHYGQPWTMSVACLFI encoding is done with:
+	-custom
+		-f1: 0.8302222222222222
+		-auroc: 0.7472807509536207
+	
+2026-07-09 09:42:17 - __main__ - INFO - Input matrix with DKERNHYGQPWTMSVACLFI encoding is removed.
+
+2026-07-09 09:42:29 - __main__ - INFO - Input matrix with DKERNHYGQPWTAFLCISMV encoding is generated.
+2026-07-09 09:42:34 - __main__ - INFO - DKERNHYGQPWTAFLCISMV encoding is done with:
+	-custom
+		-f1: 0.8304932735426009
+		-auroc: 0.7519100317827057
+	
+2026-07-09 09:42:34 - __main__ - INFO - Input matrix with DKERNHYGQPWTAFLCISMV encoding is removed.
+
+2026-07-09 09:42:46 - __main__ - INFO - Input matrix with DKERNHYGQPWTCMFLVASI encoding is generated.
+2026-07-09 09:42:52 - __main__ - INFO - DKERNHYGQPWTCMFLVASI encoding is done with:
+	-custom
+		-f1: 0.8371060807811807
+		-auroc: 0.755961698909789
+	
+2026-07-09 09:42:52 - __main__ - INFO - Input matrix with DKERNHYGQPWTCMFLVASI encoding is removed.
+
+2026-07-09 09:43:04 - __main__ - INFO - Input matrix with DKERNHYGQPWTSILFACMV encoding is generated.
+2026-07-09 09:43:09 - __main__ - INFO - DKERNHYGQPWTSILFACMV encoding is done with:
+	-custom
+		-f1: 0.8305315765561109
+		-auroc: 0.7581417023140822
+	
+2026-07-09 09:43:09 - __main__ - INFO - Input matrix with DKERNHYGQPWTSILFACMV encoding is removed.
+
+2026-07-09 09:43:21 - __main__ - INFO - Input matrix with DKERNHYGQPWTSCMVAILF encoding is generated.
+2026-07-09 09:43:26 - __main__ - INFO - DKERNHYGQPWTSCMVAILF encoding is done with:
+	-custom
+		-f1: 0.825597115817936
+		-auroc: 0.7477251228475519
+	
+2026-07-09 09:43:26 - __main__ - INFO - Input matrix with DKERNHYGQPWTSCMVAILF encoding is removed.
+
+2026-07-09 09:43:38 - __main__ - INFO - Input matrix with DKERNHYGQPWTSALVCMIF encoding is generated.
+2026-07-09 09:43:44 - __main__ - INFO - DKERNHYGQPWTSALVCMIF encoding is done with:
+	-custom
+		-f1: 0.8288128056914184
+		-auroc: 0.7455890683118891
+	
+2026-07-09 09:43:44 - __main__ - INFO - Input matrix with DKERNHYGQPWTSALVCMIF encoding is removed.
+
+2026-07-09 09:43:56 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVMALIFC encoding is generated.
+2026-07-09 09:44:01 - __main__ - INFO - DKERNHYGQPWTSVMALIFC encoding is done with:
+	-custom
+		-f1: 0.8333333333333334
+		-auroc: 0.7552933970661689
+	
+2026-07-09 09:44:01 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVMALIFC encoding is removed.
+
+2026-07-09 09:44:13 - __main__ - INFO - Input matrix with DKERNHYGQPWTSCAMLVFI encoding is generated.
+2026-07-09 09:44:19 - __main__ - INFO - DKERNHYGQPWTSCAMLVFI encoding is done with:
+	-custom
+		-f1: 0.832
+		-auroc: 0.749684684307603
+	
+2026-07-09 09:44:19 - __main__ - INFO - Input matrix with DKERNHYGQPWTSCAMLVFI encoding is removed.
+
+2026-07-09 09:44:31 - __main__ - INFO - Input matrix with DKERNHYGQPWTSFIVLCMA encoding is generated.
+2026-07-09 09:44:36 - __main__ - INFO - DKERNHYGQPWTSFIVLCMA encoding is done with:
+	-custom
+		-f1: 0.8401785714285714
+		-auroc: 0.762817024815066
+	
+2026-07-09 09:44:36 - __main__ - INFO - Input matrix with DKERNHYGQPWTSFIVLCMA encoding is removed.
+
+2026-07-09 09:44:48 - __main__ - INFO - Input matrix with DKERNHYGQPWTSCLFVIAM encoding is generated.
+2026-07-09 09:44:54 - __main__ - INFO - DKERNHYGQPWTSCLFVIAM encoding is done with:
+	-custom
+		-f1: 0.8387673068334077
+		-auroc: 0.7611253421733344
+	
+2026-07-09 09:44:54 - __main__ - INFO - Input matrix with DKERNHYGQPWTSCLFVIAM encoding is removed.
+
+2026-07-09 09:45:06 - __main__ - INFO - Input matrix with DKERNHYGQPWTSMIAVFCL encoding is generated.
+2026-07-09 09:45:11 - __main__ - INFO - DKERNHYGQPWTSMIAVFCL encoding is done with:
+	-custom
+		-f1: 0.8280482358195623
+		-auroc: 0.7467017420494403
+	
+2026-07-09 09:45:11 - __main__ - INFO - Input matrix with DKERNHYGQPWTSMIAVFCL encoding is removed.
+
+2026-07-09 09:45:23 - __main__ - INFO - Input matrix with DKERNHYGQPWTSAMFVCLI encoding is generated.
+2026-07-09 09:45:28 - __main__ - INFO - DKERNHYGQPWTSAMFVCLI encoding is done with:
+	-custom
+		-f1: 0.8324468085106383
+		-auroc: 0.7490170800650723
+	
+2026-07-09 09:45:28 - __main__ - INFO - Input matrix with DKERNHYGQPWTSAMFVCLI encoding is removed.
+
+2026-07-09 09:45:41 - __main__ - INFO - Input matrix with DKERNHYGQPWTSMVLCFIA encoding is generated.
+2026-07-09 09:45:46 - __main__ - INFO - DKERNHYGQPWTSMVLCFIA encoding is done with:
+	-custom
+		-f1: 0.8345132743362832
+		-auroc: 0.750975943924034
+	
+2026-07-09 09:45:46 - __main__ - INFO - Input matrix with DKERNHYGQPWTSMVLCFIA encoding is removed.
+
+2026-07-09 09:45:59 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVLIMFAC encoding is generated.
+2026-07-09 09:46:04 - __main__ - INFO - DKERNHYGQPWTSVLIMFAC encoding is done with:
+	-custom
+		-f1: 0.8326675543719485
+		-auroc: 0.7499518655248331
+	
+2026-07-09 09:46:04 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVLIMFAC encoding is removed.
+
+2026-07-09 09:46:16 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVIMAFCL encoding is generated.
+2026-07-09 09:46:21 - __main__ - INFO - DKERNHYGQPWTSVIMAFCL encoding is done with:
+	-custom
+		-f1: 0.8299015219337511
+		-auroc: 0.7502629956106939
+	
+2026-07-09 09:46:21 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVIMAFCL encoding is removed.
+
+2026-07-09 09:46:34 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVFICMLA encoding is generated.
+2026-07-09 09:46:39 - __main__ - INFO - DKERNHYGQPWTSVFICMLA encoding is done with:
+	-custom
+		-f1: 0.8374945247481385
+		-auroc: 0.7502197443431528
+	
+2026-07-09 09:46:39 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVFICMLA encoding is removed.
+
+2026-07-09 09:46:51 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVMALICF encoding is generated.
+2026-07-09 09:46:56 - __main__ - INFO - DKERNHYGQPWTSVMALICF encoding is done with:
+	-custom
+		-f1: 0.8388245770258237
+		-auroc: 0.7597454872185528
+	
+2026-07-09 09:46:56 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVMALICF encoding is removed.
+
+2026-07-09 09:47:09 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVLACIMF encoding is generated.
+2026-07-09 09:47:14 - __main__ - INFO - DKERNHYGQPWTSVLACIMF encoding is done with:
+	-custom
+		-f1: 0.8354881854658939
+		-auroc: 0.7558724059703492
+	
+2026-07-09 09:47:14 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVLACIMF encoding is removed.
+
+2026-07-09 09:47:26 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVCAFMLI encoding is generated.
+2026-07-09 09:47:31 - __main__ - INFO - DKERNHYGQPWTSVCAFMLI encoding is done with:
+	-custom
+		-f1: 0.8295053003533569
+		-auroc: 0.7433190743670666
+	
+2026-07-09 09:47:31 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVCAFMLI encoding is removed.
+
+2026-07-09 09:47:44 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVMCIALF encoding is generated.
+2026-07-09 09:47:49 - __main__ - INFO - DKERNHYGQPWTSVMCIALF encoding is done with:
+	-custom
+		-f1: 0.8209291835814163
+		-auroc: 0.7419378242101062
+	
+2026-07-09 09:47:49 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVMCIALF encoding is removed.
+
+2026-07-09 09:48:01 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVMIAFLC encoding is generated.
+2026-07-09 09:48:06 - __main__ - INFO - DKERNHYGQPWTSVMIAFLC encoding is done with:
+	-custom
+		-f1: 0.8328103989242492
+		-auroc: 0.7548036811014284
+	
+2026-07-09 09:48:06 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVMIAFLC encoding is removed.
+
+2026-07-09 09:48:19 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVFCLMIA encoding is generated.
+2026-07-09 09:48:24 - __main__ - INFO - DKERNHYGQPWTSVFCLMIA encoding is done with:
+	-custom
+		-f1: 0.8328912466843501
+		-auroc: 0.7483494758225415
+	
+2026-07-09 09:48:24 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVFCLMIA encoding is removed.
+
+2026-07-09 09:48:36 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVLFCAMI encoding is generated.
+2026-07-09 09:48:42 - __main__ - INFO - DKERNHYGQPWTSVLFCAMI encoding is done with:
+	-custom
+		-f1: 0.8333333333333334
+		-auroc: 0.7502190467420634
+	
+2026-07-09 09:48:42 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVLFCAMI encoding is removed.
+
+2026-07-09 09:48:54 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAMLIFC encoding is generated.
+2026-07-09 09:48:59 - __main__ - INFO - DKERNHYGQPWTSVAMLIFC encoding is done with:
+	-custom
+		-f1: 0.8319062640829202
+		-auroc: 0.75613888958649
+	
+2026-07-09 09:48:59 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAMLIFC encoding is removed.
+
+2026-07-09 09:49:11 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVACMLIF encoding is generated.
+2026-07-09 09:49:16 - __main__ - INFO - DKERNHYGQPWTSVACMLIF encoding is done with:
+	-custom
+		-f1: 0.8370436331255565
+		-auroc: 0.7573415538645705
+	
+2026-07-09 09:49:16 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVACMLIF encoding is removed.
+
+2026-07-09 09:49:29 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAMFCLI encoding is generated.
+2026-07-09 09:49:34 - __main__ - INFO - DKERNHYGQPWTSVAMFCLI encoding is done with:
+	-custom
+		-f1: 0.8324514991181657
+		-auroc: 0.7464799049030195
+	
+2026-07-09 09:49:34 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAMFCLI encoding is removed.
+
+2026-07-09 09:49:46 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVALMFIC encoding is generated.
+2026-07-09 09:49:51 - __main__ - INFO - DKERNHYGQPWTSVALMFIC encoding is done with:
+	-custom
+		-f1: 0.8370239149689991
+		-auroc: 0.7548043787025178
+	
+2026-07-09 09:49:51 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVALMFIC encoding is removed.
+
+2026-07-09 09:50:03 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAMICFL encoding is generated.
+2026-07-09 09:50:08 - __main__ - INFO - DKERNHYGQPWTSVAMICFL encoding is done with:
+	-custom
+		-f1: 0.8277404921700223
+		-auroc: 0.7471468115444608
+	
+2026-07-09 09:50:08 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAMICFL encoding is removed.
+
+2026-07-09 09:50:21 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIFMCL encoding is generated.
+2026-07-09 09:50:26 - __main__ - INFO - DKERNHYGQPWTSVAIFMCL encoding is done with:
+	-custom
+		-f1: 0.8307418924922256
+		-auroc: 0.7477704669183611
+	
+2026-07-09 09:50:26 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIFMCL encoding is removed.
+
+2026-07-09 09:50:38 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAFCLIM encoding is generated.
+2026-07-09 09:50:43 - __main__ - INFO - DKERNHYGQPWTSVAFCLIM encoding is done with:
+	-custom
+		-f1: 0.834072759538598
+		-auroc: 0.7516435481665649
+	
+2026-07-09 09:50:43 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAFCLIM encoding is removed.
+
+2026-07-09 09:50:55 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIFLMC encoding is generated.
+2026-07-09 09:51:00 - __main__ - INFO - DKERNHYGQPWTSVAIFLMC encoding is done with:
+	-custom
+		-f1: 0.8350287483414418
+		-auroc: 0.7514656598887745
+	
+2026-07-09 09:51:00 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIFLMC encoding is removed.
+
+2026-07-09 09:51:13 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAFCILM encoding is generated.
+2026-07-09 09:51:18 - __main__ - INFO - DKERNHYGQPWTSVAFCILM encoding is done with:
+	-custom
+		-f1: 0.8314005352363961
+		-auroc: 0.7505748232976441
+	
+2026-07-09 09:51:18 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAFCILM encoding is removed.
+
+2026-07-09 09:51:30 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAILFCM encoding is generated.
+2026-07-09 09:51:35 - __main__ - INFO - DKERNHYGQPWTSVAILFCM encoding is done with:
+	-custom
+		-f1: 0.832737030411449
+		-auroc: 0.7536463608941573
+	
+2026-07-09 09:51:35 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAILFCM encoding is removed.
+
+2026-07-09 09:51:47 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIMFCL encoding is generated.
+2026-07-09 09:51:52 - __main__ - INFO - DKERNHYGQPWTSVAIMFCL encoding is done with:
+	-custom
+		-f1: 0.8267504488330341
+		-auroc: 0.7473246998222512
+	
+2026-07-09 09:51:52 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIMFCL encoding is removed.
+
+2026-07-09 09:52:05 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMLF encoding is generated.
+2026-07-09 09:52:10 - __main__ - INFO - DKERNHYGQPWTSVAICMLF encoding is done with:
+	-custom
+		-f1: 0.8283548818546589
+		-auroc: 0.7462566725544199
+	
+2026-07-09 09:52:10 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMLF encoding is removed.
+
+2026-07-09 09:52:22 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAILMCF encoding is generated.
+2026-07-09 09:52:27 - __main__ - INFO - DKERNHYGQPWTSVAILMCF encoding is done with:
+	-custom
+		-f1: 0.8306451612903226
+		-auroc: 0.7516874970351954
+	
+2026-07-09 09:52:27 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAILMCF encoding is removed.
+
+2026-07-09 09:52:40 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIFMLC encoding is generated.
+2026-07-09 09:52:45 - __main__ - INFO - DKERNHYGQPWTSVAIFMLC encoding is done with:
+	-custom
+		-f1: 0.8329621380846325
+		-auroc: 0.7520439711918654
+	
+2026-07-09 09:52:45 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIFMLC encoding is removed.
+
+2026-07-09 09:52:57 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAILCMF encoding is generated.
+2026-07-09 09:53:02 - __main__ - INFO - DKERNHYGQPWTSVAILCMF encoding is done with:
+	-custom
+		-f1: 0.8367528991971455
+		-auroc: 0.757786623359591
+	
+2026-07-09 09:53:02 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAILCMF encoding is removed.
+
+2026-07-09 09:53:15 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAILMFC encoding is generated.
+2026-07-09 09:53:20 - __main__ - INFO - DKERNHYGQPWTSVAILMFC encoding is done with:
+	-custom
+		-f1: 0.8320576316974336
+		-auroc: 0.7559163548389798
+	
+2026-07-09 09:53:20 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAILMFC encoding is removed.
+
+2026-07-09 09:53:32 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIMLFC encoding is generated.
+2026-07-09 09:53:38 - __main__ - INFO - DKERNHYGQPWTSVAIMLFC encoding is done with:
+	-custom
+		-f1: 0.8313199105145413
+		-auroc: 0.7519546782524256
+	
+2026-07-09 09:53:38 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIMLFC encoding is removed.
+
+2026-07-09 09:53:50 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAILCFM encoding is generated.
+2026-07-09 09:53:55 - __main__ - INFO - DKERNHYGQPWTSVAILCFM encoding is done with:
+	-custom
+		-f1: 0.8321428571428572
+		-auroc: 0.7519993247221456
+	
+2026-07-09 09:53:55 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAILCFM encoding is removed.
+
+2026-07-09 09:54:07 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIFLCM encoding is generated.
+2026-07-09 09:54:12 - __main__ - INFO - DKERNHYGQPWTSVAIFLCM encoding is done with:
+	-custom
+		-f1: 0.8325188804975566
+		-auroc: 0.7501744002723436
+	
+2026-07-09 09:54:12 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAIFLCM encoding is removed.
+
+2026-07-09 09:54:25 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAILMCF encoding is generated.
+2026-07-09 09:54:30 - __main__ - INFO - DKERNHYGQPWTSVAILMCF encoding is done with:
+	-custom
+		-f1: 0.8306451612903226
+		-auroc: 0.7516874970351954
+	
+2026-07-09 09:54:30 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAILMCF encoding is removed.
+
+2026-07-09 09:54:42 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 09:54:47 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 09:54:47 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 09:55:00 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 09:55:05 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 09:55:05 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 09:55:17 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMFL encoding is generated.
+2026-07-09 09:55:23 - __main__ - INFO - DKERNHYGQPWTSVAICMFL encoding is done with:
+	-custom
+		-f1: 0.8344429649356414
+		-auroc: 0.7523557988788155
+	
+2026-07-09 09:55:23 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMFL encoding is removed.
+
+2026-07-09 09:55:35 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMFL encoding is generated.
+2026-07-09 09:55:40 - __main__ - INFO - DKERNHYGQPWTSVAICMFL encoding is done with:
+	-custom
+		-f1: 0.8344429649356414
+		-auroc: 0.7523557988788155
+	
+2026-07-09 09:55:40 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMFL encoding is removed.
+
+2026-07-09 09:55:52 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMLF encoding is generated.
+2026-07-09 09:55:58 - __main__ - INFO - DKERNHYGQPWTSVAICMLF encoding is done with:
+	-custom
+		-f1: 0.8283548818546589
+		-auroc: 0.7462566725544199
+	
+2026-07-09 09:55:58 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMLF encoding is removed.
+
+2026-07-09 09:56:10 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICLMF encoding is generated.
+2026-07-09 09:56:15 - __main__ - INFO - DKERNHYGQPWTSVAICLMF encoding is done with:
+	-custom
+		-f1: 0.838339222614841
+		-auroc: 0.7553387411369781
+	
+2026-07-09 09:56:15 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICLMF encoding is removed.
+
+2026-07-09 09:56:27 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 09:56:33 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 09:56:33 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 09:56:45 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMFL encoding is generated.
+2026-07-09 09:56:50 - __main__ - INFO - DKERNHYGQPWTSVAICMFL encoding is done with:
+	-custom
+		-f1: 0.8344429649356414
+		-auroc: 0.7523557988788155
+	
+2026-07-09 09:56:50 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMFL encoding is removed.
+
+2026-07-09 09:57:02 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 09:57:07 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 09:57:07 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 09:57:19 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMLF encoding is generated.
+2026-07-09 09:57:25 - __main__ - INFO - DKERNHYGQPWTSVAICMLF encoding is done with:
+	-custom
+		-f1: 0.8283548818546589
+		-auroc: 0.7462566725544199
+	
+2026-07-09 09:57:25 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICMLF encoding is removed.
+
+2026-07-09 09:57:37 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 09:57:42 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 09:57:42 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 09:57:55 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 09:58:00 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 09:58:00 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 09:58:12 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 09:58:18 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 09:58:18 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 09:58:30 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFLM encoding is generated.
+2026-07-09 09:58:36 - __main__ - INFO - DKERNHYGQPWTSVAICFLM encoding is done with:
+	-custom
+		-f1: 0.8329621380846325
+		-auroc: 0.7520439711918654
+	
+2026-07-09 09:58:36 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFLM encoding is removed.
+
+2026-07-09 09:58:48 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 09:58:53 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 09:58:53 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 09:59:06 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFLM encoding is generated.
+2026-07-09 09:59:11 - __main__ - INFO - DKERNHYGQPWTSVAICFLM encoding is done with:
+	-custom
+		-f1: 0.8329621380846325
+		-auroc: 0.7520439711918654
+	
+2026-07-09 09:59:11 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFLM encoding is removed.
+
+2026-07-09 09:59:23 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 09:59:28 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 09:59:28 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 09:59:41 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 09:59:46 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 09:59:46 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 09:59:58 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFLM encoding is generated.
+2026-07-09 10:00:03 - __main__ - INFO - DKERNHYGQPWTSVAICFLM encoding is done with:
+	-custom
+		-f1: 0.8329621380846325
+		-auroc: 0.7520439711918654
+	
+2026-07-09 10:00:03 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFLM encoding is removed.
+
+2026-07-09 10:00:15 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 10:00:21 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 10:00:21 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 10:00:33 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 10:00:38 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 10:00:38 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 10:00:50 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 10:00:56 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 10:00:56 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 10:01:08 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 10:01:13 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 10:01:13 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 10:01:26 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 10:01:31 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 10:01:31 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 10:01:43 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 10:01:48 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 10:01:48 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 10:02:01 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 10:02:06 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 10:02:06 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 10:02:18 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 10:02:23 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 10:02:23 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 10:02:36 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 10:02:41 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 10:02:41 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 10:02:54 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 10:02:59 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 10:02:59 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 10:03:11 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-09 10:03:17 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+	
+2026-07-09 10:03:17 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-09 10:03:29 - __main__ - INFO - Input matrix with HMKRDNWQAELTFYIPSCVG encoding is generated.
+2026-07-09 10:03:34 - __main__ - INFO - HMKRDNWQAELTFYIPSCVG encoding is done with:
+	-custom
+		-f1: 0.8358608385370205
+		-auroc: 0.7565846566826
+	
+2026-07-09 10:03:34 - __main__ - INFO - Input matrix with HMKRDNWQAELTFYIPSCVG encoding is removed.
+
+2026-07-09 10:03:46 - __main__ - INFO - Input matrix with PNSWQIHGVARDFMLKETCY encoding is generated.
+2026-07-09 10:03:52 - __main__ - INFO - PNSWQIHGVARDFMLKETCY encoding is done with:
+	-custom
+		-f1: 0.8329601433049709
+		-auroc: 0.7545811463539183
+	
+2026-07-09 10:03:52 - __main__ - INFO - Input matrix with PNSWQIHGVARDFMLKETCY encoding is removed.
+
+2026-07-09 10:04:04 - __main__ - INFO - Input matrix with AITYPVGWLHRDSNCFQKEM encoding is generated.
+2026-07-09 10:04:09 - __main__ - INFO - AITYPVGWLHRDSNCFQKEM encoding is done with:
+	-custom
+		-f1: 0.8423841059602649
+		-auroc: 0.7606363238096834
+	
+2026-07-09 10:04:09 - __main__ - INFO - Input matrix with AITYPVGWLHRDSNCFQKEM encoding is removed.
+
+2026-07-09 10:04:22 - __main__ - INFO - Input matrix with NSTVEWCRQLFKPIDAHYMG encoding is generated.
+2026-07-09 10:04:27 - __main__ - INFO - NSTVEWCRQLFKPIDAHYMG encoding is done with:
+	-custom
+		-f1: 0.8235294117647058
+		-auroc: 0.7395345884572133
+	
+2026-07-09 10:04:27 - __main__ - INFO - Input matrix with NSTVEWCRQLFKPIDAHYMG encoding is removed.
+
+2026-07-09 10:04:39 - __main__ - INFO - Input matrix with WARIFNKESYCLQHDVTPMG encoding is generated.
+2026-07-09 10:04:44 - __main__ - INFO - WARIFNKESYCLQHDVTPMG encoding is done with:
+	-custom
+		-f1: 0.8326675543719485
+		-auroc: 0.7499518655248331
+	
+2026-07-09 10:04:44 - __main__ - INFO - Input matrix with WARIFNKESYCLQHDVTPMG encoding is removed.
+
+2026-07-09 10:04:57 - __main__ - INFO - Input matrix with ACQMNSPDTKHVGEIYFLWR encoding is generated.
+2026-07-09 10:05:02 - __main__ - INFO - ACQMNSPDTKHVGEIYFLWR encoding is done with:
+	-custom
+		-f1: 0.8405668733392383
+		-auroc: 0.7596122454104824
+	
+2026-07-09 10:05:02 - __main__ - INFO - Input matrix with ACQMNSPDTKHVGEIYFLWR encoding is removed.
+
+2026-07-09 10:05:14 - __main__ - INFO - Input matrix with EDGFQYRAMIVTLHWKPSNC encoding is generated.
+2026-07-09 10:05:20 - __main__ - INFO - EDGFQYRAMIVTLHWKPSNC encoding is done with:
+	-custom
+		-f1: 0.8361381753764393
+		-auroc: 0.7536024120255266
+	
+2026-07-09 10:05:20 - __main__ - INFO - Input matrix with EDGFQYRAMIVTLHWKPSNC encoding is removed.
+
+2026-07-09 10:05:32 - __main__ - INFO - Input matrix with RLCVEFDIAPYHNGQWKTSM encoding is generated.
+2026-07-09 10:05:37 - __main__ - INFO - RLCVEFDIAPYHNGQWKTSM encoding is done with:
+	-custom
+		-f1: 0.8198924731182796
+		-auroc: 0.7372638969113015
+	
+2026-07-09 10:05:37 - __main__ - INFO - Input matrix with RLCVEFDIAPYHNGQWKTSM encoding is removed.
+
+2026-07-09 10:05:49 - __main__ - INFO - Input matrix with SCAFQMETVDHYKIRGLWPN encoding is generated.
+2026-07-09 10:05:55 - __main__ - INFO - SCAFQMETVDHYKIRGLWPN encoding is done with:
+	-custom
+		-f1: 0.8323647742512293
+		-auroc: 0.7529341101819064
+	
+2026-07-09 10:05:55 - __main__ - INFO - Input matrix with SCAFQMETVDHYKIRGLWPN encoding is removed.
+
+2026-07-09 10:06:07 - __main__ - INFO - Input matrix with QFKDISANYHPCMRTLVEGW encoding is generated.
+2026-07-09 10:06:12 - __main__ - INFO - QFKDISANYHPCMRTLVEGW encoding is done with:
+	-custom
+		-f1: 0.8278945015645954
+		-auroc: 0.7469242767969507
+	
+2026-07-09 10:06:12 - __main__ - INFO - Input matrix with QFKDISANYHPCMRTLVEGW encoding is removed.
+
+2026-07-09 10:06:24 - __main__ - INFO - Input matrix with DCEQSRIYKANHMFVGWPLT encoding is generated.
+2026-07-09 10:06:30 - __main__ - INFO - DCEQSRIYKANHMFVGWPLT encoding is done with:
+	-custom
+		-f1: 0.838163174320107
+		-auroc: 0.7594783060013226
+	
+2026-07-09 10:06:30 - __main__ - INFO - Input matrix with DCEQSRIYKANHMFVGWPLT encoding is removed.
+
+2026-07-09 10:06:42 - __main__ - INFO - Input matrix with DRFNIWCSLTHMKQAPYVGE encoding is generated.
+2026-07-09 10:06:47 - __main__ - INFO - DRFNIWCSLTHMKQAPYVGE encoding is done with:
+	-custom
+		-f1: 0.843489697501096
+		-auroc: 0.7588560458296012
+	
+2026-07-09 10:06:47 - __main__ - INFO - Input matrix with DRFNIWCSLTHMKQAPYVGE encoding is removed.
+
+2026-07-09 10:06:59 - __main__ - INFO - Input matrix with DCPSWERYMGNQKAIFHVTL encoding is generated.
+2026-07-09 10:07:05 - __main__ - INFO - DCPSWERYMGNQKAIFHVTL encoding is done with:
+	-custom
+		-f1: 0.8347289554869987
+		-auroc: 0.7493735542217423
+	
+2026-07-09 10:07:05 - __main__ - INFO - Input matrix with DCPSWERYMGNQKAIFHVTL encoding is removed.
+
+2026-07-09 10:07:17 - __main__ - INFO - Input matrix with DINYEWGKAFMPTQVLSRHC encoding is generated.
+2026-07-09 10:07:22 - __main__ - INFO - DINYEWGKAFMPTQVLSRHC encoding is done with:
+	-custom
+		-f1: 0.8310749774164409
+		-auroc: 0.7560942431167701
+	
+2026-07-09 10:07:22 - __main__ - INFO - Input matrix with DINYEWGKAFMPTQVLSRHC encoding is removed.
+
+2026-07-09 10:07:35 - __main__ - INFO - Input matrix with DRNQWVFTKISYGACMEPLH encoding is generated.
+2026-07-09 10:07:40 - __main__ - INFO - DRNQWVFTKISYGACMEPLH encoding is done with:
+	-custom
+		-f1: 0.822202166064982
+		-auroc: 0.7438520415993483
+	
+2026-07-09 10:07:40 - __main__ - INFO - Input matrix with DRNQWVFTKISYGACMEPLH encoding is removed.
+
+2026-07-09 10:07:52 - __main__ - INFO - Input matrix with DNHVLSRQEPMFGWIACKTY encoding is generated.
+2026-07-09 10:07:57 - __main__ - INFO - DNHVLSRQEPMFGWIACKTY encoding is done with:
+	-custom
+		-f1: 0.8337777777777777
+		-auroc: 0.7520886176615853
+	
+2026-07-09 10:07:57 - __main__ - INFO - Input matrix with DNHVLSRQEPMFGWIACKTY encoding is removed.
+
+2026-07-09 10:08:10 - __main__ - INFO - Input matrix with DMNKRYTWSHCVLIPGQEAF encoding is generated.
+2026-07-09 10:08:15 - __main__ - INFO - DMNKRYTWSHCVLIPGQEAF encoding is done with:
+	-custom
+		-f1: 0.8299737072743207
+		-auroc: 0.7401142949624829
+	
+2026-07-09 10:08:15 - __main__ - INFO - Input matrix with DMNKRYTWSHCVLIPGQEAF encoding is removed.
+
+2026-07-09 10:08:27 - __main__ - INFO - Input matrix with DGRALWPHMENKFCSYITVQ encoding is generated.
+2026-07-09 10:08:33 - __main__ - INFO - DGRALWPHMENKFCSYITVQ encoding is done with:
+	-custom
+		-f1: 0.8266666666666667
+		-auroc: 0.742472884245656
+	
+2026-07-09 10:08:33 - __main__ - INFO - Input matrix with DGRALWPHMENKFCSYITVQ encoding is removed.
+
+2026-07-09 10:08:45 - __main__ - INFO - Input matrix with DKQCVNLGTWSMFREPIYHA encoding is generated.
+2026-07-09 10:08:50 - __main__ - INFO - DKQCVNLGTWSMFREPIYHA encoding is done with:
+	-custom
+		-f1: 0.8340767172167708
+		-auroc: 0.7541807233286175
+	
+2026-07-09 10:08:50 - __main__ - INFO - Input matrix with DKQCVNLGTWSMFREPIYHA encoding is removed.
+
+2026-07-09 10:09:02 - __main__ - INFO - Input matrix with DWVHLQRPSKCNMGAFIYTE encoding is generated.
+2026-07-09 10:09:08 - __main__ - INFO - DWVHLQRPSKCNMGAFIYTE encoding is done with:
+	-custom
+		-f1: 0.8319215336602764
+		-auroc: 0.7510645392623845
+	
+2026-07-09 10:09:08 - __main__ - INFO - Input matrix with DWVHLQRPSKCNMGAFIYTE encoding is removed.
+
+2026-07-09 10:09:20 - __main__ - INFO - Input matrix with DKHNGQYVRWTFIPEMSCAL encoding is generated.
+2026-07-09 10:09:25 - __main__ - INFO - DKHNGQYVRWTFIPEMSCAL encoding is done with:
+	-custom
+		-f1: 0.8363636363636363
+		-auroc: 0.7545371974852875
+	
+2026-07-09 10:09:25 - __main__ - INFO - Input matrix with DKHNGQYVRWTFIPEMSCAL encoding is removed.
+
+2026-07-09 10:09:38 - __main__ - INFO - Input matrix with DKMSFTCAIPNHLGVQWERY encoding is generated.
+2026-07-09 10:09:43 - __main__ - INFO - DKMSFTCAIPNHLGVQWERY encoding is done with:
+	-custom
+		-f1: 0.8285588364918466
+		-auroc: 0.740959787482804
+	
+2026-07-09 10:09:43 - __main__ - INFO - Input matrix with DKMSFTCAIPNHLGVQWERY encoding is removed.
+
+2026-07-09 10:09:55 - __main__ - INFO - Input matrix with DKNVECIMFWGPLHTRQYSA encoding is generated.
+2026-07-09 10:10:01 - __main__ - INFO - DKNVECIMFWGPLHTRQYSA encoding is done with:
+	-custom
+		-f1: 0.8293755496921724
+		-auroc: 0.741004433952524
+	
+2026-07-09 10:10:01 - __main__ - INFO - Input matrix with DKNVECIMFWGPLHTRQYSA encoding is removed.
+
+2026-07-09 10:10:13 - __main__ - INFO - Input matrix with DKAFRETMQHWNCSVGLPIY encoding is generated.
+2026-07-09 10:10:18 - __main__ - INFO - DKAFRETMQHWNCSVGLPIY encoding is done with:
+	-custom
+		-f1: 0.8332584269662922
+		-auroc: 0.7566732520209503
+	
+2026-07-09 10:10:18 - __main__ - INFO - Input matrix with DKAFRETMQHWNCSVGLPIY encoding is removed.
+
+2026-07-09 10:10:31 - __main__ - INFO - Input matrix with DKLPMYNRGSVTCEIWHFAQ encoding is generated.
+2026-07-09 10:10:36 - __main__ - INFO - DKLPMYNRGSVTCEIWHFAQ encoding is done with:
+	-custom
+		-f1: 0.8248337028824834
+		-auroc: 0.7389116306844026
+	
+2026-07-09 10:10:36 - __main__ - INFO - Input matrix with DKLPMYNRGSVTCEIWHFAQ encoding is removed.
+
+2026-07-09 10:10:48 - __main__ - INFO - Input matrix with DKCLNTWYPVGMQASFRIHE encoding is generated.
+2026-07-09 10:10:54 - __main__ - INFO - DKCLNTWYPVGMQASFRIHE encoding is done with:
+	-custom
+		-f1: 0.8238938053097346
+		-auroc: 0.73655234380014
+	
+2026-07-09 10:10:54 - __main__ - INFO - Input matrix with DKCLNTWYPVGMQASFRIHE encoding is removed.
+
+2026-07-09 10:11:06 - __main__ - INFO - Input matrix with DKEGNCPILAMWVYTSRFHQ encoding is generated.
+2026-07-09 10:11:11 - __main__ - INFO - DKEGNCPILAMWVYTSRFHQ encoding is done with:
+	-custom
+		-f1: 0.8414959928762245
+		-auroc: 0.7633513872495263
+	
+2026-07-09 10:11:11 - __main__ - INFO - Input matrix with DKEGNCPILAMWVYTSRFHQ encoding is removed.
+
+2026-07-09 10:11:24 - __main__ - INFO - Input matrix with DKMCQWLGFAPTVRISNEHY encoding is generated.
+2026-07-09 10:11:29 - __main__ - INFO - DKMCQWLGFAPTVRISNEHY encoding is done with:
+	-custom
+		-f1: 0.8299866131191432
+		-auroc: 0.7488831406559125
+	
+2026-07-09 10:11:29 - __main__ - INFO - Input matrix with DKMCQWLGFAPTVRISNEHY encoding is removed.
+
+2026-07-09 10:11:41 - __main__ - INFO - Input matrix with DKMNLHWRPECAYFTIQGVS encoding is generated.
+2026-07-09 10:11:46 - __main__ - INFO - DKMNLHWRPECAYFTIQGVS encoding is done with:
+	-custom
+		-f1: 0.8310421286031042
+		-auroc: 0.7473253974233405
+	
+2026-07-09 10:11:46 - __main__ - INFO - Input matrix with DKMNLHWRPECAYFTIQGVS encoding is removed.
+
+2026-07-09 10:11:59 - __main__ - INFO - Input matrix with DKIMGWTFCNRSQEVAHPLY encoding is generated.
+2026-07-09 10:12:04 - __main__ - INFO - DKIMGWTFCNRSQEVAHPLY encoding is done with:
+	-custom
+		-f1: 0.8329660643455267
+		-auroc: 0.74696962086776
+	
+2026-07-09 10:12:04 - __main__ - INFO - Input matrix with DKIMGWTFCNRSQEVAHPLY encoding is removed.
+
+2026-07-09 10:12:16 - __main__ - INFO - Input matrix with DKEVLTMFGSPRWQYAIHCN encoding is generated.
+2026-07-09 10:12:21 - __main__ - INFO - DKEVLTMFGSPRWQYAIHCN encoding is done with:
+	-custom
+		-f1: 0.8355321020228672
+		-auroc: 0.7494182006914621
+	
+2026-07-09 10:12:22 - __main__ - INFO - Input matrix with DKEVLTMFGSPRWQYAIHCN encoding is removed.
+
+2026-07-09 10:12:34 - __main__ - INFO - Input matrix with DKEPSTWYICAHMRQVGFNL encoding is generated.
+2026-07-09 10:12:39 - __main__ - INFO - DKEPSTWYICAHMRQVGFNL encoding is done with:
+	-custom
+		-f1: 0.8363475959417732
+		-auroc: 0.7520000223232348
+	
+2026-07-09 10:12:39 - __main__ - INFO - Input matrix with DKEPSTWYICAHMRQVGFNL encoding is removed.
+
+2026-07-09 10:12:51 - __main__ - INFO - Input matrix with DKEITQSYALVCNFMHPWGR encoding is generated.
+2026-07-09 10:12:57 - __main__ - INFO - DKEITQSYALVCNFMHPWGR encoding is done with:
+	-custom
+		-f1: 0.8318505338078291
+		-auroc: 0.7499072190551133
+	
+2026-07-09 10:12:57 - __main__ - INFO - Input matrix with DKEITQSYALVCNFMHPWGR encoding is removed.
+
+2026-07-09 10:13:09 - __main__ - INFO - Input matrix with DKEHGIASNPTVRQLCMFWY encoding is generated.
+2026-07-09 10:13:14 - __main__ - INFO - DKEHGIASNPTVRQLCMFWY encoding is done with:
+	-custom
+		-f1: 0.8398607484769365
+		-auroc: 0.7503536837523126
+	
+2026-07-09 10:13:14 - __main__ - INFO - Input matrix with DKEHGIASNPTVRQLCMFWY encoding is removed.
+
+2026-07-09 10:13:27 - __main__ - INFO - Input matrix with DKEQILYPVASCMHFNTGWR encoding is generated.
+2026-07-09 10:13:32 - __main__ - INFO - DKEQILYPVASCMHFNTGWR encoding is done with:
+	-custom
+		-f1: 0.8342151675485009
+		-auroc: 0.7488838382570019
+	
+2026-07-09 10:13:32 - __main__ - INFO - Input matrix with DKEQILYPVASCMHFNTGWR encoding is removed.
+
+2026-07-09 10:13:44 - __main__ - INFO - Input matrix with DKEVWSYQTIALMRPGCHFN encoding is generated.
+2026-07-09 10:13:49 - __main__ - INFO - DKEVWSYQTIALMRPGCHFN encoding is done with:
+	-custom
+		-f1: 0.8363962348722546
+		-auroc: 0.759611547809393
+	
+2026-07-09 10:13:49 - __main__ - INFO - Input matrix with DKEVWSYQTIALMRPGCHFN encoding is removed.
+
+2026-07-09 10:14:01 - __main__ - INFO - Input matrix with DKEILHFPNASQTCWYMRVG encoding is generated.
+2026-07-09 10:14:07 - __main__ - INFO - DKEILHFPNASQTCWYMRVG encoding is done with:
+	-custom
+		-f1: 0.8318042813455657
+		-auroc: 0.7411383733616839
+	
+2026-07-09 10:14:07 - __main__ - INFO - Input matrix with DKEILHFPNASQTCWYMRVG encoding is removed.
+
+2026-07-09 10:14:19 - __main__ - INFO - Input matrix with DKEQSMYIRFHTLPNWACVG encoding is generated.
+2026-07-09 10:14:24 - __main__ - INFO - DKEQSMYIRFHTLPNWACVG encoding is done with:
+	-custom
+		-f1: 0.8386243386243386
+		-auroc: 0.7548936716419576
+	
+2026-07-09 10:14:24 - __main__ - INFO - Input matrix with DKEQSMYIRFHTLPNWACVG encoding is removed.
+
+2026-07-09 10:14:36 - __main__ - INFO - Input matrix with DKEYNWLCQFHSRVAPGITM encoding is generated.
+2026-07-09 10:14:42 - __main__ - INFO - DKEYNWLCQFHSRVAPGITM encoding is done with:
+	-custom
+		-f1: 0.8352524357838795
+		-auroc: 0.7524004453485355
+	
+2026-07-09 10:14:42 - __main__ - INFO - Input matrix with DKEYNWLCQFHSRVAPGITM encoding is removed.
+
+2026-07-09 10:14:54 - __main__ - INFO - Input matrix with DKEMLQGVSCTNFPIWYHAR encoding is generated.
+2026-07-09 10:14:59 - __main__ - INFO - DKEMLQGVSCTNFPIWYHAR encoding is done with:
+	-custom
+		-f1: 0.8303730017761989
+		-auroc: 0.7470582162061103
+	
+2026-07-09 10:14:59 - __main__ - INFO - Input matrix with DKEMLQGVSCTNFPIWYHAR encoding is removed.
+
+2026-07-09 10:15:11 - __main__ - INFO - Input matrix with DKENCVSPILHQAWYGTFRM encoding is generated.
+2026-07-09 10:15:17 - __main__ - INFO - DKENCVSPILHQAWYGTFRM encoding is done with:
+	-custom
+		-f1: 0.8387096774193549
+		-auroc: 0.7560509918492291
+	
+2026-07-09 10:15:17 - __main__ - INFO - Input matrix with DKENCVSPILHQAWYGTFRM encoding is removed.
+
+2026-07-09 10:15:29 - __main__ - INFO - Input matrix with DKENILMCGPHTRYSWFAVQ encoding is generated.
+2026-07-09 10:15:34 - __main__ - INFO - DKENILMCGPHTRYSWFAVQ encoding is done with:
+	-custom
+		-f1: 0.8317008014247551
+		-auroc: 0.7501297538026235
+	
+2026-07-09 10:15:34 - __main__ - INFO - Input matrix with DKENILMCGPHTRYSWFAVQ encoding is removed.
+
+2026-07-09 10:15:47 - __main__ - INFO - Input matrix with DKENSMGCIPQARWTHFLVY encoding is generated.
+2026-07-09 10:15:52 - __main__ - INFO - DKENSMGCIPQARWTHFLVY encoding is done with:
+	-custom
+		-f1: 0.8413610251878038
+		-auroc: 0.7596568918802024
+	
+2026-07-09 10:15:52 - __main__ - INFO - Input matrix with DKENSMGCIPQARWTHFLVY encoding is removed.
+
+2026-07-09 10:16:04 - __main__ - INFO - Input matrix with DKENLRMGIQCTPSYVFAWH encoding is generated.
+2026-07-09 10:16:09 - __main__ - INFO - DKENLRMGIQCTPSYVFAWH encoding is done with:
+	-custom
+		-f1: 0.8290941543953592
+		-auroc: 0.7476811739789213
+	
+2026-07-09 10:16:09 - __main__ - INFO - Input matrix with DKENLRMGIQCTPSYVFAWH encoding is removed.
+
+2026-07-09 10:16:22 - __main__ - INFO - Input matrix with DKENMCAFRIVGSHQPLWYT encoding is generated.
+2026-07-09 10:16:27 - __main__ - INFO - DKENMCAFRIVGSHQPLWYT encoding is done with:
+	-custom
+		-f1: 0.8335564480142793
+		-auroc: 0.7536910073638771
+	
+2026-07-09 10:16:27 - __main__ - INFO - Input matrix with DKENMCAFRIVGSHQPLWYT encoding is removed.
+
+2026-07-09 10:16:39 - __main__ - INFO - Input matrix with DKENWFTYICALMQVSHRGP encoding is generated.
+2026-07-09 10:16:45 - __main__ - INFO - DKENWFTYICALMQVSHRGP encoding is done with:
+	-custom
+		-f1: 0.8399465002229157
+		-auroc: 0.761882239355305
+	
+2026-07-09 10:16:45 - __main__ - INFO - Input matrix with DKENWFTYICALMQVSHRGP encoding is removed.
+
+2026-07-09 10:16:57 - __main__ - INFO - Input matrix with DKENSGVYTRCFPLWIMQAH encoding is generated.
+2026-07-09 10:17:02 - __main__ - INFO - DKENSGVYTRCFPLWIMQAH encoding is done with:
+	-custom
+		-f1: 0.8391670358883474
+		-auroc: 0.7579205627687509
+	
+2026-07-09 10:17:02 - __main__ - INFO - Input matrix with DKENSGVYTRCFPLWIMQAH encoding is removed.
+
+2026-07-09 10:17:14 - __main__ - INFO - Input matrix with DKENHGTIPYRCMAFWSQLV encoding is generated.
+2026-07-09 10:17:19 - __main__ - INFO - DKENHGTIPYRCMAFWSQLV encoding is done with:
+	-custom
+		-f1: 0.8355437665782494
+		-auroc: 0.7519553758535149
+	
+2026-07-09 10:17:19 - __main__ - INFO - Input matrix with DKENHGTIPYRCMAFWSQLV encoding is removed.
+
+2026-07-09 10:17:32 - __main__ - INFO - Input matrix with DKENCRWSAHMGFVLPTYQI encoding is generated.
+2026-07-09 10:17:37 - __main__ - INFO - DKENCRWSAHMGFVLPTYQI encoding is done with:
+	-custom
+		-f1: 0.8354881854658939
+		-auroc: 0.7558724059703492
+	
+2026-07-09 10:17:37 - __main__ - INFO - Input matrix with DKENCRWSAHMGFVLPTYQI encoding is removed.
+
+2026-07-09 10:17:49 - __main__ - INFO - Input matrix with DKENTPRGYCHFASWMLIVQ encoding is generated.
+2026-07-09 10:17:55 - __main__ - INFO - DKENTPRGYCHFASWMLIVQ encoding is done with:
+	-custom
+		-f1: 0.8406445837063563
+		-auroc: 0.764686595734588
+	
+2026-07-09 10:17:55 - __main__ - INFO - Input matrix with DKENTPRGYCHFASWMLIVQ encoding is removed.
+
+2026-07-09 10:18:07 - __main__ - INFO - Input matrix with DKENHPIFMYTWAVLQGRCS encoding is generated.
+2026-07-09 10:18:12 - __main__ - INFO - DKENHPIFMYTWAVLQGRCS encoding is done with:
+	-custom
+		-f1: 0.8366071428571429
+		-auroc: 0.7580091581071013
+	
+2026-07-09 10:18:12 - __main__ - INFO - Input matrix with DKENHPIFMYTWAVLQGRCS encoding is removed.
+
+2026-07-09 10:18:25 - __main__ - INFO - Input matrix with DKENHMCAVTFSPRWLQYGI encoding is generated.
+2026-07-09 10:18:30 - __main__ - INFO - DKENHMCAVTFSPRWLQYGI encoding is done with:
+	-custom
+		-f1: 0.8408381631743201
+		-auroc: 0.7630842060322962
+	
+2026-07-09 10:18:30 - __main__ - INFO - Input matrix with DKENHMCAVTFSPRWLQYGI encoding is removed.
+
+2026-07-09 10:18:42 - __main__ - INFO - Input matrix with DKENHRFVLMCPYGQASITW encoding is generated.
+2026-07-09 10:18:47 - __main__ - INFO - DKENHRFVLMCPYGQASITW encoding is done with:
+	-custom
+		-f1: 0.838738338516215
+		-auroc: 0.7585881670112815
+	
+2026-07-09 10:18:47 - __main__ - INFO - Input matrix with DKENHRFVLMCPYGQASITW encoding is removed.
+
+2026-07-09 10:19:00 - __main__ - INFO - Input matrix with DKENHVMGSQTCPWYALFIR encoding is generated.
+2026-07-09 10:19:05 - __main__ - INFO - DKENHVMGSQTCPWYALFIR encoding is done with:
+	-custom
+		-f1: 0.8313199105145413
+		-auroc: 0.7519546782524256
+	
+2026-07-09 10:19:05 - __main__ - INFO - Input matrix with DKENHVMGSQTCPWYALFIR encoding is removed.
+
+2026-07-09 10:19:17 - __main__ - INFO - Input matrix with DKENHVQGFTCWALISRYMP encoding is generated.
+2026-07-09 10:19:22 - __main__ - INFO - DKENHVQGFTCWALISRYMP encoding is done with:
+	-custom
+		-f1: 0.827708703374778
+		-auroc: 0.743452316175137
+	
+2026-07-09 10:19:22 - __main__ - INFO - Input matrix with DKENHVQGFTCWALISRYMP encoding is removed.
+
+2026-07-09 10:19:35 - __main__ - INFO - Input matrix with DKENHLSWCFRPGAVYQIMT encoding is generated.
+2026-07-09 10:19:40 - __main__ - INFO - DKENHLSWCFRPGAVYQIMT encoding is done with:
+	-custom
+		-f1: 0.8326710816777042
+		-auroc: 0.7474146903627805
+	
+2026-07-09 10:19:40 - __main__ - INFO - Input matrix with DKENHLSWCFRPGAVYQIMT encoding is removed.
+
+2026-07-09 10:19:52 - __main__ - INFO - Input matrix with DKENHRMVTFYWLIACSPQG encoding is generated.
+2026-07-09 10:19:58 - __main__ - INFO - DKENHRMVTFYWLIACSPQG encoding is done with:
+	-custom
+		-f1: 0.8421993741618239
+		-auroc: 0.7661557436288093
+	
+2026-07-09 10:19:58 - __main__ - INFO - Input matrix with DKENHRMVTFYWLIACSPQG encoding is removed.
+
+2026-07-09 10:20:10 - __main__ - INFO - Input matrix with DKENHYTPRSCMLWQAVGFI encoding is generated.
+2026-07-09 10:20:15 - __main__ - INFO - DKENHYTPRSCMLWQAVGFI encoding is done with:
+	-custom
+		-f1: 0.8336298932384342
+		-auroc: 0.7523111524090956
+	
+2026-07-09 10:20:15 - __main__ - INFO - Input matrix with DKENHYTPRSCMLWQAVGFI encoding is removed.
+
+2026-07-09 10:20:28 - __main__ - INFO - Input matrix with DKENHSIMQAFPWRVYGTLC encoding is generated.
+2026-07-09 10:20:33 - __main__ - INFO - DKENHSIMQAFPWRVYGTLC encoding is done with:
+	-custom
+		-f1: 0.8292682926829268
+		-auroc: 0.7449214640693582
+	
+2026-07-09 10:20:33 - __main__ - INFO - Input matrix with DKENHSIMQAFPWRVYGTLC encoding is removed.
+
+2026-07-09 10:20:45 - __main__ - INFO - Input matrix with DKENHRGSYFTLMCVWIPQA encoding is generated.
+2026-07-09 10:20:50 - __main__ - INFO - DKENHRGSYFTLMCVWIPQA encoding is done with:
+	-custom
+		-f1: 0.8370004490345757
+		-auroc: 0.7612585839814048
+	
+2026-07-09 10:20:50 - __main__ - INFO - Input matrix with DKENHRGSYFTLMCVWIPQA encoding is removed.
+
+2026-07-09 10:21:02 - __main__ - INFO - Input matrix with DKENHRSPIQTLGVFAWCMY encoding is generated.
+2026-07-09 10:21:08 - __main__ - INFO - DKENHRSPIQTLGVFAWCMY encoding is done with:
+	-custom
+		-f1: 0.8360215053763441
+		-auroc: 0.7588992970971423
+	
+2026-07-09 10:21:08 - __main__ - INFO - Input matrix with DKENHRSPIQTLGVFAWCMY encoding is removed.
+
+2026-07-09 10:21:20 - __main__ - INFO - Input matrix with DKENHRMTYAGFLIWVCQPS encoding is generated.
+2026-07-09 10:21:25 - __main__ - INFO - DKENHRMTYAGFLIWVCQPS encoding is done with:
+	-custom
+		-f1: 0.8416851441241685
+		-auroc: 0.7617489975472346
+	
+2026-07-09 10:21:25 - __main__ - INFO - Input matrix with DKENHRMTYAGFLIWVCQPS encoding is removed.
+
+2026-07-09 10:21:37 - __main__ - INFO - Input matrix with DKENHRMQCSAVWFYGLITP encoding is generated.
+2026-07-09 10:21:42 - __main__ - INFO - DKENHRMQCSAVWFYGLITP encoding is done with:
+	-custom
+		-f1: 0.8470483005366727
+		-auroc: 0.7728778277260158
+	
+2026-07-09 10:21:42 - __main__ - INFO - Input matrix with DKENHRMQCSAVWFYGLITP encoding is removed.
+
+2026-07-09 10:21:55 - __main__ - INFO - Input matrix with DKENHRCYFIVTWQGMSPAL encoding is generated.
+2026-07-09 10:22:00 - __main__ - INFO - DKENHRCYFIVTWQGMSPAL encoding is done with:
+	-custom
+		-f1: 0.8363962348722546
+		-auroc: 0.759611547809393
+	
+2026-07-09 10:22:00 - __main__ - INFO - Input matrix with DKENHRCYFIVTWQGMSPAL encoding is removed.
+
+2026-07-09 10:22:12 - __main__ - INFO - Input matrix with DKENHRTPVSLIMFCQGWAY encoding is generated.
+2026-07-09 10:22:17 - __main__ - INFO - DKENHRTPVSLIMFCQGWAY encoding is done with:
+	-custom
+		-f1: 0.8338530066815145
+		-auroc: 0.7532459378688565
+	
+2026-07-09 10:22:17 - __main__ - INFO - Input matrix with DKENHRTPVSLIMFCQGWAY encoding is removed.
+
+2026-07-09 10:22:29 - __main__ - INFO - Input matrix with DKENHRLSQVWFCTGYMIPA encoding is generated.
+2026-07-09 10:22:35 - __main__ - INFO - DKENHRLSQVWFCTGYMIPA encoding is done with:
+	-custom
+		-f1: 0.8343834383438344
+		-auroc: 0.7588100041577025
+	
+2026-07-09 10:22:35 - __main__ - INFO - Input matrix with DKENHRLSQVWFCTGYMIPA encoding is removed.
+
+2026-07-09 10:22:47 - __main__ - INFO - Input matrix with DKENHRSVTAPIYCWFMLGQ encoding is generated.
+2026-07-09 10:22:52 - __main__ - INFO - DKENHRSVTAPIYCWFMLGQ encoding is done with:
+	-custom
+		-f1: 0.8340044742729307
+		-auroc: 0.7555605782833991
+	
+2026-07-09 10:22:52 - __main__ - INFO - Input matrix with DKENHRSVTAPIYCWFMLGQ encoding is removed.
+
+2026-07-09 10:23:04 - __main__ - INFO - Input matrix with DKENHRFSTCPLIWVGYMAQ encoding is generated.
+2026-07-09 10:23:10 - __main__ - INFO - DKENHRFSTCPLIWVGYMAQ encoding is done with:
+	-custom
+		-f1: 0.8366071428571429
+		-auroc: 0.7580091581071013
+	
+2026-07-09 10:23:10 - __main__ - INFO - Input matrix with DKENHRFSTCPLIWVGYMAQ encoding is removed.
+
+2026-07-09 10:23:22 - __main__ - INFO - Input matrix with DKENHRLVPMGTQYSFWICA encoding is generated.
+2026-07-09 10:23:27 - __main__ - INFO - DKENHRLVPMGTQYSFWICA encoding is done with:
+	-custom
+		-f1: 0.8326639892904953
+		-auroc: 0.7524890406868859
+	
+2026-07-09 10:23:27 - __main__ - INFO - Input matrix with DKENHRLVPMGTQYSFWICA encoding is removed.
+
+2026-07-09 10:23:39 - __main__ - INFO - Input matrix with DKENHRSYWMFPICGVQALT encoding is generated.
+2026-07-09 10:23:45 - __main__ - INFO - DKENHRSYWMFPICGVQALT encoding is done with:
+	-custom
+		-f1: 0.8295302013422818
+		-auroc: 0.7495507448984432
+	
+2026-07-09 10:23:45 - __main__ - INFO - Input matrix with DKENHRSYWMFPICGVQALT encoding is removed.
+
+2026-07-09 10:23:57 - __main__ - INFO - Input matrix with DKENHRQTGPIYLVACWMSF encoding is generated.
+2026-07-09 10:24:02 - __main__ - INFO - DKENHRQTGPIYLVACWMSF encoding is done with:
+	-custom
+		-f1: 0.83833407971339
+		-auroc: 0.7617929464158651
+	
+2026-07-09 10:24:02 - __main__ - INFO - Input matrix with DKENHRQTGPIYLVACWMSF encoding is removed.
+
+2026-07-09 10:24:14 - __main__ - INFO - Input matrix with DKENHRQWVGFPMLYTAICS encoding is generated.
+2026-07-09 10:24:19 - __main__ - INFO - DKENHRQWVGFPMLYTAICS encoding is done with:
+	-custom
+		-f1: 0.8453333333333334
+		-auroc: 0.7677141844624705
+	
+2026-07-09 10:24:19 - __main__ - INFO - Input matrix with DKENHRQWVGFPMLYTAICS encoding is removed.
+
+2026-07-09 10:24:32 - __main__ - INFO - Input matrix with DKENHRQLATCVSFYGIWPM encoding is generated.
+2026-07-09 10:24:37 - __main__ - INFO - DKENHRQLATCVSFYGIWPM encoding is done with:
+	-custom
+		-f1: 0.8340767172167708
+		-auroc: 0.7541807233286175
+	
+2026-07-09 10:24:37 - __main__ - INFO - Input matrix with DKENHRQLATCVSFYGIWPM encoding is removed.
+
+2026-07-09 10:24:49 - __main__ - INFO - Input matrix with DKENHRQVYPCLTAMFWISG encoding is generated.
+2026-07-09 10:24:54 - __main__ - INFO - DKENHRQVYPCLTAMFWISG encoding is done with:
+	-custom
+		-f1: 0.8325872873769025
+		-auroc: 0.7538688956416674
+	
+2026-07-09 10:24:54 - __main__ - INFO - Input matrix with DKENHRQVYPCLTAMFWISG encoding is removed.
+
+2026-07-09 10:25:06 - __main__ - INFO - Input matrix with DKENHRQLFWCAGPYSIVMT encoding is generated.
+2026-07-09 10:25:11 - __main__ - INFO - DKENHRQLFWCAGPYSIVMT encoding is done with:
+	-custom
+		-f1: 0.8399280575539568
+		-auroc: 0.7657992694721392
+	
+2026-07-09 10:25:11 - __main__ - INFO - Input matrix with DKENHRQLFWCAGPYSIVMT encoding is removed.
+
+2026-07-09 10:25:24 - __main__ - INFO - Input matrix with DKENHRQSLFAWYMVICGTP encoding is generated.
+2026-07-09 10:25:29 - __main__ - INFO - DKENHRQSLFAWYMVICGTP encoding is done with:
+	-custom
+		-f1: 0.8425302826379543
+		-auroc: 0.7682478492958414
+	
+2026-07-09 10:25:29 - __main__ - INFO - Input matrix with DKENHRQSLFAWYMVICGTP encoding is removed.
+
+2026-07-09 10:25:41 - __main__ - INFO - Input matrix with DKENHRQPYMSWTAVGLCIF encoding is generated.
+2026-07-09 10:25:46 - __main__ - INFO - DKENHRQPYMSWTAVGLCIF encoding is done with:
+	-custom
+		-f1: 0.8328103989242492
+		-auroc: 0.7548036811014284
+	
+2026-07-09 10:25:46 - __main__ - INFO - Input matrix with DKENHRQPYMSWTAVGLCIF encoding is removed.
+
+2026-07-09 10:25:59 - __main__ - INFO - Input matrix with DKENHRQMATSFCVPGLWYI encoding is generated.
+2026-07-09 10:26:04 - __main__ - INFO - DKENHRQMATSFCVPGLWYI encoding is done with:
+	-custom
+		-f1: 0.8324372759856631
+		-auroc: 0.7540914303891777
+	
+2026-07-09 10:26:04 - __main__ - INFO - Input matrix with DKENHRQMATSFCVPGLWYI encoding is removed.
+
+2026-07-09 10:26:16 - __main__ - INFO - Input matrix with DKENHRQPLAVCSTYWMGIF encoding is generated.
+2026-07-09 10:26:22 - __main__ - INFO - DKENHRQPLAVCSTYWMGIF encoding is done with:
+	-custom
+		-f1: 0.8409392999556934
+		-auroc: 0.7603244961227332
+	
+2026-07-09 10:26:22 - __main__ - INFO - Input matrix with DKENHRQPLAVCSTYWMGIF encoding is removed.
+
+2026-07-09 10:26:34 - __main__ - INFO - Input matrix with DKENHRQVPFLACWYITGSM encoding is generated.
+2026-07-09 10:26:39 - __main__ - INFO - DKENHRQVPFLACWYITGSM encoding is done with:
+	-custom
+		-f1: 0.8414096916299559
+		-auroc: 0.7582770369254207
+	
+2026-07-09 10:26:39 - __main__ - INFO - Input matrix with DKENHRQVPFLACWYITGSM encoding is removed.
+
+2026-07-09 10:26:51 - __main__ - INFO - Input matrix with DKENHRQGVWSIAYMPLTFC encoding is generated.
+2026-07-09 10:26:57 - __main__ - INFO - DKENHRQGVWSIAYMPLTFC encoding is done with:
+	-custom
+		-f1: 0.8355555555555556
+		-auroc: 0.7544925510155677
+	
+2026-07-09 10:26:57 - __main__ - INFO - Input matrix with DKENHRQGVWSIAYMPLTFC encoding is removed.
+
+2026-07-09 10:27:09 - __main__ - INFO - Input matrix with DKENHRQGFYPCMAISWVLT encoding is generated.
+2026-07-09 10:27:14 - __main__ - INFO - DKENHRQGFYPCMAISWVLT encoding is done with:
+	-custom
+		-f1: 0.8275245755138516
+		-auroc: 0.7462120260846998
+	
+2026-07-09 10:27:14 - __main__ - INFO - Input matrix with DKENHRQGFYPCMAISWVLT encoding is removed.
+
+2026-07-09 10:27:26 - __main__ - INFO - Input matrix with DKENHRQGSWCLYMIVFPTA encoding is generated.
+2026-07-09 10:27:32 - __main__ - INFO - DKENHRQGSWCLYMIVFPTA encoding is done with:
+	-custom
+		-f1: 0.8419642857142857
+		-auroc: 0.7652209581690483
+	
+2026-07-09 10:27:32 - __main__ - INFO - Input matrix with DKENHRQGSWCLYMIVFPTA encoding is removed.
+
+2026-07-09 10:27:44 - __main__ - INFO - Input matrix with DKENHRQGCTLFMIYASWPV encoding is generated.
+2026-07-09 10:27:49 - __main__ - INFO - DKENHRQGCTLFMIYASWPV encoding is done with:
+	-custom
+		-f1: 0.833407771326485
+		-auroc: 0.7539135421113874
+	
+2026-07-09 10:27:49 - __main__ - INFO - Input matrix with DKENHRQGCTLFMIYASWPV encoding is removed.
+
+2026-07-09 10:28:01 - __main__ - INFO - Input matrix with DKENHRQGTFMASPWYVILC encoding is generated.
+2026-07-09 10:28:07 - __main__ - INFO - DKENHRQGTFMASPWYVILC encoding is done with:
+	-custom
+		-f1: 0.8309859154929577
+		-auroc: 0.7436309020540167
+	
+2026-07-09 10:28:07 - __main__ - INFO - Input matrix with DKENHRQGTFMASPWYVILC encoding is removed.
+
+2026-07-09 10:28:19 - __main__ - INFO - Input matrix with DKENHRQGYFLVIMSCTPAW encoding is generated.
+2026-07-09 10:28:24 - __main__ - INFO - DKENHRQGYFLVIMSCTPAW encoding is done with:
+	-custom
+		-f1: 0.8397691966267199
+		-auroc: 0.7595675989407624
+	
+2026-07-09 10:28:24 - __main__ - INFO - Input matrix with DKENHRQGYFLVIMSCTPAW encoding is removed.
+
+2026-07-09 10:28:36 - __main__ - INFO - Input matrix with DKENHRQGWSYLFIACTVMP encoding is generated.
+2026-07-09 10:28:41 - __main__ - INFO - DKENHRQGWSYLFIACTVMP encoding is done with:
+	-custom
+		-f1: 0.8368730230456394
+		-auroc: 0.7640182938909678
+	
+2026-07-09 10:28:41 - __main__ - INFO - Input matrix with DKENHRQGWSYLFIACTVMP encoding is removed.
+
+2026-07-09 10:28:54 - __main__ - INFO - Input matrix with DKENHRQGYIFWCTAVPSML encoding is generated.
+2026-07-09 10:28:59 - __main__ - INFO - DKENHRQGYIFWCTAVPSML encoding is done with:
+	-custom
+		-f1: 0.8357015985790408
+		-auroc: 0.7542700162680575
+	
+2026-07-09 10:28:59 - __main__ - INFO - Input matrix with DKENHRQGYIFWCTAVPSML encoding is removed.
+
+2026-07-09 10:29:11 - __main__ - INFO - Input matrix with DKENHRQGCAWVTFIYMPLS encoding is generated.
+2026-07-09 10:29:16 - __main__ - INFO - DKENHRQGCAWVTFIYMPLS encoding is done with:
+	-custom
+		-f1: 0.8323542702214188
+		-auroc: 0.758008460506012
+	
+2026-07-09 10:29:16 - __main__ - INFO - Input matrix with DKENHRQGCAWVTFIYMPLS encoding is removed.
+
+2026-07-09 10:29:29 - __main__ - INFO - Input matrix with DKENHRQGSVFCLWTPYMAI encoding is generated.
+2026-07-09 10:29:34 - __main__ - INFO - DKENHRQGSVFCLWTPYMAI encoding is done with:
+	-custom
+		-f1: 0.8365086397873283
+		-auroc: 0.7543146627377773
+	
+2026-07-09 10:29:34 - __main__ - INFO - Input matrix with DKENHRQGSVFCLWTPYMAI encoding is removed.
+
+2026-07-09 10:29:46 - __main__ - INFO - Input matrix with DKENHRQGYPMFLSTAVIWC encoding is generated.
+2026-07-09 10:29:51 - __main__ - INFO - DKENHRQGYPMFLSTAVIWC encoding is done with:
+	-custom
+		-f1: 0.8334801762114538
+		-auroc: 0.7474593368325003
+	
+2026-07-09 10:29:51 - __main__ - INFO - Input matrix with DKENHRQGYPMFLSTAVIWC encoding is removed.
+
+2026-07-09 10:30:03 - __main__ - INFO - Input matrix with DKENHRQGYAWFLTVMISCP encoding is generated.
+2026-07-09 10:30:09 - __main__ - INFO - DKENHRQGYAWFLTVMISCP encoding is done with:
+	-custom
+		-f1: 0.8418688230008985
+		-auroc: 0.7679806680786113
+	
+2026-07-09 10:30:09 - __main__ - INFO - Input matrix with DKENHRQGYAWFLTVMISCP encoding is removed.
+
+2026-07-09 10:30:21 - __main__ - INFO - Input matrix with DKENHRQGYWPFLMCISVTA encoding is generated.
+2026-07-09 10:30:26 - __main__ - INFO - DKENHRQGYWPFLMCISVTA encoding is done with:
+	-custom
+		-f1: 0.8350287483414418
+		-auroc: 0.7514656598887745
+	
+2026-07-09 10:30:26 - __main__ - INFO - Input matrix with DKENHRQGYWPFLMCISVTA encoding is removed.
+
+2026-07-09 10:30:39 - __main__ - INFO - Input matrix with DKENHRQGYFITCMPAWSLV encoding is generated.
+2026-07-09 10:30:44 - __main__ - INFO - DKENHRQGYFITCMPAWSLV encoding is done with:
+	-custom
+		-f1: 0.8295302013422818
+		-auroc: 0.7495507448984432
+	
+2026-07-09 10:30:44 - __main__ - INFO - Input matrix with DKENHRQGYFITCMPAWSLV encoding is removed.
+
+2026-07-09 10:30:56 - __main__ - INFO - Input matrix with DKENHRQGYFSLWCPAIVMT encoding is generated.
+2026-07-09 10:31:01 - __main__ - INFO - DKENHRQGYFSLWCPAIVMT encoding is done with:
+	-custom
+		-f1: 0.8366711170449488
+		-auroc: 0.7566293031523197
+	
+2026-07-09 10:31:01 - __main__ - INFO - Input matrix with DKENHRQGYFSLWCPAIVMT encoding is removed.
+
+2026-07-09 10:31:13 - __main__ - INFO - Input matrix with DKENHRQGYVIFPTSLMCAW encoding is generated.
+2026-07-09 10:31:19 - __main__ - INFO - DKENHRQGYVIFPTSLMCAW encoding is done with:
+	-custom
+		-f1: 0.844543429844098
+		-auroc: 0.7676695379927506
+	
+2026-07-09 10:31:19 - __main__ - INFO - Input matrix with DKENHRQGYVIFPTSLMCAW encoding is removed.
+
+2026-07-09 10:31:31 - __main__ - INFO - Input matrix with DKENHRQGYWSLAFVCIPTM encoding is generated.
+2026-07-09 10:31:36 - __main__ - INFO - DKENHRQGYWSLAFVCIPTM encoding is done with:
+	-custom
+		-f1: 0.8345965225144896
+		-auroc: 0.754670439293358
+	
+2026-07-09 10:31:36 - __main__ - INFO - Input matrix with DKENHRQGYWSLAFVCIPTM encoding is removed.
+
+2026-07-09 10:31:48 - __main__ - INFO - Input matrix with DKENHRQGYTMAWFSPVCIL encoding is generated.
+2026-07-09 10:31:54 - __main__ - INFO - DKENHRQGYTMAWFSPVCIL encoding is done with:
+	-custom
+		-f1: 0.832737030411449
+		-auroc: 0.7536463608941573
+	
+2026-07-09 10:31:54 - __main__ - INFO - Input matrix with DKENHRQGYTMAWFSPVCIL encoding is removed.
+
+2026-07-09 10:32:06 - __main__ - INFO - Input matrix with DKENHRQGYISWVPLACTMF encoding is generated.
+2026-07-09 10:32:11 - __main__ - INFO - DKENHRQGYISWVPLACTMF encoding is done with:
+	-custom
+		-f1: 0.8385370205173952
+		-auroc: 0.7601905567135734
+	
+2026-07-09 10:32:11 - __main__ - INFO - Input matrix with DKENHRQGYISWVPLACTMF encoding is removed.
+
+2026-07-09 10:32:23 - __main__ - INFO - Input matrix with DKENHRQGYACPMLFIVTWS encoding is generated.
+2026-07-09 10:32:28 - __main__ - INFO - DKENHRQGYACPMLFIVTWS encoding is done with:
+	-custom
+		-f1: 0.836036036036036
+		-auroc: 0.7614364722591951
+	
+2026-07-09 10:32:28 - __main__ - INFO - Input matrix with DKENHRQGYACPMLFIVTWS encoding is removed.
+
+2026-07-09 10:32:41 - __main__ - INFO - Input matrix with DKENHRQGYPAMSCFLVTWI encoding is generated.
+2026-07-09 10:32:46 - __main__ - INFO - DKENHRQGYPAMSCFLVTWI encoding is done with:
+	-custom
+		-f1: 0.836779586449626
+		-auroc: 0.7513324180807042
+	
+2026-07-09 10:32:46 - __main__ - INFO - Input matrix with DKENHRQGYPAMSCFLVTWI encoding is removed.
+
+2026-07-09 10:32:58 - __main__ - INFO - Input matrix with DKENHRQGYPAFMCVSTWLI encoding is generated.
+2026-07-09 10:33:03 - __main__ - INFO - DKENHRQGYPAFMCVSTWLI encoding is done with:
+	-custom
+		-f1: 0.8350469378632096
+		-auroc: 0.7565400102128799
+	
+2026-07-09 10:33:03 - __main__ - INFO - Input matrix with DKENHRQGYPAFMCVSTWLI encoding is removed.
+
+2026-07-09 10:33:16 - __main__ - INFO - Input matrix with DKENHRQGYPFLCIWTAMSV encoding is generated.
+2026-07-09 10:33:21 - __main__ - INFO - DKENHRQGYPFLCIWTAMSV encoding is done with:
+	-custom
+		-f1: 0.8306451612903226
+		-auroc: 0.7516874970351954
+	
+2026-07-09 10:33:21 - __main__ - INFO - Input matrix with DKENHRQGYPFLCIWTAMSV encoding is removed.
+
+2026-07-09 10:33:33 - __main__ - INFO - Input matrix with DKENHRQGYPFMSAIWCVTL encoding is generated.
+2026-07-09 10:33:38 - __main__ - INFO - DKENHRQGYPFMSAIWCVTL encoding is done with:
+	-custom
+		-f1: 0.8324420677361853
+		-auroc: 0.7515542552271249
+	
+2026-07-09 10:33:38 - __main__ - INFO - Input matrix with DKENHRQGYPFMSAIWCVTL encoding is removed.
+
+2026-07-09 10:33:51 - __main__ - INFO - Input matrix with DKENHRQGYPTMACIVSLFW encoding is generated.
+2026-07-09 10:33:56 - __main__ - INFO - DKENHRQGYPTMACIVSLFW encoding is done with:
+	-custom
+		-f1: 0.8339253996447602
+		-auroc: 0.7518660829140751
+	
+2026-07-09 10:33:56 - __main__ - INFO - Input matrix with DKENHRQGYPTMACIVSLFW encoding is removed.
+
+2026-07-09 10:34:10 - __main__ - INFO - Input matrix with DKENHRQGYPLSWAVTFIMC encoding is generated.
+2026-07-09 10:34:15 - __main__ - INFO - DKENHRQGYPLSWAVTFIMC encoding is done with:
+	-custom
+		-f1: 0.8337009263343625
+		-auroc: 0.7483941222922614
+	
+2026-07-09 10:34:15 - __main__ - INFO - Input matrix with DKENHRQGYPLSWAVTFIMC encoding is removed.
+
+2026-07-09 10:34:28 - __main__ - INFO - Input matrix with DKENHRQGYPMVIAFSTCWL encoding is generated.
+2026-07-09 10:34:33 - __main__ - INFO - DKENHRQGYPMVIAFSTCWL encoding is done with:
+	-custom
+		-f1: 0.8375224416517055
+		-auroc: 0.7617482999461451
+	
+2026-07-09 10:34:33 - __main__ - INFO - Input matrix with DKENHRQGYPMVIAFSTCWL encoding is removed.
+
+2026-07-09 10:34:45 - __main__ - INFO - Input matrix with DKENHRQGYPWFSTIAVLCM encoding is generated.
+2026-07-09 10:34:50 - __main__ - INFO - DKENHRQGYPWFSTIAVLCM encoding is done with:
+	-custom
+		-f1: 0.8412206988058382
+		-auroc: 0.7598794266277127
+	
+2026-07-09 10:34:50 - __main__ - INFO - Input matrix with DKENHRQGYPWFSTIAVLCM encoding is removed.
+
+2026-07-09 10:35:02 - __main__ - INFO - Input matrix with DKENHRQGYPICSWTLVFAM encoding is generated.
+2026-07-09 10:35:08 - __main__ - INFO - DKENHRQGYPICSWTLVFAM encoding is done with:
+	-custom
+		-f1: 0.8370239149689991
+		-auroc: 0.7548043787025178
+	
+2026-07-09 10:35:08 - __main__ - INFO - Input matrix with DKENHRQGYPICSWTLVFAM encoding is removed.
+
+2026-07-09 10:35:20 - __main__ - INFO - Input matrix with DKENHRQGYPFAWSVITLMC encoding is generated.
+2026-07-09 10:35:25 - __main__ - INFO - DKENHRQGYPFAWSVITLMC encoding is done with:
+	-custom
+		-f1: 0.8356596127870328
+		-auroc: 0.7607242215469444
+	
+2026-07-09 10:35:25 - __main__ - INFO - Input matrix with DKENHRQGYPFAWSVITLMC encoding is removed.
+
+2026-07-09 10:35:38 - __main__ - INFO - Input matrix with DKENHRQGYPSCFVLTWAIM encoding is generated.
+2026-07-09 10:35:44 - __main__ - INFO - DKENHRQGYPSCFVLTWAIM encoding is done with:
+	-custom
+		-f1: 0.8353982300884956
+		-auroc: 0.7521779106010251
+	
+2026-07-09 10:35:44 - __main__ - INFO - Input matrix with DKENHRQGYPSCFVLTWAIM encoding is removed.
+
+2026-07-09 10:35:56 - __main__ - INFO - Input matrix with DKENHRQGYPSVAFCMWILT encoding is generated.
+2026-07-09 10:36:01 - __main__ - INFO - DKENHRQGYPSVAFCMWILT encoding is done with:
+	-custom
+		-f1: 0.8355114916629113
+		-auroc: 0.7609467562944546
+	
+2026-07-09 10:36:01 - __main__ - INFO - Input matrix with DKENHRQGYPSVAFCMWILT encoding is removed.
+
+2026-07-09 10:36:15 - __main__ - INFO - Input matrix with DKENHRQGYPSFWICVLATM encoding is generated.
+2026-07-09 10:36:20 - __main__ - INFO - DKENHRQGYPSFWICVLATM encoding is done with:
+	-custom
+		-f1: 0.8388245770258237
+		-auroc: 0.7597454872185528
+	
+2026-07-09 10:36:20 - __main__ - INFO - Input matrix with DKENHRQGYPSFWICVLATM encoding is removed.
+
+2026-07-09 10:36:33 - __main__ - INFO - Input matrix with DKENHRQGYPSCFWTAMIVL encoding is generated.
+2026-07-09 10:36:40 - __main__ - INFO - DKENHRQGYPSCFWTAMIVL encoding is done with:
+	-custom
+		-f1: 0.831330663106364
+		-auroc: 0.7494175030903728
+	
+2026-07-09 10:36:40 - __main__ - INFO - Input matrix with DKENHRQGYPSCFWTAMIVL encoding is removed.
+
+2026-07-09 10:36:52 - __main__ - INFO - Input matrix with DKENHRQGYPSMAFWVCLTI encoding is generated.
+2026-07-09 10:36:57 - __main__ - INFO - DKENHRQGYPSMAFWVCLTI encoding is done with:
+	-custom
+		-f1: 0.8296164139161463
+		-auroc: 0.7481708899436618
+	
+2026-07-09 10:36:57 - __main__ - INFO - Input matrix with DKENHRQGYPSMAFWVCLTI encoding is removed.
+
+2026-07-09 10:37:10 - __main__ - INFO - Input matrix with DKENHRQGYPSAVWFLICTM encoding is generated.
+2026-07-09 10:37:16 - __main__ - INFO - DKENHRQGYPSAVWFLICTM encoding is done with:
+	-custom
+		-f1: 0.8360215053763441
+		-auroc: 0.7588992970971423
+	
+2026-07-09 10:37:16 - __main__ - INFO - Input matrix with DKENHRQGYPSAVWFLICTM encoding is removed.
+
+2026-07-09 10:37:29 - __main__ - INFO - Input matrix with DKENHRQGYPSFLWTAMIVC encoding is generated.
+2026-07-09 10:37:34 - __main__ - INFO - DKENHRQGYPSFLWTAMIVC encoding is done with:
+	-custom
+		-f1: 0.8357142857142857
+		-auroc: 0.75680719143011
+	
+2026-07-09 10:37:34 - __main__ - INFO - Input matrix with DKENHRQGYPSFLWTAMIVC encoding is removed.
+
+2026-07-09 10:37:46 - __main__ - INFO - Input matrix with DKENHRQGYPSIMCAFTVWL encoding is generated.
+2026-07-09 10:37:52 - __main__ - INFO - DKENHRQGYPSIMCAFTVWL encoding is done with:
+	-custom
+		-f1: 0.833407771326485
+		-auroc: 0.7539135421113874
+	
+2026-07-09 10:37:52 - __main__ - INFO - Input matrix with DKENHRQGYPSIMCAFTVWL encoding is removed.
+
+2026-07-09 10:38:04 - __main__ - INFO - Input matrix with DKENHRQGYPSWAICTMFLV encoding is generated.
+2026-07-09 10:38:09 - __main__ - INFO - DKENHRQGYPSWAICTMFLV encoding is done with:
+	-custom
+		-f1: 0.8328888888888889
+		-auroc: 0.7508866509845942
+	
+2026-07-09 10:38:09 - __main__ - INFO - Input matrix with DKENHRQGYPSWAICTMFLV encoding is removed.
+
+2026-07-09 10:38:21 - __main__ - INFO - Input matrix with DKENHRQGYPSFIWVALMTC encoding is generated.
+2026-07-09 10:38:26 - __main__ - INFO - DKENHRQGYPSFIWVALMTC encoding is done with:
+	-custom
+		-f1: 0.8322813345356177
+		-auroc: 0.7568511402987407
+	
+2026-07-09 10:38:26 - __main__ - INFO - Input matrix with DKENHRQGYPSFIWVALMTC encoding is removed.
+
+2026-07-09 10:38:39 - __main__ - INFO - Input matrix with DKENHRQGYPSTCFWIMLAV encoding is generated.
+2026-07-09 10:38:44 - __main__ - INFO - DKENHRQGYPSTCFWIMLAV encoding is done with:
+	-custom
+		-f1: 0.8365086397873283
+		-auroc: 0.7543146627377773
+	
+2026-07-09 10:38:44 - __main__ - INFO - Input matrix with DKENHRQGYPSTCFWIMLAV encoding is removed.
+
+2026-07-09 10:38:56 - __main__ - INFO - Input matrix with DKENHRQGYPSTLFVICAWM encoding is generated.
+2026-07-09 10:39:02 - __main__ - INFO - DKENHRQGYPSTLFVICAWM encoding is done with:
+	-custom
+		-f1: 0.838163174320107
+		-auroc: 0.7594783060013226
+	
+2026-07-09 10:39:02 - __main__ - INFO - Input matrix with DKENHRQGYPSTLFVICAWM encoding is removed.
+
+2026-07-09 10:39:14 - __main__ - INFO - Input matrix with DKENHRQGYPSTLAFVCMIW encoding is generated.
+2026-07-09 10:39:19 - __main__ - INFO - DKENHRQGYPSTLAFVCMIW encoding is done with:
+	-custom
+		-f1: 0.8390548372715114
+		-auroc: 0.7606802726783137
+	
+2026-07-09 10:39:19 - __main__ - INFO - Input matrix with DKENHRQGYPSTLAFVCMIW encoding is removed.
+
+2026-07-09 10:39:32 - __main__ - INFO - Input matrix with DKENHRQGYPSTWMCVLAIF encoding is generated.
+2026-07-09 10:39:37 - __main__ - INFO - DKENHRQGYPSTWMCVLAIF encoding is done with:
+	-custom
+		-f1: 0.8329621380846325
+		-auroc: 0.7520439711918654
+	
+2026-07-09 10:39:37 - __main__ - INFO - Input matrix with DKENHRQGYPSTWMCVLAIF encoding is removed.
+
+2026-07-09 10:39:49 - __main__ - INFO - Input matrix with DKENHRQGYPSTAFLWIMCV encoding is generated.
+2026-07-09 10:39:54 - __main__ - INFO - DKENHRQGYPSTAFLWIMCV encoding is done with:
+	-custom
+		-f1: 0.8328103989242492
+		-auroc: 0.7548036811014284
+	
+2026-07-09 10:39:54 - __main__ - INFO - Input matrix with DKENHRQGYPSTAFLWIMCV encoding is removed.
+
+2026-07-09 10:40:06 - __main__ - INFO - Input matrix with DKENHRQGYPSTLWVMCAFI encoding is generated.
+2026-07-09 10:40:12 - __main__ - INFO - DKENHRQGYPSTLWVMCAFI encoding is done with:
+	-custom
+		-f1: 0.8292035398230089
+		-auroc: 0.743764143862087
+	
+2026-07-09 10:40:12 - __main__ - INFO - Input matrix with DKENHRQGYPSTLWVMCAFI encoding is removed.
+
+2026-07-09 10:40:24 - __main__ - INFO - Input matrix with DKENHRQGYPSTCVIMWFLA encoding is generated.
+2026-07-09 10:40:29 - __main__ - INFO - DKENHRQGYPSTCVIMWFLA encoding is done with:
+	-custom
+		-f1: 0.8371886120996441
+		-auroc: 0.7571190191170603
+	
+2026-07-09 10:40:29 - __main__ - INFO - Input matrix with DKENHRQGYPSTCVIMWFLA encoding is removed.
+
+2026-07-09 10:40:42 - __main__ - INFO - Input matrix with DKENHRQGYPSTWIVLCMAF encoding is generated.
+2026-07-09 10:40:47 - __main__ - INFO - DKENHRQGYPSTWIVLCMAF encoding is done with:
+	-custom
+		-f1: 0.8349077822762033
+		-auroc: 0.759299720122443
+	
+2026-07-09 10:40:47 - __main__ - INFO - Input matrix with DKENHRQGYPSTWIVLCMAF encoding is removed.
+
+2026-07-09 10:40:59 - __main__ - INFO - Input matrix with DKENHRQGYPSTAMWCLVIF encoding is generated.
+2026-07-09 10:41:04 - __main__ - INFO - DKENHRQGYPSTAMWCLVIF encoding is done with:
+	-custom
+		-f1: 0.8361683079677709
+		-auroc: 0.7586767623496321
+	
+2026-07-09 10:41:04 - __main__ - INFO - Input matrix with DKENHRQGYPSTAMWCLVIF encoding is removed.
+
+2026-07-09 10:41:17 - __main__ - INFO - Input matrix with DKENHRQGYPSTFCWAILMV encoding is generated.
+2026-07-09 10:41:22 - __main__ - INFO - DKENHRQGYPSTFCWAILMV encoding is done with:
+	-custom
+		-f1: 0.8393736017897092
+		-auroc: 0.7627723783453461
+	
+2026-07-09 10:41:22 - __main__ - INFO - Input matrix with DKENHRQGYPSTFCWAILMV encoding is removed.
+
+2026-07-09 10:41:34 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVMFICLA encoding is generated.
+2026-07-09 10:41:40 - __main__ - INFO - DKENHRQGYPSTWVMFICLA encoding is done with:
+	-custom
+		-f1: 0.8375611927013796
+		-auroc: 0.7578312698293109
+	
+2026-07-09 10:41:40 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVMFICLA encoding is removed.
+
+2026-07-09 10:41:52 - __main__ - INFO - Input matrix with DKENHRQGYPSTWFIVCMLA encoding is generated.
+2026-07-09 10:41:57 - __main__ - INFO - DKENHRQGYPSTWFIVCMLA encoding is done with:
+	-custom
+		-f1: 0.8362989323843416
+		-auroc: 0.7559170524400691
+	
+2026-07-09 10:41:57 - __main__ - INFO - Input matrix with DKENHRQGYPSTWFIVCMLA encoding is removed.
+
+2026-07-09 10:42:09 - __main__ - INFO - Input matrix with DKENHRQGYPSTWALMVICF encoding is generated.
+2026-07-09 10:42:15 - __main__ - INFO - DKENHRQGYPSTWALMVICF encoding is done with:
+	-custom
+		-f1: 0.8324468085106383
+		-auroc: 0.7490170800650723
+	
+2026-07-09 10:42:15 - __main__ - INFO - Input matrix with DKENHRQGYPSTWALMVICF encoding is removed.
+
+2026-07-09 10:42:27 - __main__ - INFO - Input matrix with DKENHRQGYPSTWIMVACFL encoding is generated.
+2026-07-09 10:42:32 - __main__ - INFO - DKENHRQGYPSTWIMVACFL encoding is done with:
+	-custom
+		-f1: 0.8303571428571429
+		-auroc: 0.7495953913681632
+	
+2026-07-09 10:42:32 - __main__ - INFO - Input matrix with DKENHRQGYPSTWIMVACFL encoding is removed.
+
+2026-07-09 10:42:45 - __main__ - INFO - Input matrix with DKENHRQGYPSTWLCAVFMI encoding is generated.
+2026-07-09 10:42:50 - __main__ - INFO - DKENHRQGYPSTWLCAVFMI encoding is done with:
+	-custom
+		-f1: 0.8326710816777042
+		-auroc: 0.7474146903627805
+	
+2026-07-09 10:42:50 - __main__ - INFO - Input matrix with DKENHRQGYPSTWLCAVFMI encoding is removed.
+
+2026-07-09 10:43:02 - __main__ - INFO - Input matrix with DKENHRQGYPSTWFMCVIAL encoding is generated.
+2026-07-09 10:43:07 - __main__ - INFO - DKENHRQGYPSTWFMCVIAL encoding is done with:
+	-custom
+		-f1: 0.8295706064630367
+		-auroc: 0.7444763945743378
+	
+2026-07-09 10:43:07 - __main__ - INFO - Input matrix with DKENHRQGYPSTWFMCVIAL encoding is removed.
+
+2026-07-09 10:43:19 - __main__ - INFO - Input matrix with DKENHRQGYPSTWALICFVM encoding is generated.
+2026-07-09 10:43:24 - __main__ - INFO - DKENHRQGYPSTWALICFVM encoding is done with:
+	-custom
+		-f1: 0.8337048595630852
+		-auroc: 0.753468472616367
+	
+2026-07-09 10:43:24 - __main__ - INFO - Input matrix with DKENHRQGYPSTWALICFVM encoding is removed.
+
+2026-07-09 10:43:37 - __main__ - INFO - Input matrix with DKENHRQGYPSTWIMAVCFL encoding is generated.
+2026-07-09 10:43:42 - __main__ - INFO - DKENHRQGYPSTWIMAVCFL encoding is done with:
+	-custom
+		-f1: 0.8285714285714286
+		-auroc: 0.7471914580141809
+	
+2026-07-09 10:43:42 - __main__ - INFO - Input matrix with DKENHRQGYPSTWIMAVCFL encoding is removed.
+
+2026-07-09 10:43:54 - __main__ - INFO - Input matrix with DKENHRQGYPSTWIVAFMCL encoding is generated.
+2026-07-09 10:43:59 - __main__ - INFO - DKENHRQGYPSTWIVAFMCL encoding is done with:
+	-custom
+		-f1: 0.8347363757199823
+		-auroc: 0.751910729383795
+	
+2026-07-09 10:43:59 - __main__ - INFO - Input matrix with DKENHRQGYPSTWIVAFMCL encoding is removed.
+
+2026-07-09 10:44:12 - __main__ - INFO - Input matrix with DKENHRQGYPSTWIMLCFAV encoding is generated.
+2026-07-09 10:44:17 - __main__ - INFO - DKENHRQGYPSTWIMLCFAV encoding is done with:
+	-custom
+		-f1: 0.8325145154086646
+		-auroc: 0.7527115754343962
+	
+2026-07-09 10:44:17 - __main__ - INFO - Input matrix with DKENHRQGYPSTWIMLCFAV encoding is removed.
+
+2026-07-09 10:44:29 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 10:44:34 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 10:44:34 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 10:44:47 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVMLCAIF encoding is generated.
+2026-07-09 10:44:52 - __main__ - INFO - DKENHRQGYPSTWVMLCAIF encoding is done with:
+	-custom
+		-f1: 0.8314707197139025
+		-auroc: 0.7517321435049152
+	
+2026-07-09 10:44:52 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVMLCAIF encoding is removed.
+
+2026-07-09 10:45:05 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVLIFMAC encoding is generated.
+2026-07-09 10:45:10 - __main__ - INFO - DKENHRQGYPSTWVLIFMAC encoding is done with:
+	-custom
+		-f1: 0.8311688311688312
+		-auroc: 0.7521772129999359
+	
+2026-07-09 10:45:10 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVLIFMAC encoding is removed.
+
+2026-07-09 10:45:22 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVALMIFC encoding is generated.
+2026-07-09 10:45:27 - __main__ - INFO - DKENHRQGYPSTWVALMIFC encoding is done with:
+	-custom
+		-f1: 0.835352175863616
+		-auroc: 0.7586321158799121
+	
+2026-07-09 10:45:27 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVALMIFC encoding is removed.
+
+2026-07-09 10:45:39 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVFLAICM encoding is generated.
+2026-07-09 10:45:44 - __main__ - INFO - DKENHRQGYPSTWVFLAICM encoding is done with:
+	-custom
+		-f1: 0.8397691966267199
+		-auroc: 0.7595675989407624
+	
+2026-07-09 10:45:44 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVFLAICM encoding is removed.
+
+2026-07-09 10:45:57 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVFALMIC encoding is generated.
+2026-07-09 10:46:02 - __main__ - INFO - DKENHRQGYPSTWVFALMIC encoding is done with:
+	-custom
+		-f1: 0.840321141837645
+		-auroc: 0.7625944900675558
+	
+2026-07-09 10:46:02 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVFALMIC encoding is removed.
+
+2026-07-09 10:46:14 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVIFALMC encoding is generated.
+2026-07-09 10:46:19 - __main__ - INFO - DKENHRQGYPSTWVIFALMC encoding is done with:
+	-custom
+		-f1: 0.8381374722838137
+		-auroc: 0.75694113083927
+	
+2026-07-09 10:46:19 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVIFALMC encoding is removed.
+
+2026-07-09 10:46:31 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVLFIAMC encoding is generated.
+2026-07-09 10:46:36 - __main__ - INFO - DKENHRQGYPSTWVLFIAMC encoding is done with:
+	-custom
+		-f1: 0.8351351351351352
+		-auroc: 0.7602345055822038
+	
+2026-07-09 10:46:36 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVLFIAMC encoding is removed.
+
+2026-07-09 10:46:48 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVAICMFL encoding is generated.
+2026-07-09 10:46:54 - __main__ - INFO - DKENHRQGYPSTWVAICMFL encoding is done with:
+	-custom
+		-f1: 0.8353413654618473
+		-auroc: 0.7560949407178594
+	
+2026-07-09 10:46:54 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVAICMFL encoding is removed.
+
+2026-07-09 10:47:06 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVAIFCML encoding is generated.
+2026-07-09 10:47:11 - __main__ - INFO - DKENHRQGYPSTWVAIFCML encoding is done with:
+	-custom
+		-f1: 0.8313199105145413
+		-auroc: 0.7519546782524256
+	
+2026-07-09 10:47:11 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVAIFCML encoding is removed.
+
+2026-07-09 10:47:24 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCMIFLA encoding is generated.
+2026-07-09 10:47:29 - __main__ - INFO - DKENHRQGYPSTWVCMIFLA encoding is done with:
+	-custom
+		-f1: 0.8372505543237251
+		-auroc: 0.7557391641622788
+	
+2026-07-09 10:47:29 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCMIFLA encoding is removed.
+
+2026-07-09 10:47:42 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCIFAML encoding is generated.
+2026-07-09 10:47:47 - __main__ - INFO - DKENHRQGYPSTWVCIFAML encoding is done with:
+	-custom
+		-f1: 0.8361381753764393
+		-auroc: 0.7536024120255266
+	
+2026-07-09 10:47:47 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCIFAML encoding is removed.
+
+2026-07-09 10:47:59 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCFIMAL encoding is generated.
+2026-07-09 10:48:04 - __main__ - INFO - DKENHRQGYPSTWVCFIMAL encoding is done with:
+	-custom
+		-f1: 0.8309608540925267
+		-auroc: 0.7487052523781221
+	
+2026-07-09 10:48:04 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCFIMAL encoding is removed.
+
+2026-07-09 10:48:17 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCMLFAI encoding is generated.
+2026-07-09 10:48:22 - __main__ - INFO - DKENHRQGYPSTWVCMLFAI encoding is done with:
+	-custom
+		-f1: 0.8361381753764393
+		-auroc: 0.7536024120255266
+	
+2026-07-09 10:48:22 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCMLFAI encoding is removed.
+
+2026-07-09 10:48:34 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCLMFIA encoding is generated.
+2026-07-09 10:48:39 - __main__ - INFO - DKENHRQGYPSTWVCLMFIA encoding is done with:
+	-custom
+		-f1: 0.8324468085106383
+		-auroc: 0.7490170800650723
+	
+2026-07-09 10:48:39 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCLMFIA encoding is removed.
+
+2026-07-09 10:48:52 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFIML encoding is generated.
+2026-07-09 10:48:57 - __main__ - INFO - DKENHRQGYPSTWVCAFIML encoding is done with:
+	-custom
+		-f1: 0.8322207387627948
+		-auroc: 0.7506194697673639
+	
+2026-07-09 10:48:57 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFIML encoding is removed.
+
+2026-07-09 10:49:09 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFMIL encoding is generated.
+2026-07-09 10:49:15 - __main__ - INFO - DKENHRQGYPSTWVCAFMIL encoding is done with:
+	-custom
+		-f1: 0.8301382077574677
+		-auroc: 0.748660605908402
+	
+2026-07-09 10:49:15 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFMIL encoding is removed.
+
+2026-07-09 10:49:27 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAMFLI encoding is generated.
+2026-07-09 10:49:32 - __main__ - INFO - DKENHRQGYPSTWVCAMFLI encoding is done with:
+	-custom
+		-f1: 0.8325952170062002
+		-auroc: 0.748794545317562
+	
+2026-07-09 10:49:32 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAMFLI encoding is removed.
+
+2026-07-09 10:49:45 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCLIMFA encoding is generated.
+2026-07-09 10:49:50 - __main__ - INFO - DKENHRQGYPSTWVCLIMFA encoding is done with:
+	-custom
+		-f1: 0.828853046594982
+		-auroc: 0.749283563681213
+	
+2026-07-09 10:49:50 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCLIMFA encoding is removed.
+
+2026-07-09 10:50:02 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCFIAML encoding is generated.
+2026-07-09 10:50:07 - __main__ - INFO - DKENHRQGYPSTWVCFIAML encoding is done with:
+	-custom
+		-f1: 0.8311918475852902
+		-auroc: 0.7471028626758304
+	
+2026-07-09 10:50:07 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCFIAML encoding is removed.
+
+2026-07-09 10:50:20 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAMFIL encoding is generated.
+2026-07-09 10:50:25 - __main__ - INFO - DKENHRQGYPSTWVCAMFIL encoding is done with:
+	-custom
+		-f1: 0.8302055406613047
+		-auroc: 0.7498179261156734
+	
+2026-07-09 10:50:25 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAMFIL encoding is removed.
+
+2026-07-09 10:50:37 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFMIL encoding is generated.
+2026-07-09 10:50:42 - __main__ - INFO - DKENHRQGYPSTWVCAFMIL encoding is done with:
+	-custom
+		-f1: 0.8301382077574677
+		-auroc: 0.748660605908402
+	
+2026-07-09 10:50:42 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFMIL encoding is removed.
+
+2026-07-09 10:50:55 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMFL encoding is generated.
+2026-07-09 10:51:00 - __main__ - INFO - DKENHRQGYPSTWVCAIMFL encoding is done with:
+	-custom
+		-f1: 0.8359409924005364
+		-auroc: 0.7577419768898711
+	
+2026-07-09 10:51:00 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMFL encoding is removed.
+
+2026-07-09 10:51:12 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFIML encoding is generated.
+2026-07-09 10:51:17 - __main__ - INFO - DKENHRQGYPSTWVCAFIML encoding is done with:
+	-custom
+		-f1: 0.8322207387627948
+		-auroc: 0.7506194697673639
+	
+2026-07-09 10:51:17 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFIML encoding is removed.
+
+2026-07-09 10:51:30 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCALIMF encoding is generated.
+2026-07-09 10:51:35 - __main__ - INFO - DKENHRQGYPSTWVCALIMF encoding is done with:
+	-custom
+		-f1: 0.8389982110912343
+		-auroc: 0.7620601276330952
+	
+2026-07-09 10:51:35 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCALIMF encoding is removed.
+
+2026-07-09 10:51:47 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFIML encoding is generated.
+2026-07-09 10:51:52 - __main__ - INFO - DKENHRQGYPSTWVCAFIML encoding is done with:
+	-custom
+		-f1: 0.8322207387627948
+		-auroc: 0.7506194697673639
+	
+2026-07-09 10:51:52 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFIML encoding is removed.
+
+2026-07-09 10:52:05 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAMLFI encoding is generated.
+2026-07-09 10:52:10 - __main__ - INFO - DKENHRQGYPSTWVCAMLFI encoding is done with:
+	-custom
+		-f1: 0.8368421052631579
+		-auroc: 0.7499525631259225
+	
+2026-07-09 10:52:10 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAMLFI encoding is removed.
+
+2026-07-09 10:52:22 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMLF encoding is generated.
+2026-07-09 10:52:28 - __main__ - INFO - DKENHRQGYPSTWVCAIMLF encoding is done with:
+	-custom
+		-f1: 0.8331084120557805
+		-auroc: 0.7568957867684607
+	
+2026-07-09 10:52:28 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMLF encoding is removed.
+
+2026-07-09 10:52:40 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCALFMI encoding is generated.
+2026-07-09 10:52:45 - __main__ - INFO - DKENHRQGYPSTWVCALFMI encoding is done with:
+	-custom
+		-f1: 0.8366711170449488
+		-auroc: 0.7566293031523197
+	
+2026-07-09 10:52:45 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCALFMI encoding is removed.
+
+2026-07-09 10:52:57 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFLIM encoding is generated.
+2026-07-09 10:53:02 - __main__ - INFO - DKENHRQGYPSTWVCAFLIM encoding is done with:
+	-custom
+		-f1: 0.8353306702174877
+		-auroc: 0.7535577655558066
+	
+2026-07-09 10:53:02 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAFLIM encoding is removed.
+
+2026-07-09 10:53:15 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAILMF encoding is generated.
+2026-07-09 10:53:20 - __main__ - INFO - DKENHRQGYPSTWVCAILMF encoding is done with:
+	-custom
+		-f1: 0.837292693859256
+		-auroc: 0.7608135144863843
+	
+2026-07-09 10:53:20 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAILMF encoding is removed.
+
+2026-07-09 10:53:32 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAILMF encoding is generated.
+2026-07-09 10:53:37 - __main__ - INFO - DKENHRQGYPSTWVCAILMF encoding is done with:
+	-custom
+		-f1: 0.837292693859256
+		-auroc: 0.7608135144863843
+	
+2026-07-09 10:53:37 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAILMF encoding is removed.
+
+2026-07-09 10:53:49 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAILFM encoding is generated.
+2026-07-09 10:53:54 - __main__ - INFO - DKENHRQGYPSTWVCAILFM encoding is done with:
+	-custom
+		-f1: 0.835194283162126
+		-auroc: 0.7563174754653696
+	
+2026-07-09 10:53:54 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAILFM encoding is removed.
+
+2026-07-09 10:54:07 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAILMF encoding is generated.
+2026-07-09 10:54:12 - __main__ - INFO - DKENHRQGYPSTWVCAILMF encoding is done with:
+	-custom
+		-f1: 0.837292693859256
+		-auroc: 0.7608135144863843
+	
+2026-07-09 10:54:12 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAILMF encoding is removed.
+
+2026-07-09 10:54:24 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMFL encoding is generated.
+2026-07-09 10:54:29 - __main__ - INFO - DKENHRQGYPSTWVCAIMFL encoding is done with:
+	-custom
+		-f1: 0.8359409924005364
+		-auroc: 0.7577419768898711
+	
+2026-07-09 10:54:29 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMFL encoding is removed.
+
+2026-07-09 10:54:42 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMLF encoding is generated.
+2026-07-09 10:54:47 - __main__ - INFO - DKENHRQGYPSTWVCAIMLF encoding is done with:
+	-custom
+		-f1: 0.8331084120557805
+		-auroc: 0.7568957867684607
+	
+2026-07-09 10:54:47 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMLF encoding is removed.
+
+2026-07-09 10:54:59 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAILMF encoding is generated.
+2026-07-09 10:55:04 - __main__ - INFO - DKENHRQGYPSTWVCAILMF encoding is done with:
+	-custom
+		-f1: 0.837292693859256
+		-auroc: 0.7608135144863843
+	
+2026-07-09 10:55:04 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAILMF encoding is removed.
+
+2026-07-09 10:55:17 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAILMF encoding is generated.
+2026-07-09 10:55:21 - __main__ - INFO - DKENHRQGYPSTWVCAILMF encoding is done with:
+	-custom
+		-f1: 0.837292693859256
+		-auroc: 0.7608135144863843
+	
+2026-07-09 10:55:21 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAILMF encoding is removed.
+
+2026-07-09 10:55:34 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMFL encoding is generated.
+2026-07-09 10:55:39 - __main__ - INFO - DKENHRQGYPSTWVCAIMFL encoding is done with:
+	-custom
+		-f1: 0.8359409924005364
+		-auroc: 0.7577419768898711
+	
+2026-07-09 10:55:39 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMFL encoding is removed.
+
+2026-07-09 10:55:51 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMLF encoding is generated.
+2026-07-09 10:55:56 - __main__ - INFO - DKENHRQGYPSTWVCAIMLF encoding is done with:
+	-custom
+		-f1: 0.8331084120557805
+		-auroc: 0.7568957867684607
+	
+2026-07-09 10:55:56 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIMLF encoding is removed.
+
+2026-07-09 10:56:09 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFML encoding is generated.
+2026-07-09 10:56:14 - __main__ - INFO - DKENHRQGYPSTWVCAIFML encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 10:56:14 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFML encoding is removed.
+
+2026-07-09 10:56:26 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 10:56:31 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 10:56:31 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 10:56:44 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 10:56:49 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 10:56:49 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 10:57:01 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFML encoding is generated.
+2026-07-09 10:57:06 - __main__ - INFO - DKENHRQGYPSTWVCAIFML encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 10:57:06 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFML encoding is removed.
+
+2026-07-09 10:57:19 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFML encoding is generated.
+2026-07-09 10:57:24 - __main__ - INFO - DKENHRQGYPSTWVCAIFML encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 10:57:24 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFML encoding is removed.
+
+2026-07-09 10:57:36 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFML encoding is generated.
+2026-07-09 10:57:41 - __main__ - INFO - DKENHRQGYPSTWVCAIFML encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 10:57:41 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFML encoding is removed.
+
+2026-07-09 10:57:53 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 10:57:59 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 10:57:59 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 10:58:11 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 10:58:16 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 10:58:16 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 10:58:28 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFML encoding is generated.
+2026-07-09 10:58:34 - __main__ - INFO - DKENHRQGYPSTWVCAIFML encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 10:58:34 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFML encoding is removed.
+
+2026-07-09 10:58:46 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 10:58:52 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 10:58:52 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 10:59:04 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 10:59:09 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 10:59:09 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 10:59:22 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 10:59:27 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 10:59:27 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 10:59:39 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 10:59:44 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 10:59:44 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 10:59:56 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 11:00:01 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 11:00:01 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 11:00:14 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 11:00:19 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 11:00:19 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 11:00:31 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 11:00:36 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 11:00:36 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 11:00:49 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 11:00:54 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 11:00:54 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 11:01:06 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 11:01:11 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 11:01:11 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 11:01:24 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 11:01:29 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 11:01:29 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-09 11:01:41 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-09 11:01:47 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+	
+2026-07-09 11:01:47 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
