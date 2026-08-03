@@ -95,3 +95,1063 @@ PS01346,CLAUDIN,Claudin family signature.,"[GN]-L-W-x(2)-C-x(7,9)-[STDENQH]-C."
 PS00041,HTH_ARAC_FAMILY_1,"Bacterial regulatory proteins, araC family signature.","[KRQ]-[LIVMA]-x(2)-[GSTALIV]-{FYWPGDN}-x(2)-[LIVMSA]-x(4,9)-[LIVMF]-x-{PLH}-[LIVMSTA]-[GSTACIL]-{GPK}-{F}-x-[GANQRF]-[LIVMFY]-x(4,5)-[LFY]-x(3)-[FYIVA]-{FYWHCM}-{PGVI}-x(2)-[GSADENQKR]-x-[NSTAPKL]-[PARL]."
 PS50927,BULB_LECTIN,Bulb-type lectin domain profile.,
 PS50948,PAN,PAN/Apple domain profile.,
+PS51420,RHO,Small GTPase Rho domain profile.,
+PS00546,CYSTEINE_SWITCH,Matrixins cysteine switch.,P-R-C-[GN]-x-P-[DR]-[LIVSAPKQ].
+PS50068,LDLRA_2,LDL-receptor class A (LDLRA) domain profile.,
+PS01209,LDLRA_1,LDL-receptor class A (LDLRA) domain signature.,"C-[VILMA]-x(5,6)-C-[DNH]-x(3)-[DENQHT]-C-x(3,4)-[STADEW]-[DEH]-[DE]-x(1,5)-C."
+PS51470,FG_GAP,FG-GAP repeat profile.,
+PS00242,INTEGRIN_ALPHA,Integrins alpha chain signature.,[FYWS]-[RK]-x-G-F-F-x-R.
+PS50082,WD_REPEATS_2,Trp-Asp (WD) repeats profile.,
+PS50294,WD_REPEATS_REGION,Trp-Asp (WD) repeats circular profile.,
+PS01130,SLC26A,SLC26A transporters signature.,[PAV]-x-[FYLCVI]-[GS]-L-Y-[STAG]-[STAGL]-x(4)-[LIVFYA]-[LIVMST]-[YI]-x(3)-[GA]-[GST]-[SRV]-[KRNP].
+PS50801,STAS,STAS domain profile.,
+PS50297,ANK_REP_REGION,Ankyrin repeat region circular profile.,
+PS50088,ANK_REPEAT,Ankyrin repeat profile.,
+PS00105,AA_TRANSFER_CLASS_1,Aminotransferases class-I pyridoxal-phosphate attachment site.,[GS]-[LIVMFYTAC]-[GSTA]-K-x(2)-[GSALVN]-[LIVMFA]-x-[GNAR]-{V}-R-[LIVMA]-[GA].
+PS51352,THIOREDOXIN_2,Thioredoxin domain profile.,
+PS00194,THIOREDOXIN_1,Thioredoxin family active site.,[LIVMF]-[LIVMSTA]-x-[LIVMFYC]-[FYWSTHE]-x(2)-[FYWGTN]-C-[GATPLVE]-[PHYWSTA]-C-{I}-x-{A}-x(3)-[LIVMFYWT].
+PS51384,FAD_FR,Ferredoxin reductase-type FAD binding domain profile.,
+PS50049,THD_2,Tumor necrosis factor (TNF) homology domain (THD) profile.,
+PS51257,PROKAR_LIPOPROTEIN,Prokaryotic membrane lipoprotein lipid attachment site profile.,
+PS00675,SIGMA54_INTERACT_1,Sigma-54 interaction domain ATP-binding region A signature.,[LIVMFY](3)-x-G-[DEQ]-[STE]-G-[STAV]-G-K-x(2)-[LIVMFY].
+PS00061,ADH_SHORT,Short-chain dehydrogenases/reductases family signature.,[LIVSPADNK]-x(9)-{P}-x(2)-Y-[PSTAGNCV]-[STAGNQCIVM]-[STAGC]-K-{PC}-[SAGFYR]-[LIVMSTAGD]-x-{K}-[LIVMFYW]-{D}-x-{YR}-[LIVMFYWGAPTHQ]-[GSACQRHM].
+PS50846,HMA_2,Heavy-metal-associated domain profile.,
+PS00154,ATPASE_E1_E2,E1-E2 ATPases phosphorylation site.,D-K-T-G-T-[LIVM]-[TI].
+PS01229,COF_2,Hypothetical cof family signature 2.,[LIVMFC]-G-D-[GSANQ]-x-N-D-x(3)-[LIMFY]-x(2)-[AV]-x(2)-[GSCP]-x(2)-[LMP]-x(2)-[GAS].
+PS50030,UBA,Ubiquitin-associated domain (UBA) profile.,
+PS50032,KA1,Kinase associated domain 1 (KA1) profile.,
+PS00079,MULTICOPPER_OXIDASE1,Multicopper oxidases signature 1.,G-x-[FYW]-x-[LIVMFYW]-x-[CST]-x-{PR}-{K}-x(2)-{S}-x-{LFH}-G-[LM]-x(3)-[LIVMFYW].
+PS51550,EPH_LBD,Eph receptor ligand-binding domain profile.,
+PS00790,RECEPTOR_TYR_KIN_V_1,Receptor tyrosine kinase class V signature 1.,F-x-[DN]-x-[GAW]-[GAS]-C-[LIVM]-[SA]-[LIVM](2)-[SA]-[LV]-[KRHQ]-[LIVA]-x(3)-[KREQT]-C-[PSAWR].
+PS00791,RECEPTOR_TYR_KIN_V_2,Receptor tyrosine kinase class V signature 2.,"C-x(2)-[DE]-G-[DEQKRG]-W-x(2,3)-[PAQ]-[LIVMT]-[GT]-x-C-x-C-x(2)-G-[HFY]-[EQ]."
+PS50105,SAM_DOMAIN,SAM domain profile.,
+PS51746,PPM_2,PPM-type phosphatase domain profile.,
+PS50021,CH,Calponin homology (CH) domain profile.,
+PS50020,WW_DOMAIN_2,WW/rsp5/WWP domain profile.,
+PS01159,WW_DOMAIN_1,WW/rsp5/WWP domain signature.,"W-x(9,11)-[VFY]-[FYW]-x(6,7)-[GSTNE]-[GSTQCR]-[FYW]-{R}-{SA}-P."
+PS50018,RAS_GTPASE_ACTIV_2,Ras GTPase-activating proteins (rasGAP) domain profile.,
+PS00509,RAS_GTPASE_ACTIV_1,Ras GTPase-activating proteins (rasGAP) domain signature.,[GSNA]-x-[LIVMF]-[FYCI]-[LIVMFY]-R-[LIVMFY](2)-[GACNS]-[PAV]-[AV]-[LIV]-[LIVM]-[SGANT]-P.
+PS50112,PAS,PAS repeat profile.,
+PS50113,PAC,PAC domain profile.,
+PS00889,CNMP_BINDING_2,Cyclic nucleotide-binding domain signature 2.,"[LIVMF]-G-E-x-[GAS]-[LIVM]-x(5,11)-R-[STAQ]-A-x-[LIVMA]-x-[STACV]."
+PS51285,AGC_KINASE_CTER,AGC-kinase C-terminal domain profile.,
+PS00455,AMP_BINDING,Putative AMP-binding domain signature.,[LIVMFY]-{E}-{VES}-[STG]-[STAG]-G-[ST]-[STEI]-[SG]-x-[PASLIVM]-[KR].
+PS52047,I_EGF_2,Integrins beta chain EGF (I-EGF) domain profile.,
+PS00243,I_EGF_1,Integrins beta chain EGF (I-EGF) domain signature.,"C-x-[GNQ]-x(1,3)-G-x-C-x-C-x(2)-C-x-C."
+PS51842,IF_ROD_2,Intermediate filament (IF) rod domain profile.,
+PS00226,IF_ROD_1,Intermediate filament (IF) rod domain signature.,[IV]-{K}-[TACI]-Y-[RKH]-{E}-[LM]-L-[DE].
+PS51774,NAB,Networked (NET) actin-binding (NAB) domain profile.,
+PS51846,CNNM,CNNM transmembrane domain profile.,
+PS51371,CBS,CBS domain profile.,
+PS50125,GUANYLATE_CYCLASE_2,Guanylate cyclase domain profile.,
+PS00452,GUANYLATE_CYCLASE_1,Guanylate cyclase signature.,"[GD]-[VI]-[LIVM]-x(0,1)-[GS]-x(5)-[FY]-x-[LIVM]-[FYWL]-[GS]-[DNTHKWE]-[DNTAS]-[IV]-[DNTAY]-x(5)-[DEC]."
+PS50268,CADHERIN_2,Cadherins domain profile.,
+PS00232,CADHERIN_1,Cadherin domain signature.,[LIV]-x-[LIV]-x-D-x-N-D-[NH]-x-P.
+PS50228,SUEL_LECTIN,SUEL-type lectin domain profile.,
+PS51132,OLF,Olfactomedin-like domain profile.,
+PS50227,G_PROTEIN_RECEP_F2_3,G-protein coupled receptors family 2 profile 1.,
+PS01212,P2X_RECEPTOR,ATP P2X receptors signature.,G-G-x-[LIVM]-G-[LIVM]-x-[IV]-x-W-x-C-[DN]-L-D-x(5)-C-x-P-x-Y-x-F.
+PS50067,KINESIN_MOTOR_2,Kinesin motor domain profile.,
+PS00411,KINESIN_MOTOR_1,Kinesin motor domain signature.,[GSAT]-[KRHPSTQVME]-[LIVMFY]-x-[LIVMF]-[IVC]-[DN]-[LS]-[AH]-G-[SAN]-E.
+PS50916,RABBD,Rab-binding domain profile.,
+PS50004,C2,C2 domain profile.,
+PS50025,LAM_G_DOMAIN,Laminin G domain profile.,
+PS00240,RECEPTOR_TYR_KIN_III,Receptor tyrosine kinase class III signature.,G-x-H-x-N-[LIVM]-V-N-L-L-G-A-C-T.
+PS51256,GS,GS domain profile.,
+PS50194,FILAMIN_REPEAT,Filamin/ABP280 repeat profile.,
+PS00290,IG_MHC,Immunoglobulins and major histocompatibility complex proteins signature.,[FY]-{L}-C-{PGAD}-[VA]-{LC}-H.
+PS00178,AA_TRNA_LIGASE_I,Aminoacyl-transfer RNA synthetases class-I signature.,"P-x(0,2)-[GSTAN]-[DENQGAPK]-x-[LIVMFP]-[HT]-[LIVMYAC]-G-[HNTG]-[LIVMFYSTAGPC]."
+PS01116,XANTH_URACIL_PERMASE,Xanthine/uracil permeases family signature.,[LIVM]-P-x-[PASIF]-V-[LIVMG]-[GF]-[GA]-x(4)-[LIVM]-[FY]-[GSA]-x-[LIVM]-x(3)-[GA].
+PS50287,SRCR_2,SRCR domain profile.,
+PS00420,SRCR_1,SRCR domain signature.,[GNRVM]-x(5)-[GLKA]-x(2)-[EQ]-x(6)-[WPS]-[GLKH]-x(2)-C-x(3)-[FYW]-x(8)-[CM]-x(3)-G.
+PS51212,WSC,WSC domain profile.,
+PS50003,PH_DOMAIN,PH domain profile.,
+PS50024,SEA,SEA domain profile.,
+PS50240,TRYPSIN_DOM,"Serine proteases, trypsin domain profile.",
+PS00134,TRYPSIN_HIS,"Serine proteases, trypsin family, histidine active site.",[LIVM]-[ST]-A-[STAG]-H-C.
+PS00135,TRYPSIN_SER,"Serine proteases, trypsin family, serine active site.",[DNSTAGC]-[GSTAPIMVQH]-x(2)-G-[DE]-S-G-[GS]-[SAPHV]-[LIVMFYWH]-[LIVMFYSTANQH].
+PS50086,TBC_RABGAP,TBC/rab GAP domain profile.,
+PS00284,SERPIN,Serpins signature.,[LIVMFY]-{G}-[LIVMFYAC]-[DNQ]-[RKHQS]-[PST]-F-[LIVMFY]-[LIVMFYC]-x-[LIVMFAH].
+PS51551,EPHRIN_RBD_2,Ephrin receptor-binding (ephrin RBD) domain profile.,
+PS01299,EPHRIN_RBD_1,Ephrin receptor-binding (ephrin RBD) domain signature.,[KRQ]-[LF]-[CST]-x-K-[IF]-Q-x-[FY]-[ST]-[PA]-x(3)-G-x-E-F-x(5)-[FY](2)-x(2)-[SA].
+PS50816,NAF,NAF domain profile.,
+PS51041,EMI,EMI domain profile.,
+PS50188,B302_SPRY,B30.2/SPRY domain profile.,
+PS50097,BTB,BTB domain profile.,
+PS51649,NPH3,NPH3 domain profile.,
+PS00228,TUBULIN_B_AUTOREG,Tubulin-beta mRNA autoregulation signal.,<M-R-[DE]-[IL].
+PS50238,RHOGAP,Rho GTPase-activating proteins domain profile.,
+PS50190,SEC7,SEC7 domain profile.,
+PS51882,G_ALPHA,G-alpha domain profile.,
+PS51229,DCUN1,DCUN1 domain profile.,
+PS50058,G_PROTEIN_GAMMA,G-protein gamma subunit domain profile.,
+PS51444,FH2,Formin homology-2 (FH2) domain profile.,
+PS00028,ZINC_FINGER_C2H2_1,Zinc finger C2H2 type domain signature.,"C-x(2,4)-C-x(3)-[LIVMFYWC]-x(8)-H-x(3,5)-H."
+PS50035,PLD,Phospholipase D phosphodiesterase active site profile.,
+PS00648,RIBONUCLEASE_P,Bacterial ribonuclease P protein component signature.,[LIVMFYSNAD]-x(2)-A-x(2)-R-[NH]-[KRQLYAT]-[LIVMFSA]-[KRA]-R-x-[LIVMTA]-[KR].
+PS50050,TNFR_NGFR_2,TNFR/NGFR family cysteine-rich region domain profile.,
+PS00652,TNFR_NGFR_1,TNFR/NGFR family cysteine-rich region signature.,"C-x(4,6)-[FYH]-x(5,10)-C-x(0,2)-C-x(2,3)-C-x(7,11)-C-x(4,6)-[DNEQSKP]-{PD}-{CP}-C."
+PS00962,RIBOSOMAL_S2_1,Ribosomal protein S2 signature 1.,[LIVMFA]-x-{GPRV}-[LIVMFYC](2)-{LPC}-[STAC]-[GSTANQEKR]-[STALV]-[HY]-[LIVMF]-G.
+PS00699,NITROGENASE_1_1,Nitrogenases component 1 alpha and beta subunits signature 1.,[LIVMFYH]-[LIVMFST]-H-[AG]-[AGSP]-[LIVMNQA]-[AG]-C.
+PS51473,GNK2,Gnk2-homologous domain profile.,
+PS50963,LINK_2,Link domain profile.,
+PS01241,LINK_1,Link domain signature.,"C-x(15)-A-x(3,4)-[GK]-x(3)-C-x(2)-G-x(8,9)-P-x(7)-C."
+PS51885,NEPRILYSIN,Neprilysin-like (M13) protease domain profile.,
+PS51782,LYSM,LysM domain profile.,
+PS51456,MYOSIN_MOTOR,Myosin motor domain profile.,
+PS50234,VWFA,VWFA domain profile.,
+PS00063,ALDOKETO_REDUCTASE_3,Aldo/keto reductase family putative active site signature.,[LIVM]-[PAIV]-[KR]-[ST]-{EPQG}-{RFI}-x(2)-R-{SVAF}-x-[GSTAEQK]-[NSL]-x-{LVRI}-[LIVMFA].
+PS01098,LIPASE_GDSL_SER,"Lipolytic enzymes ""G-D-S-L"" family, serine active site.","[LIVMFYAG](4)-G-D-S-[LIVM]-x(1,2)-[TAG]-G."
+PS00462,G_GLU_TRANSPEPTIDASE,Gamma-glutamyltranspeptidase signature.,"T-[STA]-H-x-[ST]-[LIVMA]-x(4)-G-[SN]-x-V-[STA]-x-T-x-T-[LIVM]-[NE]-x(1,2)-[FY]-G."
+PS50216,DHHC,DHHC domain profile.,
+PS00166,ENOYL_COA_HYDRATASE,Enoyl-CoA hydratase/isomerase signature.,[LIVM]-[STAG]-x-[LIVM]-[DENQRHSTA]-G-x(3)-[AG](3)-x(4)-[LIVMST]-x-[CSTA]-[DQHP]-[LIVMFYA].
+PS00704,PROK_CO2_ANHYDRASE_1,Prokaryotic-type carbonic anhydrases signature 1.,C-[SA]-D-S-R-[LIVM]-x-[AP].
+PS00705,PROK_CO2_ANHYDRASE_2,Prokaryotic-type carbonic anhydrases signature 2.,[EQ]-[YF]-A-[LIVM]-x(2)-[LIVM]-x(4)-[LIVMF](3)-x-G-H-x(2)-C-G.
+PS52035,PEPTIDASE_M14,Peptidase family M14 domain profile.,
+PS00132,CARBOXYPEPT_ZN_1,"Zinc carboxypeptidases, zinc-binding region 1 signature.",[PK]-x-[LIVMFY]-x-[LIVMFY]-x(2)-{E}-x-H-[STAG]-x-E-x-[LIVM]-[STAG]-{L}-x(5)-[LIVMFYTA].
+PS00133,CARBOXYPEPT_ZN_2,"Zinc carboxypeptidases, zinc-binding region 2 signature.",H-[STAG]-{ADNV}-{VGFI}-{YAR}-[LIVME]-{SDEP}-x-[LIVMFYW]-P-[FYW].
+PS50017,DEATH_DOMAIN,Death domain profile.,
+PS50007,PIPLC_X_DOMAIN,Phosphatidylinositol-specific phospholipase X-box domain profile.,
+PS50008,PIPLC_Y_DOMAIN,Phosphatidylinositol-specific phospholipase Y-box domain profile.,
+PS01270,BAND_7,Band 7 protein family signature.,R-x(2)-[LIV]-[SAN]-x(6)-[LIV]-D-x(2)-T-x(2)-W-G-[LIVT]-[KRH]-[LIV]-x-[KRA]-[LIV]-E-[LIV]-[KRQ].
+PS51642,HEMOPEXIN_2,Hemopexin repeat profile.,
+PS00649,G_PROTEIN_RECEP_F2_1,G-protein coupled receptors family 2 signature 1.,"C-x(3)-[FYWLIV]-D-x(3,4)-C-[FW]-x(2)-[STAGV]-x(8,9)-C-[PF]."
+PS51534,SEFIR,SEFIR domain profile.,
+PS01271,NA_SULFATE,Sodium:sulfate symporter family signature.,[STACPI]-S-x(2)-[FY]-x(2)-P-[LIVM]-[GSA]-x(3)-N-x-[LIVM]-V.
+PS51847,SMP,Synaptotagmin-like mitochondrial lipid-binding proteins (SMP) domain profile.,
+PS50001,SH2,Src homology 2 (SH2) domain profile.,
+PS50022,FA58C_3,Coagulation factors 5/8 type C domain (FA58C) profile.,
+PS01285,FA58C_1,Coagulation factors 5/8 type C domain (FA58C) signature 1.,"[GASP]-W-x(7,15)-[FYW]-[LIV]-x-[LIVFA]-[GSTDEN]-x(6)-[LIVF]-x(2)-[IV]-x-[LIVT]-[QKMT]-G."
+PS01286,FA58C_2,Coagulation factors 5/8 type C domain (FA58C) signature 2.,"P-x(8,10)-[LM]-R-x-[GE]-[LIVP]-x-G-C."
+PS51406,FIBRINOGEN_C_2,Fibrinogen C-terminal domain profile.,
+PS50057,FERM_3,FERM domain profile.,
+PS51704,GP_PDE,GP-PDE domain profile.,
+PS00878,ODR_DC_2_1,Orn/DAP/Arg decarboxylases family 2 pyridoxal-P attachment site.,[FY]-[PA]-x-K-[SACV]-[NHCLFW]-x(4)-[LIVMF]-[LIVMTA]-x(2)-[LIVMA]-x(3)-[GTE].
+PS50969,FCP1,FCP1 homology domain profile.,
+PS00599,AA_TRANSFER_CLASS_2,Aminotransferases class-II pyridoxal-phosphate attachment site.,T-[LIVMFYW]-[STAG]-K-[SAG]-[LIVMFYWR]-[SAG]-{ENKR}-{TNDR}-[SAG].
+PS00477,ALPHA_2_MACROGLOBULIN,Alpha-2-macroglobulin family thiolester region signature.,[PG]-x-[GS]-C-[GA]-E-[EQ]-x-[LIVM].
+PS51382,SPX,SPX domain profile.,
+PS51380,EXS,EXS domain profile.,
+PS51064,IRS_PTB,IRS-type PTB domain profile.,
+PS00159,ALDOLASE_KDPG_KHG_1,KDPG and KHG aldolases active site.,G-[LIVM]-x(3)-E-[LIV]-T-[LF]-R.
+PS00923,ASP_GLU_RACEMASE_1,Aspartate and glutamate racemases signature 1.,"[IVA]-[LIVM]-x-C-x(0,1)-N-[ST]-[MSA]-[STH]-[LIVFYSTANK]."
+PS50292,PEROXIDASE_3,Animal heme peroxidase superfamily profile.,
+PS01221,PMP22_1,PMP-22 / EMP / MP20 family signature 1.,"[LIVMF]-[LIVMFC]-[LIVMF](2)-[SA]-[TL]-x(2)-[DNKS]-x-W-x(9,13)-[LIV]-W-x(2)-[CG]."
+PS01222,PMP22_2,PMP-22 / EMP / MP20 family signature 2.,[RQ]-[AVS]-x-[MC]-[IV]-L-[SA]-x-[LI]-x(4)-[GSA]-[LIVMF]-[LIVMFS]-[LIVMF].
+PS00012,PHOSPHOPANTETHEINE,Phosphopantetheine attachment site.,[DEQGSTALMKRH]-[LIVMFYSTAC]-[GNQ]-[LIVMFYAG]-[DNEKHS]-S-[LIVMST]-{PCFY}-[STAGCPQLIVMF]-[LIVMATN]-[DENQGTAKRHLM]-[LIVMWSTA]-[LIVGSTACR]-{LPIY}-{VY}-[LIVMFA].
+PS00615,C_TYPE_LECTIN_1,C-type lectin domain signature.,"C-[LIVMFYATG]-x(5,12)-[WL]-{T}-[DNSR]-{C}-{LI}-C-x(5,6)-[FYWLIVSTA]-[LIVMSTA]-C."
+PS00390,ATPASE_NA_K_BETA_1,Sodium and potassium ATPases beta subunits signature 1.,[FYWMV]-x(2)-[FYWM]-x-[FYW]-[DN]-x(6)-[LIVMF]-[GA]-R-T-x(3)-[WRL].
+PS00391,ATPASE_NA_K_BETA_2,Sodium and potassium ATPases beta subunits signature 2.,[RK]-x(2)-C-[RKQWI]-x(5)-L-x(2)-C-[SA]-G.
+PS51915,ZAD,ZAD domain profile.,
+PS50157,ZINC_FINGER_C2H2_2,Zinc finger C2H2 type domain profile.,
+PS51227,SPR,Sprouty (SPR) domain profile.,
+PS50195,PX,PX domain profile.,
+PS60032,GH9_1,Glycosyl hydrolases family 9 (GH9) active site signature 1.,[LVS]-x-[GK]-G-[WFYLM]-[YHF]-D-[ACGS]-G-[DSN]-x(2)-[KMR]-[FAILY]-x-[FWYLQTV]-[APTNS]-[MLGAQS].
+PS00592,GH9_2,Glycosyl hydrolases family 9 (GH9) active site signature 2.,"[HLY]-[AILMV]-[FIL]-G-x-[NSTW]-x(2,4)-[SCTV]-[FY]-[LIVMFY]-[SITV]-G-x(1,5)-[GSY]-x(2)-[AFPSTY]-[FLPSV]-x(2)-[AILPQVM]-[HV]-[DHLS]-[KRS]."
+PS00698,GH9_3,Glycosyl hydrolases family 9 (GH9) active site signature 3.,[FYW]-x-D-x(4)-[FYW]-x(3)-E-x-[STA]-x(3)-N-[STA].
+PS50010,DH_2,Dbl homology (DH) domain profile.,
+PS50813,GAF,GAF domain profile.,
+PS51845,PDEASE_I_2,3'5'-cyclic nucleotide phosphodiesterase domain profile.,
+PS00126,PDEASE_I_1,3'5'-cyclic nucleotide phosphodiesterase domain signature.,H-D-[LIVMFY]-x-H-x-[AG]-x(2)-[NQ]-x-[LIVMFY].
+PS51678,SAM_MT_PRMT,SAM-dependent methyltransferase PRMT-type domain profile.,
+PS00329,HSP70_2,Heat shock hsp70 proteins family signature 2.,[LIVMF]-[LIVMFY]-[DN]-[LIVMFS]-G-[GSH]-[GS]-[AST]-x(3)-[ST]-[LIVM]-[LIVMFC].
+PS50191,CRAL_TRIO,CRAL-TRIO lipid binding domain profile.,
+PS51670,SHKT,ShKT domain profile.,
+PS01340,CORNICHON,Cornichon family signature.,[VI]-x(3)-[DE]-L-x(2)-D-[FY]-x-[NS]-[PS]-I-[DE].
+PS00218,AMINO_ACID_PERMEASE_1,Amino acid permeases signature.,"[STAGC]-G-[PAG]-x(2,3)-[LIVMFYWA](2)-x-[LIVMFYW]-x-[LIVMFWSTAGC](2)-[STAGC]-x(3)-[LIVMFYWT]-x-[LIVMST]-x(3)-[LIVMCTA]-[GA]-E-x(5)-[PSAL]."
+PS01179,PID,Phosphotyrosine interaction domain (PID) profile.,
+PS00227,TUBULIN,"Tubulin subunits alpha, beta, and gamma signature.",[SAG]-G-G-T-G-[SA]-G.
+PS00572,GLYCOSYL_HYDROL_F1_1,Glycosyl hydrolases family 1 active site.,[LIVMFSTC]-[LIVFYS]-[LIV]-[LIVMST]-E-N-G-[LIVMFAR]-[CSAGN].
+PS00741,DH_1,Dbl homology (DH) domain signature.,[LM]-x(2)-[LIVMFYWGS]-[LI]-x(2)-[PEQ]-[LIVMRF]-x(2)-[LIVM]-x-[KRS]-x(2)-[LT]-x-[LIVM]-x-[DEQN]-[LIVM]-x(3)-[STM].
+PS00053,RIBOSOMAL_S8,Ribosomal protein S8 signature.,[GE]-x(2)-[LIV](2)-[STY]-[ST]-{A}-x-G-[LIVM](2)-x(4)-[AG]-[KRHAYIL].
+PS51390,WAP,WAP-type 'four-disulfide core' domain profile.,
+PS51034,ZP_2,ZP domain profile.,
+PS51303,PET,PET domain profile.,
+PS50023,LIM_DOMAIN_2,LIM domain profile.,
+PS00478,LIM_DOMAIN_1,LIM zinc-binding domain signature.,"C-x(2)-C-x(15,21)-[FYWHPCR]-H-x(2)-[CH]-x(2)-C-x(2)-C-x(3)-[LIVMF]."
+PS00458,ANF_RECEPTORS,Natriuretic peptides receptors signature.,G-P-x-C-x-Y-x-A-A-x-V-x-R-x(3)-H-W.
+PS50109,HIS_KIN,Histidine kinase domain profile.,
+PS50110,RESPONSE_REGULATORY,Response regulatory domain profile.,
+PS00430,TONB_DEPENDENT_REC_1,TonB-dependent receptor (TBDR) proteins signature 1.,"<x(10,115)-[DENF]-[ST]-[LIVMF]-[LIVSTEQ]-V-{AGPN}-[AGP]-[STANEQPK]."
+PS50005,TPR,TPR repeat profile.,
+PS50293,TPR_REGION,TPR repeat region circular profile.,
+PS00983,LY6_UPAR,Ly-6 / u-PAR domain signature.,"[EQR]-C-[LIVMFYAH]-x-C-x(5,8)-C-x(3,8)-[EDNQSTV]-C-{C}-x(5)-C-x(12,24)-C."
+PS01258,BH2,"Apoptosis regulator, Bcl-2 family BH2 motif signature.",W-[LIM]-x(3)-[GR]-G-[WQ]-[DENSAV]-x-[FLGA]-[LIVFTC].
+PS51387,FAD_PCMH,PCMH-type FAD-binding domain profile.,
+PS00196,COPPER_BLUE,Type-1 copper (blue) proteins signature.,"[GA]-x(0,2)-[YSA]-x(0,1)-[VFY]-{SEDT}-C-x(1,2)-[PG]-x(0,1)-H-x(2,4)-[MQ]."
+PS01215,MRP,Mrp family signature.,W-x(2)-[LIVM]-D-[VFY]-[LIVM](3)-D-x-P-P-G-T-[GS]-D.
+PS50275,SAC,Sac phosphatase domain profile.,
+PS52082,5_PPASE,5-phosphatase (5-PPase) domain profile.,
+PS01279,PCMT,Protein-L-isoaspartate(D-aspartate) O-methyltransferase signature.,[GSAED]-[DN]-G-x(2)-G-[FYWLV]-x(3)-[GSA]-[PTL]-[FY]-[DNSHE]-x-I.
+PS50102,RRM,Eukaryotic RNA Recognition Motif (RRM) profile.,
+PS51309,PABC,Poly(A)-binding protein C-terminal (PABC) domain profile.,
+PS00480,CITRATE_SYNTHASE,Citrate synthase signature.,"G-[FYAV]-[GA]-H-x-[IV]-x(1,2)-[RKTQ]-x(2)-[DV]-[PS]-R."
+PS01202,MAP_2,Methionine aminopeptidase subfamily 2 signature.,[DA]-[LIVMY]-x-K-[LIVM]-D-x-G-x-[HQ]-[LIVMS]-[DNS]-G-x(3)-[DN].
+PS51157,ZF_UBR,Zinc finger UBR-type profile.,
+PS51844,SH3_LIKE,Myosin N-terminal SH3-like domain profile.,
+PS51126,DILUTE,Dilute domain profile.,
+PS51161,ATP_CONE,ATP-cone domain profile.,
+PS00089,RIBORED_LARGE,Ribonucleotide reductase large subunit signature.,"W-x(2)-[LIVF]-x(6,7)-G-[LIVM]-[FYRA]-[NH]-x(3)-[STAQLIVM]-[ASC]-x(2)-[PA]."
+PS50970,HCY,Homocysteine-binding domain profile.,
+PS51698,U_BOX,U-box domain profile.,
+PS00564,ARGININOSUCCIN_SYN_1,Argininosuccinate synthase signature 1.,[ASL]-[FY]-S-G-G-[LV]-D-T-[ST].
+PS00565,ARGININOSUCCIN_SYN_2,Argininosuccinate synthase signature 2.,G-x-T-x-[KRM]-G-N-D-x(2)-R-F.
+PS51797,TCTP_3,Translationally controlled tumor protein (TCTP) domain profile.,
+PS01002,TCTP_1,Translationally controlled tumor protein (TCTP) domain signature 1.,[IFAED]-[GA]-[GASF]-N-[PAK]-S-[GTA]-E-[GDEVCF]-[PAGEQV]-[DEQGAV].
+PS01003,TCTP_2,Translationally controlled tumor protein (TCTP) domain signature 2.,"[FLIV]-x(4)-[FLVH]-[FY]-[MIVCT]-G-E-x(4,7)-[DENP]-[GAST]-x-[LIVM]-[GAVI]-x(3)-[FYWQ]."
+PS00101,HEXAPEP_TRANSFERASES,Hexapeptide-repeat containing-transferases signature.,[LIV]-[GAED]-x(2)-[STAV]-x-[LIV]-x(3)-[LIVAC]-x-[LIV]-[GAED]-x(2)-[STAVR]-x-[LIV]-[GAED]-x(2)-[STAV]-x-[LIV]-x(3)-[LIV].
+PS01012,FOLYLPOLYGLU_SYNT_2,Folylpolyglutamate synthase signature 2.,[LIVMFY](2)-[EK]-x-G-[LIVM]-[GA]-G-x(2)-D-x-[GST]-x-[LIVM](2).
+PS51186,GNAT,Gcn5-related N-acetyltransferase (GNAT) domain profile.,
+PS00600,AA_TRANSFER_CLASS_3,Aminotransferases class-III pyridoxal-phosphate attachment site.,"[LIVMFYWCS]-[LIVMFYWCAH]-x-D-[ED]-[IVA]-x(2,3)-[GAT]-[LIVMFAGCYN]-x(0,1)-[RSACLIH]-x-[GSADEHRM]-x(10,16)-[DH]-[LIVMFCAG]-[LIVMFYSTAR]-x(2)-[GSA]-K-x(2,3)-[GSTADNV]-[GSAC]."
+PS50115,ARFGAP,ARF GTPase-activating proteins domain profile.,
+PS51184,JMJC,JmjC domain profile.,
+PS51399,SEP,SEP domain profile.,
+PS50033,UBX,UBX domain profile.,
+PS50181,FBOX,F-box domain profile.,
+PS00059,ADH_ZINC,Zinc-containing alcohol dehydrogenases signature.,G-H-E-x-{EL}-G-{AP}-x(4)-[GA]-x(2)-[IVSAC].
+PS51462,NUDIX,Nudix hydrolase domain profile.,
+PS00893,NUDIX_BOX,Nudix box signature.,G-x(5)-E-x(4)-[TAGCV]-[LIVMACF]-x-R-[EL]-[LIVMFGSTA]-x-[EA]-E-x-[GNDTHR].
+PS50826,RUN,RUN domain profile.,
+PS51757,TH1,Class I myosin tail homology (TH1) domain profile.,
+PS50151,UVR,UVR domain profile.,
+PS51114,FBA,F-box-associated (FBA) domain profile.,
+PS50072,CSA_PPIASE_2,Cyclophilin-type peptidyl-prolyl cis-trans isomerase domain profile.,
+PS00170,CSA_PPIASE_1,Cyclophilin-type peptidyl-prolyl cis-trans isomerase signature.,[FY]-x(2)-[STCNLVA]-x-[FV]-H-[RH]-[LIVMNS]-[LIVM]-x(2)-F-[LIVM]-x-Q-[AGFT]-G.
+PS50055,TYR_PHOSPHATASE_PTP,PTP type protein phosphatase domain profile.,
+PS50056,TYR_PHOSPHATASE_2,Tyrosine specific protein phosphatases domain profile.,
+PS00383,TYR_PHOSPHATASE_1,Tyrosine specific protein phosphatases active site.,[LIVMF]-H-C-x(2)-G-x(2)-R-[STC]-[STAGP].
+PS51084,HIT_2,HIT domain profile.,
+PS00892,HIT_1,HIT domain signature.,[NQAR]-x(4)-[GSAVY]-x-[QFLPA]-x-[LIVMY]-x-[HWYRQ]-[LIVMFYST]-H-[LIVMFT]-H-[LIVMF]-[LIVMFPT]-[PSGAWN].
+PS00750,TCP1_1,Chaperonins TCP-1 signature 1.,[RKEL]-[ST]-x-[LMFY]-G-P-x-[GSA]-x-x-K-[LIVMF](2).
+PS00751,TCP1_2,Chaperonins TCP-1 signature 2.,[LIVM]-[TS]-[NK]-[DN]-[GA]-[AVNHK]-[TAVC]-[LIVM](2)-x(2)-[LIVMA]-x-[LIVM]-x-[SNH]-[PQHA].
+PS00995,TCP1_3,Chaperonins TCP-1 signature 3.,Q-[DEK]-x-x-[LIVMGTA]-[GA]-D-G-T.
+PS50172,BRCT,BRCT domain profile.,
+PS51560,SAM_MT_NNT1,Nicotinamide N-methyltransferase (EC 2.1.1.1) family profile.,
+PS51857,CSD_2,Cold-shock (CSD) domain profile.,
+PS00352,CSD_1,Cold-shock (CSD) domain signature.,"[FYKH]-G-[FL]-[IL]-x(6,7)-[DER]-[LIVM]-[FQ]-x-H-x-[STKR]-x-[LIVMFYC]."
+PS01073,RIBOSOMAL_L24E,Ribosomal protein L24e signature.,[FY]-x-[GSHE]-x(2)-[IVLF]-x-P-[GA]-x-G-x(2)-[FYV]-x-[KRHE]-x-D.
+PS50330,UIM,Ubiquitin-interacting motif (UIM) domain profile.,
+PS00087,SOD_CU_ZN_1,Copper/Zinc superoxide dismutase signature 1.,[GA]-[IMFAT]-H-[LIVF]-H-{S}-x-[GP]-[SDG]-x-[STAGDE].
+PS00332,SOD_CU_ZN_2,Copper/Zinc superoxide dismutase signature 2.,G-[GNHD]-[SGA]-[GR]-x-R-x-[SGAWRV]-C-x(2)-[IV].
+PS50069,CULLIN_2,Cullin family profile.,
+PS01256,CULLIN_1,Cullin family signature.,"[LIV]-[KL]-x(2)-[LIVM]-x(2)-L-[IL]-[DEQGVT]-[KRHNQ]-x-[YT]-[LIVM]-x-R-x(5,7)-[FYLV]-x-Y-x-[SAT]."
+PS50890,PUA,PUA domain profile.,
+PS51925,SWIB_MDM2,SWIB/MDM2 domain profile.,
+PS50296,SUI1,Translation initiation factor SUI1 family profile.,
+PS01220,PBP,Phosphatidylethanolamine-binding protein family signature.,[FYL]-x-[LVM]-[LIVF]-x-[TIVM]-[DC]-P-D-x-P-[SNG]-x(10)-H.
+PS51230,EB1_C,EB1-C terminal (EB1-C) domain profile.,
+PS52088,UPF1_HELICASE,UPF1-type helicase core domain profile.,
+PS01360,ZF_MYND_1,Zinc finger MYND-type signature.,"[CH]-x(2,4)-C-x(7,17)-C-x(0,2)-C-x(4)-[YFT]-C-x(3)-[CH]-x(6,9)-H-x(3,4)-C."
+PS50865,ZF_MYND_2,Zinc finger MYND-type profile.,
+PS52013,ZF_C6H2,Zinc finger C6H2-type profile.,
+PS00680,MAP_1,Methionine aminopeptidase subfamily 1 signature.,"[MFY]-x-G-H-G-[LIVMC]-[GSHN]-x(3)-H-x(4)-[LIVM]-x(1,2)-[HN]-[YWVHF]."
+PS51061,R3H,R3H domain profile.,
+PS00627,GHMP_KINASES_ATP,GHMP kinases putative ATP-binding domain.,"[LIVM]-[PK]-x-[GSTA]-x(0,1)-G-[LM]-[GS]-S-S-[GSA]-[GSTAC]."
+PS01172,RIBOSOMAL_L44E,Ribosomal protein L44e signature.,K-x-[TV]-K-K-x(2)-L-[KR]-x(2)-C.
+PS00406,ACTINS_1,Actins signature 1.,"[FY]-[LIV]-[GV]-[DE]-E-[ARV]-[QLAH]-x(1,2)-[RKQ](2)-[GD]."
+PS01132,ACTINS_ACT_LIKE,Actins and actin-related proteins signature.,[LM]-[LIVMA]-T-E-[GAPQ]-x-[LIVMFYWHQPK]-[NS]-[PSTAQ]-x(2)-N-[KR].
+PS00432,ACTINS_2,Actins signature 2.,W-[IVC]-[STAK]-[RK]-x-[DE]-Y-[DNE]-[DE].
+PS00055,RIBOSOMAL_S12,Ribosomal protein S12 signature.,[RK]-x-P-N-S-[AR]-x-R.
+PS00845,CAP_GLY_1,CAP-Gly domain signature.,"[GD]-x(0,10)-[FYWA]-x(0,1)-G-[LIVM]-x(0,2)-[LIVMFYD]-x(0,7)-G-[KN]-[NHW]-x(0,1)-G-[STARCV]-x(0,2)-[GD]-x(0,2)-[LY]-[FC]."
+PS50245,CAP_GLY_2,CAP-Gly domain profile.,
+PS50158,ZF_CCHC,Zinc finger CCHC-type profile.,
+PS00518,ZF_RING_1,Zinc finger RING-type signature.,C-x-H-x-[LIVMFY]-C-x(2)-C-[LIVMYA].
+PS50119,ZF_BBOX,Zinc finger B-box type profile.,
+PS51307,ASD2,ASD2 domain profile.,
+PS51219,DPCK,Dephospho-CoA kinase (DPCK) domain profile.,
+PS00766,THF_DHG_CYH_1,Tetrahydrofolate dehydrogenase/cyclohydrolase signature 1.,[EQLT]-x-[EQKDS]-[LIVM](2)-x(2)-[LIVM]-x(2)-[LIVMY]-N-x-[DNS]-x(5)-[LIVMF](3)-Q-[LM]-P-[LVI].
+PS00767,THF_DHG_CYH_2,Tetrahydrofolate dehydrogenase/cyclohydrolase signature 2.,P-[GK]-G-[VI]-G-P-[MFI]-T-[IVA].
+PS00975,NMT_1,Myristoyl-CoA:protein N-myristoyltransferase signature 1.,[DEK]-[IV]-N-[FS]-L-C-x-H-K.
+PS00976,NMT_2,Myristoyl-CoA:protein N-myristoyltransferase signature 2.,K-F-G-x-G-D-G.
+PS00093,N4_MTASE,N-4 cytosine-specific DNA methylases signature.,[LIVMF]-T-S-P-P-[FY].
+PS00501,SPASE_I_1,Signal peptidases I serine active site.,[GS]-{PR}-S-M-{RS}-[PS]-[AT]-[LF].
+PS50862,AA_TRNA_LIGASE_II,Aminoacyl-transfer RNA synthetases class-II family profile.,
+PS00020,ACTININ_2,Actinin-type actin-binding domain signature 2.,"[LIVM]-x-[SGNL]-[LIVMN]-[DAGHENRS]-[SAGPNVT]-x-[DNEAG]-[LIVM]-x-[DEAGQ]-x(4)-[LIVM]-x-[LM]-[SAG]-[LIVM]-[LIVMT]-[WS]-x(0,1)-[LIVM](2)."
+PS51085,2FE2S_FER_2,2Fe-2S ferredoxin-type iron-sulfur binding domain profile.,
+PS00197,2FE2S_FER_1,2Fe-2S ferredoxin-type iron-sulfur binding region signature.,C-{C}-{C}-[GA]-{C}-C-[GAST]-{CPDEKRHFYW}-C.
+PS00559,MOLYBDOPTERIN_EUK,Eukaryotic molybdopterin oxidoreductases signature.,"[GA]-{A}-x(2)-[KRNQHT]-x(11,14)-[LIVMFYWS]-x(3)-{V}-{GK}-x(3)-[LIVMF]-x-C-x(2)-[DEN]-R-x(2)-[DE]."
+PS00547,TRANSGLUTAMINASES,Transglutaminases active site.,[GT]-Q-[CA]-W-V-x-[SA]-[GAS]-[IVT]-x(2)-T-x-[LMSC]-R-[CSAG]-[LV]-G.
+PS50979,BC,Biotin carboxylation domain profile.,
+PS50975,ATP_GRASP,ATP-grasp fold profile.,
+PS00866,CPSASE_1,Carbamoyl-phosphate synthase subdomain signature 1.,[FYV]-[PS]-[LIVMC]-[LIVMA]-[LIVM]-[KR]-[PSA]-[STA]-x(3)-[SG]-G-x-[AG].
+PS00867,CPSASE_2,Carbamoyl-phosphate synthase subdomain signature 2.,[LIVMF]-[LIMN]-E-[LIVMCA]-N-[PATLIVM]-[KR]-[LIVMSTAC].
+PS50968,BIOTINYL_LIPOYL,Biotinyl/lipoyl domain profile.,
+PS00188,BIOTIN,Biotin-requiring enzymes attachment site.,[GDN]-[DEQTR]-x-[LIVMFY]-x(2)-[LIVM]-x-[AIV]-M-K-[LVMAT]-x(3)-[LIVM]-x-[SAV].
+PS50980,COA_CT_NTER,Acetyl-coenzyme A (CoA) carboxyltransferase N-terminal domain profile.,
+PS50989,COA_CT_CTER,Acetyl-coenzyme A (CoA) carboxyltransferase C-terminal domain profile.,
+PS51130,PDXT_SNO_2,PdxT/SNO family profile.,
+PS01236,PDXT_SNO_1,PdxT/SNO family family signature.,[GARVS]-[LVI]-[ILAV]-[LIVF]-P-G-G-E-S-[TS]-[STAV].
+PS00113,ADENYLATE_KINASE,Adenylate kinase signature.,[LIVMFYWCA]-[LIVMFYW](2)-D-G-[FYI]-P-R-x(3)-[NQ].
+PS00158,ALDOLASE_CLASS_I,Fructose-bisphosphate aldolase class-I active site.,[LIVM]-x-[LIVMFYW]-E-G-x-[LSI]-L-K-[PA]-[SN].
+PS51710,G_OBG,OBG-type guanine nucleotide-binding (G) domain profile.,
+PS00905,GTP1_OBG,GTP1/OBG family signature.,D-[LIVMA]-P-G-[LIVM](2)-[DEYPKQV]-[GN]-A-x(2)-G-x-G.
+PS51880,TGS,TGS domain profile.,
+PS51508,CKK,CKK domain profile.,
+PS51383,YJEF_C_3,YjeF C-terminal domain profile.,
+PS01049,YJEF_C_1,YjeF C-terminal domain signature 1.,[SAV]-[IVW]-[LVA]-[LIV]-G-[PNS]-G-L-[GP]-x-[DENQT].
+PS01164,COPPER_AMINE_OXID_1,Copper amine oxidase topaquinone signature.,[LIVM]-[LIVMA]-[LIVMF]-x(4)-[ST]-x(2)-N-Y-[DE]-[YN].
+PS01165,COPPER_AMINE_OXID_2,Copper amine oxidase copper-binding site signature.,T-x-[GS]-x(2)-H-[LIVMF]-x(3)-E-[DE]-x-P.
+PS51641,AGENET_LIKE,Agenet-like domain profile.,
+PS50084,KH_TYPE_1,Type-1 KH domain profile.,
+PS01175,RIBONUCLEASE_II,Ribonuclease II family signature.,"[HI]-[FYE]-[GSTAM]-[LIVM]-x(4,5)-Y-[STALV]-x-[FWVAC]-[TV]-[SA]-P-[LIVMA]-[RQ]-[KR]-[FY]-x-D-x(3)-[HQ]."
+PS51848,BMERB,bMERB domain profile.,
+PS51683,SAM_OMT_II,SAM-dependent O-methyltransferase class II-type profile.,
+PS51171,PREPHENATE_DEHYDR_3,Prephenate dehydratase domain profile.,
+PS51671,ACT,ACT domain profile.,
+PS00813,IF4E,Eukaryotic initiation factor 4E signature.,[DE]-[IFYL]-x(2)-F-[KRL]-x(2)-[LIVM]-x-P-x-W-E-[DVA]-x(5)-G-G-[KR]-W.
+PS51125,NHL,NHL repeat profile.,
+PS00785,5_NUCLEOTIDASE_1,5'-nucleotidase signature 1.,[LIVM]-x-[LIVM](2)-[HEA]-[TI]-x-D-x-H-[GSA]-x-[LIVMF].
+PS00528,RIBOSOMAL_S4E,Ribosomal protein S4e signature.,H-x-K-R-[LIVMF]-[SANK]-x-P-x(2)-[WY]-x-[LIVM]-x-[KRP].
+PS50889,S4,S4 RNA-binding domain profile.,
+PS00748,F_ACTIN_CAPPING_A_1,F-actin capping protein alpha subunit signature 1.,[VA]-H-[FY](2)-[ER]-[DEC]-[GV]-N-[VL].
+PS00749,F_ACTIN_CAPPING_A_2,F-actin capping protein alpha subunit signature 2.,K-x-[LM]-R-R-x-L-P-[IV]-[NT]-R.
+PS51339,PPASE_MYOTUBULARIN,Myotubularin phosphatase domain.,
+PS01245,RIO1,RIO1/ZK632.3/MJ0444 family signature.,[LIVMY]-[VI]-H-[GA]-D-[LF]-[SN]-E-[FY]-N-x-[LIVM].
+PS00825,EF1BD_2,Elongation factor 1 beta/beta'/delta chain signature 2.,[IV]-Q-S-x-D-[LIVM]-x-A-[FWM]-[DNQS]-K-[LIVM].
+PS51381,C2_B9,C2 B9-type domain profile.,
+PS00632,RIBOSOMAL_S4,Ribosomal protein S4 signature.,[LIVM]-[DERA]-x-R-[LI]-x(3)-[LIVMC]-[VMFYHQL]-[KRTS]-x(3)-[STAGCVF]-x-[ST]-x(3)-[SAI]-[KRQ]-x-[LIVMF](2).
+PS50134,ZF_TAZ,Zinc finger TAZ-type profile.,
+PS00435,PEROXIDASE_1,Peroxidases proximal heme-ligand signature.,[DET]-[LIVMTA]-{NSYL}-{RPFC}-[LIVM]-[LIVMSTAG]-[SAG]-[LIVMSTAG]-H-[STA]-[LIVMFY].
+PS50972,PTERIN_BINDING,Pterin-binding domain profile.,
+PS00793,DHPS_2,Dihydropteroate synthase signature 2.,[GE]-[SAV]-x-[LIVM](2)-D-[LIVMF]-G-[GPA]-x(2)-[STA]-x-P.
+PS00653,GLYCOSYL_HYDROL_F1_2,Glycosyl hydrolases family 1 N-terminal signature.,F-x-[FYWM]-[GSTA]-x-[GSTA]-x-[GSTA](2)-[FYNH]-[NQ]-x-E-x-[GSTA].
+PS50877,GOLOCO,GoLoco/GPR motif profile.,
+PS00214,FABP,Cytosolic fatty-acid binding proteins signature.,[GSAIVK]-{FE}-[FYW]-x-[LIVMF]-x(2)-{K}-x-[NHG]-[FY]-[DE]-x-[LIVMFY]-[LIVM]-{N}-{G}-[LIVMAKR].
+PS01266,ADENYLOSUCCIN_SYN_1,Adenylosuccinate synthetase GTP-binding site.,[QGF]-[WLCF]-G-D-E-[GA]-K-[GA].
+PS00513,ADENYLOSUCCIN_SYN_2,Adenylosuccinate synthetase active site.,G-I-[GR]-P-x-Y-x(2)-K-x(2)-R.
+PS50077,HEAT_REPEAT,HEAT repeat profile.,
+PS50159,RIBOSOMAL_S13_2,Ribosomal protein S13 family profile.,
+PS00646,RIBOSOMAL_S13_1,Ribosomal protein S13 signature.,[KRQSEAT]-[GS]-x-R-H-x(2)-[GSNHKLCD]-x(2)-[LIVMCT]-[RNH]-G-Q.
+PS51650,C2_DOCK,C2 DOCK-type domain profile.,
+PS51651,DOCKER,DOCKER domain profile.,
+PS51611,SAM_MT59,[Cytochrome c]-lysine N-methyltransferase (EC 2.1.1.59) family profile.,
+PS50280,SET,SET domain profile.,
+PS50006,FHA_DOMAIN,Forkhead-associated (FHA) domain profile.,
+PS00067,3HCDH,3-hydroxyacyl-CoA dehydrogenase signature.,"[DNES]-x(2)-[GA]-F-[LIVMFYA]-x-[NT]-R-x(3)-[PA]-[LIVMFY]-[LIVMFYST]-x(5,6)-[LIVMFYCT]-[LIVMFYEAH]-x(2)-[GVE]."
+PS01024,PR55_1,Protein phosphatase 2A regulatory subunit PR55 signature 1.,E-F-D-Y-L-K-S-L-E-I-E-E-K-I-N.
+PS01025,PR55_2,Protein phosphatase 2A regulatory subunit PR55 signature 2.,[NH]-[AG]-H-[TAD]-Y-H-I-N-S-I-S-[LIVMN]-[NS]-S-D.
+PS51722,G_TR_2,Translational (tr)-type guanine nucleotide-binding (G) domain profile.,
+PS50255,CYTOCHROME_B5_2,"Cytochrome b5 family, heme-binding domain profile.",
+PS00191,CYTOCHROME_B5_1,"Cytochrome b5 family, heme-binding domain signature.",[FY]-[LIVMK]-{I}-{Q}-H-P-[GA]-G.
+PS00487,IMP_DH_GMP_RED,IMP dehydrogenase / GMP reductase signature.,[LIVMT]-[RK]-[LIVM]-G-[LIVM]-G-x-G-[SRK]-[LIVMAT]-C-x-T.
+PS50824,DAPIN,DAPIN domain profile.,
+PS50837,NACHT,NACHT-NTPase domain profile.,
+PS01032,PPM_1,PPM-type phosphatase domain signature.,[LIVMFY]-[LIVMFYA]-[GSAC]-[LIVM]-[FYC]-D-G-H-[GAV].
+PS51841,LTD,Lamin-tail (LTD) domain profile.,
+PS00700,RIBOSOMAL_L6_2,Ribosomal protein L6 signature 2.,[QLS]-x(3)-[LIVM]-x(2)-[KRWYF]-x(2)-R-x-F-x-D-G-[LIVM]-[YF]-[LIVM]-x(2)-[KR].
+PS00374,MGMT,Methylated-DNA--protein-cysteine methyltransferase active site.,[LIVMF]-P-C-H-R-[LIVMF](2).
+PS51752,JACALIN_LECTIN,Jacalin-type lectin domain profile.,
+PS50211,DENN,Tripartite DENN domain profile.,
+PS00125,SER_THR_PHOSPHATASE,Serine/threonine specific protein phosphatases signature.,[LIVMN]-[KR]-G-N-H-E.
+PS50897,CTLH,C-terminal to LisH (CTLH) motif profile.,
+PS51867,ZF_RING_GID,Gid-type RING finger profile.,
+PS01082,RIBOSOMAL_L7AE,Ribosomal protein L7Ae signature.,[CAS]-x(4)-[IVA]-P-[FY]-x(2)-[LIVM]-x-[GSQNK]-[KRQ]-x(2)-L-G.
+PS50176,ARM_REPEAT,Armadillo/plakoglobin ARM repeat profile.,
+PS00230,MAP1B_NEURAXIN,Neuraxin and MAP1B proteins repeated region signature.,[STAGDN]-Y-x-Y-E-{AV}-{L}-[DE]-[KR]-[STAGCI].
+PS50085,RAPGAP,Rap GTPase activating proteins domain profile.,
+PS51402,CATALASE_3,catalase family profile.,
+PS00438,CATALASE_2,Catalase proximal active site signature.,[IF]-x-[RH]-x(4)-[EQ]-R-x(2)-H-x(2)-[GAS]-[GASTFY]-[GAST].
+PS00437,CATALASE_1,Catalase proximal heme-ligand signature.,R-[LIVMFSTAN]-F-[GASTNP]-Y-x-D-[AST]-[QEH].
+PS50303,PUM_HD,Pumilio homology domain (PUM-HD) profile.,
+PS50302,PUM,Pumilio RNA-binding repeat profile.,
+PS50225,SOCS,SOCS box domain profile.,
+PS50896,LISH,LIS1 homology (LisH) motif profile.,
+PS51718,G_DYNAMIN_2,Dynamin-type guanine nucleotide-binding (G) domain profile.,
+PS00410,G_DYNAMIN_1,Dynamin-type guanine nucleotide-binding (G) domain signature.,L-P-[RKT]-[GD]-[STNKEA]-[GND]-[LIVMG]-[VICA]-T-R.
+PS51388,GED,GED domain profile.,
+PS50961,HTH_LA,La-type HTH domain profile.,
+PS50805,KRAB,Krueppel-associated box (KRAB) profile.,
+PS50821,PAZ,PAZ domain profile.,
+PS50822,PIWI,Piwi domain profile.,
+PS51195,Q_MOTIF,DEAD-box RNA helicase Q motif profile.,
+PS51192,HELICASE_ATP_BIND_1,Superfamilies 1 and 2 helicase ATP-binding type-1 domain profile.,
+PS00039,DEAD_ATP_HELICASE,DEAD-box subfamily ATP-dependent helicases signature.,[LIVMF](2)-D-E-A-D-[RKEN]-x-[LIVMFYGSTN].
+PS51194,HELICASE_CTER,Superfamilies 1 and 2 helicase C-terminal domain profile.,
+PS51719,G_SEPTIN,Septin-type guanine nucleotide-binding (G) domain profile.,
+PS00436,PEROXIDASE_2,Peroxidases active site signature.,[SGATV]-{D}-x(2)-[LIVMA]-R-[LIVMA]-x-[FW]-H-{V}-[SAC].
+PS50873,PEROXIDASE_4,Plant heme peroxidase family profile.,
+PS00977,FAD_G3PDH_1,FAD-dependent glycerol-3-phosphate dehydrogenase signature 1.,[IV]-G-G-G-x(2)-G-[STACV]-G-x-[AT]-x-[DQ]-x(3)-[RAS]-G.
+PS01170,RIBOSOMAL_L6E,Ribosomal protein L6e signature.,"N-x(2)-P-[LI]-R-R-x(4)-[FY]-V-I-A-T-S-x(1,2)-K."
+PS00571,AMIDASES,Amidases signature.,G-[GAV]-S-[GS](2)-G-x-[GSAE]-[GSAVYCT]-x-[LIVMT]-[GSA]-x(6)-[GSAT]-x-[GA]-x-[DE]-x-[GA]-x-S-[LIVM]-R-x-P-[GSACTL].
+PS00710,PGM_PMM,Phosphoglucomutase and phosphomannomutase phosphoserine signature.,[GSA]-[LIVMF]-x-[LIVM]-[ST]-[PGA]-S-H-[NIC]-P.
+PS00019,ACTININ_1,Actinin-type actin-binding domain signature 1.,[EQ]-{LNYH}-x-[ATV]-[FY]-{LDAM}-{T}-W-{PG}-N.
+PS51205,VPS9,VPS9 domain profile.,
+PS50830,TNASE_3,Thermonuclease domain profile.,
+PS01284,TNASE_2,Thermonuclease family signature 2.,[DT]-[KRP]-[YQ]-[GQ]-R-x-[LVY]-[GA]-x-[IV]-[FYW].
+PS50304,TUDOR,Tudor domain profile.,
+PS51747,CYT_DCMP_DEAMINASES_2,Cytidine and deoxycytidylate deaminases domain profile.,
+PS00903,CYT_DCMP_DEAMINASES_1,Cytidine and deoxycytidylate deaminases zinc-binding region signature.,"[CH]-[AGV]-E-x(2)-[LIVMFGAT]-[LIVM]-x(17,33)-P-C-x(2,8)-C-x(3)-[LIVM]."
+PS00414,PROFILIN,Profilin signature.,"<x(0,1)-[STA]-x(0,1)-W-[DENQH]-x-[YI]-x-[DEQ]."
+PS51981,ZF_RZ,Zinc finger RZ-type profile.,
+PS51644,HTH_OST,OST-type HTH domain profile.,
+PS51228,ACB_2,Acyl-CoA-binding (ACB) domain profile.,
+PS00629,IMP_1,Inositol monophosphatase family signature 1.,"[FWV]-x(0,1)-[LIVM]-D-P-[LIVM]-D-[SG]-[ST]-x(2)-[FYA]-x(0,1)-[HKRNSTY]."
+PS00630,IMP_2,Inositol monophosphatase family signature 2.,[WYV]-D-x-[AC]-[GSA]-[GSAPV]-x-[LIVFACP]-[LIVM]-[LIVAC]-x(3)-[GH]-[GA].
+PS00187,TPP_ENZYMES,Thiamine pyrophosphate enzymes signature.,[LIVMF]-[GSA]-x(5)-P-x(4)-[LIVMFYW]-x-[LIVMF]-x-G-D-[GSA]-[GSAC].
+PS00068,MDH,Malate dehydrogenase active site signature.,[LIVM]-T-[TRKMN]-L-D-x(2)-R-[STA]-x(3)-[LIVMFY].
+PS00387,PPASE,Inorganic pyrophosphatase signature.,D-[SGDN]-D-[PE]-[LIVMF]-D-[LIVMGAC].
+PS51748,HEXOKINASE_2,Hexokinase domain profile.,
+PS51189,FAT,FAT domain profile.,
+PS50290,PI3_4_KINASE_3,Phosphatidylinositol 3- and 4-kinases catalytic domain profile.,
+PS00915,PI3_4_KINASE_1,Phosphatidylinositol 3- and 4-kinases signature 1.,"[LIVMFAC]-K-x(1,3)-[DEA]-[DE]-[LIVMCP]-R-Q-[DE]-x(4)-Q."
+PS00916,PI3_4_KINASE_2,Phosphatidylinositol 3- and 4-kinases signature 2.,[GSET]-x-[AVE]-x(3)-[LIVM]-x(2)-[FYHW]-[LIVM](2)-x-[LIVMFN]-x-D-R-[HNG]-x(2)-N.
+PS51190,FATC,FATC domain profile.,
+PS51544,PI3K_ABD,Phosphatidylinositol 3-kinase adaptor-binding (PI3K ABD) domain profile.,
+PS51546,PI3K_RBD,Phosphatidylinositol 3-kinase Ras-binding (PI3K RBD) domain profile.,
+PS51547,C2_PI3K,C2 phosphatidylinositol 3-kinase (PI3K)-type domain profile.,
+PS51545,PIK_HELICAL,PIK helical domain profile.,
+PS51635,PNPLA,Patatin-like phospholipase (PNPLA) domain profile.,
+PS51214,IBB,IBB domain profile.,
+PS00065,D_2_HYDROXYACID_DH_1,D-isomer specific 2-hydroxyacid dehydrogenases NAD-binding signature.,"[LIVMA]-[AG]-[IVT]-[LIVMFY]-[AG]-x-G-[NHKRQGSAC]-[LIV]-G-x(13,14)-[LIVMFT]-{A}-x-[FYWCTH]-[DNSTK]."
+PS51471,FE2OG_OXY,Fe(2+) 2-oxoglutarate dioxygenase domain profile.,
+PS51745,PB1,PB1 domain profile.,
+PS50081,ZF_DAG_PE_2,Zinc finger phorbol-ester/DAG-type profile.,
+PS00479,ZF_DAG_PE_1,Zinc finger phorbol-ester/DAG-type signature.,"H-x-[LIVMFYW]-x(8,11)-C-x(2)-C-x(3)-[LIVMFC]-x(5,10)-C-x(2)-C-x(4)-[HD]-x(2)-C-x(5,9)-C."
+PS51997,UPF1_CH_RICH,Upf1 cysteine-histidine-rich (CH-rich) domain profile.,
+PS50957,JOSEPHIN,Josephin domain profile.,
+PS51232,GBD_FH3,Rho GTPase-binding/formin homology 3 (GBD/FH3) domain profile.,
+PS51231,DAD,Diaphanous autoregulatory domain (DAD) profile.,
+PS50886,TRBD,tRNA-binding domain profile.,
+PS50059,FKBP_PPIASE,FKBP-type peptidyl-prolyl cis-trans isomerase domain profile.,
+PS00114,PRPP_SYNTHASE,Phosphoribosyl pyrophosphate synthase signature.,D-[LIM]-H-[SANDT]-x-[QS]-[IMSTAVF]-[QMLPH]-[GA]-[FY]-F-x(2)-P-[LIVMFCT]-D.
+PS50075,CARRIER,Carrier protein (CP) domain profile.,
+PS00933,FGGY_KINASES_1,FGGY family of carbohydrate kinases signature 1.,[MFYGS]-x-[PST]-x(2)-K-[LIVMFYW]-{G}-W-[LIVMF]-{E}-[DENQTKR]-[ENQH].
+PS00301,G_TR_1,Translational (tr)-type guanine nucleotide-binding (G) domain signature.,D-[KRSTGANQFYW]-x(3)-E-[KRAQ]-x-[RKQD]-[GC]-[IVMK]-[ST]-[IV]-x(2)-[GSTACKRNQ].
+PS00783,RIBOSOMAL_L13,Ribosomal protein L13 signature.,"[LIVM]-[KRVLYFS]-[GKR]-M-[LIV]-[PST]-x(4,5)-[GSKR]-[NQEKRAH]-x(5)-[LIVM]-x-[AIVL]-[LFYV]-x-[GDNS]."
+PS00895,3_HYDROXYISOBUT_DH,3-hydroxyisobutyrate dehydrogenase signature.,[LIVMFY](2)-G-L-G-x-[MQ]-G-x(2)-[MA]-[SAV]-x-[SNHR].
+PS50838,MAGE,MAGE conserved domain profile.,
+PS00302,IF5A_HYPUSINE,Eukaryotic initiation factor 5A hypusine signature.,[PT]-G-K-H-G-x-A-K.
+PS01108,RIBOSOMAL_L24,Ribosomal protein L24 signature.,"[GDEN]-D-x-[IV]-x-[IV]-[LIVMA]-x-G-x(2)-[KRA]-[GNQK]-x(2,3)-[GA]-x-[IV]."
+PS00298,HSP90,Heat shock hsp90 proteins family signature.,Y-x-[NQHD]-[KHR]-[DE]-[IVA]-F-[LM]-R-[ED].
+PS50271,ZF_UBP,Zinc finger UBP-type profile.,
+PS50200,RA,Ras-associating (RA) domain profile.,
+PS00659,GLYCOSYL_HYDROL_F5,Glycosyl hydrolases family 5 signature.,[LIV]-[LIVMFYWGA](2)-[DNEQG]-[LIVMGST]-{SENR}-N-E-[PV]-[RHDNSTLIVFY].
+PS00886,ILVD_EDD_1,Dihydroxy-acid and 6-phosphogluconate dehydratases signature 1.,C-D-K-x(2)-P-[GA]-x(3)-[GA].
+PS00303,S100_CABP,S-100/ICaBP type calcium binding protein signature.,[LIVMFYW](2)-x(2)-[LKQ]-D-x(3)-[DN]-x(3)-[DNSG]-[FY]-x-[ES]-[FYVC]-x(2)-[LIVMFS]-[LIVMF].
+PS51016,MYTH4,MyTH4 domain profile.,
+PS00674,AAA,AAA-protein family signature.,"[LIVMTR]-x-[LIVMT]-[LIVMF]-x-[GATMC]-[ST]-[NS]-x(4)-[LIVM]-D-x-[AS]-[LIFAV]-x(1,2)-R."
+PS50076,DNAJ_2,dnaJ domain profile.,
+PS51074,DPH_MB,DPH-type metal-binding (MB) domain profile.,
+PS50206,RHODANESE_3,Rhodanese domain profile.,
+PS00014,ER_TARGET,Endoplasmic reticulum targeting sequence.,[KRHQSA]-[DENQ]-E-L>.
+PS00670,D_2_HYDROXYACID_DH_2,D-isomer specific 2-hydroxyacid dehydrogenases signature 2.,[LIVMFYWA]-[LIVFYWC]-x(2)-[SAC]-[DNQHR]-[IVFA]-[LIVF]-x-[LIVF]-[HNI]-x-P-x(4)-[STN]-x(2)-[LIVMF]-x-[GSDN].
+PS00671,D_2_HYDROXYACID_DH_3,D-isomer specific 2-hydroxyacid dehydrogenases signature 3.,[LMFATCYV]-[KPQNHAR]-x-[GSTDNK]-x-[LIVMFYWRC]-[LIVMFYW](2)-N-x-[STAGC]-R-[GP]-x-[LIVH]-[LIVMCT]-[DNVE].
+PS51984,CPB1,Cryptic Polo-Box 1 (CPB1) domain profile.,
+PS51985,CPB2,Cryptic Polo-Box 2 (CPB2) domain profile.,
+PS50078,POLO_BOX,POLO box domain profile.,
+PS01013,OSBP,Oxysterol-binding protein family signature.,"E-[KQ]-x-[SC]-H-[HR]-[PG]-[PL]-x(1,2)-[STACFI]-[ACGY]."
+PS50054,TYR_PHOSPHATASE_DUAL,Dual specificity protein phosphatase domain profile.,
+PS51623,SAM_MT_TRMH_1,tRNA guanosine-2'-O-methyltransferase (EC 2.1.1.34) family profile.,
+PS01104,RIBOSOMAL_L13E,Ribosomal protein L13e signature.,[KR]-x-G-[KR]-G-F-[ST]-[LVF]-x-E-[LVI]-x(3)-G.
+PS51129,PDXS_SNZ_2,PdxS/SNZ family profile.,
+PS01235,PDXS_SNZ_1,PdxS/SNZ family signature.,[LV]-P-[VI]-[VTPI]-[NQLHT]-[FL]-[ATVS]-[AS]-G-G-[LIV]-[AT]-T-P-[AQS]-D-[AGVS]-[AS]-[LM].
+PS51273,GATASE_TYPE_1,Glutamine amidotransferase type 1 domain profile.,
+PS00331,MALIC_ENZYMES,Malic enzymes signature.,[FM]-x-[DV]-D-x(2)-[GS]-T-[GSA]-x-[IV]-x-[LIVMAT]-[GAST]-[GASTC]-[LIVMFA]-[LIVMFY].
+PS52002,SM,Sm domain profile.,
+PS51512,DFDF,DFDF domain profile.,
+PS51385,YJEF_N,YjeF N-terminal domain profile.,
+PS00626,RCC1_2,Regulator of chromosome condensation (RCC1) signature 2.,[LIVMFA]-[STAGC](2)-G-x-{TAV}-H-[STAGLI]-[LIVMFA]-{KI}-[LIVM].
+PS50012,RCC1_3,Regulator of chromosome condensation (RCC1) repeat profile.,
+PS50237,HECT,HECT domain profile.,
+PS51082,WH2,WH2 domain profile.,
+PS00876,IDO_1,"Indoleamine 2,3-dioxygenase signature 1.",G-G-S-[AN]-[GA]-Q-S-S-x(2)-Q.
+PS00877,IDO_2,"Indoleamine 2,3-dioxygenase signature 2.",[FY]-L-[DQ]-[DE]-[LIVM]-x(2)-Y-M-x(3)-H-[KR].
+PS50219,CNH,Citron homology (CNH) domain profile.,
+PS50250,PCI,PCI domain profile.,
+PS51515,BIN3_SAM,Bin3-type S-adenosyl-L-methionine (SAM) domain profile.,
+PS50249,MPN,MPN domain profile.,
+PS00474,RIBOSOMAL_L3,Ribosomal protein L3 signature.,[FL]-x(6)-[DN]-x(2)-[AGS]-x-[ST]-x-G-[KRH]-G-x(2)-G-x(3)-R.
+PS00602,ALDOLASE_CLASS_II_1,Fructose-bisphosphate aldolase class-II signature 1.,"[FYVMT]-x(1,3)-[LIVMH]-[APNT]-[LIVM]-x(1,2)-[LIVM]-H-x-D-H-[GACH]."
+PS00806,ALDOLASE_CLASS_II_2,Fructose-bisphosphate aldolase class-II signature 2.,[LIVM]-E-x-E-[LIVM]-G-x(2)-[GM]-[GSTA]-x-E.
+PS01129,PSI_RLU,Rlu family of pseudouridine synthase signature.,[LIVCA]-[NHYTQ]-R-[LI]-[DG]-x(2)-[TV]-[STAC]-G-[LIVAGC]-[LIVMF](2)-[LIVMFGCA]-[SGTACV].
+PS51733,BPL_LPL_CATALYTIC,Biotinyl protein ligase (BPL) and lipoyl protein ligase (LPL) catalytic domain profile.,
+PS50209,CARD,CARD caspase recruitment domain profile.,
+PS00380,RHODANESE_1,Rhodanese signature 1.,[FY]-x(3)-H-[LIV]-P-G-A-x(2)-[LIVF].
+PS00683,RHODANESE_2,Rhodanese C-terminal signature.,[AV]-x(2)-[FY]-[DEAP]-G-[GSA]-[WF]-x-E-[FYW].
+PS50263,CN_HYDROLASE,Carbon-nitrogen hydrolase domain profile.,
+PS01239,DYNEIN_LIGHT_1,Dynein light chain type 1 signature.,H-x-[IV]-x-G-[KR]-x-F-[GA]-S-x-V-[ST]-[HY]-E.
+PS01358,ZF_RANBP2_1,Zinc finger RanBP2-type signature.,"W-x-C-x(2,4)-C-x(3)-N-x(6)-C-x(2)-C."
+PS00798,ALDOKETO_REDUCTASE_1,Aldo/keto reductase family signature 1.,G-[FY]-R-[HSAL]-[LIVMF]-D-[STAGCL]-[AS]-x(5)-[EQ]-x(2)-[LIVMCA]-[GS].
+PS00062,ALDOKETO_REDUCTASE_2,Aldo/keto reductase family signature 2.,[LIVMFY]-x(8)-{L}-[KREQ]-{K}-[LIVM]-G-[LIVM]-[SC]-N-[FY].
+PS00733,RIBOSOMAL_S26E,Ribosomal protein S26e signature.,[YH]-C-[VI]-[SA]-C-A-I-H.
+PS51741,F_BAR,F-BAR domain profile.,
+PS51374,NDPK_LIKE,Nucleoside diphosphate kinase (NDPK)-like domain profile.,
+PS00469,NDPK,Nucleoside diphosphate kinase (NDPK) active site signature.,N-x(2)-H-[GA]-S-D-[GSA]-[LIVMPKNE].
+PS51819,VOC,Vicinal oxygen chelate (VOC) domain profile.,
+PS50178,ZF_FYVE,Zinc finger FYVE/FYVE-related type profile.,
+PS50841,DIX,DIX domain profile.,
+PS50600,ULP_PROTEASE,Ubiquitin-like protease family profile.,
+PS50810,FRATAXIN_2,Frataxin family profile.,
+PS01344,FRATAXIN_1,Frataxin family signature.,[IV]-[LIVF]-[NS]-[KRTAVSL]-[QH]-x-[PAVS]-x(2)-[EQ]-[LIVM]-W-x-[STA]-[STAD].
+PS00461,6PGD,6-phosphogluconate dehydrogenase signature.,[LIVM]-x-[DG]-x(2)-[GAEHS]-[NQSD]-[KS]-G-[TE]-G-x-W.
+PS00708,PRO_ENDOPEP_SER,Prolyl endopeptidase family serine active site.,D-x(3)-A-x(3)-[LIVMFYW]-x(14)-G-x-S-x-G-G-[LIVMFYW](2).
+PS51409,ARGINASE_2,Arginase family profile.,
+PS01053,ARGINASE_1,Arginase family signature.,[ST]-[LIVMFY]-D-[LIVM]-D-x(3)-[PAQ]-x(3)-P-[GSA]-x(7)-G.
+PS51166,CBM20,CBM20 (carbohydrate binding type-20) domain profile.,
+PS50828,SMR,Smr domain profile.,
+PS51216,NEBULIN,Nebulin repeat profile.,
+PS00485,A_DEAMINASE,Adenosine and AMP deaminase signature.,[SA]-[LIVM]-[NGS]-[STA]-D-D-P.
+PS50137,DS_RBD,Double stranded RNA-binding domain (dsRBD) profile.,
+PS50103,ZF_C3H1,Zinc finger C3H1-type profile.,
+PS00297,HSP70_1,Heat shock hsp70 proteins family signature 1.,[IV]-D-L-G-T-[ST]-x-[SC].
+PS01036,HSP70_3,Heat shock hsp70 proteins family signature 3.,[LIVMY]-x-[LIVMF]-x-G-G-x-[ST]-{LS}-[LIVM]-P-x-[LIVM]-x-[DEQKRSTA].
+PS50800,SAP,SAP motif profile.,
+PS52071,GPN_LOOP_GTPASE,GPN-loop GTPase core domain profile.,
+PS51058,ZF_CXXC,Zinc finger CXXC-type profile.,
+PS00139,THIOL_PROTEASE_CYS,Eukaryotic thiol (cysteine) proteases cysteine active site.,Q-{V}-x-{DE}-[GE]-{F}-C-[YW]-{DN}-x-[STAGC]-[STAGCV].
+PS50802,OTU,OTU domain profile.,
+PS51278,GATASE_TYPE_2,Glutamine amidotransferase type 2 domain profile.,
+PS51419,RAB,Small GTPase Rab domain profile.,
+PS01351,MAPK,MAP kinase signature.,"F-x(10)-R-E-x(72,86)-R-D-x-K-x(9)-[CS]."
+PS01106,RIBOSOMAL_L18E,Ribosomal protein L18e signature.,[KREWDI]-x-L-x(2)-[PSRG]-[KRS]-x(2)-[RHY]-[PSA]-x-[LIVM]-[NSA]-[LIVM]-x-[RK]-[LIVM].
+PS00360,RIBOSOMAL_S9,Ribosomal protein S9 signature.,[GS]-G-G-x(2)-[GSA]-[QK]-x(2)-[SA]-x(3)-[GSA]-x-[GSTAV]-[KR]-[GSALVD]-[LIFV].
+PS00359,RIBOSOMAL_L11,Ribosomal protein L11 signature.,"[RKN]-x-[LIVM]-x-G-[ST]-x(2)-[SNQ]-[LIVM]-G-x-{M}-[LIVM]-x(0,1)-[DENG]."
+PS00759,ARGE_DAPE_CPG2_2,ArgE / dapE / ACY1 / CPG2 / yscS family signature 2.,"[GSTAI]-[SANQCVIT]-D-x-K-[GSACN]-x(1,2)-[LIVMA]-x(2)-[LIVMFY]-x(12,17)-[LIVM]-x-[LIVMF]-[LIVMSTAGC]-[LIVMFA]-x(2)-[DNGM]-E-E-x(0,1)-[GSTNE]."
+PS00121,COLIPASE_1,Colipase signature.,Y-x(2)-Y-Y-x-C-x-C.
+PS50108,CRIB,CRIB domain profile.,
+PS00948,RIBOSOMAL_S7E,Ribosomal protein S7e signature.,[KRAI]-L-x-R-E-L-E-K-K-F-[SAPQG]-x-[KRN]-[HED].
+PS51081,ZF_SIAH,Zinc finger SIAH-type profile.,
+PS51411,PSP1_C,PSP1 C-terminal domain profile.,
+PS50908,RWD,RWD domain profile.,
+PS00690,DEAH_ATP_HELICASE,DEAH-box subfamily ATP-dependent helicases signature.,[GSAH]-x-[LIVMF](3)-D-E-[ALIV]-H-[NECR].
+PS50309,DC,Doublecortin domain profile.,
+PS00491,PROLINE_PEPTIDASE,Aminopeptidase P and proline dipeptidase signature.,[HA]-[GSYR]-[LIVMT]-[SG]-H-x-[LIV]-G-[LIVMNKS]-x-[IVEL]-[HNC]-[DEV].
+PS50174,G_PATCH,G-patch domain profile.,
+PS00164,ENOLASE,Enolase signature.,[LIVTMS]-[LIVP]-[LIV]-[KQ]-x-[ND]-Q-[INV]-[GA]-[ST]-[LIVM]-[STL]-[DERKAQG]-[STA].
+PS50208,CASPASE_P20,Caspase family p20 domain profile.,
+PS01122,CASPASE_CYS,Caspase family cysteine active site.,K-P-K-[LIVMF]-[LIVMFY]-[LIVMF](2)-[QP]-[AF]-C-[RQG]-[GE].
+PS50207,CASPASE_P10,Caspase family p10 domain profile.,
+PS50910,HEPN,HEPN domain profile.,
+PS50988,TROVE,TROVE domain profile.,
+PS00794,HPPK,"7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase signature.",[KRHD]-x-[GA]-[PSAE]-R-x(2)-D-[LIV]-D-[LIVM](2).
+PS00792,DHPS_1,Dihydropteroate synthase signature 1.,[LIVM]-x-[AG]-[LIVMF](2)-N-x-T-x-[DN]-S-[FLMI]-x-D-x-[SG].
+PS51783,PH_BEACH,BEACH-type PH domain profile.,
+PS50197,BEACH,BEACH domain profile.,
+PS01199,RIBOSOMAL_L1,Ribosomal protein L1 signature.,"[IMGV]-x(2)-[LIVA]-x(2,3)-[LIVMY]-[GAS]-x(2)-[LMSF]-[GSNH]-[PTKR]-[KRAVG]-[GN]-x-[LIMF]-P-[DENSTKQPRAGVI]."
+PS51513,FFD,FFD box profile.,
+PS51536,TFG,TFG box profile.,
+PS00056,RIBOSOMAL_S17,Ribosomal protein S17 signature.,G-D-x-[LIV]-x-[LIVA]-x-[QEK]-x-[RK]-P-[LIV]-S.
+PS00467,RIBOSOMAL_L2,Ribosomal protein L2 signature.,P-x(2)-R-G-[STAIV](2)-x-N-[APK]-x-[DE].
+PS51065,NHR,Neuralized homology repeat (NHR) domain profile.,
+PS00096,SHMT,Serine hydroxymethyltransferase pyridoxal-phosphate attachment site.,[DEQHY]-[LIVMFYA]-x-[GSTMVA]-[GSTAV]-[ST]-[STVM]-[HQ]-K-[STG]-[LFMI]-x-[GAS]-[PGAC]-[RQ]-[GSARH]-[GA].
+PS00299,UBIQUITIN_1,Ubiquitin domain signature.,K-x(2)-[LIVM]-x-[DESAK]-x(3)-[LIVM]-[PAQ]-x(3)-Q-x-[LIVM]-[LIVMC]-[LIVMFY]-x-G-x(4)-[DE].
+PS01050,YJEF_C_2,YjeF C-terminal domain signature 2.,[GA]-G-x-G-D-[TV]-[LT]-[STA]-G-x-[LIVM].
+PS50046,PHYTOCHROME_2,Phytochrome chromophore attachment site domain profile.,
+PS00245,PHYTOCHROME_1,Phytochrome chromophore attachment site signature.,[RGS]-[GSA]-[PV]-H-x-C-H-x(2)-Y.
+PS50132,RGS,RGS domain profile.,
+PS00775,GLYCOSYL_HYDROL_F3,Glycosyl hydrolases family 3 active site.,[LIVM](2)-[KR]-x-[EQKRD]-x(4)-G-[LIVMFTC]-[LIVT]-[LIVMF]-[ST]-D-x(2)-[SGADNIT].
+PS51820,PA14,PA14 domain profile.,
+PS00256,AKH,Adipokinetic hormone family signature.,Q-[LV]-[NT]-[FY]-[ST]-x(2)-W.
+PS50951,SARAH,SARAH domain profile.,
+PS50888,BHLH,"Myc-type, basic helix-loop-helix (bHLH) domain profile.",
+PS01144,RIBOSOMAL_L31E,Ribosomal protein L31e signature.,[VI]-[KRWVI]-[LIV]-[DSAG]-x(2)-[LIV]-[NS]-x-[AKQEHFYLCT]-x-W-x-[KRQE]-[GS].
+PS01107,RIBOSOMAL_L27E,Ribosomal protein L27e signature.,G-K-[NS]-x-W-F-F-x(2)-L-[RH]-F>.
+PS00389,ATPASE_DELTA,ATP synthase delta (OSCP) subunit signature.,[LIVM]-x-[LIVMFYT]-x(3)-[LIVMT]-[DENQK]-x-{G}-[LIVM]-x-[GSA]-G-[LIVMFYGA]-{S}-[LIVM]-[KRHENQ]-x-[GSEN].
+PS00902,GLUTAMATE_5_KINASE,Glutamate 5-kinase signature.,[GSTNAD]-x(2)-[GAS]-x-G-[GC]-[IM]-x-[STAG]-K-[LIVMCT]-x-[SAI]-[TCAGFS]-x(2)-[GALVCMI].
+PS00924,ASP_GLU_RACEMASE_2,Aspartate and glutamate racemases signature 2.,[LIVM](2)-x-[AG]-C-T-[DEH]-[LIVMFY]-[PNGRS]-x-[LIVM].
+PS00375,UDPGT,UDP-glycosyltransferases signature.,"[FW]-x(2)-[QL]-x(2)-[LIVMYA]-[LIMV]-x(4,6)-[LVGAC]-[LVFYAHM]-[LIVMF]-[STAGCM]-[HNQ]-[STAGC]-G-x(2)-[STAG]-x(3)-[STAGL]-[LIVMFA]-x(4,5)-[PQR]-[LIVMTA]-x(3)-[PA]-x(2,3)-[DES]-[QEHNR]."
+PS51460,GAR,GAR domain profile.,
+PS00636,DNAJ_1,Nt-dnaJ domain signature.,[FY]-{GL}-x-[LIVMA]-{IP}-x(2)-[FYWHNT]-[DENQSA]-x-L-x-[DN]-x(3)-[KR]-{F}-{P}-[FYI].
+PS52048,UCH_DOMAIN,Ubiquitin carboxyl-terminal hydrolase (UCH) catalytic domain profile.,
+PS00140,UCH_1,Ubiquitin carboxyl-terminal hydrolase family 1 cysteine active-site.,Q-x(3)-N-[SA]-C-G-x(3)-[LIVM](2)-H-[SA]-[LIVM]-[SA].
+PS51682,SAM_OMT_I,SAM-dependent O-methyltransferase class I-type profile.,
+PS51770,HOTDOG_ACOT,Hotdog acyl-CoA thioesterase (ACOT)-type domain profile.,
+PS50848,START,START domain profile.,
+PS51673,SUZ,SUZ domain profile.,
+PS01263,UPF0021,Uncharacterized protein family UPF0021 signature.,"C-K-x(2)-F-x(4)-E-x(22,23)-S-G-G-K-D."
+PS51840,C2_NT,C2 NT-type domain profile.,
+PS00506,BETA_AMYLASE_1,Beta-amylase active site 1.,H-x-C-G-G-N-V-G-D.
+PS00679,BETA_AMYLASE_2,Beta-amylase active site 2.,G-x-[SA]-G-E-[LIVM]-R-Y-P-S-Y.
+PS51725,ABM,ABM domain profile.,
+PS50913,GRIP,GRIP domain profile.,
+PS51089,HP,Headpiece (HP) domain profile.,
+PS50902,FLAVODOXIN_LIKE,Flavodoxin-like domain profile.,
+PS01171,RIBOSOMAL_L21E,Ribosomal protein L21e signature.,"[GN]-[DEQ]-x-V-x(10,11)-[GVT]-x(2)-[FYHDN]-x(2)-[FY]-x-G-x-[TV]-G."
+PS00036,BZIP_BASIC,Basic-leucine zipper (bZIP) domain signature.,"[KR]-x(1,3)-[RKSAQ]-N-{VL}-x-[SAQ](2)-{L}-[RKTAENQ]-x-R-{S}-[RK]."
+PS01190,RIBOSOMAL_L36E,Ribosomal protein L36e signature.,P-Y-E-[KR]-R-x-[LIVMT]-[DE]-[LIVM](2)-[KR].
+PS51720,G_AIG1,AIG1-type G domain profile.,
+PS01090,TATD_2,TatD deoxyribonuclease family signature 2.,P-[LIVM]-x-[LIVM]-H-x-R-x-[TA]-x-[DE].
+PS01091,TATD_3,TatD deoxyribonuclease family signature 3.,[LVSAT]-[LIVA]-x(2)-[LIVMT]-[PSD]-x(3)-[LI]-[LIVMT]-[LIVMST]-E-T-D-x-P.
+PS51021,BAR,BAR domain profile.,
+PS00965,PMI_I_1,Phosphomannose isomerase type I signature 1.,Y-x-D-x-N-H-K-P-E.
+PS00966,PMI_I_2,Phosphomannose isomerase type I signature 2.,H-A-Y-[LIVM]-x-G-x(2)-[LIVM]-E-x-M-A-x-S-D-N-x-[LIVM]-R-A-G-x-T-P-K.
+PS50203,CALPAIN_CAT,"Cysteine proteinase, calpain-type, catalytic domain profile.",
+PS51463,P_GLUCOSE_ISOMERASE_3,Glucose-6-phosphate isomerase family profile.,
+PS00765,P_GLUCOSE_ISOMERASE_1,Phosphoglucose isomerase signature 1.,[DENSA]-x-[LIVM]-[GP]-G-R-[FY]-[ST]-[LIVMFSTAP]-x-[GSTA]-[PSTACM]-[LIVMSA]-[GSAN].
+PS00174,P_GLUCOSE_ISOMERASE_2,Phosphoglucose isomerase signature 2.,[GSA]-x-[LIVMCAYQS]-[LIVMFYWN]-x(4)-[FY]-[DNTH]-Q-x-[GA]-[IV]-[EQST]-x(2)-K.
+PS51721,G_CP,Circularly permuted (CP)-type guanine nucleotide-binding (G) domain profile.,
+PS51823,CLU,Clueless (Clu) domain profile.,
+PS51176,PDH_ADH,Prephenate/arogenate dehydrogenase domain profile.,
+PS51036,ZF_A20,Zinc finger A20-type profile.,
+PS51039,ZF_AN1,Zinc finger AN1-type profile.,
+PS51144,ALPHA_CA_2,Alpha-carbonic anhydrases profile.,
+PS00162,ALPHA_CA_1,Alpha-carbonic anhydrases signature.,S-E-[HN]-x-[LIVM]-x(4)-[FYH]-x(2)-E-[LIVMGA]-H-[LIVMFA](2).
+PS00167,TRP_SYNTHASE_ALPHA,Tryptophan synthase alpha chain signature.,[LIVM]-E-[LIVM]-[GQ]-x-[PALT]-[FYCHTWP]-[STPK]-[DEKY]-[PA]-[LIVMYGK]-[SGALIMY]-[DE]-[GN].
+PS01240,PNP_MTAP_2,Purine and other phosphorylases family 2 signature.,"[LIVF]-x(3)-[GS]-x(2)-H-x-[LIVMFY]-x(4)-[LIVMF]-x(3)-[ATV]-x(1,2)-[LIVM]-x-[ATV]-x(4)-[GN]-x(3,4)-[LIVMF](2)-x(2)-[STN]-[SAGT]-x-G-[GS]-[LIVM]."
+PS51140,CUE,CUE domain profile.,
+PS01021,COPROGEN_OXIDASE,Coproporphyrinogen III oxidase signature.,K-x-[WQA]-[CA]-x(2)-[FYH](2)-x-[LIVM]-x-[HY]-R-x-E-x-R-G-[LIVMT]-G-G-[LIVM]-F-[FY]-D.
+PS51424,ROC,Roc domain profile.,
+PS00439,ACYLTRANSF_C_1,Acyltransferases ChoActase / COT / CPT family signature 1.,[LI]-[PK]-x-[LVPQ]-P-[IVTAL]-P-x-[LIVMA]-x-[DENQAS]-[ST]-[LIVMA]-x(2)-[LY].
+PS00440,ACYLTRANSF_C_2,Acyltransferases ChoActase / COT / CPT family signature 2.,"R-[FYW]-x-[DA]-[KA]-x(0,1)-[LIVMFY]-x-[LIVMFY](2)-x(3)-[DNS]-[GSA]-x(6)-[DE]-[HS]-x(3)-[DE]-[GAC]."
+PS51338,IMD,IMD domain profile.,
+PS00091,THYMIDYLATE_SYNTHASE,Thymidylate synthase active site.,"R-x(2)-[LIVMT]-x(2,3)-[FWY]-[QNYDI]-x(8,13)-[LVESI]-x-P-C-[HAVMLC]-x(3)-[QMTLHD]-[FYWL]-x(0,1)-[LV]."
+PS00721,FTHFS_1,Formate--tetrahydrofolate ligase signature 1.,[GN]-[LIVMS]-K-G-[GST]-[AG]-[AST]-G-[GAS]-G-[YLHRKF].
+PS00722,FTHFS_2,Formate--tetrahydrofolate ligase signature 2.,V-[ASV]-[TS]-[IVLA]-[RQ]-[AGS]-[LIM]-[KER]-x-[HN]-[GAS]-[GLKD].
+PS51627,SAM_MT_TRM11,tRNA methyltransferase 11 (TRM11) (EC 2.1.1.-) family profile.,
+PS00365,NIR_SIR,Nitrite and sulfite reductases iron-sulfur/siroheme-binding site.,[STVN]-G-C-x(3)-C-x(6)-[DE]-[LIVMF]-[GAT]-[LIVMF].
+PS51221,TTL,TTL domain profile.,
+PS50918,WWE,WWE domain profile.,
+PS50235,USP_3,Ubiquitin specific protease (USP) domain profile.,
+PS01037,SBP_BACTERIAL_1,"Bacterial extracellular solute-binding proteins, family 1 signature.",[GAP]-[LIVMFA]-[STAVDN]-x-{H}-x(2)-[GSAV]-[LIVMFY](2)-Y-[ND]-x(3)-[LIVMF]-x-[KNDE].
+PS50127,UBC_2,Ubiquitin-conjugating (UBC) core domain profile.,
+PS00177,TOPOISOMERASE_II,DNA topoisomerase II signature.,[LIVMA]-{R}-E-G-[DN]-S-A-{F}-[STAG].
+PS50179,VHS,VHS domain profile.,
+PS51417,ARF,Small GTPase Arf domain profile.,
+PS00071,GAPDH,Glyceraldehyde 3-phosphate dehydrogenase active site.,[ASV]-S-C-[NT]-T-{S}-x-[LIM].
+PS51398,PAW,PAW domain profile.,
+PS52086,PITP_LIKE,PITP-like domain profile.,
+PS00732,RIBOSOMAL_S16,Ribosomal protein S16 signature.,[LIVMT]-x-[LIVM]-[KR]-L-[STAK]-R-{E}-G-[AKR].
+PS51858,PPPDE,PPPDE domain profile.,
+PS51327,DICER_DSRBF,Dicer double-stranded RNA-binding fold domain profile.,
+PS50142,RNASE_3_2,Ribonuclease III family domain profile.,
+PS00517,RNASE_3_1,Ribonuclease III family signature.,[DEQ]-[KRQT]-[LMF]-E-[FYW]-[LV]-G-D-[SARHG].
+PS51416,MIB_HERC2,MIB/HERC2 domain profile.,
+PS52085,HERC2_LIKE,HERC2-like domain profile.,
+PS00972,USP_1,Ubiquitin specific protease (USP) domain signature 1.,"G-[LIVMFY]-x(1,3)-[AGCY]-[NASMQG]-x-C-[FYWC]-[LIVMFCA]-[NSTAD]-[SACV]-x-[LIVMSF]-[QF]."
+PS00973,USP_2,Ubiquitin specific protease (USP) domain signature 2.,"[YMF]-x-[LK]-x-[SAGNC]-[LIVMFT]-x(2)-H-x-G-x(4,6)-G-H-[YF]."
+PS01011,FOLYLPOLYGLU_SYNT_1,Folylpolyglutamate synthase signature 1.,"[LIVMFY]-x-[LIVM]-[STAG]-G-T-[NK]-G-K-x-[STG]-x(4)-{A}-x-{EAD}-[LIVM](2)-x(3,4)-[GSKQT]."
+PS00770,AA_TRANSFER_CLASS_4,Aminotransferases class-IV signature.,"E-x-[STAGCI]-x(2)-N-[LIVMFAC]-[FY]-x(6,12)-[LIVMFA]-x-T-x(6,8)-[LIVM]-x-[GS]-[LIVM]-x-[KR]."
+PS00737,THIOLASE_2,Thiolases signature 2.,N-x(2)-G-G-x-[LIVM]-[SA]-x-G-H-P-x-[GAS]-x-[ST]-G.
+PS00099,THIOLASE_3,Thiolases active site.,[AG]-[LIVMA]-[STAGCLIVM]-[STAG]-[LIVMA]-C-{Q}-[AG]-x-[AG]-x-[AG]-x-[SAG].
+PS51707,CYTH,CYTH domain profile.,
+PS50145,ZF_TRAF,Zinc finger TRAF-type profile.,
+PS50166,IMPORTIN_B_NT,Importin-beta N-terminal domain profile.,
+PS50144,MATH,MATH/TRAF domain profile.,
+PS00143,INSULINASE,"Insulinase family, zinc-binding region signature.","G-x(8,9)-G-x-[STA]-H-[LIVMFY]-[LIVMC]-[DERN]-[HRKL]-[LMFAT]-x-[LFSTH]-x-[GSTAN]-[GST]."
+PS01162,QOR_ZETA_CRYSTAL,Quinone oxidoreductase / zeta-crystallin signature.,[GSDN]-[DEQHKM]-x(2)-L-x(3)-[SAG](2)-G-G-x-G-x(4)-Q-x(2)-[KRS].
+PS00064,L_LDH,L-lactate dehydrogenase active site.,[LIVMA]-G-[EQ]-H-G-[DN]-[ST].
+PS50985,GRAS,GRAS family profile.,
+PS51886,TLDC,TLDc domain profile.,
+PS50950,ZF_THAP,Zinc finger THAP-type profile,
+PS50186,DEP,DEP domain profile.,
+PS00315,DEHYDRIN_1,Dehydrins signature 1.,"S(4)-[SD]-[DE]-x-[DE]-[GVE]-x(1,7)-[GE]-x(0,2)-[KR](4)."
+PS00823,DEHYDRIN_2,Dehydrins signature 2.,[KR]-[LIM]-K-[DE]-K-[LIM]-P-G.
+PS00450,ACONITASE_1,Aconitase family signature 1.,"[LIVM]-x(2)-[GSACIVM]-x-[LIV]-[GTIV]-[STP]-C-x(0,1)-T-N-[GSTANI]-x(4)-[LIVMA]."
+PS01244,ACONITASE_2,Aconitase family signature 2.,G-x(2)-[LIVWPQT]-x(3)-[GACST]-C-[GSTAM]-[LIMPTA]-C-[LIMV]-[GA].
+PS50062,BCL2_FAMILY,BCL2-like apoptosis inhibitors family profile.,
+PS00433,PHOSPHOFRUCTOKINASE,Phosphofructokinase signature.,[RK]-x(4)-[GAS]-H-x-[QL]-[QR]-[GS]-[GF]-x(5)-[DE]-[RL].
+PS51800,ZF_CHHC_U11_48K,Zinc finger CHHC U11-48K-type profile.,
+PS00118,PA2_HIS,Phospholipase A2 histidine active site.,C-C-{P}-x-H-{LGY}-x-C.
+PS00712,RIBOSOMAL_S17E,Ribosomal protein S17e signature.,[IVDYPKS]-x-[ST]-K-x-[LIVMTF]-[RIKM]-N-x-[IV]-[SA]-G-[FY]-x-[TV]-[HKRA].
+PS50199,ZF_RANBP2_2,Zinc finger RanBP2 type profile.,
+PS51873,TRIAD,TRIAD supradomain profile.,
+PS50196,RANBD1,Ran binding domain type 1 profile.,
+PS01217,SUCCINYL_COA_LIG_3,ATP-citrate lyase / succinyl-CoA ligases family signature 3.,"G-x-[IVT]-x(2)-[LIVMF]-x-[NAK]-[GS]-[GA]-G-[LMAI]-[STAV]-x(4)-[DN]-x-[LIVM]-x(3,4)-[GD]-[GREAK]."
+PS01216,SUCCINYL_COA_LIG_1,ATP-citrate lyase / succinyl-CoA ligases family signature 1.,"S-[KR]-S-G-[GT]-[LIVM]-[GST]-x-[EQ]-x(8,10)-G-x(4)-[LIVM]-[GA]-[LIVM]-G-G-D."
+PS00399,SUCCINYL_COA_LIG_2,ATP-citrate lyase / succinyl-CoA ligases family active site.,"G-x(2)-A-x(4,7)-[RQT]-[LIVMF]-G-H-[AS]-[GH]."
+PS51502,S_R_A_B_BARREL,Stress-response A/B barrel domain profile.,
+PS01257,RIBOSOMAL_L10E,Ribosomal protein L10e signature.,"A-D-R-x(3)-[GR]-[MH]-R-x-[SAP]-[FYW]-G-[KRVTS]-[PANI]-x-[GS]-x(1,2)-A-[KRLV]-[LIVQ]."
+PS51354,GLUTAREDOXIN_2,Glutaredoxin domain profile.,
+PS00195,GLUTAREDOXIN_1,Glutaredoxin active site.,"[LIVMD]-[FYSA]-x(4)-C-[PV]-[FYWH]-C-x(2)-[TAV]-x(2,3)-[LIV]."
+PS00052,RIBOSOMAL_S7,Ribosomal protein S7 signature.,[DENSK]-x-[LIVMDET]-x(3)-[LIVMFTA](2)-x(6)-G-K-[KR]-x(5)-[LIVMF]-[LIVMFC]-x(2)-[STAC].
+PS52057,GLD,GTP-binding protein-like domain (GLD) profile.,
+PS51440,TIM_2,Triosephosphate isomerase (TIM) family profile.,
+PS00171,TIM_1,Triosephosphate isomerase active site.,[AVG]-[YLV]-E-P-[LIVMEPKST]-[WYEAS]-[SAL]-[IV]-[GN]-[TEKDVS]-[GKNAD].
+PS01193,RIBOSOMAL_S8E,Ribosomal protein S8e signature.,"[KR]-x(2)-[ST]-G-[GAR]-x(5,6)-[KRHSA]-x-[KRT]-x-[KR]-x-[EA]-[LIMPA]-G."
+PS00660,FERM_1,FERM domain signature 1.,"W-[LIV]-x(3)-[KRQ]-x-[LIVM]-x(2)-[QH]-x(0,2)-[LIVMF]-x(6,8)-[LIVMF]-x(3,5)-F-[FY]-x(2)-[DENS]."
+PS00661,FERM_2,FERM domain signature 2.,"[HYW]-x(9)-[DENQSTV]-[SA]-x(3)-[FYC]-[LIVM]-x(2,3)-[ACVWD]-x(2)-[LM]-x(2)-[FY]-[GM]-x-[DENQSTH]-[LIVMFYS]."
+PS50945,I_LWEQ,I/LWEQ domain profile.,
+PS00521,P5CR,Delta 1-pyrroline-5-carboxylate reductase signature.,"[PALF]-x(2,3)-[LIV]-x(3)-[LIVM]-[STAC]-[STV]-x-[GANK]-G-x-T-x(2)-[AG]-[LIV]-x(2)-[LMF]-[DENQK]."
+PS50870,AH,Arfaptin homology (AH) domain profile.,
+PS51808,CHCH,Coiled coil-helix-coiled coil-helix (CHCH) domain profile.,
+PS50212,RASGEF_NTER,Ras guanine-nucleotide exchange factors N-terminal domain profile.,
+PS50009,RASGEF_CAT,Ras guanine-nucleotide exchange factors catalytic domain profile.,
+PS01085,RIBUL_P_3_EPIMER_1,Ribulose-phosphate 3-epimerase family signature 1.,"[LIVMF]-H-[LIVMFY]-D-[LIVM]-x-D-x(1,2)-[FY]-[LIVM]-x-N-x-[STAV]."
+PS01086,RIBUL_P_3_EPIMER_2,Ribulose-phosphate 3-epimerase family signature 2.,"[LIVMA]-x-[LIVM]-M-[ST]-[VS]-x-P-x(3)-[GN]-Q-x(0,1)-[FMK]-x(6)-[NKR]-[LIVMC]."
+PS01088,CAP_1,CAP protein signature 1.,[LIVM](2)-x-R-L-[DE]-x(4)-R-L-E.
+PS51329,C_CAP_COFACTOR_C,C-CAP/cofactor C-like domain profile.,
+PS01089,CAP_2,CAP protein signature 2.,D-[LIVMFY]-x-E-x-[PA]-x-P-E-Q-[LIVMFY]-K.
+PS51836,DENN_FNIP12,Tripartite DENN FNIP1/2-type domain profile.,
+PS00111,PGLYCERATE_KINASE,Phosphoglycerate kinase signature.,[KRHGTCVN]-[VT]-[LIVMF]-[LIVMC]-R-x-D-x-N-[SACV]-P.
+PS00628,RIBOSOMAL_S19E,Ribosomal protein S19e signature.,P-x(6)-[SANG]-x(2)-[LIVMAC]-x-R-x-[ALIV]-[LV]-[QH]-x-L-[EQ].
+PS50168,DED,Death effector domain (DED) profile.,
+PS01333,PYRASE_GLU,Pyrrolidone-carboxylate peptidase glutamic acid active site.,G-x(2)-[GAP]-x(4)-[LIV]-[ST]-x-E-[KR]-[LIVC]-[AG]-x-[NG].
+PS01334,PYRASE_CYS,Pyrrolidone-carboxylate peptidase cysteine active site.,[LIVF]-x-[GSAVC]-x-[LIVM]-S-x-[STAD]-A-G-x-[FY]-[LIVN]-C-[DNS].
+PS00231,F_ACTIN_CAPPING_BETA,F-actin capping protein beta subunit signature.,C-[DE]-[YF]-N-R-D.
+PS50031,EH,EH domain profile.,
+PS00616,HIS_ACID_PHOSPHAT_1,Histidine acid phosphatases phosphohistidine signature.,[LIVM]-x(2)-[LIVMA]-x(2)-[LIVM]-x-R-H-[GN]-x-R-x-[PAS].
+PS00183,UBC_1,Ubiquitin-conjugating (UBC) active site signature.,"[FYWLSP]-H-[PC]-[NHL]-[LIV]-x(3,4)-G-x-[LIVP]-C-[LIV]-x(1,2)-[LIVR]."
+PS00110,PYRUVATE_KINASE,Pyruvate kinase active site signature.,[LIVAC]-x-[LIVM](2)-[SAPCV]-K-[LIV]-E-[NKRST]-x-[DEQHS]-[GSTA]-[LIVM].
+PS50829,GYF,GYF domain profile.,
+PS51523,ZF_HD_DIMER,Zinc-finger ZF-HD dimerization-type profile.,
+PS00378,HEXOKINASE_1,Hexokinase domain signature.,[LIVM]-G-F-[TN]-F-S-[FY]-P-x(5)-[LIVM]-[DNST]-x(3)-[LIVM]-x(2)-W-T-K-x-[LF].
+PS50866,GOLD,GOLD domain profile.,
+PS51043,DDHD,DDHD domain profile.,
+PS51316,ODV,Olduvai (ODV) domain profile.,
+PS51495,GLUE,GLUE domain profile.,
+PS51855,MGS,MGS-like domain profile.,
+PS00097,CARBAMOYLTRANSFERASE,Aspartate and ornithine carbamoyltransferases signature.,F-x-[EK]-x-S-[GT]-R-T.
+PS51335,ELMO,ELMO domain profile.,
+PS00361,RIBOSOMAL_S10,Ribosomal protein S10 signature.,[AV]-x(3)-[GDNSR]-[LIVMSTAG]-x(3)-G-P-[LIVM]-x-[LIVM]-P-T.
+PS00103,PUR_PYR_PR_TRANSFER,Purine/pyrimidine phosphoribosyl transferases signature.,[LIVMFYWCTA]-[LIVM]-[LIVMA]-[LIVMFC]-[DE]-D-[LIVMS]-[LIVM]-[STAVD]-[STAR]-[GAC]-x-[STAR].
+PS00047,HISTONE_H4,Histone H4 signature.,G-A-K-R-H.
+PS51715,G_GB1_RHD3,GB1/RHD3-type guanine nucleotide-binding (G) domain profile.,
+PS50845,RETICULON,Reticulon domain profile.,
+PS00086,CYTOCHROME_P450,Cytochrome P450 cysteine heme-iron ligand signature.,[FW]-[SGNH]-x-[GD]-{F}-[RKHPT]-{P}-C-[LIVMFAP]-[GAD].
+PS50922,TLC,TLC domain profile.,
+PS01017,STEROL_REDUCT_1,Sterol reductase family signature 1.,G-x(2)-[LIVMF]-[IFYH]-[DN]-x-[FYWM]-x-G-x(2)-[LF]-[NY]-P-[RQ].
+PS01018,STEROL_REDUCT_2,Sterol reductase family signature 2.,[LIVM](2)-[LIVMFT]-[HWD]-R-x(2)-R-D-x(3)-C-x(2)-K-Y-[GK]-x(2)-[FW]-x(2)-Y.
+PS01174,LIPASE_GDXG_SER,"Lipolytic enzymes ""G-D-X-G"" family, putative serine active site.",[LIVM]-x-[LIVMF]-[SA]-G-D-S-[CAS]-G-[GA]-x-[LI]-[CAVT].
+PS01188,ELO,ELO family signature.,[LIV]-x-F-[LIV]-H-[VYWT]-[FY]-H-H.
+PS00476,FATTY_ACID_DESATUR_1,Fatty acid desaturases family 1 signature.,G-E-x-[FYN]-H-N-[FY]-H-H-x-F-P-x-D-Y.
+PS51318,TAT,Twin arginine translocation (Tat) signal profile.,
+PS01066,UPP_SYNTHASE,Undecaprenyl pyrophosphate synthase family signature.,"[DEH]-[LIVMF]-[LIVMFC]-[LIVMF]-R-[STPV]-[SGAC]-[GEN]-x(1,2)-R-x-S-x-[FY]-[LMFV]-[LIPMVT]-[YWL]."
+PS51449,MTTASE_N,Methylthiotransferase N-terminal domain profile.,
+PS51918,RADICAL_SAM,Radical SAM core domain profile.,
+PS01278,MTTASE_RADICAL,Methylthiotransferase radical SAM domain signature.,[LIVM]-x-[LIVMT]-x(2)-G-C-x(3)-C-[STAN]-[FY]-C-x-[LIVMT]-x(4)-G.
+PS50926,TRAM,TRAM domain profile.,
+PS50859,LONGIN,Longin domain profile.,
+PS01339,SURF4,SURF4 family signature.,[KR]-Y-[DE]-F-[FY]-Q-x(2)-S-x-[LIVM]-G-G-L-L.
+PS51778,VAST,VASt domain profile.,
+PS51751,EXPERA,EXPERA domain profile.,
+PS01173,LIPASE_GDXG_HIS,"Lipolytic enzymes ""G-D-X-G"" family, putative histidine active site.","[LIVMF](2)-x-[LIVMF]-H-G-G-[SAG]-[FYW]-x(3)-[STDN]-x(1,2)-[STYA]-[HAGFT]."
+PS50892,V_SNARE,v-SNARE coiled-coil homology domain profile.,
+PS00755,SECY_1,Protein secY signature 1.,[GSTL]-[LIVMFK]-[LIVMFCA]-x-[LIVMF]-[GSAN]-[LIVM]-x-P-[LIVMFYN]-[LIVMFY]-x-[AS]-[GSTQD]-[LIVMFAT](3)-[EQ]-[LIVMFA](2).
+PS00756,SECY_2,Protein secY signature 2.,"[LIVMFYW](2)-x-[DE]-x-[LIVM]-[STDNQ]-x(2,3)-[GK]-[LIVMF]-[GST]-[NST]-G-x-[GST]-[LIV]-[LIVFP]."
+PS01315,CDS,Phosphatidate cytidylyltransferase signature.,S-x-[LIVMF]-K-R-x(4)-K-D-x-[GSA]-x(2)-[LIF]-[PGS]-x-H-G-G-[LIVMF]-x-D-R-[LIVMFT]-D.
+PS50919,MIR,MIR domain profile.,
+PS00307,LECTIN_LEGUME_BETA,Legume lectins beta-chain signature.,[LIV]-[STAG]-V-[DEQV]-[FLI]-D-[ST].
+PS50244,S5A_REDUCTASE,Steroid 5-alpha reductase C-terminal domain profile.,
+PS50839,CHASE,CHASE domain profile.,
+PS00803,CALRETICULIN_1,Calreticulin family signature 1.,[KRHN]-x-[DEQN]-[DEQNK]-x(3)-C-G-G-[AG]-[FY]-[LIVM]-[KN]-[LIVMFY](2).
+PS00804,CALRETICULIN_2,Calreticulin family signature 2.,[LIVM](2)-F-G-P-D-x-C-[AG].
+PS00805,CALRETICULIN_REPEAT,Calreticulin family repeated motif signature.,[IVM]-x-[DV]-x-[DENST]-x(2)-K-P-[DEH]-D-W-[DEN].
+PS01237,UPF0028,Uncharacterized protein family UPF0028 signature.,[GA]-[GS]-G-[GA]-A-R-G-x-[SA]-H-x-G-x(9)-[IVY]-x-[IV]-[DV]-x(2)-[GA]-G-x-S-x-G.
+PS51392,KEN,KEN domain profile.,
+PS51914,MRH,MRH domain profile.,
+PS50202,MSP,Major sperm protein (MSP) domain profile.,
+PS01243,BI1,Bax inhibitor-1 family signature.,"G-x(2)-[LIVM]-[GC]-P-x-[LI]-x(4)-[SAGDT]-x(4,6)-[LIVM](2)-x(2)-A-x(2)-[MG]-T-x-[LIVM]-x-F."
+PS50920,SOLCAR,Solute carrier (Solcar) repeat profile.,
+PS51292,ZF_RING_CH,Zinc finger RING-CH-type profile.,
+PS01044,SQUALEN_PHYTOEN_SYN_1,Squalene and phytoene synthases signature 1.,Y-[CSAM]-x(2)-[VSG]-A-[GSA]-[LIVAT]-[IV]-G-x(2)-[LMSC]-x(2)-[LIV].
+PS01045,SQUALEN_PHYTOEN_SYN_2,Squalene and phytoene synthases signature 2.,"[LIVM]-G-x(3)-Q-x(2,3)-[ND]-[IFL]-x-[RE]-D-[LIVMFY]-x(2)-[DE]-x(4,7)-R-x-[FY]-x-P."
+PS01067,SECE_SEC61G,Protein secE/sec61-gamma signature.,[LIVMFY]-x-{D}-[DENQGA]-x-{E}-x(2)-[LIVMFTA]-x-[KRV]-x(2)-[KW]-P-x(3)-[SEQ]-x(5)-{D}-{CG}-[LIVT]-[LIVGA]-[LIVFGAST].
+PS50836,DOMON,DOMON domain profile.,
+PS01034,GH16_1,Glycosyl hydrolases family 16 active sites.,"E-[LIV]-D-[LIVF]-x(0,1)-E-x(2)-[GQ]-[KRNF]-x-[PSTA]."
+PS51188,ZF_CR,Zinc finger CR-type profile.,
+PS51762,GH16_2,Glycosyl hydrolases family 16 (GH16) domain profile.,
+PS50954,LEM,LEM domain profile.,
+PS51564,SAM_ICMT,Protein-S-isoprenylcysteine O-methyltransferase (EC 2.1.1.100) family profile.,
+PS00593,HEME_OXYGENASE,Heme oxygenase signature.,L-[IV]-A-H-[STACH]-Y-[STV]-[RT]-Y-[LIVM]-G.
+PS00941,CARBOXYLESTERASE_B_2,Carboxylesterases type-B signature 2.,[EDA]-[DG]-C-L-[YTF]-[LIVT]-[DNS]-[LIV]-[LIVFYW]-x-[PQR].
+PS00122,CARBOXYLESTERASE_B_1,Carboxylesterases type-B serine active site.,F-[GR]-G-x(4)-[LIVM]-x-[LIV]-x-G-x-S-[STAG]-G.
+PS51469,SUN,SUN domain profile.,
+PS51092,FN2_2,Fibronectin type-II collagen-binding domain profile.,
+PS00023,FN2_1,Fibronectin type-II collagen-binding domain signature.,"C-x(2)-P-F-x-[FYWIV]-x(7)-C-x(8,10)-W-C-x(4)-[DNSR]-[FYW]-x(3,5)-[FYW]-x-[FYWI]-C."
+PS01047,HMA_1,Heavy-metal-associated domain.,"[LIVNS]-x-{L}-[LIVMFA]-x-C-x-[STAGCDNH]-C-x(3)-[LIVFG]-{LV}-x(2)-[LIV]-x(9,11)-[IVA]-x-[LVFYS]."
+PS00136,SUBTILASE_ASP,"Serine proteases, subtilase family, aspartic acid active site.","[STAIV]-{ERDL}-[LIVMF]-[LIVM]-D-[DSTA]-G-[LIVMFC]-x(2,3)-[DNH]."
+PS00761,SPASE_I_3,Signal peptidases I signature 3.,[LIVMFYW](2)-{NLPA}-{T}-G-D-[NH]-{PIEW}-x(2)-[SND]-x(2)-[SG].
+PS51207,PXA,PXA domain profile.,
+PS00942,GLPT,glpT family of transporters signature.,[QEK]-[RF]-G-x(3)-[GSA]-[LIVF]-[WL]-[NS]-x-[SA]-[HM]-N-[LIV]-[GA]-G.
+PS00146,BETA_LACTAMASE_A,Beta-lactamase class-A active site.,[FY]-x-[LIVMFY]-{E}-S-[TV]-x-K-x(3)-{T}-[AGLM]-{D}-{KA}-[LC].
+PS01074,TERPENE_SYNTHASES,Terpene synthases signature.,[DE]-G-S-W-x-[GE]-x-W-[GA]-[LIVM]-x-[FY]-x-Y-[GA].
+PS51203,CS,CS domain profile.,
+PS00127,RNASE_PANCREATIC,Pancreatic ribonuclease family signature.,C-K-x(2)-N-T-F.
+PS51324,ERV_ALR,ERV/ALR sulfhydryl oxidase domain profile.,
+PS50065,HMG_COA_REDUCTASE_4,Hydroxymethylglutaryl-coenzyme A reductases family profile.,
+PS00066,HMG_COA_REDUCTASE_1,Hydroxymethylglutaryl-coenzyme A reductases signature 1.,[RKH]-x-{Y}-{I}-x-{I}-{L}-D-x-M-G-x-N-x-[LIVMA].
+PS00318,HMG_COA_REDUCTASE_2,Hydroxymethylglutaryl-coenzyme A reductases signature 2.,[LIVM]-G-x-[LIVM]-G-G-[AG]-T.
+PS01192,HMG_COA_REDUCTASE_3,Hydroxymethylglutaryl-coenzyme A reductases signature 3.,A-[LIVM]-x-[STAN]-x(2)-[LI]-x-[KRNQ]-[GSA]-H-[LM]-x-[FYLH].
+PS00417,SYNAPTOBREVIN,Synaptobrevin signature.,[NT]-[LIVMF]-[DENSTG]-[KLNRGS]-[VAI]-x-[DEQA]-R-x(2)-[KRN]-[LIVM]-[STDEA]-x-[LIVM]-x-[DEQGN]-[KR]-[TAS]-[DEAS].
+PS00024,HEMOPEXIN,Hemopexin domain signature.,"[LIFAT]-{IL}-x(2)-W-x(2,3)-[PE]-x-{VF}-[LIVMFY]-[DENQS]-[STA]-[AV]-[LIVMFY]."
+PS50192,T_SNARE,t-SNARE coiled-coil homology domain profile.,
+PS00914,SYNTAXIN,Syntaxin / epimorphin family signature.,"[RQLKA]-x(3)-[LIVMAW]-x(2)-[LIVM]-[ESHLKAGQV]-x(2)-[LIVMT]-x-[DEVMNRAST]-[LIVMT]-x(2)-[LIVMQ]-[FSAQGVM]-x(2)-[LIVMF]-x(3)-[LIVT]-x(2)-Q-[GADEQVST]-x(2)-[LIVMA]-[DNQTEI]-x-[LIVMF]-[DESVHAG]-x(2,3)-[LIVM]."
+PS00282,KAZAL_1,Kazal serine protease inhibitors family signature.,"C-x(4)-{C}-x(2)-C-x-{A}-x(4)-Y-x(3)-C-x(2,3)-C."
+PS51304,GALECTIN,Galactoside-binding lectin (galectin) domain profile.,
+PS50231,RICIN_B_LECTIN,Lectin domain of ricin B chain profile.,
+PS01009,CRISP_1,CRISP family signature 1.,[GDER]-[HR]-[FYWH]-[TVS]-[QA]-[LIVM]-[LIVMA]-W-x(2)-[STN].
+PS51289,GLG1_C_RICH,Cysteine-rich GLG1 repeat profile.,
+PS50146,DAGK,DAG-kinase catalytic (DAGKc) domain profile.,
+PS00131,CARBOXYPEPT_SER_SER,"Serine carboxypeptidases, serine active site.",[LIVM]-x-[GSTA]-E-S-Y-[AG]-[GS].
+PS00560,CARBOXYPEPT_SER_HIS,"Serine carboxypeptidases, histidine active site.",[LIVF]-x(2)-[LIVSTA]-x-[IVPST]-x-[GSDNQL]-[SAGV]-[SG]-H-x-[IVAQ]-P-x(3)-[PSA].
+PS00379,CDP_ALCOHOL_P_TRANSF,CDP-alcohol phosphatidyltransferases signature.,"D-G-x(2)-A-R-x(7,8)-G-x(3)-D-x(3)-D."
+PS00189,LIPOYL,2-oxo acid dehydrogenases acyltransferase component lipoyl binding site.,[GDN]-x(2)-[LIVF]-x(3)-{VH}-{M}-[LIVMFCA]-x(2)-[LIVMFA]-{LDFY}-{KPE}-x-K-[GSTAIVW]-[STAIVQDN]-x(2)-[LIVMFS]-x(5)-[GCN]-x-[LIVMFY].
+PS51892,SUBTILASE,"Serine proteases, subtilase domain profile.",
+PS00137,SUBTILASE_HIS,"Serine proteases, subtilase family, histidine active site.",H-G-[STM]-x-[VIC]-[STAGC]-[GS]-x-[LIVMA]-[STAGCLV]-[SAGM].
+PS00138,SUBTILASE_SER,"Serine proteases, subtilase family, serine active site.",G-T-S-x-[SA]-x-P-x-{L}-[STAVC]-[AG].
+PS51829,P_HOMO_B,P/Homo B domain profile.,
+PS51448,P_TREFOIL_2,P-type 'Trefoil' domain profile.,
+PS00025,P_TREFOIL_1,P-type 'Trefoil' domain signature.,"[KRH]-x(2)-C-x-[FYPSTV]-x(3,4)-[ST]-x(3)-C-x(4)-C-C-[FYWH]."
+PS00129,GLYCOSYL_HYDROL_F31_1,Glycosyl hydrolases family 31 active site.,[GFY]-[LIVMF]-W-x-D-M-[NSA]-E.
+PS00707,GLYCOSYL_HYDROL_F31_2,Glycosyl hydrolases family 31 signature 2.,G-[AVP]-[DT]-[LIVMTAS]-[CG]-G-[FY]-x(3)-[STP]-x(3)-L-[CL]-x-R-W-x(2)-[LVMI]-[GSA]-[SA]-[FY]-x-P-[FY]-x-R-[DNA].
+PS50236,CHCR,Clathrin heavy-chain (CHCR) repeat profile.,
+PS00498,TYROSINASE_2,Tyrosinase and hemocyanins CuB-binding region signature.,D-P-x-F-[LIVMFYW]-x(2)-H-x(3)-D.
+PS01309,UPF0057,Uncharacterized protein family UPF0057 signature.,[LIVF]-x-[STAC]-[LIVF](3)-P-[PF]-[LIVA]-[GAV]-[IV]-x(4)-[GKN].
+PS00778,HIS_ACID_PHOSPHAT_2,Histidine acid phosphatases active site signature.,[LIVMF]-x-[LIVMFAG]-{T}-x-[STAGI]-H-D-[STANQ]-{V}-[LIVM]-x(2)-[LIVMFY]-x(2)-[STA].
+PS00381,CLP_PROTEASE_SER,Endopeptidase Clp serine active site.,T-x(2)-[LIVMF]-G-x-A-[SAC]-S-[MSA]-[PAG]-[STA].
+PS00382,CLP_PROTEASE_HIS,Endopeptidase Clp histidine active site.,R-x(3)-[EAP]-x(3)-[LIVMFYT]-[LM]-[LIVM]-H-Q-P.
+PS50305,SIRTUIN,Sirtuin catalytic domain profile.,
+PS51375,PPR,Pentatricopeptide (PPR) repeat profile.,
+PS51787,LON_N,Lon N-terminal domain profile.,
+PS51786,LON_PROTEOLYTIC,Lon proteolytic domain profile.,
+PS01046,LON_SER,"ATP-dependent serine proteases, lon family, serine active site.",D-G-[PD]-S-A-[GS]-[LIVMCA]-[TA]-[LIVM].
+PS51286,RAP,RAP domain profile.,
+PS00447,DNA_POLYMERASE_A,DNA polymerase family A signature.,R-x(2)-[GSAV]-K-x(3)-[LIVMFY]-[AGQ]-x(2)-Y-x(2)-[GS]-x(3)-[LIVMA].
+PS51379,4FE4S_FER_2,4Fe-4S ferredoxin-type iron-sulfur binding domain profile.,
+PS00198,4FE4S_FER_1,4Fe-4S ferredoxin-type iron-sulfur binding region signature.,C-x-{P}-C-{C}-x-C-{CP}-x-{C}-C-[PEG].
+PS00814,ADX,"Adrenodoxin family, iron-sulfur binding region signature.",C-x(2)-[STAQ]-x-[STAMV]-C-[STA]-T-C-[HR].
+PS00623,GMC_OXRED_1,GMC oxidoreductases signature 1.,[GA]-[RKNC]-x-[LIVW]-G(2)-[GST](2)-x-[LIVM]-[NH]-x(3)-[FYWA]-x(2)-[PAG]-x(5)-[DNESHQA].
+PS00624,GMC_OXRED_2,GMC oxidoreductases signature 2.,[GS]-[PSTA]-x(2)-[ST]-[PS]-x-[LIVM](2)-x(2)-S-G-[LIVM]-G.
+PS51826,PSBD,Peripheral subunit-binding (PSBD) domain profile.,
+PS51199,SF4_HELICASE,Superfamily 4 helicase domain profile.,
+PS51007,CYTC,Cytochrome c family profile.,
+PS51758,LETM1_RBD,Letm1 ribosome-binding (RBD) domain profile.,
+PS01065,ETF_BETA,Electron transfer flavoprotein beta-subunit signature.,"[IVAG]-x-[KR]-x(2)-[DE]-[GDE](2)-x(1,2)-[EQHF]-x-[LIV]-x(4)-P-x-[LIVM](2)-[TACS]."
+PS01070,NUCLEASE_NON_SPEC,DNA/RNA non-specific endonucleases active site.,D-R-G-H-[QLIM]-x(3)-[AG].
+PS51423,MIRO,Miro domain profile.,
+PS50904,PRELI_MSF1,PRELI/MSF1 domain profile.,
+PS00870,CLPAB_1,Chaperonins clpA/B signature 1.,[DA]-[AI]-[SGA]-[NQS]-[LIVMF](2)-K-[PT]-x-[LM]-x(2)-G.
+PS00871,CLPAB_2,Chaperonins clpA/B signature 2.,[RGT]-[LIVMFY]-[DN]-x-[ST]-E-[LIVMFY]-x-[ED]-[KRQEAS]-x-[STA]-x-[STAD]-[KRS]-[LIVM]-x-G-[STAP].
+PS00296,CHAPERONINS_CPN60,Chaperonins cpn60 signature.,A-[AS]-{L}-[DEQ]-E-{A}-{Q}-{R}-x-G-G-[GA].
+PS00153,ATPASE_GAMMA,ATP synthase gamma subunit signature.,[IV]-T-x-E-x(2)-[DE]-x(3)-G-A-x-[SAKR].
+PS51503,HIG1,HIG1 domain profile.,
+PS00504,FRD_SDH_FAD_BINDING,Fumarate reductase / succinate dehydrogenase FAD-binding site.,R-[ST]-H-[ST]-x(2)-A-x-G-G.
+PS51296,RIESKE,Rieske [2Fe-2S] iron-sulfur domain profile.,
+PS51266,ZF_CHY,Zinc finger CHY-type profile.,
+PS00913,ADH_IRON_1,Iron-containing alcohol dehydrogenases signature 1.,"[STALIV]-[LIVF]-x-[DE]-x(6,7)-P-x(4)-[ALIV]-x-[GST]-x(2)-D-[TAIVM]-[LIVMF]-x(4)-E."
+PS00060,ADH_IRON_2,Iron-containing alcohol dehydrogenases signature 2.,[GSW]-x-[LIVTSACD]-[GH]-x(2)-[GSAE]-[GSHYQ]-x-[LIVTP]-[GAST]-[GAS]-x(3)-[LIVMT]-x-[HNS]-[GA]-x-[GTAC].
+PS00696,ETF_ALPHA,Electron transfer flavoprotein alpha-subunit signature.,[LI]-Y-[LIVM]-[AT]-x-[GA]-[IV]-[SD]-G-x-[IV]-Q-[HP]-x(2)-G-x(6)-[IV]-x-A-[IV]-N.
+PS00074,GLFV_DEHYDROGENASE,Glu / Leu / Phe / Val dehydrogenases active site.,[LIV]-x(2)-G-G-[SAG]-K-x-[GV]-x(3)-[DNST]-[PL].
+PS51447,FDX_ACB,Ferredoxin-fold anticodon binding (FDX-ACB) domain profile.,
+PS00978,FAD_G3PDH_2,FAD-dependent glycerol-3-phosphate dehydrogenase signature 2.,G-G-K-x(2)-[GSTE]-Y-R-x(2)-A.
+PS00072,ACYL_COA_DH_1,Acyl-CoA dehydrogenases signature 1.,[GAC]-[LIVM]-[ST]-E-x(2)-[GSAN]-G-[ST]-D-x(2)-[GSA].
+PS00073,ACYL_COA_DH_2,Acyl-CoA dehydrogenases signature 2.,[QDE]-x-{P}-G-[GS]-x-G-[LIVMFY]-x(2)-[DEN]-x(4)-[KR]-x(3)-[DEN].
+PS01260,BH4_1,"Apoptosis regulator, Bcl-2 family BH4 motif signature.",[DS]-[NT]-R-[AE]-[LI]-V-x-[KD]-[FY]-[LIV]-[GHS]-Y-K-L-[SR]-Q-[RK]-G-[HY]-x-[CW].
+PS50063,BH4_2,"Apoptosis regulator, Bcl-2 family BH4 motif profile.",
+PS01080,BH1,"Apoptosis regulator, Bcl-2 family BH1 motif signature.","[LVMENQ]-[FTLS]-x-[GSDECQ]-[GLPCKH]-x(1,2)-[NST]-[YW]-G-[RK]-[LIV]-[LIVC]-[GAT]-[LIVMF](2)-x-F-[GSAEC]-[GSARY]."
+PS50935,SSB,Single-strand binding (SSB) domain profile.,
+PS00535,COMPLEX1_49K,Respiratory chain NADH dehydrogenase 49 Kd subunit signature.,[LIVMH]-H-[RT]-[GA]-x-E-K-[LIVMTN]-x-E-x-[KRQ].
+PS51330,DHFR_2,Dihydrofolate reductase (DHFR) domain profile.,
+PS51349,FMN_HYDROXY_ACID_DH_2,FMN-dependent alpha-hydroxy acid dehydrogenase domain profile.,
+PS00557,FMN_HYDROXY_ACID_DH_1,FMN-dependent alpha-hydroxy acid dehydrogenases active site.,S-N-H-G-[AG]-R-Q.
+PS51476,PROTEASOME_BETA_2,Proteasome beta-type subunit profile.,
+PS51501,ZF_DNL,Zinc finger DNL-type profile.,
+PS51883,OBG,Obg domain profile.,
+PS51902,CLPX_ZB,ClpX zinc binding (ZB) domain profile.,
+PS51608,SAM_MT_UBIE,UbiE family SAM-binding methyltransferase profile.,
+PS01183,UBIE_1,ubiE/COQ5 methyltransferase family signature 1.,Y-[DN]-x-[MLAFTI]-N-x(2)-[LIVMN]-S-x(3)-[HQD]-x(2)-W.
+PS01184,UBIE_2,ubiE/COQ5 methyltransferase family signature 2.,R-V-[LIVMCT]-[KRQ]-[PVRK]-[GMKD]-[GAS]-x-[LIVMFAT]-x(2)-[LIVMCA]-[ED]-x-[SGT].
+PS00088,SOD_MN,Manganese and iron superoxide dismutases signature.,D-x-[WF]-E-H-[STA]-[FY](2).
+PS01273,COA_TRANSF_1,Coenzyme A transferases signature 1.,[DN]-[GN]-x(2)-[LIVMFA](3)-G-G-F-x(3)-G-x-P.
+PS01274,COA_TRANSF_2,Coenzyme A transferases signature 2.,[LF]-[HQ]-S-E-N-G-[LIVF](2)-[GA].
+PS00396,TOPO_IA_1,Topoisomerase (Topo) IA-type active site signature.,"[EQ]-x-L-Y-[DEQSTLM]-x(3,12)-[LIVST]-[ST]-Y-x-R-[ST]-[DEQSN]."
+PS00163,FUMARATE_LYASES,Fumarate lyases signature.,G-S-x(2)-M-x-{RS}-K-x-N.
+PS00161,ISOCITRATE_LYASE,Isocitrate lyase signature.,K-[KR]-C-G-H-[LMQR].
+PS01094,UPF0076,Uncharacterized protein family UPF0076 signature.,"[PA]-[ASTPV]-R-[SACVF]-x-[LIVMFY]-x(2)-[GSAKR]-x-[LMVA]-x(5,8)-[LIVM]-E-[MI]."
+PS00076,PYRIDINE_REDOX_1,Pyridine nucleotide-disulphide oxidoreductases class-I active site.,G-G-x-C-[LIVA]-x(2)-G-C-[LIVM]-P.
+PS00558,EUKARYOTIC_PORIN,Eukaryotic mitochondrial porin signature.,[YH]-x(2)-D-[SPCAD]-x-[STA]-x(3)-[TAG]-[KR]-[LIVMF]-[DNSTA]-[DNS]-x(4)-[GSTAN]-[LIVMA]-x-[LIVMY].
+PS01305,MOAA_NIFB_PQQE,moaA / nifB / pqqE family signature.,[LIV]-x(3)-C-[NDP]-[LIVMF]-[DNQRS]-C-x-[FYM]-C.
+PS51005,NAC,NAC domain profile.,
+PS51742,PPC,PPC domain profile profile.,
+PS51802,ZF_CCHHC,Zinc finger CCHHC-type profile.,
+PS51726,MYST_HAT,MYST-type histone acetyltransferase (HAT) domain profile.,
+PS00463,ZN2_CY6_FUNGAL_1,Zn(2)-C6 fungal-type DNA-binding domain signature.,"[GASTPV]-C-x(2)-C-[RKHSTACW]-x(2)-[RKHQ]-x(2)-C-x(5,12)-C-x(2)-C-x(6,8)-C."
+PS50048,ZN2_CY6_FUNGAL_2,Zn(2)-C6 fungal-type DNA-binding domain profile.,
+PS01031,SHSP,Small heat shock protein (sHSP) domain profile.,
+PS51059,PARP_CATALYTIC,PARP catalytic domain profile.,
+PS51879,RST,RST domain profile.,
+PS51472,RRM_NUP35,RNA-recognition motif (RRM) Nup35-type domain profile.,
+PS51391,CID,CID domain profile.,
+PS51434,NUP_C,NUP C-terminal domain profile.,
+PS51939,XRRM,xRRM domain profile.,
+PS50016,ZF_PHD_2,Zinc finger PHD-type profile.,
+PS01359,ZF_PHD_1,Zinc finger PHD-type signature.,"C-x(1,2)-C-x(5,45)-[VMFLWIE]-x-C-x(1,4)-C-x(1,4)-[WYFVQHLT]-H-x(2)-C-x(5,45)-[WFLYI]-x-C-x(2)-C."
+PS51680,SAM_MT_DRM,SAM-dependent methyltransferase DRM-type domain profile.,
+PS51049,KASH,KASH domain profile.,
+PS51827,XTBD,XRN2-binding (XTBD) domain profile.,
+PS51968,GRH_CP2_DB,Grh/CP2 DNA-binding (DB) domain profile.,
+PS50013,CHROMO_2,Chromo and chromo shadow domain profile.,
+PS00598,CHROMO_1,Chromo domain signature.,"[FYL]-x-[LIVMC]-[KR]-W-x-[GDNR]-[FYWLME]-x(5,6)-[ST]-W-[ESV]-[PSTDEN]-x(2,3)-[LIVMC]."
+PS50967,HRDC,HRDC domain profile.,
+PS52038,TOPO_IB_2,Topoisomerase (Topo) IB-type catalytic domain profile.,
+PS00176,TOPO_IB_1,Topoisomerase (Topo) IB-type active site signature.,[DEN]-x(6)-[GS]-[IT]-S-K-x(2)-Y-[LIVM]-x(3)-[LIVM].
+PS51676,FF,FF domain profile.,
+PS51183,JMJN,JmjN domain profile.,
+PS51542,FYRN,FYR domain FYRN motif profile.,
+PS51543,FYRC,FYR domain FYRC motif profile.,
+PS51037,YEATS,YEATS domain profile.,
+PS50064,ZF_PARP_2,Zinc finger poly(ADP-ribose) polymerase (PARP)-type profile.,
+PS51360,PLUS3,Plus3 domain profile.,
+PS51614,SAM_MT_ADRIFT,Adrift-type ribose 2'-O-methyltransferase (EC 2.1.1.-) domain profile.,
+PS00880,ACB_1,Acyl-CoA-binding (ACB) domain signature.,[PTLV]-[GSTA]-x-[DENQA]-x-[LMFK]-x(2)-[LIVMFY]-[YV]-[GSA]-x-[FYH]-K-Q-[GSAV]-[STL]-x-G.
+PS01214,UPF0016,Uncharacterized protein family UPF0016 signature.,E-[LIVM]-G-D-K-T-F-[LIVMF](2)-A.
+PS00082,EXTRADIOL_DIOXYGENAS,Extradiol ring-cleavage dioxygenases signature.,"[GNTIV]-x-H-x(5,7)-[LIVMF]-Y-x(2)-[DENTA]-P-x-[GP]-x(2,3)-E."
+PS00589,PTS_HPR_SER,PTS HPR domain serine phosphorylation site signature.,[GSTADE]-[KREQSTIV]-x-{EPRK}-{VPGL}-x-[KRDN]-S-[LIVMF](2)-{EVPL}-[LIVM]-{EATN}-x-[LIVM]-[GADE].
+PS52004,KS3_2,Ketosynthase family 3 (KS3) domain profile.,
+PS00606,KS3_1,Ketosynthase family 3 (KS3) active site signature.,G-{A}-{KGR}-x(2)-[LIVMFTAP]-{R}-x-[AGC]-C-[STA](2)-[STAG]-x(2)-{LI}-[LIVMF].
+PS01026,PHOTOSYSTEM_I_PSAGK,Photosystem I psaG and psaK proteins signature.,[GTND]-[FPMI]-x-[LIVMH]-x-[DEAT]-x(2)-[GA]-x-[GTAM]-[STA]-x-G-H-x-[LIVM]-[GAS].
+PS01195,PEPT_TRNA_HYDROL_1,Peptidyl-tRNA hydrolase signature 1.,[FYH]-x(2)-[TN]-[RK]-H-N-x-G-x(2)-[LIVMFAYCT]-[LIVMFA]-[DEN].
+PS51779,POTRA,POTRA domain profile.,
+PS51435,AP_NUCLEASE_F1_4,AP endonucleases family 1 profile.,
+PS00726,AP_NUCLEASE_F1_1,AP endonucleases family 1 signature 1.,[APF]-D-[LIVMF](2)-{T}-[LIVM]-Q-E-{G}-K.
+PS00727,AP_NUCLEASE_F1_2,AP endonucleases family 1 signature 2.,"D-[ST]-[FY]-[RP]-[KHQ]-x(7,8)-[FYWD]-[ST]-[FYW](2)."
+PS00728,AP_NUCLEASE_F1_3,AP endonucleases family 1 signature 3.,N-x-G-x-R-[LIVM]-D-[LIVMFYH]-x-[LV]-x-S.
+PS51903,CLP_R,Clp repeat (R) domain profile.,
+PS00032,ANTENNAPEDIA,'Homeobox' antennapedia-type protein signature.,[LIVMFE]-[FY]-P-W-M-[KRQTA].
+PS01152,HESB,Hypothetical hesB/yadR/yfhF family signature.,[FQ]-x-[LIVMFY]-x-[NH]-[PGT]-[NSKQR]-x(4)-C-x-C-[GSN]-x-S-F.
+PS00745,RF_PROK_I,Prokaryotic-type class I peptide chain release factors signature.,[ARH]-[STA]-x-G-x-G-G-Q-[HNGCSY]-[VI]-N-x(3)-[ST]-[AKG]-[IV].
+PS51355,GLUTATHIONE_PEROXID_3,Glutathione peroxidase profile.,
+PS00460,GLUTATHIONE_PEROXID_1,Glutathione peroxidases active site.,[GNDRC]-[RKHNQFYCS]-x-[LIVMFCS]-[LIVMF](2)-x-N-[VT]-x-[STCA]-x-[CU]-[GA]-x-[TA].
+PS00763,GLUTATHIONE_PEROXID_2,Glutathione peroxidases signature 2.,[LIV]-[AGD]-F-P-[CS]-[NG]-Q-F.
+PS51734,SAM_MPBQ_MSBQ_MT,MPBQ/MBSQ family SAM-binding methyltransferase profile.,
+PS00534,FERROCHELATASE,Ferrochelatase signature.,"[LIVMF]-[LIVMFC]-x-[ST]-x-H-[GS]-[LIVM]-P-x(4,5)-[DENQKRLHAFSTI]-x-[GN]-[DPC]-x(1,4)-[YA]."
+PS00934,GLYOXALASE_I_1,Glyoxalase I signature 1.,"[HQ]-[IVT]-x-[LIVFY]-x-[IV]-x(4)-{E}-[STA]-x(2)-F-[YM]-x(2,3)-[LMF]-G-[LMF]."
+PS00574,FATTY_ACID_DESATUR_2,Fatty acid desaturases family 2 signature.,"[ST]-[SA]-x(3)-[QR]-[LI]-x(5,6)-D-Y-x(2)-[LIVMFYW]-[LIVM]-[DE]."
+PS51010,CYTF,Cytochrome f family profile.,
+PS00747,GLUTR,Glutamyl-tRNA reductase signature.,[HY]-[LIVMAF]-x(2)-[LIVM]-[GSTACIV]-[GSTAC]-[GSA]-[LIVMFA]-[DEQHY]-S-x-[LIVMAS]-[LIVMFKS]-[GFA]-[DE]-x-[EQRD]-[IV]-[LIVTQAM]-[TAGRKS]-Q-[LIVMF]-[KRE].
+PS00570,RING_HYDROXYL_ALPHA,Bacterial ring hydroxylating dioxygenases alpha-subunit signature.,"C-x-H-R-[GAR]-x(7,8)-[GEKVI]-[NERAQ]-x(4,5)-C-x-[FY]-H."
+PS51295,CRM,CRM domain profile.,
+PS00272,SNAKE_TOXIN,Snake toxins signature.,"G-C-x(1,3)-C-P-x(8,10)-C-C-x(2)-[PDEN]."
+PS51863,LCN_CSAB,LCN-type cysteine-stabilized alpha/beta (CS-alpha/beta) domain profile.,
+PS50842,EXPANSIN_EG45,"Expansin, family-45 endoglucanase-like domain profile.",
+PS00119,PA2_ASP,Phospholipase A2 aspartic acid active site.,[LIVMA]-C-{LIVMFYWPCST}-C-D-{GS}-{G}-{N}-x-{QS}-C.
+PS51362,TGF_BETA_2,TGF-beta family profile.,
+PS00250,TGF_BETA_1,TGF-beta family signature.,[LIVM]-x(2)-P-x(2)-[FY]-x(4)-C-x-G-x-C.
+PS51910,GH18_2,Glycosyl hydrolases family 18 (GH18) domain profile.,
+PS01095,GH18_1,Glycosyl hydrolases family 18 (GH18) active site signature.,[LIVMFY]-[DN]-G-[LIVMF]-[DN]-[LIVMF]-[DN]-x-E.
+PS00497,TYROSINASE_1,Tyrosinase CuA-binding region signature.,"H-x(4,5)-F-[LIVMFTP]-x-[FW]-H-R-x(2)-[LVMT]-x(3)-E."
+PS51761,GH11_3,Glycosyl hydrolases family 11 (GH11) domain profile.,
+PS00776,GH11_1,Glycosyl hydrolases family 11 (GH11) active site signature 1.,[PSA]-[LQ]-x-E-[YF]-Y-[LIVM](2)-[DE]-x-[FYWHN].
+PS00777,GH11_2,Glycosyl hydrolases family 11 (GH11) active site signature 2.,[LIVMF]-x(2)-E-[AG]-[YWG]-[QRFGS]-[SG]-[STAN]-G-x-[SAF].
+PS00768,TRANSTHYRETIN_1,Transthyretin signature 1.,[KH]-[IV]-L-[DN]-x(3)-G-x-P-[AG]-x(2)-[LIVM]-x-[IV].
+PS00769,TRANSTHYRETIN_2,Transthyretin signature 2.,[YWF]-[TH]-[IVT]-[AP]-x(2)-[LIVM]-[STA]-[PQ]-[FYWG]-[GS]-[FY]-[QST].
+PS01158,MIF,Macrophage migration inhibitory factor family signature.,[DE]-P-[CLV]-[APT]-x(3)-[LIVM]-x-S-[IS]-[GT]-x-[LIVM]-[GST].
+PS00263,NATRIURETIC_PEPTIDE,Natriuretic peptides signature.,C-F-G-x(3)-[DEA]-[RH]-I-x(3)-S-x(2)-G-C.
+PS01138,SCORP_SHORT_TOXIN,Scorpion short toxins signature.,"C-x(3)-C-x(6,9)-[GAS]-K-C-[IMQT]-x(3)-C-x-C."
+PS51364,TB,TGF-beta binding (TB) domain profile.,
+PS51485,PHYTOCYANIN,Phytocyanin domain profile.,
+PS50279,BPTI_KUNITZ_2,Pancreatic trypsin inhibitor (Kunitz) family profile.,
+PS00280,BPTI_KUNITZ_1,Pancreatic trypsin inhibitor (Kunitz) family signature.,F-x(2)-{I}-G-C-x(6)-[FY]-x(5)-C.
+PS50215,ADAM_MEPRO,ADAM type metalloprotease domain profile.,
+PS50214,DISINTEGRIN_2,Disintegrin domain profile.,
+PS00427,DISINTEGRIN_1,Disintegrins signature.,"C-x(2)-[GS]-x-C-C-x(1,2)-[NQRSEKD]-C-x-[FMYLVI]-x(6)-C-[RKNQ]."
+PS00514,FIBRINOGEN_C_1,Fibrinogen C-terminal domain signature.,W-W-[LIVMFYW]-x(2)-C-x(2)-[GSA]-x(2)-N-G.
+PS51164,CBM1_2,CBM1 (carbohydrate binding type-1) domain profile.,
+PS00967,NMU,Neuromedin U signature.,F-[LIVMF]-F-R-P-R-N.
+PS00512,ALPHA_GALACTOSIDASE,Alpha-galactosidase signature.,"G-[LIVMFY]-x(2)-[LIVMFY]-x-[LIVM]-D-[DF]-x(1,2)-W-x(3,7)-[RV]-[DNSF]."
+PS50278,PDGF_2,Platelet-derived growth factor (PDGF) family profile.,
+PS00249,PDGF_1,Platelet-derived growth factor (PDGF) family signature.,P-[PSR]-C-V-x(3)-R-C-[GSTA]-G-C-C.
+PS00612,OSTEONECTIN_1,Osteonectin domain signature 1.,"C-x-[DNS]-x(2)-C-x(2)-G-[KRH]-x-C-x(6,7)-P-x-C-x-C-x(3,5)-C-P."
+PS00613,OSTEONECTIN_2,Osteonectin domain signature 2.,F-P-x-R-[IM]-x-D-W-L-x-[NQ].
+PS51732,ASN_GLN_ASE_3,Asparaginase / glutaminase domain profile.,
+PS50844,AFP_LIKE,Antifreeze protein-like domain profile.,
+PS50998,GLA_2,Gla domain profile.,
+PS00011,GLA_1,Vitamin K-dependent carboxylation domain.,"E-x(2)-[ERK]-E-x-C-x(6)-[EDR]-x(10,11)-[FYA]-[YW]."
+PS52012,CFEM,CFEM domain profile.,
+PS00786,5_NUCLEOTIDASE_2,5'-nucleotidase signature 2.,[FYPH]-x(4)-[LIVM]-G-N-H-E-F-[DN].
+PS50871,C1Q,C1q domain profile.,
+PS00210,HEMOCYANIN_2,Arthropod hemocyanins / insect LSPs signature 2.,T-x(2)-R-D-P-x-[FY]-[FYW].
+PS01225,CTCK_2,C-terminal cystine knot domain profile.,
+PS60021,HWTX_1,Huwentoxin-1 family signature.,"C-[KALRVG]-x-{M}-x(1,3)-C-x(4,6)-C-C-x(4,6)-C-x(4)-[ERK]-W-C."
+PS00400,LBP_BPI_CETP,LBP / BPI / CETP family signature.,[PA]-[GA]-[LIVMC]-x(2)-R-[IV]-[ST]-x(3)-L-x(5)-[EQAV]-x(4)-[LIVM]-[EQK]-x(8)-P.
+PS00264,NEUROHYPOPHYS_HORM,Neurohypophysial hormones signature.,C-[LIFY]-[LIFYV]-x-N-[CS]-P-x-G.
+PS00503,PECTINESTERASE_2,Pectinesterase signature 2.,[IV]-x-G-[STAD]-[LIVT]-D-[FYI]-[IV]-[FSN]-G.
+PS50993,NIDOGEN_G2,Nidogen G2 beta-barrel domain profile.,
+PS00758,ARGE_DAPE_CPG2_1,ArgE / dapE / ACY1 / CPG2 / yscS family signature 1.,[LIV]-[GALMY]-[LIVMF]-{Q}-[GSA]-H-x-D-[TV]-[STAV].
+PS50015,SAP_B,Saposin B type domain profile.,
+PS01155,ENDONUCLEASE_III_2,Endonuclease III family signature.,"[GSTENA]-x-[LIVMF]-P-x(5)-[LIVMW]-x(2,3)-[LI]-[PAS]-G-[IV]-[GA]-x(3)-[GAC]-x(2,3)-[LIVMA]-x(1,2)-[GSALVI]-[LIVMFYW]-[GANKD]."
+PS01185,CTCK_1,C-terminal cystine knot signature.,"C-C-x(13)-C-x(2)-[GN]-x(12)-C-x-C-x(2,4)-C."
+PS00246,WNT1,Wnt-1 family signature.,C-[KR]-C-H-G-[LIVMT]-S-G-x-C.
+PS00956,HYDROPHOBIN,Fungal hydrophobins signature.,[GN]-[DNQPSA]-x-C-[GSTANK]-[GSTADNQ]-[STNQI]-[PTIV]-x-C-C-[DENQKPST].
+PS00209,HEMOCYANIN_1,Arthropod hemocyanins / insect LSPs signature 1.,Y-[FYW]-x-E-D-[LIVM]-x(2)-N-x(6)-H-x(3)-P.
+PS00471,SMALL_CYTOKINES_CXC,Small cytokines (intercrine/chemokine) C-x-C subfamily signature.,"C-x-C-[LIVMS]-x(4,6)-[LIVMFY]-x(2)-[RKSEQNA]-x-[LIVM]-x(2)-[LIVMA]-x(5)-[STAG]-x(2)-C-x(3)-[EQ]-[LIVM](2)-x(9,10)-C-[LV]-[DN]."
+PS00562,CBM1_1,CBM1 (carbohydrate binding type-1) domain signature.,"C-G-G-x(4,7)-G-x(3)-C-x(4,5)-C-x(3,5)-[NHGS]-x-[FYWMI]-x(2)-Q-C."
+PS01010,CRISP_2,CRISP family signature 2.,[LIVMFYH]-[LIVMFY]-x-C-[NQRHS]-Y-x-[PARH]-x-[GL]-N-[LIVMFYWDN].
+PS50092,TSP1,Thrombospondin type-1 (TSP1) repeat profile.,
+PS50900,PLAC,PLAC domain profile.,
+PS51888,CLIP,Clip domain profile.,
+PS00262,INSULIN,Insulin family signature.,C-C-{P}-{P}-x-C-[STDNEKPI]-x(3)-[LIVMFS]-x(3)-C.
+PS51323,IGFBP_N_2,Insulin-like growth factor-binding protein (IGFBP) N-terminal domain profile.,
+PS00222,IGFBP_N_1,Insulin-like growth factor-binding protein (IGFBP) N-terminal domain signature.,[GP]-C-[GSET]-[CE]-[CA]-x(2)-C-[ALP]-x(6)-C.
+PS50184,VWFC_2,VWFC domain profile.,
+PS01208,VWFC_1,VWFC domain signature.,"C-x(2,3)-C-{CG}-C-x(6,14)-C-x(3,4)-C-x(2,10)-C-x(9,16)-C-C-x(2,4)-C."
+PS50256,PIR_REPEAT_2,Yeast PIR proteins repeats profile.,
+PS00929,PIR_REPEAT_1,Yeast PIR proteins repeats signature.,S-Q-[IV]-[STGNH]-D-G-Q-[LIV]-Q-[AIV]-[STA].
+PS51760,GH10_2,Glycosyl hydrolases family 10 (GH10) domain profile.,
+PS00288,TIMP,Tissue inhibitors of metalloproteinases signature.,C-x-C-x-P-x-H-P-Q-x(2)-[FIV]-C.
+PS50189,NTR,NTR domain profile.,
+PS00287,CYSTATIN,Cysteine proteases inhibitors signature.,[GSTEQKRV]-Q-[LIVT]-[VAF]-[SAGQ]-G-{DG}-[LIVMNK]-{TK}-x-[LIVMFY]-{S}-[LIVMFYA]-[DENQKRHSIV].
+PS00591,GH10_1,Glycosyl hydrolases family 10 (GH10) active site.,[GTA]-{QNAG}-{GSV}-[LIVN]-x-[IVMF]-[ST]-E-[LIY]-[DN]-[LIVMF].
+PS00520,INTERLEUKIN_10,Interleukin-10 family signature.,[KQS]-x(4)-C-[QYCS]-x(4)-[LIVM](2)-x-[FLR]-[FYT]-[LMVR]-x-[DERTI]-[IV]-[LMF].
+PS51864,ASTACIN,Astacin-like domain profile.,
+PS60026,ERGTX,Ergtoxin family signature.,C-x(5)-C-x-K-x(6)-C-x(2)-C-C-x(9)-C-x(4)-C-x-C.
+PS60015,MU_AGATOXIN,Mu-agatoxin family signature.,"C-[LAV]-x-[DEK]-x(3)-C-x(6,7)-C-C-x(4)-C-x-C-x(5)-C-x-C."
+PS51446,PACIFASTIN,Pacifastin domain profile.,
+PS51378,INVERT_DEFENSINS,Invertebrate defensins family profile.,
+PS00539,PYROKININ,Pyrokinins signature.,F-[GSTV]-P-R-L-[G>].
+PS00597,PLANT_LTP,Plant lipid transfer proteins signature.,"[LIVM]-[PA]-x(2)-C-x(1,2)-[LIVM]-x(1,2)-[LIVMST]-x-[LIVMFY]-x(1,2)-[LIVMF]-[STRD]-x(3)-[DN]-C-x(2)-[LIVM]."
+PS00640,THIOL_PROTEASE_ASN,Eukaryotic thiol (cysteine) proteases asparagine active site.,[FYCH]-[WI]-[LIVT]-x-[KRQAG]-N-[ST]-W-x(3)-[FYW]-G-x(2)-G-[LFYW]-[LIVMFYG]-x-[LIVMF].
+PS51162,THYROGLOBULIN_1_2,Thyroglobulin type-1 domain profile.,
+PS60018,DELTA_ACTX,Delta-atracotoxin (ACTX) family signature.,"C-x(5)-W-C-x(4)-D-C-C-C-x(3)-C-x(2)-A-W-Y-x(5)-C-x(10,11)-C."
+PS00587,GLYCOSYL_HYDROL_F17,Glycosyl hydrolases family 17 signature.,[LIVMKS]-x-[LIVMFYWA](3)-[STAG]-E-[STACVI]-G-[WY]-P-[STN]-x-[SAGQ].
+PS52077,IFN_III,Interferon (IFN) type-III family profile.,
+PS51211,VITELLOGENIN,Vitellogenin domain profile.,
+PS51862,BSPN_CSAB,BetaSPN-type cysteine-stabilized alpha/beta (CS-alpha/beta) domain profile.,
+PS51861,OXYTX_ICK,Oxytoxin-type inhibitor cystine knot (ICK) domain profile.,
+PS00268,CECROPIN,Cecropin family signature.,"W-x(0,2)-[KDN]-{Q}-{L}-K-[KRE]-[LI]-E-[RKN]."
+PS51200,SHORT_SCORPION_CHLORIDE,Scorpion short toxin chloride channel inhibitor subfamily profile.,
+PS00502,POLYGALACTURONASE,Polygalacturonase active site.,"[GSDENKRH]-x(2)-[VMFC]-x(2)-[GS]-H-G-[LIVMAG]-x(1,2)-[LIVM]-G-S."
+PS60029,SPIDER_CSTX,Spider toxin CSTX family signature.,C-{C}(6)-C-{C}(6)-C-C-{C}(8)-C-{C}-C.
+PS51695,SEDOLISIN,Sedolisin domain profile.,
+PS51468,VIT,VIT domain profile.,
+PS00879,ODR_DC_2_2,Orn/DAP/Arg decarboxylases family 2 signature 2.,"[GSA]-x(2,6)-[LIVMSCP]-x-{N}-[LIVMF]-[DNS]-[LIVMCA]-G-G-G-[LIVMFY]-[GSTPCEQ]."
+PS51408,TRANSFERRIN_LIKE_4,Transferrin-like domain profile.,
+PS00207,TRANSFERRIN_LIKE_3,Transferrin-like domain signature 3.,"[DENQK]-[YF]-x-[LY]-L-C-x-[DN]-x(5,8)-[LIV]-x(4,5)-C-x(2)-A-x(4)-[HQR]-x-[LIVMFYW]-[LIVM]."
+PS00205,TRANSFERRIN_LIKE_1,Transferrin-like domain signature 1.,"Y-x(0,1)-[VAS]-V-[IVAC]-[IVA]-[IVA]-[RKH]-[RKS]-[GDENSA]."
+PS51438,ALBUMIN_2,Albumin domain profile.,
+PS00212,ALBUMIN_1,Albumin domain signature.,[FY]-x(6)-C-C-x(2)-{C}-x(4)-C-[LFY]-x(6)-[LIVMFYW].
+PS01250,CHH_MIH_GIH,Arthropod CHH/MIH/GIH neurohormones family signature.,[LIVM]-x(3)-C-[KR]-x-[DENGRH]-C-[FY]-x-[STN]-x(2)-F-x(2)-C.
+PS00261,GLYCO_HORMONE_BETA_1,Glycoprotein hormones beta chain signature 1.,C-[STAGM]-G-[HFYL]-C-x-[ST].
+PS00689,GLYCO_HORMONE_BETA_2,Glycoprotein hormones beta chain signature 2.,"[PA]-V-A-x(2)-C-x-C-x(2)-C-x(4)-[STDAI]-[DEY]-C-x(6,8)-[PGSTAVMI]-x(2)-C."
+PS51677,NODB,NodB homology domain profile.,
+PS60013,MU_CONOTOXIN,Mu-conotoxin family signature.,"C-C-[TGN]-[PFG]-[PRG]-x(0,2)-C-[KRS]-[DS]-[RK]-[RQW]-C-[KR]-[PD]-[MLQH]-X(0,1)-[KR]-C-C."
+PS51137,VM,VM domain profile.,
+PS60023,OMEGA_AGA_II_III,Omega-agatoxin type II and III signature.,C-Q-C-C-x(2)-N-[GA]-[FY]-C-S.
+PS00861,GALANIN,Galanin signature.,G-W-T-L-N-S-A-G-Y-L-L-G-P.
+PS00175,PG_MUTASE,Phosphoglycerate mutase family phosphohistidine signature.,[LIVM]-x-R-H-G-[EQ]-x-{Y}-x-N.
+PS00639,THIOL_PROTEASE_HIS,Eukaryotic thiol (cysteine) proteases histidine active site.,[LIVMGSTAN]-{IEVK}-H-[GSACE]-[LIVM]-{GPSI}-[LIVMAT](2)-G-{SLAG}-[GSADNH].
+PS01177,ANAPHYLATOXIN_1,Anaphylatoxin domain signature.,"[CSH]-C-x(2)-[GAP]-x(7,8)-[GASTDEQR]-C-[GASTDEQL]-x(3,9)-[GASTDEQN]-x(2)-[CE]-x(6,7)-C-C."
+PS60025,CONANTOKIN,Conantokin family signature.,"G-E-E-E-x(2)-[KE]-{E}(2)-x(0,1)-E-x-[ILA]-R-E."
+PS51403,NC1_IV,Collagen IV carboxyl-terminal non-collagenous (NC1) domain profile.,
+PS00247,HBGF_FGF,HBGF/FGF family signature.,"G-x-[LIM]-x-[STAGP]-x(6,7)-[DENA]-C-x-[FLM]-x-[EQ]-x(6)-Y."
+PS00251,THD_1,Tumor necrosis factor (TNF) homology domain (THD) signature.,[LV]-x-[LIVM]-{V}-x-{L}-G-[LIVMF]-Y-[LIVMFY](2)-x(2)-[QEKHL]-[LIVMGT]-x-[LIVMFY].
+PS00258,CALCITONIN,Calcitonin / CGRP / IAPP family signature.,"C-[SAGDN]-[STN]-x(0,1)-[SA]-T-C-[VMA]-x(3)-[LYF]-x(3)-[LYF]."
+PS00800,PECTINESTERASE_1,Pectinesterase signature 1.,[GSTNP]-x(6)-[FYVHR]-[IVN]-[KEP]-x-G-[STIVKRQ]-Y-[DNQKRMV]-[EP]-x(3)-[LIMVA].
+PS50941,CHIT_BIND_I_2,Chitin-binding type-1 domain profile.,
+PS00026,CHIT_BIND_I_1,Chitin recognition or binding domain signature.,"C-x(4,5)-C-C-S-x(2)-G-x-C-G-x(3,4)-[FYW]-C."
+PS00773,CHITINASE_19_1,Chitinases family 19 signature 1.,"C-x(4,5)-F-Y-[ST]-x(3)-[FY]-[LIVMF]-x-A-x(3)-[YF]-x(2)-F-[GSA]."
+PS00774,CHITINASE_19_2,Chitinases family 19 signature 2.,[LIVM]-[GSA]-F-x-[STAG](2)-[LIVMFY]-W-[FY]-W-[LIVM].
+PS00338,SOMATOTROPIN_2,"Somatotropin, prolactin and related hormones signature 2.",C-[LIVMFY]-{PT}-x-D-[LIVMFYSTA]-x-{S}-{RK}-{A}-x-[LIVMFY]-x(2)-[LIVMFYT]-x(2)-C.
+PS50869,BRICHOS,BRICHOS domain profile.,
+PS00725,GERMIN,Germin family signature.,G-x(4)-H-x-H-P-x-[AGS]-x-E-[LIVM].
+PS00257,BOMBESIN,Bombesin-like peptides family signature.,W-A-x-G-[SH]-[LF]-M.
+PS51210,PLA2C,PLA2c domain profile.,
+PS00080,MULTICOPPER_OXIDASE2,Multicopper oxidases signature 2.,H-C-H-x(3)-H-x(3)-[AG]-[LM].
+PS50270,NGF_2,Nerve growth factor family profile.,
+PS00248,NGF_1,Nerve growth factor family signature.,[GSRE]-C-[KRL]-G-[LIVT]-[DE]-x(3)-[YW]-x-S-x-C.
+PS51345,MYOTOXINS_2,Myotoxins family profile.,
+PS60005,DELTA_CONOTOXIN,Delta-conotoxin family signature.,"C-x(2)-[EPSAGT]-x(3)-C-[GSNDL]-x(0,3)-[PILV]-x-[FPNDSG]-[GQ]-x-C-C-x(3,4)-C-[FLVIA]-x(1,2)-[FVIWA]-C."
+PS50817,INTEIN_N_TER,Intein N-terminal splicing motif profile.,
+PS51904,GLYCOSYL_HYDROL_F25_2,Glycosyl hydrolase family 25 (GH25) domain profile.,
+PS00609,GLYCOSYL_HYDROL_F32,Glycosyl hydrolases family 32 active site.,H-x(2)-[PV]-x(4)-[LIVMA]-N-D-P-N-[GA].
+PS60022,HWTX_2,Huwentoxin-2 family signature.,"C-x(1,4)-[FLIV]-[SEP]-C-[DE]-[EIQ]-x(4,7)-C-x(0,7)-C-[KST]-x(4,18)-C-[YK]-x(1,3)-C."
+PS52008,GH81,Glycosyl hydrolases family 81 (GH81) domain profile.,
+PS00799,GRANULINS,Granulins signature.,C-x-D-x(2)-H-C-C-P-x(4)-C.
+PS00369,PTS_HPR_HIS,PTS HPR domain histidine phosphorylation site signature.,G-[LIVM]-H-[STAV]-R-[PAS]-[GSTA]-[STAMVN].
+PS60016,OMEGA_ACTX_1,Omega-atracotoxin (ACTX) type 1 family signature.,C-[IT]-P-S-G-Q-P-C.
+PS00267,TACHYKININ,Tachykinin family signature.,F-[IVFY]-G-[LM]-M-[G>].
+PS51020,SPONDIN,Spondin domain profile.,
+PS50820,LCCL,LCCL domain profile.,
+PS60028,SCORPION_CALCINE,Scorpion calcine family signature.,C-x(6)-C-x(5)-C-C-x(3)-C-x(9)-R-C.
+PS00530,RNASE_T2_1,Ribonuclease T2 family histidine active site 1.,[FYWL]-x-[LIVM]-H-G-L-[WY]-P.
+PS00531,RNASE_T2_2,Ribonuclease T2 family histidine active site 2.,[LIVMF]-x(2)-[HDGTY]-[EQ]-[FYW]-x-[KRT]-H-[GA]-x-C.
