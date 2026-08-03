@@ -15,7 +15,7 @@ from skorch import NeuralNetBinaryClassifier,NeuralNetClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_auc_score,accuracy_score,f1_score
 
-from utils import loggerConfig,ResNet,Cnn
+from codes.utils import loggerConfig,ResNet,Cnn
 
 logger=logging.getLogger(__name__)
 logger.addHandler(logging.StreamHandler(sys.stdout))

@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split,cross_val_score,StratifiedK
 #from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score,roc_auc_score
 
-from utils import monomer_groupings
+from codes.utils import monomer_groupings
 import seaborn as sns
 
 import matplotlib.colors as mcolors

@@ -1,0 +1,974 @@
+2026-07-20 15:11:32 - __main__ - INFO - Filename: cnn_sequence_encoding_search.py started.
+2026-07-20 15:11:45 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is generated.
+2026-07-20 15:11:50 - __main__ - INFO - DKERNHYGQPWTSVAICFML encoding is done for binary task with:
+	-custom
+		-f1: 0.8375165125495376
+		-auroc: 0.7527569195052055
+2026-07-20 15:11:50 - __main__ - INFO - Input matrix with DKERNHYGQPWTSVAICFML encoding is removed.
+
+2026-07-20 15:12:02 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is generated.
+2026-07-20 15:12:08 - __main__ - INFO - DKENHRQGYPSTWVCAIFLM encoding is done for binary task with:
+	-custom
+		-f1: 0.8332588287885561
+		-auroc: 0.7541360768588977
+2026-07-20 15:12:08 - __main__ - INFO - Input matrix with DKENHRQGYPSTWVCAIFLM encoding is removed.
+
+2026-07-20 15:12:20 - __main__ - INFO - Input matrix with PGTCSDNHQVYIEKRFWALM encoding is generated.
+2026-07-20 15:12:25 - __main__ - INFO - PGTCSDNHQVYIEKRFWALM encoding is done for binary task with:
+	-custom
+		-f1: 0.8283813747228381
+		-auroc: 0.7437194973923671
+2026-07-20 15:12:25 - __main__ - INFO - Input matrix with PGTCSDNHQVYIEKRFWALM encoding is removed.
+
+2026-07-20 15:12:38 - __main__ - INFO - Input matrix with PKESDQNRTGAMHVYLIFWC encoding is generated.
+2026-07-20 15:12:43 - __main__ - INFO - PKESDQNRTGAMHVYLIFWC encoding is done for binary task with:
+	-custom
+		-f1: 0.8450200982581509
+		-auroc: 0.7695391089122724
+2026-07-20 15:12:43 - __main__ - INFO - Input matrix with PKESDQNRTGAMHVYLIFWC encoding is removed.
+
+2026-07-20 15:12:56 - __main__ - INFO - Input matrix with DEGSNKPQRHTAMWCYFVIL encoding is generated.
+2026-07-20 15:13:01 - __main__ - INFO - DEGSNKPQRHTAMWCYFVIL encoding is done for binary task with:
+	-custom
+		-f1: 0.838994265549184
+		-auroc: 0.7556059223542084
+2026-07-20 15:13:01 - __main__ - INFO - Input matrix with DEGSNKPQRHTAMWCYFVIL encoding is removed.
+
+2026-07-20 15:13:13 - __main__ - INFO - Input matrix with GDPNESKQTRAHMVYCILWF encoding is generated.
+2026-07-20 15:13:19 - __main__ - INFO - GDPNESKQTRAHMVYCILWF encoding is done for binary task with:
+	-custom
+		-f1: 0.8417298261257244
+		-auroc: 0.7642861727092873
+2026-07-20 15:13:19 - __main__ - INFO - Input matrix with GDPNESKQTRAHMVYCILWF encoding is removed.
+
+2026-07-20 15:13:31 - __main__ - INFO - Input matrix with EKRSDQGNPHTAMWYCFLVI encoding is generated.
+2026-07-20 15:13:36 - __main__ - INFO - EKRSDQGNPHTAMWYCFLVI encoding is done for binary task with:
+	-custom
+		-f1: 0.8398576512455516
+		-auroc: 0.7607249191480336
+2026-07-20 15:13:36 - __main__ - INFO - Input matrix with EKRSDQGNPHTAMWYCFLVI encoding is removed.
+
+2026-07-20 15:13:49 - __main__ - INFO - Input matrix with MWFHCALVYTINKQESPDRG encoding is generated.
+2026-07-20 15:13:54 - __main__ - INFO - MWFHCALVYTINKQESPDRG encoding is done for binary task with:
+	-custom
+		-f1: 0.8362338241856314
+		-auroc: 0.7572969073948506
+2026-07-20 15:13:54 - __main__ - INFO - Input matrix with MWFHCALVYTINKQESPDRG encoding is removed.
+
+2026-07-20 15:14:06 - __main__ - INFO - Input matrix with KEQDNRSTPGYAHCILVMFW encoding is generated.
+2026-07-20 15:14:11 - __main__ - INFO - KEQDNRSTPGYAHCILVMFW encoding is done for binary task with:
+	-custom
+		-f1: 0.8358608385370205
+		-auroc: 0.7565846566826
+2026-07-20 15:14:11 - __main__ - INFO - Input matrix with KEQDNRSTPGYAHCILVMFW encoding is removed.
+
+2026-07-20 15:14:24 - __main__ - INFO - Input matrix with CENSKRDHGQTVPMYIAWFL encoding is generated.
+2026-07-20 15:14:29 - __main__ - INFO - CENSKRDHGQTVPMYIAWFL encoding is done for binary task with:
+	-custom
+		-f1: 0.838248436103664
+		-auroc: 0.760635626208594
+2026-07-20 15:14:29 - __main__ - INFO - Input matrix with CENSKRDHGQTVPMYIAWFL encoding is removed.
+
+2026-07-20 15:14:41 - __main__ - INFO - Input matrix with GVIETAKQLRPSMYHFCWND encoding is generated.
+2026-07-20 15:14:46 - __main__ - INFO - GVIETAKQLRPSMYHFCWND encoding is done for binary task with:
+	-custom
+		-f1: 0.8397150489759573
+		-auroc: 0.760947453895544
+2026-07-20 15:14:46 - __main__ - INFO - Input matrix with GVIETAKQLRPSMYHFCWND encoding is removed.
+
+2026-07-20 15:14:59 - __main__ - INFO - Input matrix with HNWEKDAGFQPSRMTLIYVC encoding is generated.
+2026-07-20 15:15:04 - __main__ - INFO - HNWEKDAGFQPSRMTLIYVC encoding is done for binary task with:
+	-custom
+		-f1: 0.8289414917373827
+		-auroc: 0.7479037087264315
+2026-07-20 15:15:04 - __main__ - INFO - Input matrix with HNWEKDAGFQPSRMTLIYVC encoding is removed.
+
+2026-07-20 15:15:16 - __main__ - INFO - Input matrix with GASCTDPNVEQHLIMKRFYW encoding is generated.
+2026-07-20 15:15:21 - __main__ - INFO - GASCTDPNVEQHLIMKRFYW encoding is done for binary task with:
+	-custom
+		-f1: 0.8295505117935025
+		-auroc: 0.7470135697363904
+2026-07-20 15:15:21 - __main__ - INFO - Input matrix with GASCTDPNVEQHLIMKRFYW encoding is removed.
+
+2026-07-20 15:15:33 - __main__ - INFO - Input matrix with WLIFHVCEYAMNGQRTDKSP encoding is generated.
+2026-07-20 15:15:38 - __main__ - INFO - WLIFHVCEYAMNGQRTDKSP encoding is done for binary task with:
+	-custom
+		-f1: 0.8305084745762712
+		-auroc: 0.749372856620653
+2026-07-20 15:15:38 - __main__ - INFO - Input matrix with WLIFHVCEYAMNGQRTDKSP encoding is removed.
+
+2026-07-20 15:15:50 - __main__ - INFO - Input matrix with VHMIAEFPLTDRNKQSYCGW encoding is generated.
+2026-07-20 15:15:55 - __main__ - INFO - VHMIAEFPLTDRNKQSYCGW encoding is done for binary task with:
+	-custom
+		-f1: 0.8326675543719485
+		-auroc: 0.7499518655248331
+2026-07-20 15:15:56 - __main__ - INFO - Input matrix with VHMIAEFPLTDRNKQSYCGW encoding is removed.
+
+2026-07-20 15:16:08 - __main__ - INFO - Input matrix with ILVWMFAHEQCTRYKSNDGP encoding is generated.
+2026-07-20 15:16:13 - __main__ - INFO - ILVWMFAHEQCTRYKSNDGP encoding is done for binary task with:
+	-custom
+		-f1: 0.8380439659039928
+		-auroc: 0.7622380159108857
+2026-07-20 15:16:13 - __main__ - INFO - Input matrix with ILVWMFAHEQCTRYKSNDGP encoding is removed.
+
+2026-07-20 15:16:27 - __main__ - INFO - Input matrix with DGQSETAKRNPICHVLMWFY encoding is generated.
+2026-07-20 15:16:32 - __main__ - INFO - DGQSETAKRNPICHVLMWFY encoding is done for binary task with:
+	-custom
+		-f1: 0.8382222222222222
+		-auroc: 0.758098451046541
+2026-07-20 15:16:32 - __main__ - INFO - Input matrix with DGQSETAKRNPICHVLMWFY encoding is removed.
+
+2026-07-20 15:16:44 - __main__ - INFO - Input matrix with KDEPNQSRTHGAYMFWLVIC encoding is generated.
+2026-07-20 15:16:50 - __main__ - INFO - KDEPNQSRTHGAYMFWLVIC encoding is done for binary task with:
+	-custom
+		-f1: 0.8340847610459874
+		-auroc: 0.7592550736527229
+2026-07-20 15:16:50 - __main__ - INFO - Input matrix with KDEPNQSRTHGAYMFWLVIC encoding is removed.
+
+2026-07-20 15:17:02 - __main__ - INFO - Input matrix with DENQGKHRSPATCWVMLIYF encoding is generated.
+2026-07-20 15:17:07 - __main__ - INFO - DENQGKHRSPATCWVMLIYF encoding is done for binary task with:
+	-custom
+		-f1: 0.8388540734109221
+		-auroc: 0.7622826623806056
+2026-07-20 15:17:07 - __main__ - INFO - Input matrix with DENQGKHRSPATCWVMLIYF encoding is removed.
+
+2026-07-20 15:17:20 - __main__ - INFO - Input matrix with DKQPTENSGAHWRYCMFVIL encoding is generated.
+2026-07-20 15:17:25 - __main__ - INFO - DKQPTENSGAHWRYCMFVIL encoding is done for binary task with:
+	-custom
+		-f1: 0.8302712160979877
+		-auroc: 0.7396692254674626
+2026-07-20 15:17:25 - __main__ - INFO - Input matrix with DKQPTENSGAHWRYCMFVIL encoding is removed.
+
+2026-07-20 15:17:37 - __main__ - INFO - Input matrix with DKNPSEGTRQAWCYHMVLIF encoding is generated.
+2026-07-20 15:17:42 - __main__ - INFO - DKNPSEGTRQAWCYHMVLIF encoding is done for binary task with:
+	-custom
+		-f1: 0.8328131966116807
+		-auroc: 0.7522665059393756
+2026-07-20 15:17:42 - __main__ - INFO - Input matrix with DKNPSEGTRQAWCYHMVLIF encoding is removed.
+
+2026-07-20 15:17:55 - __main__ - INFO - Input matrix with KDNPSGTERAQWCHMYVLIF encoding is generated.
+2026-07-20 15:18:00 - __main__ - INFO - KDNPSGTERAQWCHMYVLIF encoding is done for binary task with:
+	-custom
+		-f1: 0.8363798484172983
+		-auroc: 0.7570743726473403
+2026-07-20 15:18:00 - __main__ - INFO - Input matrix with KDNPSGTERAQWCHMYVLIF encoding is removed.
+
+2026-07-20 15:18:12 - __main__ - INFO - Input matrix with DKPNEQTSGARWHCYMVFIL encoding is generated.
+2026-07-20 15:18:19 - __main__ - INFO - DKPNEQTSGARWHCYMVFIL encoding is done for binary task with:
+	-custom
+		-f1: 0.8414414414414414
+		-auroc: 0.7686482723211422
+2026-07-20 15:18:19 - __main__ - INFO - Input matrix with DKPNEQTSGARWHCYMVFIL encoding is removed.
+
+2026-07-20 15:18:32 - __main__ - INFO - Input matrix with LFIMVYCHWRAGQTESPNKD encoding is generated.
+2026-07-20 15:18:37 - __main__ - INFO - LFIMVYCHWRAGQTESPNKD encoding is done for binary task with:
+	-custom
+		-f1: 0.8379588182632051
+		-auroc: 0.7610806957036144
+2026-07-20 15:18:37 - __main__ - INFO - Input matrix with LFIMVYCHWRAGQTESPNKD encoding is removed.
+
+2026-07-20 15:18:50 - __main__ - INFO - Input matrix with KEDPQNRWSHGYTILFAVCM encoding is generated.
+2026-07-20 15:18:55 - __main__ - INFO - KEDPQNRWSHGYTILFAVCM encoding is done for binary task with:
+	-custom
+		-f1: 0.8381374722838137
+		-auroc: 0.75694113083927
+2026-07-20 15:18:55 - __main__ - INFO - Input matrix with KEDPQNRWSHGYTILFAVCM encoding is removed.
+
+2026-07-20 15:19:07 - __main__ - INFO - Input matrix with EDKRQPNYSHTWGAVLIFMC encoding is generated.
+2026-07-20 15:19:14 - __main__ - INFO - EDKRQPNYSHTWGAVLIFMC encoding is done for binary task with:
+	-custom
+		-f1: 0.8412055780476833
+		-auroc: 0.7677134868613811
+2026-07-20 15:19:14 - __main__ - INFO - Input matrix with EDKRQPNYSHTWGAVLIFMC encoding is removed.
+
+2026-07-20 15:19:26 - __main__ - INFO - Input matrix with YWQCPFTIMHLNAKEVDSGR encoding is generated.
+2026-07-20 15:19:31 - __main__ - INFO - YWQCPFTIMHLNAKEVDSGR encoding is done for binary task with:
+	-custom
+		-f1: 0.8373333333333334
+		-auroc: 0.75689648436955
+2026-07-20 15:19:31 - __main__ - INFO - Input matrix with YWQCPFTIMHLNAKEVDSGR encoding is removed.
+
+2026-07-20 15:19:43 - __main__ - INFO - Input matrix with RKDQNEHSTPYCGAMWLVFI encoding is generated.
+2026-07-20 15:19:49 - __main__ - INFO - RKDQNEHSTPYCGAMWLVFI encoding is done for binary task with:
+	-custom
+		-f1: 0.827710301394512
+		-auroc: 0.7496839867065137
+2026-07-20 15:19:49 - __main__ - INFO - Input matrix with RKDQNEHSTPYCGAMWLVFI encoding is removed.
+
+2026-07-20 15:20:01 - __main__ - INFO - Input matrix with FMILVCWATGSPYHQNEKDR encoding is generated.
+2026-07-20 15:20:06 - __main__ - INFO - FMILVCWATGSPYHQNEKDR encoding is done for binary task with:
+	-custom
+		-f1: 0.8319438350153576
+		-auroc: 0.7434530137762263
+2026-07-20 15:20:06 - __main__ - INFO - Input matrix with FMILVCWATGSPYHQNEKDR encoding is removed.
+
+2026-07-20 15:20:18 - __main__ - INFO - Input matrix with CWMHFYQITNVSALPDGRKE encoding is generated.
+2026-07-20 15:20:23 - __main__ - INFO - CWMHFYQITNVSALPDGRKE encoding is done for binary task with:
+	-custom
+		-f1: 0.8298429319371727
+		-auroc: 0.7377996545479406
+2026-07-20 15:20:23 - __main__ - INFO - Input matrix with CWMHFYQITNVSALPDGRKE encoding is removed.
+
+2026-07-20 15:20:36 - __main__ - INFO - Input matrix with CWMFYIHVLPQTSNARGDKE encoding is generated.
+2026-07-20 15:20:41 - __main__ - INFO - CWMFYIHVLPQTSNARGDKE encoding is done for binary task with:
+	-custom
+		-f1: 0.834589800443459
+		-auroc: 0.7521332641313054
+2026-07-20 15:20:41 - __main__ - INFO - Input matrix with CWMFYIHVLPQTSNARGDKE encoding is removed.
+
+2026-07-20 15:20:53 - __main__ - INFO - Input matrix with WCFMYHIVLTAPGQNSRDEK encoding is generated.
+2026-07-20 15:20:58 - __main__ - INFO - WCFMYHIVLTAPGQNSRDEK encoding is done for binary task with:
+	-custom
+		-f1: 0.836555360281195
+		-auroc: 0.7503976326209432
+2026-07-20 15:20:58 - __main__ - INFO - Input matrix with WCFMYHIVLTAPGQNSRDEK encoding is removed.
+
+2026-07-20 15:21:10 - __main__ - INFO - Input matrix with WCQHNMKDRPEYSTFGAIVL encoding is generated.
+2026-07-20 15:21:15 - __main__ - INFO - WCQHNMKDRPEYSTFGAIVL encoding is done for binary task with:
+	-custom
+		-f1: 0.8317180616740089
+		-auroc: 0.745055403478518
+2026-07-20 15:21:15 - __main__ - INFO - Input matrix with WCQHNMKDRPEYSTFGAIVL encoding is removed.
+
+2026-07-20 15:21:28 - __main__ - INFO - Input matrix with WCHQKNMRDPEYSFTGIVAL encoding is generated.
+2026-07-20 15:21:33 - __main__ - INFO - WCHQKNMRDPEYSFTGIVAL encoding is done for binary task with:
+	-custom
+		-f1: 0.8362989323843416
+		-auroc: 0.7559170524400691
+2026-07-20 15:21:33 - __main__ - INFO - Input matrix with WCHQKNMRDPEYSFTGIVAL encoding is removed.
+
+2026-07-20 15:21:45 - __main__ - INFO - Input matrix with CHKMEWQRPDNFTSYIGVLA encoding is generated.
+2026-07-20 15:21:50 - __main__ - INFO - CHKMEWQRPDNFTSYIGVLA encoding is done for binary task with:
+	-custom
+		-f1: 0.8288840262582057
+		-auroc: 0.7379775428257309
+2026-07-20 15:21:50 - __main__ - INFO - Input matrix with CHKMEWQRPDNFTSYIGVLA encoding is removed.
+
+2026-07-20 15:22:02 - __main__ - INFO - Input matrix with CWHMQNYFSTPDRIAGKVLE encoding is generated.
+2026-07-20 15:22:07 - __main__ - INFO - CWHMQNYFSTPDRIAGKVLE encoding is done for binary task with:
+	-custom
+		-f1: 0.823943661971831
+		-auroc: 0.7340151686380874
+2026-07-20 15:22:07 - __main__ - INFO - Input matrix with CWHMQNYFSTPDRIAGKVLE encoding is removed.
+
+2026-07-20 15:22:20 - __main__ - INFO - Input matrix with CMHWFRQEPYIKDLVNTSAG encoding is generated.
+2026-07-20 15:22:25 - __main__ - INFO - CMHWFRQEPYIKDLVNTSAG encoding is done for binary task with:
+	-custom
+		-f1: 0.8282097649186256
+		-auroc: 0.7527108778333068
+2026-07-20 15:22:25 - __main__ - INFO - Input matrix with CMHWFRQEPYIKDLVNTSAG encoding is removed.
+
+2026-07-20 15:22:37 - __main__ - INFO - Input matrix with WCHMYFNQPTRIDGSAEVKL encoding is generated.
+2026-07-20 15:22:42 - __main__ - INFO - WCHMYFNQPTRIDGSAEVKL encoding is done for binary task with:
+	-custom
+		-f1: 0.8226448474126493
+		-auroc: 0.7346381264108983
+2026-07-20 15:22:42 - __main__ - INFO - Input matrix with WCHMYFNQPTRIDGSAEVKL encoding is removed.
+
+2026-07-20 15:22:55 - __main__ - INFO - Input matrix with MLVIWFKHAYCQERTSDGNP encoding is generated.
+2026-07-20 15:23:00 - __main__ - INFO - MLVIWFKHAYCQERTSDGNP encoding is done for binary task with:
+	-custom
+		-f1: 0.8338530066815145
+		-auroc: 0.7532459378688565
+2026-07-20 15:23:00 - __main__ - INFO - Input matrix with MLVIWFKHAYCQERTSDGNP encoding is removed.
+
+2026-07-20 15:23:12 - __main__ - INFO - Input matrix with YLVFWIMQHTRKCASGEDNP encoding is generated.
+2026-07-20 15:23:17 - __main__ - INFO - YLVFWIMQHTRKCASGEDNP encoding is done for binary task with:
+	-custom
+		-f1: 0.8306595365418895
+		-auroc: 0.7491503218731426
+2026-07-20 15:23:17 - __main__ - INFO - Input matrix with YLVFWIMQHTRKCASGEDNP encoding is removed.
+
+2026-07-20 15:23:30 - __main__ - INFO - Input matrix with ILMVWFQKCAHYRETDSNGP encoding is generated.
+2026-07-20 15:23:35 - __main__ - INFO - ILMVWFQKCAHYRETDSNGP encoding is done for binary task with:
+	-custom
+		-f1: 0.8321234119782214
+		-auroc: 0.7596108502083037
+2026-07-20 15:23:35 - __main__ - INFO - Input matrix with ILMVWFQKCAHYRETDSNGP encoding is removed.
+
+2026-07-20 15:23:47 - __main__ - INFO - Input matrix with CDGNQAKSVWILTMHFREYP encoding is generated.
+2026-07-20 15:23:52 - __main__ - INFO - CDGNQAKSVWILTMHFREYP encoding is done for binary task with:
+	-custom
+		-f1: 0.8363798484172983
+		-auroc: 0.7570743726473403
+2026-07-20 15:23:52 - __main__ - INFO - Input matrix with CDGNQAKSVWILTMHFREYP encoding is removed.
+
+2026-07-20 15:24:04 - __main__ - INFO - Input matrix with CGNSDWIVTAQKEHYMLFRP encoding is generated.
+2026-07-20 15:24:09 - __main__ - INFO - CGNSDWIVTAQKEHYMLFRP encoding is done for binary task with:
+	-custom
+		-f1: 0.8406181015452538
+		-auroc: 0.7582323904557009
+2026-07-20 15:24:09 - __main__ - INFO - Input matrix with CGNSDWIVTAQKEHYMLFRP encoding is removed.
+
+2026-07-20 15:24:21 - __main__ - INFO - Input matrix with MIWYAVGDKSHLCFTENRQP encoding is generated.
+2026-07-20 15:24:27 - __main__ - INFO - MIWYAVGDKSHLCFTENRQP encoding is done for binary task with:
+	-custom
+		-f1: 0.8384476534296029
+		-auroc: 0.765487441785189
+2026-07-20 15:24:27 - __main__ - INFO - Input matrix with MIWYAVGDKSHLCFTENRQP encoding is removed.
+
+2026-07-20 15:24:39 - __main__ - INFO - Input matrix with CGPTSVIDNWKHYFAQMERL encoding is generated.
+2026-07-20 15:24:44 - __main__ - INFO - CGPTSVIDNWKHYFAQMERL encoding is done for binary task with:
+	-custom
+		-f1: 0.8300711743772242
+		-auroc: 0.7475032857011308
+2026-07-20 15:24:44 - __main__ - INFO - Input matrix with CGPTSVIDNWKHYFAQMERL encoding is removed.
+
+2026-07-20 15:24:57 - __main__ - INFO - Input matrix with AWMLKCEDYINQGVSRHFTP encoding is generated.
+2026-07-20 15:25:02 - __main__ - INFO - AWMLKCEDYINQGVSRHFTP encoding is done for binary task with:
+	-custom
+		-f1: 0.8306059265811587
+		-auroc: 0.7454558265038188
+2026-07-20 15:25:02 - __main__ - INFO - Input matrix with AWMLKCEDYINQGVSRHFTP encoding is removed.
+
+2026-07-20 15:25:14 - __main__ - INFO - Input matrix with FMCVLIWHYTAGNSPDEQKR encoding is generated.
+2026-07-20 15:25:20 - __main__ - INFO - FMCVLIWHYTAGNSPDEQKR encoding is done for binary task with:
+	-custom
+		-f1: 0.830122591943958
+		-auroc: 0.7398917602149728
+2026-07-20 15:25:20 - __main__ - INFO - Input matrix with FMCVLIWHYTAGNSPDEQKR encoding is removed.
+
+2026-07-20 15:25:32 - __main__ - INFO - Input matrix with CIVLFMGAWSHTPYNDEQRK encoding is generated.
+2026-07-20 15:25:38 - __main__ - INFO - CIVLFMGAWSHTPYNDEQRK encoding is done for binary task with:
+	-custom
+		-f1: 0.8357949609035621
+		-auroc: 0.7438987808723363
+2026-07-20 15:25:38 - __main__ - INFO - Input matrix with CIVLFMGAWSHTPYNDEQRK encoding is removed.
+
+2026-07-20 15:25:50 - __main__ - INFO - Input matrix with IVFLMACGWSTEPHYDNQKR encoding is generated.
+2026-07-20 15:25:55 - __main__ - INFO - IVFLMACGWSTEPHYDNQKR encoding is done for binary task with:
+	-custom
+		-f1: 0.8335576491700314
+		-auroc: 0.7562281825259298
+2026-07-20 15:25:55 - __main__ - INFO - Input matrix with IVFLMACGWSTEPHYDNQKR encoding is removed.
+
+2026-07-20 15:26:08 - __main__ - INFO - Input matrix with GASCDTPNVEQHLIMKRFWY encoding is generated.
+2026-07-20 15:26:13 - __main__ - INFO - GASCDTPNVEQHLIMKRFWY encoding is done for binary task with:
+	-custom
+		-f1: 0.8314904909332154
+		-auroc: 0.7466577931808098
+2026-07-20 15:26:13 - __main__ - INFO - Input matrix with GASCDTPNVEQHLIMKRFWY encoding is removed.
+
+2026-07-20 15:26:26 - __main__ - INFO - Input matrix with GRASTPDNVEQILFCYWKHM encoding is generated.
+2026-07-20 15:26:32 - __main__ - INFO - GRASTPDNVEQILFCYWKHM encoding is done for binary task with:
+	-custom
+		-f1: 0.828853046594982
+		-auroc: 0.749283563681213
+2026-07-20 15:26:32 - __main__ - INFO - Input matrix with GRASTPDNVEQILFCYWKHM encoding is removed.
+
+2026-07-20 15:26:44 - __main__ - INFO - Input matrix with GASTPDNVEQILFYCMWKHR encoding is generated.
+2026-07-20 15:26:50 - __main__ - INFO - GASTPDNVEQILFYCMWKHR encoding is done for binary task with:
+	-custom
+		-f1: 0.8291592128801432
+		-auroc: 0.7488384941861925
+2026-07-20 15:26:50 - __main__ - INFO - Input matrix with GASTPDNVEQILFYCMWKHR encoding is removed.
+
+2026-07-20 15:27:02 - __main__ - INFO - Input matrix with GASPDMFTVNCEYLIQWHKR encoding is generated.
+2026-07-20 15:27:07 - __main__ - INFO - GASPDMFTVNCEYLIQWHKR encoding is done for binary task with:
+	-custom
+		-f1: 0.8298059964726632
+		-auroc: 0.742874004872046
+2026-07-20 15:27:07 - __main__ - INFO - Input matrix with GASPDMFTVNCEYLIQWHKR encoding is removed.
+
+2026-07-20 15:27:19 - __main__ - INFO - Input matrix with PGNSYTCVDHWIRFKQLAEM encoding is generated.
+2026-07-20 15:27:25 - __main__ - INFO - PGNSYTCVDHWIRFKQLAEM encoding is done for binary task with:
+	-custom
+		-f1: 0.8284075871195412
+		-auroc: 0.7411823222303144
+2026-07-20 15:27:25 - __main__ - INFO - Input matrix with PGNSYTCVDHWIRFKQLAEM encoding is removed.
+
+2026-07-20 15:27:37 - __main__ - INFO - Input matrix with RKDEHNQSTPYWGACVILMF encoding is generated.
+2026-07-20 15:27:42 - __main__ - INFO - RKDEHNQSTPYWGACVILMF encoding is done for binary task with:
+	-custom
+		-f1: 0.8357531760435571
+		-auroc: 0.7644187169162684
+2026-07-20 15:27:42 - __main__ - INFO - Input matrix with RKDEHNQSTPYWGACVILMF encoding is removed.
+
+2026-07-20 15:27:54 - __main__ - INFO - Input matrix with CIVGFLAMWSTHPYNDEQRK encoding is generated.
+2026-07-20 15:28:00 - __main__ - INFO - CIVGFLAMWSTHPYNDEQRK encoding is done for binary task with:
+	-custom
+		-f1: 0.8356347438752784
+		-auroc: 0.7556498712228388
+2026-07-20 15:28:00 - __main__ - INFO - Input matrix with CIVGFLAMWSTHPYNDEQRK encoding is removed.
+
+2026-07-20 15:28:12 - __main__ - INFO - Input matrix with WMHCYFQPRINDETVKLSAG encoding is generated.
+2026-07-20 15:28:17 - __main__ - INFO - WMHCYFQPRINDETVKLSAG encoding is done for binary task with:
+	-custom
+		-f1: 0.8238965670976371
+		-auroc: 0.7402468391694641
+2026-07-20 15:28:17 - __main__ - INFO - Input matrix with WMHCYFQPRINDETVKLSAG encoding is removed.
+
+2026-07-20 15:28:30 - __main__ - INFO - Input matrix with PGSYTCNVWRDFIHQLKAME encoding is generated.
+2026-07-20 15:28:35 - __main__ - INFO - PGSYTCNVWRDFIHQLKAME encoding is done for binary task with:
+	-custom
+		-f1: 0.8363798484172983
+		-auroc: 0.7570743726473403
+2026-07-20 15:28:35 - __main__ - INFO - Input matrix with PGSYTCNVWRDFIHQLKAME encoding is removed.
+
+2026-07-20 15:28:48 - __main__ - INFO - Input matrix with PSGNCYTDVHQRWFIKEALM encoding is generated.
+2026-07-20 15:28:53 - __main__ - INFO - PSGNCYTDVHQRWFIKEALM encoding is done for binary task with:
+	-custom
+		-f1: 0.8239964711071901
+		-auroc: 0.7351724888453586
+2026-07-20 15:28:53 - __main__ - INFO - Input matrix with PSGNCYTDVHQRWFIKEALM encoding is removed.
+
+2026-07-20 15:29:05 - __main__ - INFO - Input matrix with MCIFWVYAHLNQREGSTKPD encoding is generated.
+2026-07-20 15:29:11 - __main__ - INFO - MCIFWVYAHLNQREGSTKPD encoding is done for binary task with:
+	-custom
+		-f1: 0.8265124555160143
+		-auroc: 0.7426954189931663
+2026-07-20 15:29:11 - __main__ - INFO - Input matrix with MCIFWVYAHLNQREGSTKPD encoding is removed.
+
+2026-07-20 15:29:23 - __main__ - INFO - Input matrix with CMIFLVWYHATSEDNQRPGK encoding is generated.
+2026-07-20 15:29:28 - __main__ - INFO - CMIFLVWYHATSEDNQRPGK encoding is done for binary task with:
+	-custom
+		-f1: 0.8315508021390374
+		-auroc: 0.7503522885501338
+2026-07-20 15:29:28 - __main__ - INFO - Input matrix with CMIFLVWYHATSEDNQRPGK encoding is removed.
+
+2026-07-20 15:29:41 - __main__ - INFO - Input matrix with CIMFWVYLATSHDGQENRPK encoding is generated.
+2026-07-20 15:29:46 - __main__ - INFO - CIMFWVYLATSHDGQENRPK encoding is done for binary task with:
+	-custom
+		-f1: 0.8319215336602764
+		-auroc: 0.7510645392623845
+2026-07-20 15:29:46 - __main__ - INFO - Input matrix with CIMFWVYLATSHDGQENRPK encoding is removed.
+
+2026-07-20 15:29:59 - __main__ - INFO - Input matrix with CWHMQFSPNYRTKDEILVAG encoding is generated.
+2026-07-20 15:30:04 - __main__ - INFO - CWHMQFSPNYRTKDEILVAG encoding is done for binary task with:
+	-custom
+		-f1: 0.8414959928762245
+		-auroc: 0.7633513872495263
+2026-07-20 15:30:04 - __main__ - INFO - Input matrix with CWHMQFSPNYRTKDEILVAG encoding is removed.
+
+2026-07-20 15:30:17 - __main__ - INFO - Input matrix with CPWHNMQSGTYFRDVIKELA encoding is generated.
+2026-07-20 15:30:22 - __main__ - INFO - CPWHNMQSGTYFRDVIKELA encoding is done for binary task with:
+	-custom
+		-f1: 0.8336267605633803
+		-auroc: 0.7472368020849902
+2026-07-20 15:30:22 - __main__ - INFO - Input matrix with CPWHNMQSGTYFRDVIKELA encoding is removed.
+
+2026-07-20 15:30:35 - __main__ - INFO - Input matrix with GASCTPVDNLIQEHMFKYWR encoding is generated.
+2026-07-20 15:30:40 - __main__ - INFO - GASCTPVDNLIQEHMFKYWR encoding is done for binary task with:
+	-custom
+		-f1: 0.8316303864948912
+		-auroc: 0.7489724335953523
+2026-07-20 15:30:40 - __main__ - INFO - Input matrix with GASCTPVDNLIQEHMFKYWR encoding is removed.
+
+2026-07-20 15:30:52 - __main__ - INFO - Input matrix with PDCENKQAGSMRLHWTYFIV encoding is generated.
+2026-07-20 15:30:58 - __main__ - INFO - PDCENKQAGSMRLHWTYFIV encoding is done for binary task with:
+	-custom
+		-f1: 0.8348134991119005
+		-auroc: 0.7530680495910662
+2026-07-20 15:30:58 - __main__ - INFO - Input matrix with PDCENKQAGSMRLHWTYFIV encoding is removed.
+
+2026-07-20 15:31:10 - __main__ - INFO - Input matrix with MVILFHWACRKQETYNSDGP encoding is generated.
+2026-07-20 15:31:16 - __main__ - INFO - MVILFHWACRKQETYNSDGP encoding is done for binary task with:
+	-custom
+		-f1: 0.825354609929078
+		-auroc: 0.739401346649143
+2026-07-20 15:31:16 - __main__ - INFO - Input matrix with MVILFHWACRKQETYNSDGP encoding is removed.
+
+2026-07-20 15:31:28 - __main__ - INFO - Input matrix with DSKPNTRQEHGAYWFMCLIV encoding is generated.
+2026-07-20 15:31:34 - __main__ - INFO - DSKPNTRQEHGAYWFMCLIV encoding is done for binary task with:
+	-custom
+		-f1: 0.8315602836879432
+		-auroc: 0.747815113388081
+2026-07-20 15:31:34 - __main__ - INFO - Input matrix with DSKPNTRQEHGAYWFMCLIV encoding is removed.
+
+2026-07-20 15:31:46 - __main__ - INFO - Input matrix with EDNKAQRGLSHWMFCTPIYV encoding is generated.
+2026-07-20 15:31:51 - __main__ - INFO - EDNKAQRGLSHWMFCTPIYV encoding is done for binary task with:
+	-custom
+		-f1: 0.8311229000884174
+		-auroc: 0.7459455424685593
+2026-07-20 15:31:51 - __main__ - INFO - Input matrix with EDNKAQRGLSHWMFCTPIYV encoding is removed.
+
+2026-07-20 15:32:04 - __main__ - INFO - Input matrix with ERSKDQCNGAHTVMPYLIFW encoding is generated.
+2026-07-20 15:32:09 - __main__ - INFO - ERSKDQCNGAHTVMPYLIFW encoding is done for binary task with:
+	-custom
+		-f1: 0.8295964125560538
+		-auroc: 0.7507080651057144
+2026-07-20 15:32:09 - __main__ - INFO - Input matrix with ERSKDQCNGAHTVMPYLIFW encoding is removed.
+
+2026-07-20 15:32:22 - __main__ - INFO - Input matrix with NSQKTDHRGEAPMVCYILFW encoding is generated.
+2026-07-20 15:32:27 - __main__ - INFO - NSQKTDHRGEAPMVCYILFW encoding is done for binary task with:
+	-custom
+		-f1: 0.8377896613190731
+		-auroc: 0.7587660552890719
+2026-07-20 15:32:27 - __main__ - INFO - Input matrix with NSQKTDHRGEAPMVCYILFW encoding is removed.
+
+2026-07-20 15:32:39 - __main__ - INFO - Input matrix with KDNEQSPRTGAHYCVWLIMF encoding is generated.
+2026-07-20 15:32:46 - __main__ - INFO - KDNEQSPRTGAHYCVWLIMF encoding is done for binary task with:
+	-custom
+		-f1: 0.8364295423652016
+		-auroc: 0.7646858981334985
+2026-07-20 15:32:46 - __main__ - INFO - Input matrix with KDNEQSPRTGAHYCVWLIMF encoding is removed.
+
+2026-07-20 15:32:58 - __main__ - INFO - Input matrix with AEMLRQKIWDVFSYHTNCGP encoding is generated.
+2026-07-20 15:33:03 - __main__ - INFO - AEMLRQKIWDVFSYHTNCGP encoding is done for binary task with:
+	-custom
+		-f1: 0.8324420677361853
+		-auroc: 0.7515542552271249
+2026-07-20 15:33:03 - __main__ - INFO - Input matrix with AEMLRQKIWDVFSYHTNCGP encoding is removed.
+
+2026-07-20 15:33:16 - __main__ - INFO - Input matrix with VIYFCWTLMHRSKQAEGNDP encoding is generated.
+2026-07-20 15:33:21 - __main__ - INFO - VIYFCWTLMHRSKQAEGNDP encoding is done for binary task with:
+	-custom
+		-f1: 0.8369851007887817
+		-auroc: 0.7497300283784123
+2026-07-20 15:33:21 - __main__ - INFO - Input matrix with VIYFCWTLMHRSKQAEGNDP encoding is removed.
+
+2026-07-20 15:33:34 - __main__ - INFO - Input matrix with KRQEPNDHSGTYAMWLIVFC encoding is generated.
+2026-07-20 15:33:39 - __main__ - INFO - KRQEPNDHSGTYAMWLIVFC encoding is done for binary task with:
+	-custom
+		-f1: 0.8376916140667268
+		-auroc: 0.7640629403606877
+2026-07-20 15:33:39 - __main__ - INFO - Input matrix with KRQEPNDHSGTYAMWLIVFC encoding is removed.
+
+2026-07-20 15:33:51 - __main__ - INFO - Input matrix with PNHGSRQYAILMVKEFTWDC encoding is generated.
+2026-07-20 15:33:57 - __main__ - INFO - PNHGSRQYAILMVKEFTWDC encoding is done for binary task with:
+	-custom
+		-f1: 0.837292693859256
+		-auroc: 0.7608135144863843
+2026-07-20 15:33:57 - __main__ - INFO - Input matrix with PNHGSRQYAILMVKEFTWDC encoding is removed.
+
+2026-07-20 15:34:09 - __main__ - INFO - Input matrix with WCHMYFQNPDITRKEVSGAL encoding is generated.
+2026-07-20 15:34:14 - __main__ - INFO - WCHMYFQNPDITRKEVSGAL encoding is done for binary task with:
+	-custom
+		-f1: 0.827708703374778
+		-auroc: 0.743452316175137
+2026-07-20 15:34:14 - __main__ - INFO - Input matrix with WCHMYFQNPDITRKEVSGAL encoding is removed.
+
+2026-07-20 15:34:27 - __main__ - INFO - Input matrix with DREKVQAGCNHPYSTIWFLM encoding is generated.
+2026-07-20 15:34:32 - __main__ - INFO - DREKVQAGCNHPYSTIWFLM encoding is done for binary task with:
+	-custom
+		-f1: 0.8336330935251799
+		-auroc: 0.757385502733201
+2026-07-20 15:34:32 - __main__ - INFO - Input matrix with DREKVQAGCNHPYSTIWFLM encoding is removed.
+
+2026-07-20 15:34:44 - __main__ - INFO - Input matrix with CWHQERDPMKAYTVFGSNIL encoding is generated.
+2026-07-20 15:34:50 - __main__ - INFO - CWHQERDPMKAYTVFGSNIL encoding is done for binary task with:
+	-custom
+		-f1: 0.833555259653795
+		-auroc: 0.7511538322018244
+2026-07-20 15:34:50 - __main__ - INFO - Input matrix with CWHQERDPMKAYTVFGSNIL encoding is removed.
+
+2026-07-20 15:35:02 - __main__ - INFO - Input matrix with CHWMQYKNDRPETSFIVGAL encoding is generated.
+2026-07-20 15:35:08 - __main__ - INFO - CHWMQYKNDRPETSFIVGAL encoding is done for binary task with:
+	-custom
+		-f1: 0.8373947718210013
+		-auroc: 0.7555166294147685
+2026-07-20 15:35:08 - __main__ - INFO - Input matrix with CHWMQYKNDRPETSFIVGAL encoding is removed.
+
+2026-07-20 15:35:20 - __main__ - INFO - Input matrix with KHEDRNCQPWYMSTGFAIVL encoding is generated.
+2026-07-20 15:35:26 - __main__ - INFO - KHEDRNCQPWYMSTGFAIVL encoding is done for binary task with:
+	-custom
+		-f1: 0.8342958685028876
+		-auroc: 0.7525783336263256
+2026-07-20 15:35:26 - __main__ - INFO - Input matrix with KHEDRNCQPWYMSTGFAIVL encoding is removed.
+
+2026-07-20 15:35:38 - __main__ - INFO - Input matrix with RDCHKQENWYPGVASMFTIL encoding is generated.
+2026-07-20 15:35:43 - __main__ - INFO - RDCHKQENWYPGVASMFTIL encoding is done for binary task with:
+	-custom
+		-f1: 0.8318425760286225
+		-auroc: 0.7524443942171661
+2026-07-20 15:35:43 - __main__ - INFO - Input matrix with RDCHKQENWYPGVASMFTIL encoding is removed.
+
+2026-07-20 15:35:56 - __main__ - INFO - Input matrix with WCMYHFINTQVDKPRGELSA encoding is generated.
+2026-07-20 15:36:01 - __main__ - INFO - WCMYHFINTQVDKPRGELSA encoding is done for binary task with:
+	-custom
+		-f1: 0.827768014059754
+		-auroc: 0.7383779658510315
+2026-07-20 15:36:01 - __main__ - INFO - Input matrix with WCMYHFINTQVDKPRGELSA encoding is removed.
+
+2026-07-20 15:36:13 - __main__ - INFO - Input matrix with WCYIHFTMVQNRKDPSGLEA encoding is generated.
+2026-07-20 15:36:18 - __main__ - INFO - WCYIHFTMVQNRKDPSGLEA encoding is done for binary task with:
+	-custom
+		-f1: 0.8383705650459922
+		-auroc: 0.751421711020144
+2026-07-20 15:36:18 - __main__ - INFO - Input matrix with WCYIHFTMVQNRKDPSGLEA encoding is removed.
+
+2026-07-20 15:36:31 - __main__ - INFO - Input matrix with MWHCYFRIQNAKPDGVETSL encoding is generated.
+2026-07-20 15:36:36 - __main__ - INFO - MWHCYFRIQNAKPDGVETSL encoding is done for binary task with:
+	-custom
+		-f1: 0.8429824561403508
+		-auroc: 0.7583663298648609
+2026-07-20 15:36:36 - __main__ - INFO - Input matrix with MWHCYFRIQNAKPDGVETSL encoding is removed.
+
+2026-07-20 15:36:49 - __main__ - INFO - Input matrix with MWCHYFRIQATDNEVPKGSL encoding is generated.
+2026-07-20 15:36:54 - __main__ - INFO - MWCHYFRIQATDNEVPKGSL encoding is done for binary task with:
+	-custom
+		-f1: 0.8160564622849581
+		-auroc: 0.7243547887524381
+2026-07-20 15:36:54 - __main__ - INFO - Input matrix with MWCHYFRIQATDNEVPKGSL encoding is removed.
+
+2026-07-20 15:37:07 - __main__ - INFO - Input matrix with ERKHDQNMWPCYSTFGAVIL encoding is generated.
+2026-07-20 15:37:13 - __main__ - INFO - ERKHDQNMWPCYSTFGAVIL encoding is done for binary task with:
+	-custom
+		-f1: 0.8268206039076377
+		-auroc: 0.7422503494981457
+2026-07-20 15:37:13 - __main__ - INFO - Input matrix with ERKHDQNMWPCYSTFGAVIL encoding is removed.
+
+2026-07-20 15:37:26 - __main__ - INFO - Input matrix with WCHMYFNIDTPVQGRASELK encoding is generated.
+2026-07-20 15:37:31 - __main__ - INFO - WCHMYFNIDTPVQGRASELK encoding is done for binary task with:
+	-custom
+		-f1: 0.8237394020526551
+		-auroc: 0.7404693739169742
+2026-07-20 15:37:31 - __main__ - INFO - Input matrix with WCHMYFNIDTPVQGRASELK encoding is removed.
+
+2026-07-20 15:37:43 - __main__ - INFO - Input matrix with HWMCQFYRPKIANTDEVSLG encoding is generated.
+2026-07-20 15:37:49 - __main__ - INFO - HWMCQFYRPKIANTDEVSLG encoding is done for binary task with:
+	-custom
+		-f1: 0.822262118491921
+		-auroc: 0.7413148664372954
+2026-07-20 15:37:49 - __main__ - INFO - Input matrix with HWMCQFYRPKIANTDEVSLG encoding is removed.
+
+2026-07-20 15:38:01 - __main__ - INFO - Input matrix with DKNPESQTRGHAFYMWLIVC encoding is generated.
+2026-07-20 15:38:06 - __main__ - INFO - DKNPESQTRGHAFYMWLIVC encoding is done for binary task with:
+	-custom
+		-f1: 0.8383928571428572
+		-auroc: 0.7604130914610836
+2026-07-20 15:38:06 - __main__ - INFO - Input matrix with DKNPESQTRGHAFYMWLIVC encoding is removed.
+
+2026-07-20 15:38:18 - __main__ - INFO - Input matrix with KDEPSQNGTRAHYMVCLWFI encoding is generated.
+2026-07-20 15:38:24 - __main__ - INFO - KDEPSQNGTRAHYMVCLWFI encoding is done for binary task with:
+	-custom
+		-f1: 0.8331846565566459
+		-auroc: 0.7529787566516264
+2026-07-20 15:38:24 - __main__ - INFO - Input matrix with KDEPSQNGTRAHYMVCLWFI encoding is removed.
+
+2026-07-20 15:38:36 - __main__ - INFO - Input matrix with CVLMIGAWFTHSPYNEQDRK encoding is generated.
+2026-07-20 15:38:41 - __main__ - INFO - CVLMIGAWFTHSPYNEQDRK encoding is done for binary task with:
+	-custom
+		-f1: 0.8382222222222222
+		-auroc: 0.758098451046541
+2026-07-20 15:38:41 - __main__ - INFO - Input matrix with CVLMIGAWFTHSPYNEQDRK encoding is removed.
+
+2026-07-20 15:38:54 - __main__ - INFO - Input matrix with WIFVCMYLRHGTAPSQNEDK encoding is generated.
+2026-07-20 15:38:59 - __main__ - INFO - WIFVCMYLRHGTAPSQNEDK encoding is done for binary task with:
+	-custom
+		-f1: 0.8397350993377484
+		-auroc: 0.7570304237787099
+2026-07-20 15:38:59 - __main__ - INFO - Input matrix with WIFVCMYLRHGTAPSQNEDK encoding is removed.
+
+2026-07-20 15:39:11 - __main__ - INFO - Input matrix with WFYHRLMIVEQNTKCDPSAG encoding is generated.
+2026-07-20 15:39:16 - __main__ - INFO - WFYHRLMIVEQNTKCDPSAG encoding is done for binary task with:
+	-custom
+		-f1: 0.8317880794701987
+		-auroc: 0.7462127236857893
+2026-07-20 15:39:16 - __main__ - INFO - Input matrix with WFYHRLMIVEQNTKCDPSAG encoding is removed.
+
+2026-07-20 15:39:29 - __main__ - INFO - Input matrix with WFYHLEMRQKINDVTPCSAG encoding is generated.
+2026-07-20 15:39:34 - __main__ - INFO - WFYHLEMRQKINDVTPCSAG encoding is done for binary task with:
+	-custom
+		-f1: 0.8282828282828283
+		-auroc: 0.7388676818157719
+2026-07-20 15:39:34 - __main__ - INFO - Input matrix with WFYHLEMRQKINDVTPCSAG encoding is removed.
+
+2026-07-20 15:39:47 - __main__ - INFO - Input matrix with DHNGPREQSMCAYTWKFLVI encoding is generated.
+2026-07-20 15:39:52 - __main__ - INFO - DHNGPREQSMCAYTWKFLVI encoding is done for binary task with:
+	-custom
+		-f1: 0.8364444444444444
+		-auroc: 0.7556945176925589
+2026-07-20 15:39:52 - __main__ - INFO - Input matrix with DHNGPREQSMCAYTWKFLVI encoding is removed.
+
+2026-07-20 15:40:04 - __main__ - INFO - Input matrix with WYLKIMFSRCTHVAQGPEND encoding is generated.
+2026-07-20 15:40:09 - __main__ - INFO - WYLKIMFSRCTHVAQGPEND encoding is done for binary task with:
+	-custom
+		-f1: 0.835155225185833
+		-auroc: 0.7461687748171587
+2026-07-20 15:40:09 - __main__ - INFO - Input matrix with WYLKIMFSRCTHVAQGPEND encoding is removed.
+
+2026-07-20 15:40:22 - __main__ - INFO - Input matrix with YKRTHQSPDMCLAEFVGWNI encoding is generated.
+2026-07-20 15:40:27 - __main__ - INFO - YKRTHQSPDMCLAEFVGWNI encoding is done for binary task with:
+	-custom
+		-f1: 0.8376068376068376
+		-auroc: 0.7629056201534165
+2026-07-20 15:40:27 - __main__ - INFO - Input matrix with YKRTHQSPDMCLAEFVGWNI encoding is removed.
+
+2026-07-20 15:40:40 - __main__ - INFO - Input matrix with WIKLFMTVCASGQNREHPDY encoding is generated.
+2026-07-20 15:40:45 - __main__ - INFO - WIKLFMTVCASGQNREHPDY encoding is done for binary task with:
+	-custom
+		-f1: 0.8284444444444444
+		-auroc: 0.7448768175996383
+2026-07-20 15:40:45 - __main__ - INFO - Input matrix with WIKLFMTVCASGQNREHPDY encoding is removed.
+
+2026-07-20 15:40:58 - __main__ - INFO - Input matrix with CWIMYDLVQFHAPENRSTGK encoding is generated.
+2026-07-20 15:41:03 - __main__ - INFO - CWIMYDLVQFHAPENRSTGK encoding is done for binary task with:
+	-custom
+		-f1: 0.8325872873769025
+		-auroc: 0.7538688956416674
+2026-07-20 15:41:03 - __main__ - INFO - Input matrix with CWIMYDLVQFHAPENRSTGK encoding is removed.
+
+2026-07-20 15:41:16 - __main__ - INFO - Input matrix with PGCYNSTDIWRVHFKLQAME encoding is generated.
+2026-07-20 15:41:21 - __main__ - INFO - PGCYNSTDIWRVHFKLQAME encoding is done for binary task with:
+	-custom
+		-f1: 0.8253119429590018
+		-auroc: 0.7419385218111956
+2026-07-20 15:41:21 - __main__ - INFO - Input matrix with PGCYNSTDIWRVHFKLQAME encoding is removed.
+
+2026-07-20 15:41:33 - __main__ - INFO - Input matrix with GPWYTNIMRFSDKHQVCALE encoding is generated.
+2026-07-20 15:41:39 - __main__ - INFO - GPWYTNIMRFSDKHQVCALE encoding is done for binary task with:
+	-custom
+		-f1: 0.8314509122502172
+		-auroc: 0.7378889474873804
+2026-07-20 15:41:39 - __main__ - INFO - Input matrix with GPWYTNIMRFSDKHQVCALE encoding is removed.
+
+2026-07-20 15:41:51 - __main__ - INFO - Input matrix with CYWVHIMFARTLPGSNDQKE encoding is generated.
+2026-07-20 15:41:56 - __main__ - INFO - CYWVHIMFARTLPGSNDQKE encoding is done for binary task with:
+	-custom
+		-f1: 0.8380868802106187
+		-auroc: 0.7518667805151644
+2026-07-20 15:41:56 - __main__ - INFO - Input matrix with CYWVHIMFARTLPGSNDQKE encoding is removed.
+
+2026-07-20 15:42:09 - __main__ - INFO - Input matrix with GASCPTDNVEQKIHLMRFWY encoding is generated.
+2026-07-20 15:42:14 - __main__ - INFO - GASCPTDNVEQKIHLMRFWY encoding is done for binary task with:
+	-custom
+		-f1: 0.8349429323968394
+		-auroc: 0.7477711645194506
+2026-07-20 15:42:14 - __main__ - INFO - Input matrix with GASCPTDNVEQKIHLMRFWY encoding is removed.
+
+2026-07-20 15:42:26 - __main__ - INFO - Input matrix with KNDEPQRSTGAHWYFLMIVC encoding is generated.
+2026-07-20 15:42:32 - __main__ - INFO - KNDEPQRSTGAHWYFLMIVC encoding is done for binary task with:
+	-custom
+		-f1: 0.8388540734109221
+		-auroc: 0.7622826623806056
+2026-07-20 15:42:32 - __main__ - INFO - Input matrix with KNDEPQRSTGAHWYFLMIVC encoding is removed.
+
+2026-07-20 15:42:44 - __main__ - INFO - Input matrix with DSRQPHKWNEYVTMALFCIG encoding is generated.
+2026-07-20 15:42:49 - __main__ - INFO - DSRQPHKWNEYVTMALFCIG encoding is done for binary task with:
+	-custom
+		-f1: 0.8359550561797753
+		-auroc: 0.760279152051924
+2026-07-20 15:42:49 - __main__ - INFO - Input matrix with DSRQPHKWNEYVTMALFCIG encoding is removed.
+
+2026-07-20 15:43:01 - __main__ - INFO - Input matrix with KDNEQSPRHTAGMFYWLIVC encoding is generated.
+2026-07-20 15:43:07 - __main__ - INFO - KDNEQSPRHTAGMFYWLIVC encoding is done for binary task with:
+	-custom
+		-f1: 0.8431372549019608
+		-auroc: 0.7659778553510188
+2026-07-20 15:43:07 - __main__ - INFO - Input matrix with KDNEQSPRHTAGMFYWLIVC encoding is removed.
+
+2026-07-20 15:43:19 - __main__ - INFO - Input matrix with FMILVCWATGSPYHQNEKDR encoding is generated.
+2026-07-20 15:43:24 - __main__ - INFO - FMILVCWATGSPYHQNEKDR encoding is done for binary task with:
+	-custom
+		-f1: 0.8319438350153576
+		-auroc: 0.7434530137762263
+2026-07-20 15:43:24 - __main__ - INFO - Input matrix with FMILVCWATGSPYHQNEKDR encoding is removed.
+
+2026-07-20 15:43:37 - __main__ - INFO - Input matrix with PDCENKQAGSMRLHWTYFIV encoding is generated.
+2026-07-20 15:43:42 - __main__ - INFO - PDCENKQAGSMRLHWTYFIV encoding is done for binary task with:
+	-custom
+		-f1: 0.8348134991119005
+		-auroc: 0.7530680495910662
+2026-07-20 15:43:42 - __main__ - INFO - Input matrix with PDCENKQAGSMRLHWTYFIV encoding is removed.
+
+2026-07-20 15:43:54 - __main__ - INFO - Input matrix with MVIFLHWACRKQETYNSDGP encoding is generated.
+2026-07-20 15:44:00 - __main__ - INFO - MVIFLHWACRKQETYNSDGP encoding is done for binary task with:
+	-custom
+		-f1: 0.8242696629213483
+		-auroc: 0.7446535852510389
+2026-07-20 15:44:00 - __main__ - INFO - Input matrix with MVIFLHWACRKQETYNSDGP encoding is removed.
+
+2026-07-20 15:44:12 - __main__ - INFO - Input matrix with PDSTGCINYEVFWRAQKHLM encoding is generated.
+2026-07-20 15:44:17 - __main__ - INFO - PDSTGCINYEVFWRAQKHLM encoding is done for binary task with:
+	-custom
+		-f1: 0.8400702987697716
+		-auroc: 0.7552054993289077
+2026-07-20 15:44:17 - __main__ - INFO - Input matrix with PDSTGCINYEVFWRAQKHLM encoding is removed.
+
+2026-07-20 15:44:30 - __main__ - INFO - Input matrix with PDNGEKSAHQRCTLMWFVYI encoding is generated.
+2026-07-20 15:44:35 - __main__ - INFO - PDNGEKSAHQRCTLMWFVYI encoding is done for binary task with:
+	-custom
+		-f1: 0.8420115709835336
+		-auroc: 0.7638411032142667
+2026-07-20 15:44:35 - __main__ - INFO - Input matrix with PDNGEKSAHQRCTLMWFVYI encoding is removed.
+
+2026-07-20 15:44:47 - __main__ - INFO - Input matrix with VIMLAYFWRCEQHKTSNDGP encoding is generated.
+2026-07-20 15:44:52 - __main__ - INFO - VIMLAYFWRCEQHKTSNDGP encoding is done for binary task with:
+	-custom
+		-f1: 0.8352626892252895
+		-auroc: 0.7549376205105883
+2026-07-20 15:44:52 - __main__ - INFO - Input matrix with VIMLAYFWRCEQHKTSNDGP encoding is removed.
+
+2026-07-20 15:45:05 - __main__ - INFO - Input matrix with VLMIFYWCAHRQETKSNDGP encoding is generated.
+2026-07-20 15:45:11 - __main__ - INFO - VLMIFYWCAHRQETKSNDGP encoding is done for binary task with:
+	-custom
+		-f1: 0.8365256124721604
+		-auroc: 0.7568518378998301
+2026-07-20 15:45:11 - __main__ - INFO - Input matrix with VLMIFYWCAHRQETKSNDGP encoding is removed.
+
+2026-07-20 15:45:24 - __main__ - INFO - Input matrix with LTSAHRMWKFNYGCEVDIQP encoding is generated.
+2026-07-20 15:45:29 - __main__ - INFO - LTSAHRMWKFNYGCEVDIQP encoding is done for binary task with:
+	-custom
+		-f1: 0.8256798930004459
+		-auroc: 0.7426507725234464
+2026-07-20 15:45:29 - __main__ - INFO - Input matrix with LTSAHRMWKFNYGCEVDIQP encoding is removed.
+
+2026-07-20 15:45:41 - __main__ - INFO - Input matrix with FIMLVCWHANTYGDSPERQK encoding is generated.
+2026-07-20 15:45:46 - __main__ - INFO - FIMLVCWHANTYGDSPERQK encoding is done for binary task with:
+	-custom
+		-f1: 0.8284703801945181
+		-auroc: 0.7423396424375857
+2026-07-20 15:45:46 - __main__ - INFO - Input matrix with FIMLVCWHANTYGDSPERQK encoding is removed.
+
+2026-07-20 15:45:59 - __main__ - INFO - Input matrix with GYNTVDHFCSIRLWQKMPEA encoding is generated.
+2026-07-20 15:46:04 - __main__ - INFO - GYNTVDHFCSIRLWQKMPEA encoding is done for binary task with:
+	-custom
+		-f1: 0.8297682709447415
+		-auroc: 0.7479483551961514
+2026-07-20 15:46:04 - __main__ - INFO - Input matrix with GYNTVDHFCSIRLWQKMPEA encoding is removed.
+
+2026-07-20 15:46:16 - __main__ - INFO - Input matrix with LQFKIAVTDSEMRHWPYCNG encoding is generated.
+2026-07-20 15:46:21 - __main__ - INFO - LQFKIAVTDSEMRHWPYCNG encoding is done for binary task with:
+	-custom
+		-f1: 0.8213333333333334
+		-auroc: 0.7352610841837092
+2026-07-20 15:46:21 - __main__ - INFO - Input matrix with LQFKIAVTDSEMRHWPYCNG encoding is removed.
+
+2026-07-20 15:46:34 - __main__ - INFO - Input matrix with PGNCYTDSHRKQEVFIWLAM encoding is generated.
+2026-07-20 15:46:39 - __main__ - INFO - PGNCYTDSHRKQEVFIWLAM encoding is done for binary task with:
+	-custom
+		-f1: 0.8422459893048129
+		-auroc: 0.7647758886740278
+2026-07-20 15:46:39 - __main__ - INFO - Input matrix with PGNCYTDSHRKQEVFIWLAM encoding is removed.
+
+2026-07-20 15:46:52 - __main__ - INFO - Input matrix with GSAPDNTEKQCVHIRLMYFW encoding is generated.
+2026-07-20 15:46:57 - __main__ - INFO - GSAPDNTEKQCVHIRLMYFW encoding is done for binary task with:
+	-custom
+		-f1: 0.8342958685028876
+		-auroc: 0.7525783336263256
+2026-07-20 15:46:57 - __main__ - INFO - Input matrix with GSAPDNTEKQCVHIRLMYFW encoding is removed.
+
+2026-07-20 15:47:09 - __main__ - INFO - Input matrix with GPDWEYHRTCKFSANMVQIL encoding is generated.
+2026-07-20 15:47:15 - __main__ - INFO - GPDWEYHRTCKFSANMVQIL encoding is done for binary task with:
+	-custom
+		-f1: 0.82258781680747
+		-auroc: 0.737175301572951
+2026-07-20 15:47:15 - __main__ - INFO - Input matrix with GPDWEYHRTCKFSANMVQIL encoding is removed.
+
+2026-07-20 15:47:27 - __main__ - INFO - Input matrix with DETCVSNAGQMPLIKRHYFW encoding is generated.
+2026-07-20 15:47:32 - __main__ - INFO - DETCVSNAGQMPLIKRHYFW encoding is done for binary task with:
+	-custom
+		-f1: 0.8276785714285714
+		-auroc: 0.7459894913371896
+2026-07-20 15:47:32 - __main__ - INFO - Input matrix with DETCVSNAGQMPLIKRHYFW encoding is removed.
+
+2026-07-20 15:47:45 - __main__ - INFO - Input matrix with KILVERDAPQGWHFMNYTCS encoding is generated.
+2026-07-20 15:47:50 - __main__ - INFO - KILVERDAPQGWHFMNYTCS encoding is done for binary task with:
+	-custom
+		-f1: 0.834072759538598
+		-auroc: 0.7516435481665649
+2026-07-20 15:47:50 - __main__ - INFO - Input matrix with KILVERDAPQGWHFMNYTCS encoding is removed.
+
+2026-07-20 15:48:03 - __main__ - INFO - Input matrix with DEGKANHQFRMSLWTPCYIV encoding is generated.
+2026-07-20 15:48:08 - __main__ - INFO - DEGKANHQFRMSLWTPCYIV encoding is done for binary task with:
+	-custom
+		-f1: 0.8319928507596068
+		-auroc: 0.7522218594696557
+2026-07-20 15:48:08 - __main__ - INFO - Input matrix with DEGKANHQFRMSLWTPCYIV encoding is removed.
+
+2026-07-20 15:48:20 - __main__ - INFO - Input matrix with FWLIHVNCRYMEGDKTAQSP encoding is generated.
+2026-07-20 15:48:26 - __main__ - INFO - FWLIHVNCRYMEGDKTAQSP encoding is done for binary task with:
+	-custom
+		-f1: 0.8280764104842292
+		-auroc: 0.7441645668873877
+2026-07-20 15:48:26 - __main__ - INFO - Input matrix with FWLIHVNCRYMEGDKTAQSP encoding is removed.
+
+2026-07-20 15:48:38 - __main__ - INFO - Input matrix with RHVPFIQLWTYCAKEMSNDG encoding is generated.
+2026-07-20 15:48:43 - __main__ - INFO - RHVPFIQLWTYCAKEMSNDG encoding is done for binary task with:
+	-custom
+		-f1: 0.8375387339530765
+		-auroc: 0.7552940946672582
+2026-07-20 15:48:43 - __main__ - INFO - Input matrix with RHVPFIQLWTYCAKEMSNDG encoding is removed.
+
+2026-07-20 15:48:56 - __main__ - INFO - Input matrix with GASCDTPNVEQHILKMRFYW encoding is generated.
+2026-07-20 15:49:01 - __main__ - INFO - GASCDTPNVEQHILKMRFYW encoding is done for binary task with:
+	-custom
+		-f1: 0.8325231992929739
+		-auroc: 0.7476372251102906
+2026-07-20 15:49:01 - __main__ - INFO - Input matrix with GASCDTPNVEQHILKMRFYW encoding is removed.
+
+2026-07-20 15:49:13 - __main__ - INFO - Input matrix with GASCDTPNVEQHILMKFRYW encoding is generated.
+2026-07-20 15:49:18 - __main__ - INFO - GASCDTPNVEQHILMKFRYW encoding is done for binary task with:
+	-custom
+		-f1: 0.8329641116526363
+		-auroc: 0.7495067960298126
+2026-07-20 15:49:18 - __main__ - INFO - Input matrix with GASCDTPNVEQHILMKFRYW encoding is removed.
+
+2026-07-20 15:49:31 - __main__ - INFO - Input matrix with SGYFTAPCWKIENLHQMVDR encoding is generated.
+2026-07-20 15:49:36 - __main__ - INFO - SGYFTAPCWKIENLHQMVDR encoding is done for binary task with:
+	-custom
+		-f1: 0.8204444444444444
+		-auroc: 0.7340591175067178
+2026-07-20 15:49:36 - __main__ - INFO - Input matrix with SGYFTAPCWKIENLHQMVDR encoding is removed.
+
+2026-07-20 15:49:48 - __main__ - INFO - Input matrix with YFIWDNHVQGMERAKCLSPT encoding is generated.
+2026-07-20 15:49:54 - __main__ - INFO - YFIWDNHVQGMERAKCLSPT encoding is done for binary task with:
+	-custom
+		-f1: 0.8268206039076377
+		-auroc: 0.7422503494981457
+2026-07-20 15:49:54 - __main__ - INFO - Input matrix with YFIWDNHVQGMERAKCLSPT encoding is removed.
+
+2026-07-20 15:50:06 - __main__ - INFO - Input matrix with FILVWAMGTSYQCNPHKEDR encoding is generated.
+2026-07-20 15:50:12 - __main__ - INFO - FILVWAMGTSYQCNPHKEDR encoding is done for binary task with:
+	-custom
+		-f1: 0.8298158958239784
+		-auroc: 0.7516428505654754
+2026-07-20 15:50:12 - __main__ - INFO - Input matrix with FILVWAMGTSYQCNPHKEDR encoding is removed.
+
+2026-07-20 15:50:24 - __main__ - INFO - Input matrix with WCFIYVLHMATRGQSNPDEK encoding is generated.
+2026-07-20 15:50:29 - __main__ - INFO - WCFIYVLHMATRGQSNPDEK encoding is done for binary task with:
+	-custom
+		-f1: 0.8291814946619217
+		-auroc: 0.7463013190241399
+2026-07-20 15:50:29 - __main__ - INFO - Input matrix with WCFIYVLHMATRGQSNPDEK encoding is removed.
+
+2026-07-20 15:50:41 - __main__ - INFO - Input matrix with KEQNDRYTSHPFGWILVCMA encoding is generated.
+2026-07-20 15:50:47 - __main__ - INFO - KEQNDRYTSHPFGWILVCMA encoding is done for binary task with:
+	-custom
+		-f1: 0.8405153265215459
+		-auroc: 0.7609921003652639
+2026-07-20 15:50:47 - __main__ - INFO - Input matrix with KEQNDRYTSHPFGWILVCMA encoding is removed.
+
+2026-07-20 15:50:59 - __main__ - INFO - Input matrix with MDKQSNGHEPCRYTVAIWLF encoding is generated.
+2026-07-20 15:51:05 - __main__ - INFO - MDKQSNGHEPCRYTVAIWLF encoding is done for binary task with:
+	-custom
+		-f1: 0.8278055429350295
+		-auroc: 0.7545358022831088
+2026-07-20 15:51:05 - __main__ - INFO - Input matrix with MDKQSNGHEPCRYTVAIWLF encoding is removed.
+
+2026-07-20 15:51:17 - __main__ - INFO - Input matrix with HYAGDPQTMLEKRSVFNWCI encoding is generated.
+2026-07-20 15:51:23 - __main__ - INFO - HYAGDPQTMLEKRSVFNWCI encoding is done for binary task with:
+	-custom
+		-f1: 0.8415011037527593
+		-auroc: 0.7594343571326921
+2026-07-20 15:51:23 - __main__ - INFO - Input matrix with HYAGDPQTMLEKRSVFNWCI encoding is removed.
+
+2026-07-20 15:51:36 - __main__ - INFO - Input matrix with RDHENKQYWSTPMCFAVILG encoding is generated.
+2026-07-20 15:51:41 - __main__ - INFO - RDHENKQYWSTPMCFAVILG encoding is done for binary task with:
+	-custom
+		-f1: 0.8317180616740089
+		-auroc: 0.745055403478518
+2026-07-20 15:51:41 - __main__ - INFO - Input matrix with RDHENKQYWSTPMCFAVILG encoding is removed.
+
+2026-07-20 15:51:54 - __main__ - INFO - Input matrix with FWILVMYPACTSQGHKREND encoding is generated.
+2026-07-20 15:51:59 - __main__ - INFO - FWILVMYPACTSQGHKREND encoding is done for binary task with:
+	-custom
+		-f1: 0.8336252189141856
+		-auroc: 0.7446996269229373
+2026-07-20 15:51:59 - __main__ - INFO - Input matrix with FWILVMYPACTSQGHKREND encoding is removed.
+
+2026-07-20 15:52:11 - __main__ - INFO - Input matrix with GVTAISLCMEQPDFKNHYRW encoding is generated.
+2026-07-20 15:52:16 - __main__ - INFO - GVTAISLCMEQPDFKNHYRW encoding is done for binary task with:
+	-custom
+		-f1: 0.833407771326485
+		-auroc: 0.7539135421113874
+2026-07-20 15:52:16 - __main__ - INFO - Input matrix with GVTAISLCMEQPDFKNHYRW encoding is removed.
+
+2026-07-20 15:52:29 - __main__ - INFO - Input matrix with RKTVQILMEYAGFSNWHPDC encoding is generated.
+2026-07-20 15:52:35 - __main__ - INFO - RKTVQILMEYAGFSNWHPDC encoding is done for binary task with:
+	-custom
+		-f1: 0.8306306306306306
+		-auroc: 0.7542246721972481
+2026-07-20 15:52:35 - __main__ - INFO - Input matrix with RKTVQILMEYAGFSNWHPDC encoding is removed.
+

@@ -7,7 +7,7 @@ import logging
 import datetime
 import requests
 
-from utils import loggerConfig,DeepLoc,MultiTox,PFAM,Immune
+from codes.utils import loggerConfig,DeepLoc,MultiTox,PFAM,Immune
 
 logger=logging.getLogger(__name__)
 logger.addHandler(logging.StreamHandler(sys.stdout))

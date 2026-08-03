@@ -27,19 +27,27 @@ from codes.utils import loggerConfig,ResNet,Cnn
 logger=logging.getLogger(__name__)
 logger.addHandler(logging.StreamHandler(sys.stdout))
 
-def permute(sequence:str)->list:
+def permute(sequence:str,k:int,n:int)->pd.DataFrame:
     permuted_sequences=[]
     mismatches=[]
-    for i in range(0,len(sequence)):
-        subseq_const=sequence[:i]
-        subseq_var=sequence[i:len(sequence)]
-        for j in range(10):
-            permuted_sequences.append(subseq_const+''.join(np.random.choice(a=list(subseq_var),size=len(subseq_var),replace=False)))
-            mismatches.append(len(subseq_var))
+    for i in range(k):
+        rng=np.random.default_rng(i)
+        positions=rng.choice(a=range(20),size=n,replace=False)
+        aa2change=pd.Series(list(sequence))[positions].values
+        shuffled=rng.choice(a=aa2change,size=len(aa2change),replace=False)
+        tracker=0
+        permuted_sequence=''
+        for index,aa in enumerate(sequence):
+            if aa in aa2change:
+                permuted_sequence+=shuffled[tracker]
+                tracker+=1
+            else:
+                permuted_sequence+=aa
+        permuted_sequences.append(permuted_sequence)
     results=pd.DataFrame(columns=["original_seq","permuted_seq","mismatches"])
     results["original_seq"]=len(permuted_sequences)*[sequence]
     results["permuted_seq"]=permuted_sequences
-    results["mismatches"]=mismatches
+    results["mismatches"]=n
     return results
 
 @click.command()
@@ -75,7 +83,12 @@ def main(
     logger.info(f"Filename: {script_name} started.")
     # permuting aaindices ARGP820102 and 103
     # signal sequence helical potential and membrane-buried preference parameters
-    sequences=pd.concat([permute(sequence="WFMLYRQNHGSIETKVDPCA"),permute(sequence="SPNQTAGRLFDEKCVWIMHY")]).reset_index(drop=True)
+    sequences=sequences=pd.read_csv("results/overrep_motives.csv",index_col=0)['0']
+    container=[]
+    for sequence in sequences[:10]:
+        for i in range(2,21):
+            container.append(permute(sequence=sequence,k=10,n=i))
+    sequences=pd.concat(container)#.sort_values(by="mismatches")
     for index,encoding in enumerate(sequences["permuted_seq"]):
         # set seed for reproducible results in training and testing
         seed=0

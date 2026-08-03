@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from skimage.metrics import structural_similarity as ssim
 
-from utils import loggerConfig,Cnn
+from codes.utils import loggerConfig,Cnn
 
 logger=logging.getLogger(__name__)
 

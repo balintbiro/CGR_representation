@@ -1,4 +1,4 @@
-from utils import monomer_groupings
+from codes.utils import monomer_groupings
 import matplotlib.pyplot as plt
 import networkx as nx
 from matplotlib.lines import Line2D

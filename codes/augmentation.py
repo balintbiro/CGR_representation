@@ -14,7 +14,7 @@ from skorch import NeuralNetBinaryClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import StratifiedKFold,train_test_split
 
-from utils import loggerConfig,Cnn
+from codes.utils import loggerConfig,Cnn
 
 device="cuda" if torch.cuda.is_available() else "cpu"
 
