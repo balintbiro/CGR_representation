@@ -1,0 +1,11 @@
+2026-08-03 09:22:09 - __main__ - INFO - Loading FCGR matrix from data/spec_datasets/deeploc_DAQYWGCMRKNTFPSLEIHV_75.csv
+2026-08-03 09:22:46 - __main__ - INFO - Loading FCGR matrix from data/deeploc_DAQYWGCMRKNTFPSLEIHV_75.csv
+2026-08-03 09:22:46 - __main__ - INFO - Starting cross validation with 2 splits
+2026-08-03 09:23:15 - __main__ - INFO - Loading FCGR matrix from data/deeploc_DAQYWGCMRKNTFPSLEIHV_75.csv
+2026-08-03 09:23:15 - __main__ - INFO - Starting cross validation with 2 splits
+2026-08-03 09:23:42 - __main__ - INFO - Loading FCGR matrix from data/deeploc_DAQYWGCMRKNTFPSLEIHV_75.csv
+2026-08-03 09:23:43 - __main__ - INFO - Starting cross validation with 2 splits
+2026-08-03 09:23:49 - __main__ - INFO - Accuracies saved to results/cv.csv
+2026-08-03 09:26:42 - __main__ - INFO - Loading FCGR matrix from data/deeploc_DAQYWGCMRKNTFPSLEIHV_75.csv
+2026-08-03 09:26:43 - __main__ - INFO - Starting cross validation with 2 splits
+2026-08-03 09:31:42 - __main__ - INFO - Scores saved to results/cv.csv
