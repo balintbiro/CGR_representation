@@ -7,6 +7,13 @@ import datetime
 import numpy as np
 import pandas as pd
 import subprocess
+from pathlib import Path
+
+HERE=Path(__file__).resolve().parent
+PROJECT_ROOT=HERE.parent.parent
+CODES=PROJECT_ROOT / "codes"
+DATA=PROJECT_ROOT / "data"
+RESULTS=PROJECT_ROOT / "results"
 
 from codes.utils import loggerConfig,ProSite
 
