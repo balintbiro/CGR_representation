@@ -1,0 +1,97 @@
+accession,name,description,pattern
+PS51421,RAS,Small GTPase Ras domain profile.,
+PS50135,ZF_ZZ_2,Zinc finger ZZ-type profile.,
+PS01357,ZF_ZZ_1,Zinc finger ZZ-type signature.,"C-x(2)-C-x(4,8)-[RHDGSCV]-[YWFMVIL]-x-[CS]-x(2,5)-[CHEQ]-x-[DNSAGE]-[YFVLI]-x-[LIVFM]-C-x(2)-C."
+PS51004,SEMA,Sema domain profile.,
+PS50835,IG_LIKE,Ig-like domain profile.,
+PS00221,MIP,MIP family signature.,[HNQA]-{D}-N-P-[STA]-[LIVMF]-[ST]-[LIVMF]-[GSTAFY].
+PS50070,KRINGLE_2,Kringle domain profile.,
+PS00021,KRINGLE_1,Kringle domain signature.,"[FY]-C-[RH]-[NS]-x(7,8)-[WY]-C."
+PS51828,PTX_2,Pentraxin (PTX) domain profile.,
+PS50221,GAIN_B,GAIN-B domain profile.,
+PS50261,G_PROTEIN_RECEP_F2_4,G-protein coupled receptors family 2 profile 2.,
+PS00650,G_PROTEIN_RECEP_F2_2,G-protein coupled receptors family 2 signature 2.,[QL]-G-[LMFCAV]-[LIVMFTA]-[LIV]-x-[LIVFSTM]-[LIFHV]-[VFYHLG]-C-[LFYAVI]-x-[NKRQDS]-x(2)-[VAI].
+PS01206,ASC,Amiloride-sensitive sodium channels signature.,Y-x(2)-[EQTFPMSI]-x-C-x(3)-C-x-[QTAVKS]-x(2)-[LIVMT]-[LIVMSAQ]-x(2)-C-x-C.
+PS00142,ZINC_PROTEASE,"Neutral zinc metallopeptidases, zinc-binding region signature.",[GSTALIVN]-{PCHR}-{KND}-H-E-[LIVMFYW]-{DEHRKP}-H-{EKPC}-[LIVMFYWGSPQ].
+PS50929,ABC_TM1F,ABC transporter integral membrane type-1 fused domain profile.,
+PS50893,ABC_TRANSPORTER_2,"ATP-binding cassette, ABC transporter-type domain profile.",
+PS00107,PROTEIN_KINASE_ATP,Protein kinases ATP-binding region signature.,"[LIV]-G-{P}-G-{P}-[FYWMGSTNH]-[SGA]-{PW}-[LIVCAT]-{PD}-x-[GSTACLIVMFY]-x(5,18)-[LIVMFYWCSTAR]-[AIVP]-[LIVMFAGCKR]-K."
+PS00211,ABC_TRANSPORTER_1,ABC transporters family signature.,[LIVMFYC]-[SA]-[SAPGLVFYKQH]-G-[DENQMW]-[KRQASPCLIMFW]-[KRNQSTAVM]-[KRACLVM]-[LIVMFYPAN]-{PHY}-[LIVMFW]-[SAGCLIVP]-{FYWHP}-{KRHP}-[LIVMFYWSTA].
+PS51723,PEPTIDASE_M60,Peptidase family M60 domain profile.,
+PS01238,GDA1_CD39_NTPASE,GDA1/CD39 family of nucleoside phosphatases signature.,[LIVM]-x-G-x(2)-E-G-x-[FYLS]-x-[FW]-[LIVA]-[TAG]-x-N-[HYF].
+PS50267,NA_NEUROTRAN_SYMP_3,Sodium:neurotransmitter symporter family profile.,
+PS00610,NA_NEUROTRAN_SYMP_1,Sodium:neurotransmitter symporter family signature 1.,W-[RK]-F-[GPA]-[YF]-x(4)-[NYHS]-G-G-[GCA]-x-[FY].
+PS51201,RCK_N,RCK N-terminal domain profile.,
+PS50011,PROTEIN_KINASE_DOM,Protein kinase domain profile.,
+PS51022,L27,L27 domain profile.,
+PS50106,PDZ,PDZ domain profile.,
+PS50002,SH3,Src homology 3 (SH3) domain profile.,
+PS50052,GUANYLATE_KINASE_2,Guanylate kinase-like domain profile.,
+PS00856,GUANYLATE_KINASE_1,Guanylate kinase-like signature.,[TS]-[ST]-R-x(2)-[KR]-x(2)-[DE]-x(2)-[GA]-x(2)-Y-x-[FY]-[LIVMKHRT].
+PS01219,AMMONIUM_TRANSP,Ammonium transporters signature.,D-[FYWS]-[AS]-G-[GSC]-x(2)-[IV]-x(3)-[SAG](2)-x(2)-[SAG]-[LIVMF]-x(3)-[LIVMFYWA](2)-x-[GK]-x-R.
+PS00108,PROTEIN_KINASE_ST,Serine/Threonine protein kinases active-site signature.,[LIVMFYC]-x-[HY]-x-D-[LIVMFY]-K-x(2)-N-[LIVMFYCT](3).
+PS50222,EF_HAND_2,EF-hand calcium-binding domain profile.,
+PS00018,EF_HAND_1,EF-hand calcium-binding domain.,D-{W}-[DNS]-{ILVFYW}-[DENSTG]-[DNQGHRK]-{GP}-[LIVMC]-[DENQSTAGC]-x(2)-[DE]-[LIVMFYW].
+PS50041,C_TYPE_LECTIN_2,C-type lectin domain profile.,
+PS00120,LIPASE_SER,"Lipases, serine active site.",[LIV]-{KG}-[LIVFY]-[LIVMST]-G-[HYWV]-S-{YAG}-G-[GSTAC].
+PS50026,EGF_3,EGF-like domain profile.,
+PS00010,ASX_HYDROXYL,Aspartic acid and asparagine hydroxylation site.,C-x-[DN]-x(4)-[FY]-x-C-x-C.
+PS01187,EGF_CA,Calcium-binding EGF-like domain signature.,"[DEQN]-x-[DEQN](2)-C-x(3,14)-C-x(3,7)-C-x-[DN]-x(4)-[FY]-x-C."
+PS01186,EGF_2,EGF-like domain signature 2.,"C-x-C-x(2)-[GP]-[FYW]-x(4,8)-C."
+PS50042,CNMP_BINDING_3,cAMP/cGMP binding motif profile.,
+PS00888,CNMP_BINDING_1,Cyclic nucleotide-binding domain signature 1.,[LIVM]-[VIC]-x-{H}-G-[DENQTA]-x-[GAC]-{L}-x-[LIVMFY](4)-x(2)-G.
+PS50053,UBIQUITIN_2,Ubiquitin domain profile.,
+PS51202,RCK_C,RCK C-terminal domain profile.,
+PS01022,PTR2_1,PTR2 family proton/oligopeptide symporters signature 1.,[GA]-[GAS]-[LIVMFYWA]-[LIVM]-[GAS]-D-x-[LIVMFYWT]-[LIVMFYW]-G-x(3)-[TAV]-[IV]-x(3)-[GSTAV]-x-[LIVMF]-x(3)-[GA].
+PS01023,PTR2_2,PTR2 family proton/oligopeptide symporters signature 2.,[FYT]-x(2)-[LMFY]-[FYV]-[LIVMFYWA]-x-[IVG]-N-[LIVMAG]-G-[GSA]-[LIMF].
+PS50853,FN3,Fibronectin type-III domain profile.,
+PS00152,ATPASE_ALPHA_BETA,ATP synthase alpha and beta subunits signature.,P-[SAP]-[LIV]-[DNH]-{LKGN}-{F}-{S}-S-{DCPH}-S.
+PS50814,WIF,WIF domain profile.,
+PS00109,PROTEIN_KINASE_TYR,Tyrosine protein kinases specific active-site signature.,[LIVMFYC]-{A}-[HY]-x-D-[LIVMFY]-[RSTAC]-{D}-{PF}-N-[LIVMFYC](3).
+PS00754,NA_NEUROTRAN_SYMP_2,Sodium:neurotransmitter symporter family signature 2.,"[YF]-[LIVMFY]-x(2)-[SC]-[LIVMFY]-[STQV]-x(2)-[LVI]-P-W-x(2)-C-x(3,4)-[NWDS]-[GSTERHAK]."
+PS50958,SMB_2,Somatomedin B (SMB) domain profile.,
+PS00524,SMB_1,Somatomedin B domain (SMB) signature.,"C-x-C-x(3)-C-x(5,6)-C-C-x-[DN]-[FY]-x(3)-C."
+PS50856,AMOP,AMOP domain profile.,
+PS51233,VWFD,VWFD domain profile.,
+PS50923,SUSHI,Sushi/CCP/SCR domain profile.,
+PS50262,G_PROTEIN_RECEP_F1_2,G-protein coupled receptors family 1 profile.,
+PS00237,G_PROTEIN_RECEP_F1_1,G-protein coupled receptors family 1 signature.,[GSTALIVMFYWC]-[GSTANCPDE]-{EDPKRH}-x-{PQ}-[LIVMNQGA]-{RK}-{RK}-[LIVMFT]-[GSTANC]-[LIVMFYWSTAC]-[DENH]-R-[FYWCSH]-{PE}-x-[LIVM].
+PS50156,SSD,Sterol-sensing domain (SSD) profile.,
+PS50096,IQ,IQ motif profile.,
+PS51450,LRR,Leucine-rich repeat profile.,
+PS50104,TIR,TIR domain profile.,
+PS51117,LAMININ_NTER,Laminin N-terminal domain profile.,
+PS50027,EGF_LAM_2,Laminin-type EGF-like (LE) domain profile.,
+PS00022,EGF_1,EGF-like domain signature 1.,C-x-C-x(2)-{V}-x(2)-G-{C}-x-C.
+PS01248,EGF_LAM_1,Laminin-type EGF-like (LE) domain signature.,"C-x(1,2)-C-x(5)-G-x(2)-C-x(2)-C-x(3,4)-[FYW]-x(3,15)-C."
+PS50095,PLAT,PLAT domain profile.,
+PS50089,ZF_RING_2,Zinc finger RING-type profile.,
+PS51055,ITAM_1,ITAM motif mammalian type profile.,
+PS50404,GST_NTER,Soluble glutathione S-transferase N-terminal domain profile.,
+PS50405,GST_CTER,Soluble glutathione S-transferase C-terminal domain profile.,
+PS50038,FZ,Frizzled (fz) domain profile.,
+PS50850,MFS,Major facilitator superfamily (MFS) profile.,
+PS00634,RIBOSOMAL_L30,Ribosomal protein L30 signature.,[IVTAS]-[LIVM]-x(2)-[LF]-x-[LI]-x-[KRHQEG]-x(2)-[STNQH]-x-[IVTR]-x(10)-[LMSN]-[LIV]-x(2)-[LIVA]-x(2)-[LMFY]-[IVT].
+PS51767,PEPTIDASE_A1,Peptidase family A1 domain profile.,
+PS00141,ASP_PROTEASE,Eukaryotic and viral aspartyl proteases active site.,[LIVMFGAC]-[LIVMTADN]-[LIVFSA]-D-[ST]-G-[STAV]-[STAPDENQ]-{GQ}-[LIVMFSTNC]-{EGK}-[LIVMFGTA].
+PS00216,SUGAR_TRANSPORT_1,Sugar transport proteins signature 1.,"[LIVMSTAG]-[LIVMFSAG]-{SH}-{RDE}-[LIVMSA]-[DE]-{TD}-[LIVMFYWA]-G-R-[RK]-x(4,6)-[GSTA]."
+PS00238,OPSIN,Visual pigments (opsins) retinal binding site.,[LIVMFWAC]-[PSGAC]-x-{G}-x-[SAC]-K-[STALIMR]-[GSACPNV]-[STACP]-x(2)-[DENF]-[AP]-x(2)-[IY].
+PS00687,ALDEHYDE_DEHYDR_GLU,Aldehyde dehydrogenases glutamic acid active site.,[LIVMFGA]-E-[LIMSTAC]-[GS]-G-[KNLM]-[SADN]-[TAPFV].
+PS00070,ALDEHYDE_DEHYDR_CYS,Aldehyde dehydrogenases cysteine active site.,[FYLVA]-x-{GVEP}-{DILV}-G-[QE]-{LPYG}-C-[LIVMGSTANC]-[AGCN]-{HE}-[GSTADNEKR].
+PS50060,MAM_2,MAM domain profile.,
+PS00239,RECEPTOR_TYR_KIN_II,Receptor tyrosine kinase class II signature.,[DN]-[LIV]-Y-x(3)-Y-Y-R.
+PS00236,NEUROTR_ION_CHANNEL,Neurotransmitter-gated ion-channels signature.,C-x-[LIVMFQ]-x-[LIVMF]-x(2)-[FY]-P-x-D-x(3)-C.
+PS00217,SUGAR_TRANSPORT_2,Sugar transport proteins signature 2.,[LIVMF]-x-G-[LIVMFA]-{V}-x-G-{KP}-x(7)-[LIFY]-x(2)-[EQ]-x(6)-[RK].
+PS51455,PIPK,Phosphatidylinositol phosphate kinase (PIPK) domain profile.,
+PS00213,LIPOCALIN,Lipocalin signature.,"[DENG]-{A}-[DENQGSTARK]-x(0,2)-[DENQARK]-[LIVFY]-{CP}-G-{C}-W-[FYWLRH]-{D}-[LIVMTA]."
+PS01180,CUB,CUB domain profile.,
+PS00678,WD_REPEATS_1,Trp-Asp (WD) repeats signature.,[LIVMSTAC]-[LIVMFYWSTAGC]-[LIMSTAG]-[LIVMSTAGC]-x(2)-[DN]-x-{P}-[LIVMWSTAC]-{DP}-[LIVMFSTAG]-W-[DEN]-[LIVMFSTAGCN].
+PS00092,N6_MTASE,N-6 Adenine-specific DNA methylases signature.,[LIVMAC]-[LIVFYWA]-{DYP}-[DN]-P-P-[FYW].
+PS51465,KAZAL_2,Kazal domain profile.,
+PS50283,NA_SOLUT_SYMP_3,Sodium:solute symporter family profile.,
+PS00457,NA_SOLUT_SYMP_2,Sodium:solute symporter family signature 2.,[GAST]-[LIVM]-x(3)-[KR]-x(4)-G-A-x(2)-[GAS]-[LIVMGS]-[LIVMW]-[LIVMGAT]-G-x-[LIVMGA].
+PS51334,PRONE,PRONE domain profile.,
+PS01346,CLAUDIN,Claudin family signature.,"[GN]-L-W-x(2)-C-x(7,9)-[STDENQH]-C."
+PS00041,HTH_ARAC_FAMILY_1,"Bacterial regulatory proteins, araC family signature.","[KRQ]-[LIVMA]-x(2)-[GSTALIV]-{FYWPGDN}-x(2)-[LIVMSA]-x(4,9)-[LIVMF]-x-{PLH}-[LIVMSTA]-[GSTACIL]-{GPK}-{F}-x-[GANQRF]-[LIVMFY]-x(4,5)-[LFY]-x(3)-[FYIVA]-{FYWHCM}-{PGVI}-x(2)-[GSADENQKR]-x-[NSTAPKL]-[PARL]."
+PS50927,BULB_LECTIN,Bulb-type lectin domain profile.,
+PS50948,PAN,PAN/Apple domain profile.,
