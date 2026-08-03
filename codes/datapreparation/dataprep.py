@@ -14,9 +14,6 @@ CODES=PROJECT_ROOT / "codes"
 DATA=PROJECT_ROOT / "data"
 RESULTS=PROJECT_ROOT / "results"
 
-# ensure project root is on sys.path so `codes` package can be imported
-sys.path.insert(0, str(PROJECT_ROOT))
-
 from codes.utils import loggerConfig,DeepLoc,MultiTox,PFAM,Immune
 
 logger=logging.getLogger(__name__)
