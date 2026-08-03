@@ -105,7 +105,7 @@ class DeepLoc:
         sequences=[]
         for record in parser:
             label=record.description.split('-')[-1]
-            seq_id=record.id.split()[0][1:]
+            seq_id=record.id.split()[0]
             sequences.append([seq_id,str(record.seq),label])
         # create dataframe from sequences and labels
         sequences=pd.DataFrame(data=sequences,columns=["id","sequence","label"])
@@ -208,3 +208,7 @@ class ProSite:
         with ExPASy.get_prosite_raw(signature) as handle:
             signature_info=Prosite.read(handle)
         return [signature,signature_info.name,signature_info.description,signature_info.pattern]
+
+class DedicatedEncodings:
+    def __init__(self,sequences:pd.DataFrame):
+        self.sequences=sequences
