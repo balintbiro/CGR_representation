@@ -29,6 +29,8 @@ codes/nohup.out
 !results/prosite_signatures.csv
 !results/scaled_indices.csv
 
+!results/dedicated_encodings/
+
 trial.py
 trial.sh
 trial.csv
