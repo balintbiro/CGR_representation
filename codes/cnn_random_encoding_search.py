@@ -10,12 +10,19 @@ import pandas as pd
 import subprocess
 import torch
 from torch import nn
+from pathlib import Path
 import torch.nn.functional as F
 from skorch import NeuralNetBinaryClassifier,NeuralNetClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_auc_score,accuracy_score,f1_score
 
 from codes.utils import loggerConfig,ResNet,Cnn
+
+HERE=Path(__file__).resolve().parent
+PROJECT_ROOT=HERE.parent
+CODES=PROJECT_ROOT / "codes"
+DATA=PROJECT_ROOT / "data"
+RESULTS=PROJECT_ROOT / "results"
 
 logger=logging.getLogger(__name__)
 logger.addHandler(logging.StreamHandler(sys.stdout))
@@ -70,7 +77,7 @@ def main(
         dataset_name,
         n
     ):
-    fcgrfile,sf,res="../data/random_encoding_0865_35.csv",0.865,35
+    fcgrfile,sf,res=DATA/"random_encoding_0865_35.csv",0.865,35
     if os.path.exists(outfile):
         pass
     else:
@@ -93,7 +100,7 @@ def main(
         np.random.seed(seed)
         random.seed(seed)
         # creating the random encodings and the corresponding FCGRs
-        subprocess.run(f"""Rscript --vanilla FCGR_gen.R --encoding {encoding} --output_file {fcgrfile} --input_filename {seqfile} --scaling_factor {sf} --resolution {res}""",shell=True)
+        subprocess.run(f"""Rscript --vanilla {CODES}/FCGR_gen.R --encoding {encoding} --output_file {fcgrfile} --input_filename {seqfile} --scaling_factor {sf} --resolution {res}""",shell=True)
         logger.info(f"Input matrix with {encoding} encoding is generated.")
         # getting the FCGRs and training the CNN on them
         df=pd.read_csv(fcgrfile)
@@ -162,7 +169,7 @@ def main(
             resnetauroc=roc_auc_score(y_true=y_test,y_score=resnet.predict_proba(XCnn_test),average="macro",multi_class="ovr")
         pd.DataFrame([[encoding,resnetauroc,resnetf1,task,"resnet",dataset_name]]).to_csv(outfile,mode='a',index=False,header=False)
         logger.info(f"{encoding} encoding is done for {task} task with:\n\t-custom\n\t\t-f1: {customf1}\n\t\t-auroc: {customauroc}\n\t-resnet\n\t\t-f1: {resnetf1}\n\t\t-auroc: {resnetauroc}")
-        os.remove(fcgrfile)
+        fcgrfile.unlink()
         logger.info(f"Input matrix with {encoding} encoding is removed.\n")
 
 if __name__=="__main__":
