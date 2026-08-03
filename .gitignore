@@ -25,11 +25,11 @@ codes/nohup.out
 !results/tox_noise.csv
 !results/immune_noise.csv
 
-!results/prosite_motives.csv
-!results/prosite_signatures.csv
+!data/prosite_motives.csv
+!data/prosite_signatures.csv
 !results/scaled_indices.csv
 
-!results/dedicated_encodings/
+!results/dedicated_encodings/*
 
 trial.py
 trial.sh
