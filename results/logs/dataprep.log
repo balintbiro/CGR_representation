@@ -37,3 +37,17 @@
 2026-06-04 14:05:25 - __main__ - INFO - ../data/immune.csv temporary file was removed.
 2026-06-04 14:05:25 - __main__ - INFO - Cleaned immune is exported to ../data/immune_clean.csv
 
+2026-08-03 15:25:23 - __main__ - INFO - Dataprep is running for deeploc
+2026-08-03 15:25:23 - __main__ - INFO - Dataset was gathered with status code: 200
+2026-08-03 15:25:23 - __main__ - INFO - The original dataset has shape: (14004, 3)
+2026-08-03 15:25:23 - __main__ - INFO - The cleaned dataset has shape: (6892, 3)
+2026-08-03 15:25:23 - __main__ - INFO - data/deeploc.fasta temporary file was removed.
+2026-08-03 15:25:24 - __main__ - INFO - Cleaned deeploc is exported to data/deeploc_clean.csv
+
+2026-08-03 15:26:33 - __main__ - INFO - Dataprep is running for deeploc
+2026-08-03 15:26:34 - __main__ - INFO - Dataset was gathered with status code: 200
+2026-08-03 15:26:34 - __main__ - INFO - The original dataset has shape: (14004, 3)
+2026-08-03 15:26:34 - __main__ - INFO - The cleaned dataset has shape: (6892, 3)
+2026-08-03 15:26:34 - __main__ - INFO - data/deeploc.fasta temporary file was removed.
+2026-08-03 15:26:34 - __main__ - INFO - Cleaned deeploc is exported to data/deeploc_clean.csv
+
