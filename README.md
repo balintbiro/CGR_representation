@@ -2,6 +2,7 @@
 Check whether the method for placing vertices during Chaos Game Representation (CGR) has an impact on biological sequence classification perofrmance.
 
 ### Datapreparation
+The following script performs data gathering and cleaning of the specified datasets (DeepLoc, PFAM, Tox and Immune. Please scroll down for references). All the sequences that contain non proteinogenic amino acids were removed.
 
 ```shell
 # running datapreparation (get and cleaning) for DeepLoc, EC and PFAM.
@@ -15,6 +16,7 @@ It produces:
 - `dp.log`
 - `{dataset_name}_clean.csv` with `sequence` and `label` columns
 
+The general schema is that random encodings (n=1000) were searched for all the datasets. The following script performs the filtering of these results and performs FCGR data generation for the dedicated encodings.
 ```shell
 # running dedicated encoding generation
 python -m codes.datapreparation.dedicated_encodings \
