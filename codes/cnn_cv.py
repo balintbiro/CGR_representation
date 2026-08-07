@@ -14,7 +14,7 @@ from skorch import NeuralNetBinaryClassifier,NeuralNetClassifier
 from pathlib import Path
 
 from sklearn.metrics import roc_auc_score,f1_score
-from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import StratifiedKFold,cross_val_score
 
 from codes.utils import loggerConfig,Cnn,ResNet
 
@@ -48,70 +48,62 @@ def cross_validate(X:pd.DataFrame|np.ndarray,y:pd.Series|np.ndarray,task:str,mod
     np.random.seed(seed)
     random.seed(seed)
     skf=StratifiedKFold(n_splits=n_split,random_state=seed,shuffle=True)
-    scores=[]
     if task=="binary":
         y=y.values.astype("float32")
     elif task=="multiclass":
         y=y.values.astype(np.int64)
-    for i, (train_index, test_index) in enumerate(skf.split(X, y)):
-        X_train, X_test, y_train, y_test=X[train_index],X[test_index],y[train_index],y[test_index]
-        seed=0
-        torch.manual_seed(seed)
-        np.random.seed(seed)
-        random.seed(seed)
-        if task=="binary":
-            if model=="custom":
-                cnn=NeuralNetBinaryClassifier(
-                    Cnn(output_dim=1),
-                    max_epochs=10,
-                    lr=0.001,
-                    optimizer=torch.optim.Adam,
-                    device=device,
-                    train_split=None,
-                    iterator_train__shuffle=None
-                )
-            elif model=="resnet":
-                cnn=NeuralNetBinaryClassifier(
-                    ResNet(output_dim=1),
-                    max_epochs=10,
-                    lr=0.001,
-                    optimizer=torch.optim.Adam,
-                    device=device,
-                    train_split=None,
-                    iterator_train__shuffle=None
-                )
-        elif task=="multiclass":
-            if model=="custom":
-                cnn=NeuralNetClassifier(
-                    Cnn(output_dim=5),
-                    criterion=torch.nn.CrossEntropyLoss,
-                    max_epochs=10,
-                    lr=0.001,
-                    optimizer=torch.optim.Adam,
-                    device=device,
-                    train_split=None,
-                    iterator_train__shuffle=None
-                )
-            elif model=="resnet":
-                cnn=NeuralNetClassifier(
-                    ResNet(output_dim=5),
-                    criterion=torch.nn.CrossEntropyLoss,
-                    max_epochs=10,
-                    lr=0.001,
-                    optimizer=torch.optim.Adam,
-                    device=device,
-                    train_split=None,
-                    iterator_train__shuffle=None
-                )
-        cnn.fit(X_train,y_train)
-        if task=="binary":
-            score=f1_score(y_true=y_test,y_pred=cnn.predict(X_test))
-        elif task=="multiclass":
-            score=f1_score(y_true=y_test,y_pred=cnn.predict(X_test),average="macro")
-        scores.append([model,score])
-        if (i>0) and (i%5==0):
-            logger.info("Completed %d/%d folds",i,n_split)
-            logger.info(f"Used model is: {cnn}")
+    seed=0
+    torch.manual_seed(seed)
+    np.random.seed(seed)
+    random.seed(seed)
+    if task=="binary":
+        if model=="custom":
+            cnn=NeuralNetBinaryClassifier(
+                Cnn(output_dim=1),
+                max_epochs=10,
+                lr=0.001,
+                optimizer=torch.optim.Adam,
+                device=device,
+                train_split=None,
+                iterator_train__shuffle=None
+            )
+        elif model=="resnet":
+            cnn=NeuralNetBinaryClassifier(
+                ResNet(output_dim=1),
+                max_epochs=10,
+                lr=0.001,
+                optimizer=torch.optim.Adam,
+                device=device,
+                train_split=None,
+                iterator_train__shuffle=None
+            )
+    elif task=="multiclass":
+        if model=="custom":
+            cnn=NeuralNetClassifier(
+                Cnn(output_dim=5),
+                criterion=torch.nn.CrossEntropyLoss,
+                max_epochs=10,
+                lr=0.001,
+                optimizer=torch.optim.Adam,
+                device=device,
+                train_split=None,
+                iterator_train__shuffle=None
+            )
+        elif model=="resnet":
+            cnn=NeuralNetClassifier(
+                ResNet(output_dim=5),
+                criterion=torch.nn.CrossEntropyLoss,
+                max_epochs=10,
+                lr=0.001,
+                optimizer=torch.optim.Adam,
+                device=device,
+                train_split=None,
+                iterator_train__shuffle=None
+            )
+    if task=="binary":
+        scores=cross_val_score(estimator=cnn,X=X,y=y,cv=skf,scoring="f1")
+    elif task=="multiclass":
+        scores=cross_val_score(estimator=cnn,X=X,y=y,cv=skf,scoring="f1_macro")
     return scores
 
 # define the command line interface using click
@@ -208,6 +200,7 @@ def main(
     loggerConfig(logfile=logfile)
     logger.info("Loading FCGR matrix from %s",fcgr_matrix)
     fcgr_df=pd.read_csv(fcgr_matrix)
+    fcgr_df=fcgr_df.sample(n=fcgr_df.shape[0],replace=False)
     X,y=fcgr_df.drop(columns=["label"]).div(fcgr_df.drop(columns=["label"]).max(axis=1),axis=0).values.astype("float32"),fcgr_df["label"]
     XCnn=X.reshape(-1,1,res,res)
     logger.info("Starting cross validation with %d splits",n)
