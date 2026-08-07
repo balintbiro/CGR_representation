@@ -101,9 +101,9 @@ def cross_validate(X:pd.DataFrame|np.ndarray,y:pd.Series|np.ndarray,task:str,mod
                 iterator_train__shuffle=None
             )
     if task=="binary":
-        scores=cross_val_score(estimator=cnn,X=X,y=y,cv=skf,scoring="f1")
+        scores=cross_val_score(estimator=cnn,X=X,y=y,cv=skf,scoring="f1",n_jobs=-1)
     elif task=="multiclass":
-        scores=cross_val_score(estimator=cnn,X=X,y=y,cv=skf,scoring="f1_macro")
+        scores=cross_val_score(estimator=cnn,X=X,y=y,cv=skf,scoring="f1_macro",n_jobs=-1)
     return scores
 
 # define the command line interface using click
