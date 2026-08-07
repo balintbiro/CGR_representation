@@ -69,7 +69,7 @@ def main(
     script_name=os.path.basename(__file__)
     logger.info(f"Filename: {script_name} started.")
     results=pd.read_csv(RESULTS/f"{dataset_name}_search.csv")
-    results=results[results["model"]==model].sort_values(by="auroc").reset_index(drop=True).iloc[[0,249,499,749,999]]
+    results=results[results["model"]==model].sort_values(by="f1").reset_index(drop=True).iloc[[0,249,499,749,999]]
     sequences=results["encoding"]
     names=["min","q1","q2","q3","max"]
     for index,encoding in enumerate(sequences):
