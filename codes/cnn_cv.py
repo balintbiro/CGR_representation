@@ -13,7 +13,7 @@ import torch.optim as optim
 from skorch import NeuralNetBinaryClassifier,NeuralNetClassifier
 from pathlib import Path
 
-from sklearn.metrics import roc_auc_score
+from sklearn.metrics import roc_auc_score,f1_score
 from sklearn.model_selection import StratifiedKFold
 
 from codes.utils import loggerConfig,Cnn,ResNet
@@ -105,10 +105,10 @@ def cross_validate(X:pd.DataFrame|np.ndarray,y:pd.Series|np.ndarray,task:str,mod
                 )
         cnn.fit(X_train,y_train)
         if task=="binary":
-            auroc=roc_auc_score(y_true=y_test,y_score=cnn.predict_proba(X_test)[:,1])
+            score=f1_score(y_true=y_test,y_pred=cnn.predict(X_test))
         elif task=="multiclass":
-            auroc=roc_auc_score(y_true=y_test,y_score=cnn.predict_proba(X_test),average="macro",multi_class="ovr")
-        scores.append([model,auroc])
+            score=f1_score(y_true=y_test,y_pred=cnn.predict(X_test),average="macro")
+        scores.append([model,score])
         if (i>0) and (i%5==0):
             logger.info("Completed %d/%d folds",i,n_split)
             logger.info(f"Used model is: {cnn}")
@@ -203,7 +203,7 @@ def main(
     if os.path.exists(outfile):
         pass
     else:
-        out_df=pd.DataFrame(columns=["model","auroc","dataset","rank"])
+        out_df=pd.DataFrame(columns=["model","f1","dataset","rank"])
         out_df.to_csv(outfile,index=False)
     loggerConfig(logfile=logfile)
     logger.info("Loading FCGR matrix from %s",fcgr_matrix)
@@ -218,6 +218,7 @@ def main(
     scores_df["rank"]=rank
     scores_df.to_csv(outfile,index=False,header=False,mode="a")
     logger.info("Scores saved to %s",outfile)
+    logger.info(f"CV is done with the following settings:\n\t- FCGR matrix: {fcgr_matrix}\n\t - outfile: {outfile}\n\t - name: {name}\n\t - task: {task}\n\t - model: {model}\n\t - rank: {rank}\n\t - n: {n}\n\n")
 
 if __name__ == "__main__":
     main()
