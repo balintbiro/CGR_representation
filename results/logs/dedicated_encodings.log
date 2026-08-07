@@ -1,104 +1,78 @@
-2026-08-03 11:47:49 - __main__ - INFO - Filename: dedicated_encodings.py started.
-2026-08-03 11:48:03 - __main__ - INFO - Input matrix with WMKPTGHQVNADRLYEICSF / min encoding is generated.
-2026-08-03 11:48:18 - __main__ - INFO - Input matrix with IRQFYTLWCGDVKMENASHP / q1 encoding is generated.
-2026-08-03 11:48:32 - __main__ - INFO - Input matrix with SCELWATIFMKNYGPVDRQH / q2 encoding is generated.
-2026-08-03 11:48:47 - __main__ - INFO - Input matrix with AIEQWTSVFNMGHKDPLCYR / q3 encoding is generated.
-2026-08-03 11:49:01 - __main__ - INFO - Input matrix with SPEAQVFHLRNYKGWMTCID / max encoding is generated.
-2026-08-03 11:49:01 - __main__ - INFO - All encodings donewith the following parameters:
+2026-08-05 08:47:19 - __main__ - INFO - Filename: dedicated_encodings.py started.
+2026-08-05 08:47:34 - __main__ - INFO - Input matrix with WMKPTGHQVNADRLYEICSF / min encoding is generated.
+2026-08-05 08:47:48 - __main__ - INFO - Input matrix with QLVKYPGHETIFWNRAMSCD / q1 encoding is generated.
+2026-08-05 08:48:02 - __main__ - INFO - Input matrix with PMYHWENQKRSTACVIFDGL / q2 encoding is generated.
+2026-08-05 08:48:16 - __main__ - INFO - Input matrix with SNEQIVRMDPGTLFHCYKWA / q3 encoding is generated.
+2026-08-05 08:48:31 - __main__ - INFO - Input matrix with SPEAQVFHLRNYKGWMTCID / max encoding is generated.
+2026-08-05 08:48:31 - __main__ - INFO - All encodings donewith the following parameters:
 	-logfile: results/logs/dedicated_encodings.log
 	-model: custom
 	-dataset name: pfam
 	-outdir: results/dedicated_encodings/
 
 
-2026-08-03 11:49:57 - __main__ - INFO - Filename: dedicated_encodings.py started.
-2026-08-03 11:50:12 - __main__ - INFO - Input matrix with SIYQATPRHKVDWNGEFLMC / min encoding is generated.
-2026-08-03 11:50:26 - __main__ - INFO - Input matrix with GRYPVQHFLDMKAIEWNSCT / q1 encoding is generated.
-2026-08-03 11:50:40 - __main__ - INFO - Input matrix with KCAGEMWNDPTILRFYQHSV / q2 encoding is generated.
-2026-08-03 11:50:55 - __main__ - INFO - Input matrix with VKSWGANFYCRMPTQHELDI / q3 encoding is generated.
-2026-08-03 11:51:09 - __main__ - INFO - Input matrix with FYPWTDSHKERLGVMNACIQ / max encoding is generated.
-2026-08-03 11:51:09 - __main__ - INFO - All encodings donewith the following parameters:
+2026-08-05 08:49:22 - __main__ - INFO - Filename: dedicated_encodings.py started.
+2026-08-05 08:49:36 - __main__ - INFO - Input matrix with SIYQATPRHKVDWNGEFLMC / min encoding is generated.
+2026-08-05 08:49:50 - __main__ - INFO - Input matrix with MNRHFSTVQKGILWCYDPEA / q1 encoding is generated.
+2026-08-05 08:50:04 - __main__ - INFO - Input matrix with YIDQCMSAVHTFNWPERLKG / q2 encoding is generated.
+2026-08-05 08:50:18 - __main__ - INFO - Input matrix with TPKYMQLGNAWHEFVDSIRC / q3 encoding is generated.
+2026-08-05 08:50:33 - __main__ - INFO - Input matrix with SGEQTFARLNYMKHVICPDW / max encoding is generated.
+2026-08-05 08:50:33 - __main__ - INFO - All encodings donewith the following parameters:
 	-logfile: results/logs/dedicated_encodings.log
 	-model: resnet
 	-dataset name: pfam
 	-outdir: results/dedicated_encodings/
 
 
-2026-08-03 11:56:15 - __main__ - INFO - Filename: dedicated_encodings.py started.
-2026-08-03 11:56:28 - __main__ - INFO - Input matrix with QLCHDVGSNRFMPEYTAIKW / min encoding is generated.
-2026-08-03 11:56:40 - __main__ - INFO - Input matrix with DRQGIPVMCKSTNEHFAWYL / q1 encoding is generated.
-2026-08-03 11:56:53 - __main__ - INFO - Input matrix with WCYKMVHQFDGRLITNEASP / q2 encoding is generated.
-2026-08-03 11:57:06 - __main__ - INFO - Input matrix with KQLYIRGFAWNTCMDPHESV / q3 encoding is generated.
-2026-08-03 11:57:19 - __main__ - INFO - Input matrix with YIPNCKGTSVRQMEDWALFH / max encoding is generated.
-2026-08-03 11:57:19 - __main__ - INFO - All encodings donewith the following parameters:
-	-logfile: results/logs/dedicated_encodings.log
-	-model: resnet
-	-dataset name: deeploc
-	-outdir: results/dedicated_encodings/
-
-
-2026-08-03 11:58:19 - __main__ - INFO - Filename: dedicated_encodings.py started.
-2026-08-03 11:58:31 - __main__ - INFO - Input matrix with NKWVLGFCAHDYRSTMQIPE / min encoding is generated.
-2026-08-03 11:58:44 - __main__ - INFO - Input matrix with TMLKIVSRCYQNEFDGPAWH / q1 encoding is generated.
-2026-08-03 11:58:57 - __main__ - INFO - Input matrix with KLISPGHMRVEDYWCNAFTQ / q2 encoding is generated.
-2026-08-03 11:59:09 - __main__ - INFO - Input matrix with DAQYWGCMRKNTFPSLEIHV / q3 encoding is generated.
-2026-08-03 11:59:21 - __main__ - INFO - Input matrix with PIHGEYNDQKLWCRATSFVM / max encoding is generated.
-2026-08-03 11:59:21 - __main__ - INFO - All encodings donewith the following parameters:
-	-logfile: results/logs/dedicated_encodings.log
-	-model: custom
-	-dataset name: deeploc
-	-outdir: results/dedicated_encodings/
-
-
-2026-08-03 11:59:42 - __main__ - INFO - Filename: dedicated_encodings.py started.
-2026-08-03 11:59:48 - __main__ - INFO - Input matrix with GQISCENVPDAMFLWTKYHR / min encoding is generated.
-2026-08-03 11:59:54 - __main__ - INFO - Input matrix with ACKDTHPEFIGMVYQNRWSL / q1 encoding is generated.
-2026-08-03 11:59:59 - __main__ - INFO - Input matrix with ARNTVDMGSCKPELQHFIYW / q2 encoding is generated.
-2026-08-03 12:00:05 - __main__ - INFO - Input matrix with VITNYKEWDHCLSFQRGMAP / q3 encoding is generated.
-2026-08-03 12:00:11 - __main__ - INFO - Input matrix with TSADVCGRNILEMHYFQPKW / max encoding is generated.
-2026-08-03 12:00:11 - __main__ - INFO - All encodings donewith the following parameters:
-	-logfile: results/logs/dedicated_encodings.log
-	-model: custom
-	-dataset name: tox
-	-outdir: results/dedicated_encodings/
-
-
-2026-08-03 12:00:37 - __main__ - INFO - Filename: dedicated_encodings.py started.
-2026-08-03 12:00:43 - __main__ - INFO - Input matrix with FMPVCSINYRTKLQHDEGAW / min encoding is generated.
-2026-08-03 12:00:49 - __main__ - INFO - Input matrix with EFDAGHLPSIMCNVQRKYWT / q1 encoding is generated.
-2026-08-03 12:00:54 - __main__ - INFO - Input matrix with DTNKMAHYRFEIQLSVGPCW / q2 encoding is generated.
-2026-08-03 12:01:00 - __main__ - INFO - Input matrix with AKGDWTHFIYMSERCVQNPL / q3 encoding is generated.
-2026-08-03 12:01:05 - __main__ - INFO - Input matrix with AEKWTMIFGSLRNQYDVCPH / max encoding is generated.
-2026-08-03 12:01:05 - __main__ - INFO - All encodings donewith the following parameters:
-	-logfile: results/logs/dedicated_encodings.log
-	-model: resnet
-	-dataset name: tox
-	-outdir: results/dedicated_encodings/
-
-
-2026-08-03 12:01:41 - __main__ - INFO - Filename: dedicated_encodings.py started.
-2026-08-03 12:01:47 - __main__ - INFO - Input matrix with REDQGKPCMNIFWALTHYVS / min encoding is generated.
-2026-08-03 12:01:53 - __main__ - INFO - Input matrix with YQAGEVKPWSCMFIRDHNLT / q1 encoding is generated.
-2026-08-03 12:02:00 - __main__ - INFO - Input matrix with CAEWYIPHLTGDFSKNVQRM / q2 encoding is generated.
-2026-08-03 12:02:06 - __main__ - INFO - Input matrix with LWNRVPMAQEDYGSCIHKTF / q3 encoding is generated.
-2026-08-03 12:02:12 - __main__ - INFO - Input matrix with WEFCNPLDVAQGKMHRYIST / max encoding is generated.
-2026-08-03 12:02:12 - __main__ - INFO - All encodings donewith the following parameters:
+2026-08-05 08:52:11 - __main__ - INFO - Filename: dedicated_encodings.py started.
+2026-08-05 08:52:18 - __main__ - INFO - Input matrix with PLATKFVIDWHNCYMGERSQ / min encoding is generated.
+2026-08-05 08:52:24 - __main__ - INFO - Input matrix with SDCVTEWAGNHFMILYRQPK / q1 encoding is generated.
+2026-08-05 08:52:31 - __main__ - INFO - Input matrix with GHFQRWETVYLIADNMCPKS / q2 encoding is generated.
+2026-08-05 08:52:37 - __main__ - INFO - Input matrix with TQMFCRVPYGKWADIHNLSE / q3 encoding is generated.
+2026-08-05 08:52:44 - __main__ - INFO - Input matrix with WEFCNPLDVAQGKMHRYIST / max encoding is generated.
+2026-08-05 08:52:44 - __main__ - INFO - All encodings donewith the following parameters:
 	-logfile: results/logs/dedicated_encodings.log
 	-model: resnet
 	-dataset name: immune
 	-outdir: results/dedicated_encodings/
 
 
-2026-08-03 12:02:27 - __main__ - INFO - Filename: dedicated_encodings.py started.
-2026-08-03 12:02:33 - __main__ - INFO - Input matrix with VTLPCKSGDFQWNMIYHERA / min encoding is generated.
-2026-08-03 12:02:39 - __main__ - INFO - Input matrix with KAVTLGMWYENFPQHCSDIR / q1 encoding is generated.
-2026-08-03 12:02:45 - __main__ - INFO - Input matrix with RGEIQLWMYFCDVHNSTPKA / q2 encoding is generated.
-2026-08-03 12:02:52 - __main__ - INFO - Input matrix with ENGQRDLSFMATHCVYIPWK / q3 encoding is generated.
-2026-08-03 12:02:58 - __main__ - INFO - Input matrix with SCELWATIFMKNYGPVDRQH / max encoding is generated.
-2026-08-03 12:02:58 - __main__ - INFO - All encodings donewith the following parameters:
+2026-08-05 08:53:07 - __main__ - INFO - Filename: dedicated_encodings.py started.
+2026-08-05 08:53:13 - __main__ - INFO - Input matrix with NEKQMTLVGRAFDIPYWSHC / min encoding is generated.
+2026-08-05 08:53:20 - __main__ - INFO - Input matrix with KCNQSYAVLGIMWDEFRPTH / q1 encoding is generated.
+2026-08-05 08:53:26 - __main__ - INFO - Input matrix with KRPGHSETDLIFNYWMCVAQ / q2 encoding is generated.
+2026-08-05 08:53:33 - __main__ - INFO - Input matrix with SKLAGWFMQVHERNYPDCTI / q3 encoding is generated.
+2026-08-05 08:53:39 - __main__ - INFO - Input matrix with SCELWATIFMKNYGPVDRQH / max encoding is generated.
+2026-08-05 08:53:39 - __main__ - INFO - All encodings donewith the following parameters:
 	-logfile: results/logs/dedicated_encodings.log
 	-model: custom
 	-dataset name: immune
+	-outdir: results/dedicated_encodings/
+
+
+2026-08-05 08:54:42 - __main__ - INFO - Filename: dedicated_encodings.py started.
+2026-08-05 08:54:55 - __main__ - INFO - Input matrix with HVTKGAFMQWCIDNRYLPSE / min encoding is generated.
+2026-08-05 08:55:08 - __main__ - INFO - Input matrix with VSKCIPHDFMQLNWGTRAYE / q1 encoding is generated.
+2026-08-05 08:55:21 - __main__ - INFO - Input matrix with TLFQGHEAYIKPNWCSMDRV / q2 encoding is generated.
+2026-08-05 08:55:34 - __main__ - INFO - Input matrix with NASTFDMCGHRQYWVPLKEI / q3 encoding is generated.
+2026-08-05 08:55:47 - __main__ - INFO - Input matrix with TCLDEYMIRQKPGSWVFNAH / max encoding is generated.
+2026-08-05 08:55:47 - __main__ - INFO - All encodings donewith the following parameters:
+	-logfile: results/logs/dedicated_encodings.log
+	-model: custom
+	-dataset name: deeploc
+	-outdir: results/dedicated_encodings/
+
+
+2026-08-05 08:56:11 - __main__ - INFO - Filename: dedicated_encodings.py started.
+2026-08-05 08:56:23 - __main__ - INFO - Input matrix with QLCHDVGSNRFMPEYTAIKW / min encoding is generated.
+2026-08-05 08:56:36 - __main__ - INFO - Input matrix with AKGDWTHFIYMSERCVQNPL / q1 encoding is generated.
+2026-08-05 08:56:48 - __main__ - INFO - Input matrix with TVKPMEICSNWQLHFADGRY / q2 encoding is generated.
+2026-08-05 08:57:01 - __main__ - INFO - Input matrix with WIVGSMCRYKEFLTQHNADP / q3 encoding is generated.
+2026-08-05 08:57:14 - __main__ - INFO - Input matrix with VHMNEPQYTIFCRLKDAWSG / max encoding is generated.
+2026-08-05 08:57:14 - __main__ - INFO - All encodings donewith the following parameters:
+	-logfile: results/logs/dedicated_encodings.log
+	-model: resnet
+	-dataset name: deeploc
 	-outdir: results/dedicated_encodings/
 
 
