@@ -1,4 +1,4 @@
-encoding,auroc,accuracy,task,type,dataset
+encoding,auroc,f1,task,type,dataset
 WCYKMVHQFDGRLITNEASP,0.7505301768279242,0.8305766651765758,binary,custom,deeploc
 WCYKMVHQFDGRLITNEASP,0.7484743464175394,0.7715472481827622,binary,resnet,deeploc
 WCYKMVHQFDGRLITNEASP,0.7436748509226473,0.8275555555555556,binary,custom,deeploc

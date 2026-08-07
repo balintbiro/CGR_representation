@@ -1,4 +1,4 @@
-encoding,auroc,accuracy,task,model,dataset
+encoding,auroc,f1,task,model,dataset
 WCYKMVHQFDGRLITNEASP,0.7972490284445315,0.8091603053435115,binary,custom,immune
 WCYKMVHQFDGRLITNEASP,0.8478291042095294,0.8676867686768677,binary,resnet,immune
 WCYKMVHQFDGRLITNEASP,0.8093853074687306,0.8206106870229007,binary,custom,immune
