@@ -195,7 +195,7 @@ def main(
     if os.path.exists(outfile):
         pass
     else:
-        out_df=pd.DataFrame(columns=["model","f1","dataset","rank"])
+        out_df=pd.DataFrame(columns=["f1","dataset","rank","model"])
         out_df.to_csv(outfile,index=False)
     loggerConfig(logfile=logfile)
     logger.info("Loading FCGR matrix from %s",fcgr_matrix)
@@ -209,6 +209,7 @@ def main(
     scores_df=pd.DataFrame(scores)
     scores_df["dataset"]=name
     scores_df["rank"]=rank
+    scores_df["model"]=model
     scores_df.to_csv(outfile,index=False,header=False,mode="a")
     logger.info("Scores saved to %s",outfile)
     logger.info(f"CV is done with the following settings:\n\t- FCGR matrix: {fcgr_matrix}\n\t - outfile: {outfile}\n\t - name: {name}\n\t - task: {task}\n\t - model: {model}\n\t - rank: {rank}\n\t - n: {n}\n\n")
