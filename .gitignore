@@ -30,6 +30,7 @@ codes/nohup.out
 !results/scaled_indices.csv
 
 !results/dedicated_encodings/*
+!results/cv_results.csv
 
 trial.py
 trial.sh

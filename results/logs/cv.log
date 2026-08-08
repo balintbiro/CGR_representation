@@ -1,0 +1,394 @@
+2026-08-07 12:32:46 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/deeploc/custom/min.csv
+2026-08-07 12:32:47 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 12:33:42 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 12:33:42 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/deeploc/custom/min.csv
+	 - outfile: results/cv_results.csv
+	 - name: deeploc
+	 - task: binary
+	 - model: custom
+	 - rank: min
+	 - n: 10
+
+
+2026-08-07 12:34:19 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/deeploc/custom/q1.csv
+2026-08-07 12:34:19 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 12:35:17 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 12:35:17 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/deeploc/custom/q1.csv
+	 - outfile: results/cv_results.csv
+	 - name: deeploc
+	 - task: binary
+	 - model: custom
+	 - rank: q1
+	 - n: 10
+
+
+2026-08-07 12:35:44 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/deeploc/custom/q2.csv
+2026-08-07 12:35:45 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 12:36:41 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 12:36:41 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/deeploc/custom/q2.csv
+	 - outfile: results/cv_results.csv
+	 - name: deeploc
+	 - task: binary
+	 - model: custom
+	 - rank: q2
+	 - n: 10
+
+
+2026-08-07 12:36:59 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/deeploc/custom/q3.csv
+2026-08-07 12:37:00 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 12:37:56 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 12:37:56 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/deeploc/custom/q3.csv
+	 - outfile: results/cv_results.csv
+	 - name: deeploc
+	 - task: binary
+	 - model: custom
+	 - rank: q3
+	 - n: 10
+
+
+2026-08-07 12:38:31 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/deeploc/custom/max.csv
+2026-08-07 12:38:31 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 12:39:28 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 12:39:28 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/deeploc/custom/max.csv
+	 - outfile: results/cv_results.csv
+	 - name: deeploc
+	 - task: binary
+	 - model: custom
+	 - rank: max
+	 - n: 10
+
+
+2026-08-07 12:40:23 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/immune/custom/max.csv
+2026-08-07 12:40:23 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 12:40:56 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 12:40:56 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/immune/custom/max.csv
+	 - outfile: results/cv_results.csv
+	 - name: immune
+	 - task: binary
+	 - model: custom
+	 - rank: max
+	 - n: 10
+
+
+2026-08-07 12:41:32 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/immune/custom/q3.csv
+2026-08-07 12:41:32 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 12:42:04 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 12:42:04 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/immune/custom/q3.csv
+	 - outfile: results/cv_results.csv
+	 - name: immune
+	 - task: binary
+	 - model: custom
+	 - rank: q3
+	 - n: 10
+
+
+2026-08-07 12:42:42 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/immune/custom/q2.csv
+2026-08-07 12:42:43 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 12:43:15 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 12:43:15 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/immune/custom/q2.csv
+	 - outfile: results/cv_results.csv
+	 - name: immune
+	 - task: binary
+	 - model: custom
+	 - rank: q2
+	 - n: 10
+
+
+2026-08-07 12:43:33 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/immune/custom/q1.csv
+2026-08-07 12:43:33 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 12:44:05 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 12:44:05 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/immune/custom/q1.csv
+	 - outfile: results/cv_results.csv
+	 - name: immune
+	 - task: binary
+	 - model: custom
+	 - rank: q1
+	 - n: 10
+
+
+2026-08-07 12:44:31 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/immune/custom/min.csv
+2026-08-07 12:44:32 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 12:45:04 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 12:45:04 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/immune/custom/min.csv
+	 - outfile: results/cv_results.csv
+	 - name: immune
+	 - task: binary
+	 - model: custom
+	 - rank: min
+	 - n: 10
+
+
+2026-08-07 12:46:00 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/pfam/custom/min.csv
+2026-08-07 12:46:00 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 12:54:50 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 12:54:50 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/pfam/custom/min.csv
+	 - outfile: results/cv_results.csv
+	 - name: pfam
+	 - task: multiclass
+	 - model: custom
+	 - rank: min
+	 - n: 10
+
+
+2026-08-07 12:55:44 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/pfam/custom/q1.csv
+2026-08-07 12:55:45 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 13:04:35 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 13:04:35 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/pfam/custom/q1.csv
+	 - outfile: results/cv_results.csv
+	 - name: pfam
+	 - task: multiclass
+	 - model: custom
+	 - rank: q1
+	 - n: 10
+
+
+2026-08-07 13:05:08 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/pfam/custom/q2.csv
+2026-08-07 13:05:09 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 13:14:10 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 13:14:10 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/pfam/custom/q2.csv
+	 - outfile: results/cv_results.csv
+	 - name: pfam
+	 - task: multiclass
+	 - model: custom
+	 - rank: q2
+	 - n: 10
+
+
+2026-08-07 13:15:01 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/pfam/custom/q3.csv
+2026-08-07 13:15:02 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 13:23:54 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 13:23:54 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/pfam/custom/q3.csv
+	 - outfile: results/cv_results.csv
+	 - name: pfam
+	 - task: multiclass
+	 - model: custom
+	 - rank: q3
+	 - n: 10
+
+
+2026-08-07 13:27:56 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/pfam/custom/max.csv
+2026-08-07 13:27:57 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 13:36:45 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 13:36:45 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/pfam/custom/max.csv
+	 - outfile: results/cv_results.csv
+	 - name: pfam
+	 - task: multiclass
+	 - model: custom
+	 - rank: max
+	 - n: 10
+
+
+2026-08-07 13:37:48 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/pfam/resnet/max.csv
+2026-08-07 13:37:48 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 13:50:04 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/pfam/resnet/max.csv
+2026-08-07 13:50:05 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 14:51:59 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 14:51:59 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/pfam/resnet/max.csv
+	 - outfile: results/cv_results.csv
+	 - name: pfam
+	 - task: multiclass
+	 - model: resnet
+	 - rank: max
+	 - n: 10
+
+
+2026-08-07 14:53:09 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/pfam/resnet/q3.csv
+2026-08-07 14:53:10 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 15:55:20 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 15:55:20 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/pfam/resnet/q3.csv
+	 - outfile: results/cv_results.csv
+	 - name: pfam
+	 - task: multiclass
+	 - model: resnet
+	 - rank: q3
+	 - n: 10
+
+
+2026-08-07 16:02:39 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/pfam/resnet/q2.csv
+2026-08-07 16:02:40 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 17:05:16 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 17:05:16 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/pfam/resnet/q2.csv
+	 - outfile: results/cv_results.csv
+	 - name: pfam
+	 - task: multiclass
+	 - model: resnet
+	 - rank: q2
+	 - n: 10
+
+
+2026-08-07 17:09:02 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/pfam/resnet/q1.csv
+2026-08-07 17:09:03 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 18:10:04 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 18:10:04 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/pfam/resnet/q1.csv
+	 - outfile: results/cv_results.csv
+	 - name: pfam
+	 - task: multiclass
+	 - model: resnet
+	 - rank: q1
+	 - n: 10
+
+
+2026-08-07 19:37:36 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/pfam/resnet/min.csv
+2026-08-07 19:37:37 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 20:39:30 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 20:39:30 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/pfam/resnet/min.csv
+	 - outfile: results/cv_results.csv
+	 - name: pfam
+	 - task: multiclass
+	 - model: resnet
+	 - rank: min
+	 - n: 10
+
+
+2026-08-07 20:45:39 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/immune/resnet/min.csv
+2026-08-07 20:45:39 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 21:11:24 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 21:11:24 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/immune/resnet/min.csv
+	 - outfile: results/cv_results.csv
+	 - name: immune
+	 - task: binary
+	 - model: resnet
+	 - rank: min
+	 - n: 10
+
+
+2026-08-07 21:12:21 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/immune/resnet/q1.csv
+2026-08-07 21:12:21 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 21:37:58 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 21:37:58 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/immune/resnet/q1.csv
+	 - outfile: results/cv_results.csv
+	 - name: immune
+	 - task: binary
+	 - model: resnet
+	 - rank: q1
+	 - n: 10
+
+
+2026-08-07 21:43:42 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/immune/resnet/q2.csv
+2026-08-07 21:43:42 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 22:08:52 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 22:08:52 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/immune/resnet/q2.csv
+	 - outfile: results/cv_results.csv
+	 - name: immune
+	 - task: binary
+	 - model: resnet
+	 - rank: q2
+	 - n: 10
+
+
+2026-08-07 22:09:59 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/immune/resnet/q3.csv
+2026-08-07 22:10:00 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 22:35:10 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 22:35:10 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/immune/resnet/q3.csv
+	 - outfile: results/cv_results.csv
+	 - name: immune
+	 - task: binary
+	 - model: resnet
+	 - rank: q3
+	 - n: 10
+
+
+2026-08-07 22:37:02 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/immune/resnet/max.csv
+2026-08-07 22:37:02 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 23:02:10 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 23:02:10 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/immune/resnet/max.csv
+	 - outfile: results/cv_results.csv
+	 - name: immune
+	 - task: binary
+	 - model: resnet
+	 - rank: max
+	 - n: 10
+
+
+2026-08-07 23:04:46 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/deeploc/resnet/max.csv
+2026-08-07 23:04:46 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 23:08:29 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/deeploc/resnet/max.csv
+2026-08-07 23:08:29 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-07 23:52:19 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-07 23:52:19 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/deeploc/resnet/max.csv
+	 - outfile: results/cv_results.csv
+	 - name: deeploc
+	 - task: binary
+	 - model: resnet
+	 - rank: max
+	 - n: 10
+
+
+2026-08-07 23:56:09 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/deeploc/resnet/q3.csv
+2026-08-07 23:56:09 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-08 00:40:34 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-08 00:40:34 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/deeploc/resnet/q3.csv
+	 - outfile: results/cv_results.csv
+	 - name: deeploc
+	 - task: binary
+	 - model: resnet
+	 - rank: q3
+	 - n: 10
+
+
+2026-08-08 08:46:29 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/deeploc/resnet/q2.csv
+2026-08-08 08:46:30 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-08 09:30:25 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-08 09:30:25 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/deeploc/resnet/q2.csv
+	 - outfile: results/cv_results.csv
+	 - name: deeploc
+	 - task: binary
+	 - model: resnet
+	 - rank: q2
+	 - n: 10
+
+
+2026-08-08 09:38:02 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/deeploc/resnet/q1.csv
+2026-08-08 09:38:03 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-08 10:21:15 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-08 10:21:15 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/deeploc/resnet/q1.csv
+	 - outfile: results/cv_results.csv
+	 - name: deeploc
+	 - task: binary
+	 - model: resnet
+	 - rank: q1
+	 - n: 10
+
+
+2026-08-08 12:04:26 - __main__ - INFO - Loading FCGR matrix from results/dedicated_encodings/deeploc/resnet/min.csv
+2026-08-08 12:04:27 - __main__ - INFO - Starting cross validation with 10 splits
+2026-08-08 12:49:00 - __main__ - INFO - Scores saved to results/cv_results.csv
+2026-08-08 12:49:00 - __main__ - INFO - CV is done with the following settings:
+	- FCGR matrix: results/dedicated_encodings/deeploc/resnet/min.csv
+	 - outfile: results/cv_results.csv
+	 - name: deeploc
+	 - task: binary
+	 - model: resnet
+	 - rank: min
+	 - n: 10
+
+
