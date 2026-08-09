@@ -1,5 +1,6 @@
 # import necessary libraries
 import os
+import sys
 import click
 import torch
 import random
@@ -8,17 +9,25 @@ import datetime
 import numpy as np
 import pandas as pd
 import torch.nn as nn
+from pathlib import Path
 import torch.optim as optim
-from skorch import NeuralNetBinaryClassifier
+from skorch import NeuralNetBinaryClassifier,NeuralNetClassifier
 
-from sklearn.metrics import accuracy_score
-from sklearn.model_selection import StratifiedKFold,train_test_split
+from sklearn.metrics import f1_score
+from sklearn.model_selection import StratifiedKFold,train_test_split,cross_val_score
 
-from codes.utils import loggerConfig,Cnn
+from codes.utils import loggerConfig,Cnn,ResNet
+
+HERE=Path(__file__).resolve().parent
+PROJECT_ROOT=HERE.parent.parent
+CODES=PROJECT_ROOT / "codes"
+DATA=PROJECT_ROOT / "data"
+RESULTS=PROJECT_ROOT / "results"
 
 device="cuda" if torch.cuda.is_available() else "cpu"
 
 logger=logging.getLogger(__name__)
+logger.addHandler(logging.StreamHandler(sys.stdout))
 
 def augment(
         original_data:pd.DataFrame,
@@ -38,7 +47,11 @@ def augment(
     """
     no_rows=int((1/(original_ratio/(1-original_ratio)))*original_data.shape[0])
     size=int(no_rows/2)
-    sample=to_add.groupby(by="label").apply(lambda subdf: subdf.sample(n=size,random_state=0)).reset_index(drop=True)
+    sample=(
+        to_add.groupby(by="label")[to_add.columns]
+        .apply(lambda subdf: subdf.sample(n=size,random_state=0))
+        .reset_index(drop=True)
+    )
     augmented=pd.concat([
         original_data,
         sample
@@ -51,6 +64,8 @@ def cross_validate(
         test:pd.DataFrame|np.ndarray,
         dataset:str,
         original_ratio:float,
+        model:str,
+        task:str,
         n_split=3
     )->pd.DataFrame:
     """
@@ -61,6 +76,8 @@ def cross_validate(
     - test: Test dataset.
     - dataset: Name of the dataset.
     - original_ratio: The desired ratio of the original dataset in the augmented dataset.
+    - task: task to perform binary|multiclass
+    - model: model to use, custom|resnet
     - n_split: Number of splits for cross-validation.
 
     Returns:
@@ -69,44 +86,70 @@ def cross_validate(
     # skf object
     skf=StratifiedKFold(n_splits=n_split,random_state=0,shuffle=True)
     # container variables for overall and class-wise accuracies
-    acc_scores=[]
-    class0_accs=[]
-    class1_accs=[]
-    train_class0_count=[]
-    train_class1_count=[]
+    scores=[]
     for i,(train_index,test_index) in enumerate(skf.split(X,y)):
         X_train,X_test,y_train,y_test=X[train_index],X[test_index],y[train_index],y[test_index]
         seed=0
         torch.manual_seed(seed)
         np.random.seed(seed)
         random.seed(seed)
-        cnn=NeuralNetBinaryClassifier(
-            Cnn,
-            max_epochs=10,
-            optimizer=torch.optim.Adam,
-            device=device
-        )
+        if task=="binary":
+            if model=="custom":
+                cnn=NeuralNetBinaryClassifier(
+                    Cnn(output_dim=1),
+                    max_epochs=10,
+                    lr=0.001,
+                    optimizer=torch.optim.Adam,
+                    device=device,
+                    train_split=None,
+                    iterator_train__shuffle=None
+                )
+            elif model=="resnet":
+                cnn=NeuralNetBinaryClassifier(
+                    ResNet(output_dim=1),
+                    max_epochs=10,
+                    lr=0.001,
+                    optimizer=torch.optim.Adam,
+                    device=device,
+                    train_split=None,
+                    iterator_train__shuffle=None
+                )
+        elif task=="multiclass":
+            if model=="custom":
+                cnn=NeuralNetClassifier(
+                    Cnn(output_dim=5),
+                    criterion=torch.nn.CrossEntropyLoss,
+                    max_epochs=10,
+                    lr=0.001,
+                    optimizer=torch.optim.Adam,
+                    device=device,
+                    train_split=None,
+                    iterator_train__shuffle=None
+                )
+            elif model=="resnet":
+                cnn=NeuralNetClassifier(
+                    ResNet(output_dim=5),
+                    criterion=torch.nn.CrossEntropyLoss,
+                    max_epochs=10,
+                    lr=0.001,
+                    optimizer=torch.optim.Adam,
+                    device=device,
+                    train_split=None,
+                    iterator_train__shuffle=None
+                )
         cnn.fit(X_train,y_train)
         Cnntest=test.drop(columns=["label","dataset"]).div(test.drop(columns=["label","dataset"]).max(axis=1),axis=0).values.astype("float32")
         y_pred=pd.Series(cnn.predict(Cnntest.reshape(-1,1,35,35)))
-        y_test=test["label"].reset_index(drop=True)
-        class0_fil=y_test==0
-        acc_score=accuracy_score(y_true=y_test,y_pred=y_pred)
-        acc_scores.append(acc_score)
-        class0_acc=accuracy_score(y_true=y_test[class0_fil],y_pred=y_pred[class0_fil])
-        class0_accs.append(class0_acc)
-        class1_acc=accuracy_score(y_true=y_test[~class0_fil],y_pred=y_pred[~class0_fil])
-        class1_accs.append(class1_acc)
-        train_class0_count.append((y_train==0).sum())
-        train_class1_count.append((y_train==1).sum())
+        if task=="binary":
+            y_test=test["label"].values.astype("float32")
+            score=f1_score(y_true=y_test,y_pred=y_pred)
+        elif task=="multiclass":
+            y_test=test["label"].values.astype(np.int64)
+            score=f1_score(y_true=y_test,y_pred=y_pred,average="macro")
+        scores.append(score)
     results=pd.DataFrame()
-    results["Accuracy"]=acc_scores
-    results["Class0_Accuracy"]=class0_accs
-    results["Class1_Accuracy"]=class1_accs
-    results["Train_Class0_Count"]=train_class0_count
-    results["Train_Class1_Count"]=train_class1_count
-    results["Dataset"]=dataset.capitalize()
-    results["Ratio"]=original_ratio
+    results["f1"]=scores
+    results["dataset"]=dataset.capitalize()
     return results
 
 
@@ -117,7 +160,7 @@ def cross_validate(
     required=True
 )
 @click.option(
-    "--datasets_dir",
+    "--data_dir",
     help="Path to directory containing dataset files[.csv]",
     required=True
 )
@@ -133,6 +176,33 @@ def cross_validate(
     default=False
 )
 @click.option(
+    "--name",
+    help="Name of the dataset that is used for CV.",
+    required=True,
+    type=click.Choice(
+            ["deeploc","immune","pfam"],
+            case_sensitive=False
+        )
+)
+@click.option(
+    "--model",
+    help="Name of the model to use.",
+    required=True,
+    type=click.Choice(
+        ["custom","resnet"],
+        case_sensitive=False
+    )
+)
+@click.option(
+    "--task",
+    help="Name of the task to perform",
+    required=True,
+    type=click.Choice(
+        ["binary","multiclass"],
+        case_sensitive=False
+    )
+)
+@click.option(
     "--n",
     help="Number of cross validation splits",
     required=True,
@@ -141,27 +211,33 @@ def cross_validate(
 
 def main(
         logfile:str,
-        datasets_dir:str,
+        data_dir:str,
         outfile:str,
         mix:bool,
+        name:str,
+        model:str,
+        task:str,
         n:int
     )->None:
+    """
+    Performs n fold, stratified cross validation using the specified dataset, model and strategy. Strategy can be mix or single.
+    """
     if os.path.exists(outfile):
         pass
     else:
-        out_df=pd.DataFrame(columns=["Accuracy","Class0_Accuracy","Class1_Accuracy","Train_Class0_Count","Train_Class1_Count","Dataset","Ratio"])
+        out_df=pd.DataFrame(columns=["f1","dataset","model","odr","strategy"])
         out_df.to_csv(outfile,index=False)
     loggerConfig(logfile=logfile)
     logger.info(f"Starting augmentation process with mix={mix}")
-    datasets=[pd.read_csv(os.path.join(datasets_dir, file)) for file in os.listdir(datasets_dir)]
-    dataset_names=[file.split(".csv")[0] for file in os.listdir(datasets_dir)]
+    datasets=[pd.read_csv(os.path.join(data_dir, file)) for file in os.listdir(data_dir)]
+    dataset_names=[file.split(".csv")[0] for file in os.listdir(data_dir)]
     train,test=train_test_split(datasets[0],test_size=0.25,random_state=0,stratify=datasets[0]["label"])
     training_datasets=[]
     test_dataset=""
-    for dataset, name in zip(datasets, dataset_names):
-        dataset["dataset"]=name
+    for dataset, dataset_name in zip(datasets, dataset_names):
+        dataset["dataset"]=dataset_name
         training_datasets.append(dataset.iloc[train.index])
-        if name=="min":
+        if dataset_name=="min":
             test_dataset=dataset.iloc[test.index]
     training_datasets=pd.concat(training_datasets,axis=0)
     to_add=training_datasets[training_datasets["dataset"]!="min"]
@@ -176,14 +252,19 @@ def main(
             X=data.drop(columns=["label","dataset"]).div(data.drop(columns=["label","dataset"]).max(axis=1),axis=0).values.astype("float32")
             y=data["label"].values.astype("float32")
             XCnn=X.reshape(-1,1,35,35)
-            accuracy_scores=cross_validate(
+            scores=cross_validate(
                 X=XCnn,y=y,
                 test=test_dataset,
-                dataset="mix",
+                dataset=name,
                 original_ratio=ratio,
+                model=model,
+                task=task,
                 n_split=n
             )
-            accuracy_scores.to_csv(outfile,mode='a',index=False,header=False)
+            scores["model"]=model
+            scores["odr"]=ratio
+            scores["strategy"]=mix
+            scores.to_csv(outfile,mode='a',index=False,header=False)
             logger.info(f"Augmentation CV with:\n\t-mix={mix}\n\t-original dataset ratio={ratio}")
     else:
         ratios=[.5,.6,.7,.8,.9]
@@ -198,14 +279,19 @@ def main(
                 X=data.drop(columns=["label","dataset"]).div(data.drop(columns=["label","dataset"]).max(axis=1),axis=0).values.astype("float32")
                 y=data["label"].values.astype("float32")
                 XCnn=X.reshape(-1,1,35,35)
-                accuracy_scores=cross_validate(
+                scores=cross_validate(
                     X=XCnn,y=y,
                     test=test_dataset,
-                    dataset=dataset,
+                    dataset=name,
                     original_ratio=ratio,
+                    model=model,
+                    task=task,
                     n_split=n
                 )
-                accuracy_scores.to_csv(outfile,mode='a',index=False,header=False)
+                scores["model"]=model
+                scores["odr"]=ratio
+                scores["strategy"]=mix
+                scores.to_csv(outfile,mode='a',index=False,header=False)
                 logger.info(f"Augmentation CV with:\n\t-mix={mix}\n\t-dataset={dataset}\n\t-original dataset ratio={ratio}")
 
 
