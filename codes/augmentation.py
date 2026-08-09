@@ -271,6 +271,8 @@ def main(
         for dataset in to_add["dataset"].unique():
             selection=to_add[to_add["dataset"]==dataset]
             for ratio in ratios:
+                print(training_datasets[training_datasets["dataset"]=="min"].shape)
+                print(selection.shape)
                 data=augment(
                     original_data=training_datasets[training_datasets["dataset"]=="min"],
                     to_add=selection,
