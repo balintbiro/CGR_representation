@@ -31,6 +31,7 @@ codes/nohup.out
 
 !results/dedicated_encodings/*
 !results/cv_results.csv
+!results/augmentation_results.csv
 
 trial.py
 trial.sh
