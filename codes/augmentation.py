@@ -45,17 +45,14 @@ def augment(
     Returns:
     - Augmented DataFrame containing the combined samples from the original dataset and the additional samples based on the specified ratio.
     """
-    no_rows=int((1/(original_ratio/(1-original_ratio)))*original_data.shape[0])
-    size=int(no_rows/2)
-    sample=(
-        to_add.groupby(by="label")[to_add.columns]
-        .apply(lambda subdf: subdf.sample(n=size,random_state=0))
-        .reset_index(drop=True)
+    augmented_size=int(original_data.shape[0]/original_ratio)
+    sample_size=int(augmented_size-original_data.shape[0])
+    augmented=pd.concat(
+        [
+            original_data,
+            to_add.sample(n=sample_size,random_state=0)
+        ]
     )
-    augmented=pd.concat([
-        original_data,
-        sample
-    ])
     return augmented
 
 def cross_validate(
@@ -85,10 +82,16 @@ def cross_validate(
     """
     # skf object
     skf=StratifiedKFold(n_splits=n_split,random_state=0,shuffle=True)
+    if task=="binary":
+        y_test=test["label"].values.astype("float32")
+        y=y.values.astype("float32")
+    elif task=="multiclass":
+        y_test=test["label"].values.astype(np.int64)
+        y=y.values.astype(np.int64)
     # container variables for overall and class-wise accuracies
     scores=[]
     for i,(train_index,test_index) in enumerate(skf.split(X,y)):
-        X_train,X_test,y_train,y_test=X[train_index],X[test_index],y[train_index],y[test_index]
+        X_train,X_test,y_train,y_val=X[train_index],X[test_index],y[train_index],y[test_index]
         seed=0
         torch.manual_seed(seed)
         np.random.seed(seed)
@@ -141,10 +144,8 @@ def cross_validate(
         Cnntest=test.drop(columns=["label","dataset"]).div(test.drop(columns=["label","dataset"]).max(axis=1),axis=0).values.astype("float32")
         y_pred=pd.Series(cnn.predict(Cnntest.reshape(-1,1,35,35)))
         if task=="binary":
-            y_test=test["label"].values.astype("float32")
             score=f1_score(y_true=y_test,y_pred=y_pred)
         elif task=="multiclass":
-            y_test=test["label"].values.astype(np.int64)
             score=f1_score(y_true=y_test,y_pred=y_pred,average="macro")
         scores.append(score)
     results=pd.DataFrame()
@@ -225,7 +226,7 @@ def main(
     if os.path.exists(outfile):
         pass
     else:
-        out_df=pd.DataFrame(columns=["f1","dataset","model","odr","strategy"])
+        out_df=pd.DataFrame(columns=["f1","dataset","model","odr","rank"])
         out_df.to_csv(outfile,index=False)
     loggerConfig(logfile=logfile)
     logger.info(f"Starting augmentation process with mix={mix}")
@@ -250,7 +251,7 @@ def main(
                 original_ratio=ratio
             ).reset_index(drop=True)
             X=data.drop(columns=["label","dataset"]).div(data.drop(columns=["label","dataset"]).max(axis=1),axis=0).values.astype("float32")
-            y=data["label"].values.astype("float32")
+            y=data["label"]
             XCnn=X.reshape(-1,1,35,35)
             scores=cross_validate(
                 X=XCnn,y=y,
@@ -263,7 +264,7 @@ def main(
             )
             scores["model"]=model
             scores["odr"]=ratio
-            scores["strategy"]=mix
+            scores["rank"]="mix"
             scores.to_csv(outfile,mode='a',index=False,header=False)
             logger.info(f"Augmentation CV with:\n\t-mix={mix}\n\t-original dataset ratio={ratio}")
     else:
@@ -271,15 +272,13 @@ def main(
         for dataset in to_add["dataset"].unique():
             selection=to_add[to_add["dataset"]==dataset]
             for ratio in ratios:
-                print(training_datasets[training_datasets["dataset"]=="min"].shape)
-                print(selection.shape)
                 data=augment(
                     original_data=training_datasets[training_datasets["dataset"]=="min"],
                     to_add=selection,
                     original_ratio=ratio
                 ).reset_index(drop=True)
                 X=data.drop(columns=["label","dataset"]).div(data.drop(columns=["label","dataset"]).max(axis=1),axis=0).values.astype("float32")
-                y=data["label"].values.astype("float32")
+                y=data["label"]
                 XCnn=X.reshape(-1,1,35,35)
                 scores=cross_validate(
                     X=XCnn,y=y,
@@ -292,7 +291,7 @@ def main(
                 )
                 scores["model"]=model
                 scores["odr"]=ratio
-                scores["strategy"]=mix
+                scores["rank"]=dataset
                 scores.to_csv(outfile,mode='a',index=False,header=False)
                 logger.info(f"Augmentation CV with:\n\t-mix={mix}\n\t-dataset={dataset}\n\t-original dataset ratio={ratio}")
 
