@@ -71,7 +71,7 @@ class fig2:
         )
         cols=[('A','D'),('B','E'),('C','F')]
         datasets=["deeploc","pfam","immune"]
-        dataset_names=["DeepLoc","PFAM","Immune"]
+        dataset_names=["DeepLoc","PFAM","ImmunoDB"]
         for index,dataset in enumerate(datasets):
             col=cols[index]
             selection=self.combined_results[self.combined_results["dataset"]==dataset]

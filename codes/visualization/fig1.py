@@ -51,7 +51,7 @@ class fig1:
         mosaic=[['A','B']]
         fig,ax_dict=plt.subplot_mosaic(
             mosaic,
-            figsize=(constants.FIG_WIDTH,3),
+            figsize=(5,3),
             dpi=400,
             constrained_layout=True,
             gridspec_kw={
