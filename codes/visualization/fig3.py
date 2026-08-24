@@ -138,6 +138,7 @@ class fig3:
                 ax_dict[col[0]].set_ylabel(None)
                 ax_dict[col[1]].set_ylabel(None)
             ax_dict[col[0]].set_title(datasets[index])
+            ax_dict[col[0]].set_xlabel(None)
             ax_dict[col[1]].set_xlabel("Encodings")
         ph.label_panels_mosaic(fig, ax_dict)
         return fig,ax_dict
@@ -150,13 +151,13 @@ for dataset in datasets:
     dfs.append(search)
 
 results=pd.concat(dfs)
-results["model"].replace(["resnet","custom"],["ResNet18","Custom"],inplace=True)
-results["dataset"].replace(["deeploc","pfam","immune"],["DeepLoc","PFAM","ImmunoDB"],inplace=True)
+results["model"]=results["model"].replace(["resnet","custom"],["ResNet18","Custom"])
+results["dataset"]=results["dataset"].replace(["deeploc","pfam","immune"],["DeepLoc","PFAM","ImmunoDB"])
 
 cv_results=pd.read_csv(constants.RESULTS/"cv_results.csv")
 cv_results.rename(columns={"f1":"F1 score","dataset":"Dataset","rank":"Rank","model":"Model"},inplace=True)
-cv_results["Dataset"].replace(["deeploc","pfam","immune"],["DeepLoc","PFAM","ImmunoDB"],inplace=True)
-cv_results["Model"].replace(["resnet","custom"],["ResNet18","Custom"],inplace=True)
+cv_results["Dataset"]=cv_results["Dataset"].replace(["deeploc","pfam","immune"],["DeepLoc","PFAM","ImmunoDB"])
+cv_results["Model"]=cv_results["Model"].replace(["resnet","custom"],["ResNet18","Custom"],inplace=True)
 cv_results["Rank"]=cv_results["Rank"].str.capitalize()
 
 figure=fig3(data=results,cv_results=cv_results)
