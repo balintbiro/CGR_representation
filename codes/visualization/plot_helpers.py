@@ -1,7 +1,7 @@
 import constants
 import matplotlib.transforms as transforms
 
-def label_panels_mosaic(fig, axes, xloc=0, yloc=1.0, size=constants.BIGGER_SIZE):
+def label_panels_mosaic(fig, axes, xloc=0, yloc=1.0, size=constants.BIGGER_SIZE,cols2leave=[]):
     """
     Labels the panels in a mosaic plot.
 
@@ -14,7 +14,8 @@ def label_panels_mosaic(fig, axes, xloc=0, yloc=1.0, size=constants.BIGGER_SIZE)
     """
     for key in axes.keys():
         # label physical distance to the left and up:
-        ax = axes[key]
-        trans = transforms.ScaledTranslation(-20/72, 7/72, fig.dpi_scale_trans)
-        ax.text(xloc, yloc, key, transform=ax.transAxes + trans,
+        if key not in cols2leave:
+            ax = axes[key]
+            trans = transforms.ScaledTranslation(-20/72, 7/72, fig.dpi_scale_trans)
+            ax.text(xloc, yloc, key, transform=ax.transAxes + trans,
                 fontsize=size, va='bottom')
