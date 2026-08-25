@@ -8,6 +8,7 @@ from pathlib import Path
 import plot_helpers as ph
 from scipy import stats
 from matplotlib.colors import ListedColormap,BoundaryNorm
+from matplotlib.cm import ScalarMappable
 
 from statannotations.Annotator import Annotator
 from statsmodels.stats.multitest import multipletests
@@ -101,24 +102,13 @@ class fig5:
             ax=ax,
             cmap=cmap,
             norm=norm,
-            cbar_kws={"ticks": [0, 1, 2, 3],"fraction":0.25,"aspect":4}
+            cbar=False
         )
-        cbar=ax.collections[0].colorbar
-        cbar.set_ticklabels([
-            "ns",
-            "*",
-            "**",
-            "***"
-        ])
-        cbar.ax.tick_params(length=0)
-        cbar.ax.set_title("Sig.")
         ax.set_yticklabels(
             ax.get_yticklabels(),
             rotation=0,
             va="center"
         )
-        if cbar==False:
-            cbar.remove()
     
     def lineplot(self,data,ax):
         sns.lineplot(
@@ -194,9 +184,38 @@ class fig5:
             title="Encodings",
             loc="lower center",
             ncols=4,
-            bbox_to_anchor=(0.55,-0.1)
+            bbox_to_anchor=(0.55,-0.075),
+            frameon=False
         )
         ph.label_panels_mosaic(fig, ax_dict,cols2leave=list("GHIJKL"))
+        cmap=ListedColormap([
+            "#d9d9d9",
+            "#FFB8B8",
+            "#D10000",
+            "#470000"
+        ])
+        cax=fig.add_axes([0.425, -0.15, 0.25, 0.03])
+        norm=BoundaryNorm(
+            boundaries=[-0.5, 0.5, 1.5, 2.5, 3.5],
+            ncolors=cmap.N
+        )
+        sm=ScalarMappable(cmap=cmap, norm=norm)
+        sm.set_array([])
+        cbar=fig.colorbar(
+            sm,
+            cax=cax,
+            orientation="horizontal",
+            ticks=[0,1,2,3]
+        )
+        cbar.set_ticklabels([
+            "ns",
+            "*",
+            "**",
+            "***"
+        ])
+        cbar.ax.tick_params(length=0)
+        cbar.ax.set_title("Significance")
+        cbar.outline.set_visible(True)
         return fig,ax_dict
 
 results=pd.read_csv(constants.RESULTS/"augmentation_results.csv")
