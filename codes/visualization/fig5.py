@@ -168,9 +168,9 @@ class fig5:
                 ax_dict[col[1]].set_ylabel("ResNet18\nEncodings")
             else:
                 ax_dict[col[0]].set_ylabel(None)
-                ax_dict[col[0]].set_yticklabels([])
+                #ax_dict[col[0]].set_yticklabels([])
                 ax_dict[col[1]].set_ylabel(None)
-                ax_dict[col[1]].set_yticklabels([])
+                #ax_dict[col[1]].set_yticklabels([])
 
         handles, labels=ax_dict["A"].get_legend_handles_labels()
         for ax in ax_dict.values():
