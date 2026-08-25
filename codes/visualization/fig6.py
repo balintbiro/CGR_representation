@@ -141,9 +141,8 @@ class fig6:
                 to_add=self.dfs2[1],
                 original_ratio=ratio
             ).reset_index(drop=True)
-            transformed1=StandardScaler().fit_transform(augmented1.drop(columns=["Label"]))
             transformed1=augmented1.drop(columns=["Label"]).div(augmented1.drop(columns=["Label"]).max(axis=1),axis=0)
-            transformed2=StandardScaler().fit_transform(augmented2.drop(columns=["Label"]))
+            transformed2=augmented2.drop(columns=["Label"]).div(augmented2.drop(columns=["Label"]).max(axis=1),axis=0)
             pca=PCA(n_components=2)
             dims1=pd.DataFrame(pca.fit_transform(transformed1),columns=["dim1","dim2"])
             dims1["Label"]=augmented1["Label"].values
@@ -151,16 +150,6 @@ class fig6:
             dims2["Label"]=augmented2["Label"].values
             colors=["skyblue","lightpink"]
             sp1=self.scatterplot(x=dims1.dim1,y=dims1.dim2,ax=ax_dict[col[0]],label=augmented1["Label"])
-            sp1_xlim=sp1.get_xlim()
-            sp1.set_xlim(sp1_xlim[0]*1,sp1_xlim[1]*.15)
-            sp1_ylim=sp1.get_ylim()
-            sp1.set_ylim(sp1_ylim[0]*.2,sp1_ylim[1]*1)
-
-            xq1,xq3=np.percentile(dims1.dim1,[25,75])
-            xiqr=xq3-xq1
-            xrange=dims1[(dims1.dim1>(xq1-3*xiqr))&(dims1.dim1<(xq3+3*xiqr))]
-            #ax_dict[col[0]].set_xlim(xrange.dim1.min(),xrange.dim1.max())
-            print(ax_dict[col[0]].get_ylim())
             if index!=0:
                 self.confidence_ellipse(x=dims1[dims1["Label"]=="Original"].dim1,y=dims1[dims1["Label"]=="Original"].dim2,ax=ax_dict[col[0]],n_std=3,edgecolor=colors[1],facecolor=mcolors.to_rgba(colors[1],alpha=0.1))
                 self.confidence_ellipse(x=dims1[dims1["Label"]=="Augmented"].dim1,y=dims1[dims1["Label"]=="Augmented"].dim2,ax=ax_dict[col[0]],n_std=3,edgecolor=colors[0],facecolor=mcolors.to_rgba(colors[0],alpha=0.1))
