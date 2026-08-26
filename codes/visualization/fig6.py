@@ -111,7 +111,7 @@ class fig6:
             dpi=400,
             constrained_layout=True,
             gridspec_kw={
-                "height_ratios":[0.5,1,1],
+                "height_ratios":[1,1,1],
                 "width_ratios":[1,1,1,1,1,1]
             }
         )
