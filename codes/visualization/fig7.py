@@ -74,7 +74,7 @@ class fig7:
         plot=sns.scatterplot(
             x=x,y=y,hue=label,
             ax=ax,
-            s=10,alpha=0.15,
+            s=10,alpha=.1,
             palette=dict(Augmented="skyblue",Original="lightpink"),
             **{"linewidths":0}
         )
@@ -144,17 +144,17 @@ class fig7:
             }
         )
         ex1=self.results[
-            (self.results["Dataset"]=="ImmunoDB")
-            &(self.results["Model"]=="ResNet18")
+            (self.results["Dataset"]=="PFAM")
+            &(self.results["Model"]=="Custom")
             &(self.results["Rank"].isin(["Mix","Min"]))
         ]
         ex2=self.results[
-            (self.results["Dataset"]=="PFAM")
+            (self.results["Dataset"]=="DeepLoc")
             &(self.results["Model"]=="ResNet18")
             &(self.results["Rank"].isin(["Mix","Min"]))
         ]
-        self.complex_boxplot(data=ex1,ax=ax_dict['A'])
-        self.complex_boxplot(data=ex2,ax=ax_dict['B'])
+        self.complex_boxplot(data=ex1,ax=ax_dict['B'])
+        self.complex_boxplot(data=ex2,ax=ax_dict['A'])
         ax_dict['B'].set_ylabel(None)
         cols=[('C','D'),('I','J'),('E','K'),('F','L'),('G','M'),('H','N'),('P','O'),('Q','R')]
         for index,ratio in enumerate(self.order):
@@ -242,27 +242,27 @@ cv_results.rename(columns={"f1":"F1 score","dataset":"Dataset","rank":"Rank","mo
 cv_results["Dataset"]=cv_results["Dataset"].replace(["deeploc","pfam","immune"],["DeepLoc","PFAM","ImmunoDB"])
 cv_results["Model"]=cv_results["Model"].replace(["resnet","custom"],["ResNet18","Custom"])
 cv_results["Rank"]=cv_results["Rank"].str.capitalize()
-cv_results[(cv_results["Model"]=="ResNet18")&(cv_results["Rank"]=="Min")&(cv_results["Dataset"].isin(["ImmunoDB","PFAM"]))]
+cv_results[(cv_results["Model"].isin(["ResNet18","Custom"]))&(cv_results["Rank"]=="Min")&(cv_results["Dataset"].isin(["DeepLoc","PFAM"]))]
 cv_results["ODR"]=1.0
 
 results=pd.concat([cv_results,results])
 
 encodings=["min","q1","q2","q3","max"]
-dl_rn,pf_rn=[],[]
+pfcu,dlrn=[],[]
 for enc in encodings:
-    df1=pd.read_csv(constants.RESULTS/f"dedicated_encodings/deeploc/resnet/{enc}.csv")
+    df1=pd.read_csv(constants.RESULTS/f"dedicated_encodings/pfam/custom/{enc}.csv")
     df1["Rank"]=enc.capitalize()
-    df2=pd.read_csv(constants.RESULTS/f"dedicated_encodings/pfam/resnet/{enc}.csv")
+    df2=pd.read_csv(constants.RESULTS/f"dedicated_encodings/deeploc/resnet/{enc}.csv")
     df2["Rank"]=enc.capitalize()
-    dl_rn.append(df1)
-    pf_rn.append(df2)
-dl_rn=pd.concat(dl_rn)
-pf_rn=pd.concat(pf_rn)
+    pfcu.append(df1)
+    dlrn.append(df2)
+dlrn=pd.concat(dlrn)
+pfcu=pd.concat(pfcu)
 
 figure=fig7(
     results=results,
-    mix_df1=dl_rn,
-    mix_df2=pf_rn
+    mix_df1=dlrn,
+    mix_df2=pfcu
 )
 fig,axs=figure.plot_dashboard()
 plt.savefig(constants.FIGURES/"fig7.png",dpi=300,bbox_inches="tight")
