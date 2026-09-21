@@ -46,7 +46,7 @@ class fig6:
         plot=sns.scatterplot(
             x=x,y=y,hue=label,
             ax=ax,
-            s=10,alpha=0.15,
+            s=10,alpha=0.01,
             palette=dict(Augmented="skyblue",Original="lightpink"),
             **{"linewidths":0}
         )
@@ -151,6 +151,7 @@ class fig6:
             colors=["skyblue","lightpink"]
             sp1=self.scatterplot(x=dims1.dim1,y=dims1.dim2,ax=ax_dict[col[0]],label=augmented1["Label"])
             if index!=0:
+                #pass
                 self.confidence_ellipse(x=dims1[dims1["Label"]=="Original"].dim1,y=dims1[dims1["Label"]=="Original"].dim2,ax=ax_dict[col[0]],n_std=3,edgecolor=colors[1],facecolor=mcolors.to_rgba(colors[1],alpha=0.1))
                 self.confidence_ellipse(x=dims1[dims1["Label"]=="Augmented"].dim1,y=dims1[dims1["Label"]=="Augmented"].dim2,ax=ax_dict[col[0]],n_std=3,edgecolor=colors[0],facecolor=mcolors.to_rgba(colors[0],alpha=0.1))
                 self.confidence_ellipse(x=dims2[dims2["Label"]=="Original"].dim1,y=dims2[dims2["Label"]=="Original"].dim2,ax=ax_dict[col[1]],n_std=3,edgecolor=colors[1],facecolor=mcolors.to_rgba(colors[1],alpha=0.1))
@@ -241,4 +242,4 @@ figure=fig6(
     dfs2=[pf_rn_min,pf_rn_q2]
 )
 fig,axs=figure.plot_dashboard()
-plt.savefig(constants.FIGURES/"fig6.png",dpi=300,bbox_inches="tight")
+plt.savefig(constants.FIGURES/"fig6we.png",dpi=300,bbox_inches="tight")

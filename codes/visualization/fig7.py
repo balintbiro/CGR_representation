@@ -74,7 +74,7 @@ class fig7:
         plot=sns.scatterplot(
             x=x,y=y,hue=label,
             ax=ax,
-            s=10,alpha=.1,
+            s=10,alpha=.01,
             palette=dict(Augmented="skyblue",Original="lightpink"),
             **{"linewidths":0}
         )
@@ -179,10 +179,11 @@ class fig7:
             colors=["skyblue","lightpink"]
             sp1=self.scatterplot(x=dims1.dim1,y=dims1.dim2,ax=ax_dict[col[0]],label=augmented1["Label"])
             if index!=0:
-                self.confidence_ellipse(x=dims1[dims1["Label"]=="Original"].dim1,y=dims1[dims1["Label"]=="Original"].dim2,ax=ax_dict[col[0]],n_std=3,edgecolor=colors[1],facecolor=mcolors.to_rgba(colors[1],alpha=0.1))
-                self.confidence_ellipse(x=dims1[dims1["Label"]=="Augmented"].dim1,y=dims1[dims1["Label"]=="Augmented"].dim2,ax=ax_dict[col[0]],n_std=3,edgecolor=colors[0],facecolor=mcolors.to_rgba(colors[0],alpha=0.1))
-                self.confidence_ellipse(x=dims2[dims2["Label"]=="Original"].dim1,y=dims2[dims2["Label"]=="Original"].dim2,ax=ax_dict[col[1]],n_std=3,edgecolor=colors[1],facecolor=mcolors.to_rgba(colors[1],alpha=0.1))
-                self.confidence_ellipse(x=dims2[dims2["Label"]=="Augmented"].dim1,y=dims2[dims2["Label"]=="Augmented"].dim2,ax=ax_dict[col[1]],n_std=3,edgecolor=colors[0],facecolor=mcolors.to_rgba(colors[0],alpha=0.1))
+                pass
+                #self.confidence_ellipse(x=dims1[dims1["Label"]=="Original"].dim1,y=dims1[dims1["Label"]=="Original"].dim2,ax=ax_dict[col[0]],n_std=3,edgecolor=colors[1],facecolor=mcolors.to_rgba(colors[1],alpha=0.1))
+                #self.confidence_ellipse(x=dims1[dims1["Label"]=="Augmented"].dim1,y=dims1[dims1["Label"]=="Augmented"].dim2,ax=ax_dict[col[0]],n_std=3,edgecolor=colors[0],facecolor=mcolors.to_rgba(colors[0],alpha=0.1))
+                #self.confidence_ellipse(x=dims2[dims2["Label"]=="Original"].dim1,y=dims2[dims2["Label"]=="Original"].dim2,ax=ax_dict[col[1]],n_std=3,edgecolor=colors[1],facecolor=mcolors.to_rgba(colors[1],alpha=0.1))
+                #self.confidence_ellipse(x=dims2[dims2["Label"]=="Augmented"].dim1,y=dims2[dims2["Label"]=="Augmented"].dim2,ax=ax_dict[col[1]],n_std=3,edgecolor=colors[0],facecolor=mcolors.to_rgba(colors[0],alpha=0.1))
             sp2=self.scatterplot(x=dims2.dim1,y=dims2.dim2,ax=ax_dict[col[1]],label=augmented2["Label"])
             #self.confidence_ellipse(x=dims2.dim1,y=dims2.dim2,ax=ax_dict[col[1]])
             if index==0:
