@@ -10,19 +10,12 @@ import pandas as pd
 import subprocess
 import torch
 from torch import nn
-from pathlib import Path
 import torch.nn.functional as F
 from skorch import NeuralNetBinaryClassifier,NeuralNetClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_auc_score,accuracy_score,f1_score
 
 from codes.utils import loggerConfig,ResNet,Cnn
-
-HERE=Path(__file__).resolve().parent
-PROJECT_ROOT=HERE.parent
-CODES=PROJECT_ROOT / "codes"
-DATA=PROJECT_ROOT / "data"
-RESULTS=PROJECT_ROOT / "results"
 
 logger=logging.getLogger(__name__)
 logger.addHandler(logging.StreamHandler(sys.stdout))
@@ -45,6 +38,12 @@ logger.addHandler(logging.StreamHandler(sys.stdout))
     required=True
 )
 @click.option(
+    "--n-seed",
+    help="Number of seed variations",
+    required=True,
+    type=int
+)
+@click.option(
     "--task",
     help="Name of the task to perform",
     required=True,
@@ -62,22 +61,16 @@ logger.addHandler(logging.StreamHandler(sys.stdout))
         case_sensitive=False
     )
 )
-@click.option(
-    "--n",
-    help="Number of iterations for the random search",
-    required=True,
-    type=int
-)
 
 def main(
         logfile,
         seqfile,
         outfile,
+        n_seed,
         task,
-        dataset_name,
-        n
+        dataset_name
     ):
-    fcgrfile,sf,res=DATA/"random_encoding_0865_35.csv",0.865,35
+    fcgrfile,sf,res="../data/temp_encoding.csv",0.865,35
     if os.path.exists(outfile):
         pass
     else:
@@ -87,24 +80,24 @@ def main(
     script_name=os.path.basename(__file__)
     logger.info(f"Filename: {script_name} started.")
     proteogenic_aas="ACDEFGHIKLMNPQRSTVWY"
-    for i in range(n):
-        # set "random" (changing in every iterations) seed for encoding generation
-        torch.manual_seed(i)
-        np.random.seed(i)
-        random.seed(i)
-        encoding=''.join(np.random.choice(a=list(proteogenic_aas),size=len(proteogenic_aas),replace=False))
+    seed=0
+    # set "random" (changing in every iterations) seed for encoding generation
+    torch.manual_seed(seed)
+    np.random.seed(seed)
+    random.seed(seed)
+    encoding=''.join(np.random.choice(a=list(proteogenic_aas),size=len(proteogenic_aas),replace=False))
 
-        # set seed for reproducible results in training and testing
-        seed=0
-        torch.manual_seed(seed)
-        np.random.seed(seed)
-        random.seed(seed)
-        # creating the random encodings and the corresponding FCGRs
-        subprocess.run(f"""Rscript --vanilla {CODES}/FCGR_gen.R --encoding {encoding} --output_file {fcgrfile} --input_filename {seqfile} --scaling_factor {sf} --resolution {res}""",shell=True)
-        logger.info(f"Input matrix with {encoding} encoding is generated.")
-        # getting the FCGRs and training the CNN on them
-        df=pd.read_csv(fcgrfile)
-        device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    # set seed for reproducible results in training and testing
+    # creating the random encodings and the corresponding FCGRs
+    subprocess.run(f"""Rscript --vanilla FCGR_gen.R --encoding {encoding} --output_file {fcgrfile} --input_filename {seqfile} --scaling_factor {sf} --resolution {res}""",shell=True)
+    # getting the FCGRs and training the CNN on them
+    df=pd.read_csv(fcgrfile)
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    for j in range(n_seed):
+        torch.manual_seed(j)
+        np.random.seed(j)
+        random.seed(j)
+
         if task=="binary":
             custom=NeuralNetBinaryClassifier(
                 Cnn(output_dim=1),
@@ -169,8 +162,8 @@ def main(
             resnetauroc=roc_auc_score(y_true=y_test,y_score=resnet.predict_proba(XCnn_test),average="macro",multi_class="ovr")
         pd.DataFrame([[encoding,resnetauroc,resnetf1,task,"resnet",dataset_name]]).to_csv(outfile,mode='a',index=False,header=False)
         logger.info(f"{encoding} encoding is done for {task} task with:\n\t-custom\n\t\t-f1: {customf1}\n\t\t-auroc: {customauroc}\n\t-resnet\n\t\t-f1: {resnetf1}\n\t\t-auroc: {resnetauroc}")
-        fcgrfile.unlink()
-        logger.info(f"Input matrix with {encoding} encoding is removed.\n")
+    logger.info(f"All seed variations are done for index {j}.")
+    os.remove(fcgrfile)
 
 if __name__=="__main__":
     main()

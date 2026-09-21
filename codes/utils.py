@@ -1,21 +1,5 @@
-side_groups={
-    'A':[-1,1],
-    'C':[-1,-1],
-    'G':[1,-1],
-    'T':[1,1]
-}
-structure={
-    'A':[-1,1],
-    'C':[1,-1],
-    'G':[-1,-1],
-    'T':[1,1]
-}
-bonds={
-    'A':[-1,1],
-    'C':[1,1],
-    'G':[1,-1],
-    'T':[-1,-1]
-}
+
+import requests
 import torch
 import logging
 import numpy as np
@@ -24,89 +8,12 @@ from torch import nn
 from sklearn.model_selection import StratifiedKFold
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
-
-side_groups={
-    'A':[-1,1],
-    'C':[-1,-1],
-    'G':[1,-1],
-    'T':[1,1]
-}
-structure={
-    'A':[-1,1],
-    'C':[1,-1],
-    'G':[-1,-1],
-    'T':[1,1]
-}
-bonds={
-    'A':[-1,1],
-    'C':[1,1],
-    'G':[1,-1],
-    'T':[-1,-1]
-}
-
-def CGRepresentation(
-    sequence:str,
-    encodings:dict,
-    scaling_factor:float
-)->pd.DataFrame:
-    """
-    Generating Chaos Game Representations (point coordinates) for DNA sequences.
-
-    Parameters:
-    - sequence: DNA sequence with datatype of str
-    - encodings: dictionary type variable that contains values for all of the nucleotides
-    - scaling_factor: float for scaling the steps between nucleotides
-
-    Returns:
-    - dataframe of coordinates
-    """
-    sequence=sequence.replace("\n",'').replace('N','')
-    coordinates=[[0,0]]
-
-    for nucleotide in sequence:
-        corner=encodings[nucleotide]
-        current=coordinates[-1]
-        x=scaling_factor*(corner[0]+current[0])
-        y=scaling_factor*(corner[1]+current[1])
-        coordinates.append([x,y])
-        
-    return pd.DataFrame(
-        data=coordinates[1:],
-        columns=list("xy")
-    )
-
-def FrequencyCGR(
-        coordinates:pd.DataFrame,
-        resolution:float,
-        flatten=True
-)->np.array:
-    """
-    Generate a Frequency Chaos Game Representation (FCGR) matrix.
-
-    Parameters:
-    - coordinates: dataframe of x,y coordinates representing points in the unit square [-1, 1] x [-1, 1]
-    - resolution: int, the number of bins along each axis (e.g., 8 for a 8x8 matrix)
-    - flatten: bool, for visualization purposes, flatten=False should be used
-
-    Returns:
-    - fcgr_matrix: 1D (2D if flatten=False is applied) numpy array of shape (resolution, resolution)
-    """
-    bins=np.linspace(start=-1.01,stop=1.01,num=resolution+1)
-    labels=np.linspace(start=0,stop=resolution-1,num=resolution,dtype=int)
-    
-    categories=pd.DataFrame(columns=[list("xy")])
-    categories['x']=pd.cut(x=coordinates.x,bins=bins,labels=labels)
-    categories['y']=pd.cut(x=coordinates.y,bins=bins,labels=labels)
-
-    fcgr_matrix = np.zeros((resolution, resolution), dtype=int)
-
-    for index,row in categories.iterrows():
-        fcgr_matrix[row.x,row.y] += 1
-    fcgr_matrix=np.rot90(m=fcgr_matrix,axes=(-2,-1))
-    if flatten:
-        return fcgr_matrix.flatten()
-    else:
-        return fcgr_matrix
+from Bio import SeqIO
+from sklearn.preprocessing import LabelEncoder
+from torchvision.models import resnet18
+from Bio.ExPASy import ScanProsite,Prosite
+from Bio import ExPASy
+import json
 
 def tester(mtx:pd.DataFrame,dataset_name:str,skf:StratifiedKFold)->pd.DataFrame:
     """
@@ -150,14 +57,158 @@ def loggerConfig(logfile:str)->None:
     )
 
 class Cnn(nn.Module):
-    def __init__(self):
+    def __init__(self,output_dim:int):
         super().__init__()
         self.conv = nn.Conv2d(1, 10, kernel_size=3)
         self.pool = nn.MaxPool2d(2)
-        self.fc = nn.Linear(10 * 16 * 16, 1)
+        self.fc = nn.Linear(10 * 16 * 16, output_dim)
 
     def forward(self, x):
         x = torch.relu(self.pool(self.conv(x)))
         x = x.view(x.size(0), -1)
         x = self.fc(x)
         return x
+
+class ResNet(nn.Module):
+    def __init__(self,output_dim:int):
+        super().__init__()
+        self.model=resnet18(weights=None)
+        self.model.conv1 = nn.Conv2d(
+            in_channels=1,
+            out_channels=64,
+            kernel_size=3,
+            stride=2,
+            padding=3,
+            bias=False
+        )
+        self.model.fc = nn.Linear(self.model.fc.in_features, output_dim)
+
+    def forward(self, x):
+        return self.model(x)
+
+class DeepLoc:
+    def __init__(self):
+        self.url="https://services.healthtech.dtu.dk/services/DeepLoc-1.0/deeploc_data.fasta"
+
+    def get(self,outfile:str)->int:
+        response=requests.get(url=self.url)
+        with open(outfile,"wb") as f:
+            f.write(response.content)
+        return response.status_code
+
+    def clean(self,tempfile:str)->tuple:
+        parser=SeqIO.parse(
+            handle=tempfile,
+            format="fasta"
+        )
+        proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
+        sequences=[]
+        for record in parser:
+            label=record.description.split('-')[-1]
+            seq_id=record.id.split()[0]
+            sequences.append([seq_id,str(record.seq),label])
+        # create dataframe from sequences and labels
+        sequences=pd.DataFrame(data=sequences,columns=["id","sequence","label"])
+        fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
+        sequences["label"]=sequences["label"].replace(['M','S'],[0,1])
+        return (sequences[sequences["label"].isin([0,1])][fil],sequences.shape,{})
+
+class Immune:
+    def init(self):
+        pass
+
+    def get(self,outfile:str)->tuple:
+        splits = {'train': 'train.csv', 'validation': 'valid.csv', 'test': 'test.csv'}
+        train=pd.read_csv("hf://datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/" + splits["train"])
+        test=pd.read_csv("hf://datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/" + splits["test"])
+        valid=pd.read_csv("hf://datasets/AI4Protein/VenusVaccine_VirusBinary_ESMFold/" + splits["validation"])
+
+        df=(
+            pd.concat(
+                [
+                    train[["aa_seq","label"]],
+                    test[["aa_seq","label"]],
+                    valid[["aa_seq","label"]]
+                ]
+            )
+            .reset_index(drop=True)
+            .rename(columns={"aa_seq":"sequence"})
+        )
+        if df.shape[0]>0:
+            status="success"
+            df.to_csv(outfile,index=False)
+        else:
+            status="error"
+        return status
+
+    def clean(self,tempfile:str)->tuple:
+        proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
+        sequences=pd.read_csv(tempfile)
+        fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
+        return (sequences[fil],sequences.shape,{})
+
+class PFAM:
+    def __init__(self):
+        self.url="https://zenodo.org/records/8167436/files/pfam_46872x62.csv?download=1"
+
+    def get(self,outfile:str)->int:
+        response=requests.get(url=self.url)
+        with open(outfile,"wb") as f:
+            f.write(response.content)
+        return response.status_code
+
+    def clean(self,tempfile:str)->tuple:
+        proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
+        sequences=(
+            pd.read_csv(tempfile)
+            .rename(columns={"family":"label"})[["sequence","label"]]
+        )
+        # 5 of the most prominent categories
+        top5=sequences["label"].value_counts().index[:5]
+        sequences=sequences[sequences["label"].isin(top5)]
+        encoder=LabelEncoder()
+        sequences["label"]=encoder.fit_transform(sequences["label"])
+        fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
+        label_dict=dict(zip(encoder.inverse_transform(sequences["label"].unique()),sequences["label"].unique()))
+        return (sequences[fil],sequences.shape,label_dict)
+
+class MultiTox:
+    def __init__(self):
+        self.url="https://raw.githubusercontent.com/cosylabiiit/MultiTox/refs/heads/main/Data/toxin3052.csv"
+
+    def get(self,outfile:str)->int:
+        response=requests.get(url=self.url)
+        with open(outfile,"wb") as f:
+            f.write(response.content)
+        return response.status_code
+
+    def clean(self,tempfile:str)->tuple:
+        sequences=pd.read_csv(tempfile)
+        sequences.rename(columns={"Sequence":"sequence","Label":"label"},inplace=True)
+        proteinogenic_aas="ACDEFGHIKLMNPQRSTVWY"
+        fil=sequences["sequence"].apply(lambda sequence: len(set(str(sequence))-set(proteinogenic_aas))==0)
+        return (sequences[fil],sequences.shape,{})
+
+class ProSite:
+    def __init__(self,sequence:str,id:str):
+        self.sequence=sequence
+        self.id=id
+
+    def find_motives(self)->pd.DataFrame:
+        scan=ScanProsite.scan(seq=self.sequence,output="json")
+        data=scan.read()
+        if isinstance(data,bytes):
+            data=data.decode("utf-8")
+        matchset=json.loads(data).get("matchset")
+        results=pd.DataFrame(matchset)
+        return results
+
+    def get_motives(self,row:pd.Series)->pd.DataFrame:
+        start,stop,signature=row["start"],row["stop"],row["signature_ac"]
+        with ExPASy.get_prosite_raw(signature) as handle:
+            signature_info=Prosite.read(handle)
+        return [signature,signature_info.name,signature_info.description,signature_info.pattern]
+
+class DedicatedEncodings:
+    def __init__(self,sequences:pd.DataFrame):
+        self.sequences=sequences

@@ -1,0 +1,21 @@
+2026-06-02 17:41:07 - __main__ - INFO - Filename: training_noise.py started.
+2026-06-02 17:41:25 - __main__ - INFO - Accuracy is 0.7800348229831688 and auroc is 0.7505301768279242 with WCYKMVHQFDGRLITNEASP encoding and index 0.
+2026-06-02 17:41:49 - __main__ - INFO - All seed variations are done for index 0.
+2026-06-02 17:42:07 - __main__ - INFO - Accuracy is 0.7748113755078352 and auroc is 0.7418945729425652 with ETHMDRFVICQAYWLSKPNG encoding and index 1.
+2026-06-02 17:42:31 - __main__ - INFO - All seed variations are done for index 1.
+2026-06-02 17:42:49 - __main__ - INFO - Accuracy is 0.783517121300058 and auroc is 0.7496853819086924 with PFWALGEMCVITRDNHYQSK encoding and index 2.
+2026-06-02 17:43:15 - __main__ - INFO - All seed variations are done for index 2.
+2026-06-02 17:43:32 - __main__ - INFO - Accuracy is 0.792222867092281 and auroc is 0.75769872562233 with RDCVFTHISPLNYWQGAKEM encoding and index 3.
+2026-06-02 17:43:59 - __main__ - INFO - All seed variations are done for index 3.
+2026-06-02 17:44:17 - __main__ - INFO - Accuracy is 0.7736506094022054 and auroc is 0.741582745255615 with YEWHQFAVPNSMLDTIKCGR encoding and index 4.
+2026-06-02 17:44:43 - __main__ - INFO - All seed variations are done for index 4.
+2026-06-02 17:45:02 - __main__ - INFO - Accuracy is 0.7806152060359838 and auroc is 0.753912844510298 with DGVYPCNMQWIFKLATHSRE encoding and index 5.
+2026-06-02 17:45:30 - __main__ - INFO - All seed variations are done for index 5.
+2026-06-02 17:45:47 - __main__ - INFO - Accuracy is 0.7759721416134648 and auroc is 0.7404261226494332 with VIGHKDSRFNPCWATQYELM encoding and index 6.
+2026-06-02 17:46:12 - __main__ - INFO - All seed variations are done for index 6.
+2026-06-02 17:46:31 - __main__ - INFO - Accuracy is 0.7788740568775392 and auroc is 0.751108488131015 with CVDGNAWHQYMRKTLPIEFS encoding and index 7.
+2026-06-02 17:46:58 - __main__ - INFO - All seed variations are done for index 7.
+2026-06-02 17:47:15 - __main__ - INFO - Accuracy is 0.7719094602437608 and auroc is 0.737888249886291 with INHSWFPDQCTARYKMGLVE encoding and index 8.
+2026-06-02 17:47:42 - __main__ - INFO - All seed variations are done for index 8.
+2026-06-02 17:48:00 - __main__ - INFO - Accuracy is 0.7771329077190946 and auroc is 0.7442985062965476 with EHIGTSDFLMWNRAPQYVKC encoding and index 9.
+2026-06-02 17:48:28 - __main__ - INFO - All seed variations are done for index 9.
